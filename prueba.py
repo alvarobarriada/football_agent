@@ -1,17 +1,16 @@
-"""MaldinIA agent tools — """
-
-from __future__ import annotations
-from json import load
-
-from pydantic import BaseModel, Field
-import pandas as pd
 from typing import Literal
 
-from strands import tool
+import ScraperFC as sfc
+from pydantic import BaseModel, Field
+import pandas as pd
 
-from techshop_agent.config import load_tfmkt_data, load_stadistics
+from pydantic import BaseModel, Field
+from typing import Literal
+import yaml
 
-_SIMILARITY_THRESHOLD = 0.6
+
+with open('./archivo.yaml','r') as file:
+    data = yaml.safe_load(file)
 
 
 
@@ -45,8 +44,6 @@ class InputUser(BaseModel):
         description="Tactical position. Common formats: 'GK', 'DF', 'MF', 'FW' or specific ones like 'Right-Back'"
     )
     
-
-
 
 def clean_currency_value(value):
     if pd.isna(value) or value == '-':
@@ -84,14 +81,13 @@ def translate_league_name(league_id: str) -> str:
     # .get() handles cases where the league might not be in the dict
     return mapping.get(league_id, league_id)
 
-@tool
 def search_talent(input: InputUser):
         """This tool searches for candidates who meet the criteria entered by the user"""
         print("Obteniendo valores de Transfermarkt...")
-        df_market= load_tfmkt_data()
+        df_market= pd.read_csv(data.get('mkt_path','./src/techshop_agent/data/tkm_data.csv'),sep=";")
 
         print("Obteniendo métricas de FBref...")
-        df_stats = load_stadistics()
+        df_stats = pd.read_csv(data.get('csv_path','./src/techshop_agent/data/players_data_light-2025_2026.csv'))
         df_market['Name'] = df_market['Name'].str.normalize("NFKD")
         df_stats['Player'] = df_stats['Player'].str.normalize("NFKD")
         df_market['Value'] = df_market['Value'].apply(clean_currency_value)

@@ -2,20 +2,20 @@
 
 from __future__ import annotations
 
-import json
+import pandas as pd
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
 
 
-def load_catalog() -> list[dict]:
-    """Load the product catalog from disk."""
-    return json.loads((DATA_DIR / "catalog.json").read_text(encoding="utf-8"))
+def load_tfmkt_data() -> pd.DataFrame:
+    """Load the data about market store of players."""
+    return pd.read_csv((DATA_DIR / "tkm_data.csv"), sep=";", encoding="utf-8")
 
 
-def load_faqs() -> list[dict]:
-    """Load the FAQ entries from disk."""
-    return json.loads((DATA_DIR / "faqs.json").read_text(encoding="utf-8"))
+def load_stadistics() -> pd.DataFrame:
+    """Load the stadistics of the players."""
+    return pd.read_csv((DATA_DIR / "players_data_light-2025_2026.csv"), sep=",", encoding="utf-8")
 
 
 # SYSTEM_PROMPT = """\

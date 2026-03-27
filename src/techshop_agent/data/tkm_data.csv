@@ -1,0 +1,1491 @@
+;index;Name;ID;Value;Value last updated;DOB;Age;Height (m);Nationality;Citizenship;Position;Other positions;Team;Last club;Since;Joined;Contract expiration
+0;0;Raúl Jiménez;982848;€200k;Dec 30, 2025;Feb 16, 2006;20;1.88;Spain;['Spain'];Goalkeeper;;Valencia B;;;Jul 1, 2025;Jun 30, 2028
+1;1;Nayef Aguerd;361914;€22.00m;Dec 15, 2025;Mar 30, 1996;29;1.9;Morocco;['Morocco'];Centre-Back;;Marseille;;;Sep 1, 2025;Jun 30, 2030
+2;2;Ismael Bekhoucha;1164331;€300k;Dec 12, 2025;Nov 20, 2004;21;1.76;Morocco;['Spain', 'Morocco'];Right-Back;;Getafe;;;Jul 1, 2025;Jun 30, 2028
+3;3;Daouda Doumbia;1054933;€400k;Dec 22, 2025;Jan 1, 2002;24;1.88;Mali;[];Defensive Midfield;;Feirense;;;Aug 2, 2025;Jun 30, 2026
+4;4;Miguel Gutiérrez;525299;€17.00m;Dec 23, 2025;Jul 27, 2001;24;1.8;Spain;['Spain'];Left-Back;0;;;;;
+5;5;Donny van de Beek;288255;€2.00m;Dec 12, 2025;Apr 18, 1997;28;1.84;Netherlands;['Netherlands'];Central Midfield;0;;;;;
+6;6;Marcos Fernández;961948;€1.00m;Mar 18, 2026;May 17, 2003;22;1.76;Spain;[];Centre-Forward;;AD Ceuta;;;Aug 28, 2025;Jun 30, 2026
+7;7;Karl Hein;493513;€3.00m;Dec 19, 2025;Apr 13, 2002;23;1.93;Estonia;[];Goalkeeper;;Werder Bremen;;;Aug 22, 2025;Jun 30, 2026
+8;8;Álex Padilla;834483;€3.00m;Dec 12, 2025;Sep 1, 2003;22;1.9;Mexico;['Spain', 'Mexico'];Goalkeeper;;Athletic Club;;;Jul 1, 2024;Jun 30, 2029
+9;9;Stoichkov;271021;€500k;Mar 18, 2026;Nov 5, 1993;32;1.78;Spain;['Spain'];Second Striker;0;;;;;
+10;10;Chimy Ávila;167721;€1.50m;Dec 12, 2025;Feb 6, 1994;32;1.72;Argentina;[];Centre-Forward;;Real Betis;;;Feb 1, 2024;Jun 30, 2027
+11;11;Ladislav Krejčí;345911;€22.00m;Dec 9, 2025;Apr 20, 1999;26;1.91;Czech Republic;[];Centre-Back;;Wolves;;;Aug 28, 2025;Jun 30, 2026
+12;12;Jesús Areso;488626;€8.00m;Mar 16, 2026;Jul 2, 1999;26;1.82;Spain;[];Right-Back;;Athletic Club;;;Jul 22, 2025;Jun 30, 2031
+13;13;Manu Fuster;511021;€2.00m;Mar 18, 2026;Oct 22, 1997;28;1.69;Spain;[];Right Winger;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+14;14;Vitor Roque;943837;€38.00m;Mar 12, 2026;Feb 28, 2005;21;1.74;Brazil;['Brazil'];Centre-Forward;0;;;;;
+15;15;Andreas Christensen;196948;€9.00m;Mar 16, 2026;Apr 10, 1996;29;1.87;Denmark;[];Centre-Back;;Barcelona;;;Jul 4, 2022;Jun 30, 2026
+16;16;Miguel de la Fuente;480883;€2.00m;Dec 30, 2025;Sep 3, 1999;26;1.82;Spain;[];Centre-Forward;;UD Almería;;;Jan 14, 2026;Jun 30, 2026
+17;17;Éder Militão;401530;€25.00m;Mar 16, 2026;Jan 18, 1998;28;1.86;Brazil;[];Centre-Back;;Real Madrid;;;Jul 1, 2019;Jun 30, 2028
+18;18;Alexander Sørloth;238407;€20.00m;Dec 12, 2025;Dec 5, 1995;30;1.95;Norway;[];Centre-Forward;;Atlético;;;Aug 3, 2024;Jun 30, 2028
+19;19;Sergi Darder;142021;€3.50m;Dec 12, 2025;Dec 22, 1993;32;1.8;Spain;['Spain'];Central Midfield;0;;;;;
+20;20;Marcos Fernández;961948;€1.00m;Mar 18, 2026;May 17, 2003;22;1.76;Spain;['Spain'];Centre-Forward;0;;;;;
+21;21;Valentin Rosier;441170;€3.00m;Dec 12, 2025;Aug 19, 1996;29;1.75;France;[];Right-Back;;CA Osasuna;;;Jul 1, 2025;Jun 30, 2028
+22;22;Javi Serrano;668177;€700k;Dec 30, 2025;Jan 16, 2003;23;1.78;Spain;['Spain'];Central Midfield;;Atl. Madrileño;;;Jul 1, 2024;Jun 30, 2026
+23;23;Gabriel Misehouy;646698;€900k;Dec 12, 2025;Jul 18, 2005;20;1.73;Netherlands;['Ghana', 'Netherlands'];Attacking Midfield;0;;;;;
+24;24;Juanmi;126737;€1.20m;Dec 12, 2025;May 20, 1993;32;1.72;Spain;['Spain'];Left Winger;0;;;;;
+25;25;Carlos Romero;709372;€25.00m;Mar 16, 2026;Oct 29, 2001;24;1.74;Spain;['Spain'];Left-Back;0;;;;;
+26;26;Kirian Rodríguez;566574;€1.00m;Dec 30, 2025;Mar 5, 1996;30;1.78;Spain;['Spain'];Attacking Midfield;0;;;;;
+27;27;Allan Nyom;111508;€200k;Dec 12, 2025;May 10, 1988;37;1.89;Cameroon;[];Right-Back;;Getafe;;;Sep 20, 2025;Jun 30, 2026
+28;28;Fabio González;531062;€300k;Mar 18, 2026;Feb 12, 1997;29;1.76;Spain;[];Central Midfield;;Racing Ferrol;;;Jan 28, 2026;Jun 30, 2026
+29;29;Noah Darvich;897480;€3.00m;Mar 19, 2026;Sep 25, 2006;19;1.84;Germany;[];Right Winger;;Stuttgart;;;Jul 1, 2025;Jun 30, 2029
+30;30;Isra Domínguez;916014;€400k;Mar 18, 2026;May 7, 2003;22;1.75;Spain;['Spain'];Left Winger;0;;;;;
+31;31;Peque Fernández;639733;€3.50m;Dec 12, 2025;Oct 4, 2002;23;1.72;Spain;[];Second Striker;;Sevilla FC;;;Jul 11, 2024;Jun 30, 2028
+32;32;Kike Salas;766583;€8.00m;Mar 16, 2026;Apr 23, 2002;23;1.88;Spain;['Spain'];Centre-Back;0;;;;;
+33;33;José Copete;520840;€5.00m;Mar 16, 2026;Oct 10, 1999;26;1.9;Spain;[];Centre-Back;;Valencia;;;Jul 28, 2025;Jun 30, 2029
+34;34;Mateu Morey;388513;€1.50m;Dec 12, 2025;Mar 2, 2000;26;1.73;Spain;['Spain'];Right-Back;;RCD Mallorca;;;Jul 5, 2024;Jun 30, 2027
+35;35;Cédric Bakambu;127048;€1.40m;Dec 12, 2025;Apr 11, 1991;34;1.82;DR Congo;[];Centre-Forward;;Real Betis;;;Feb 1, 2024;Jun 30, 2026
+36;36;Franco Cervi;341110;€700k;Dec 12, 2025;May 26, 1994;31;1.66;Argentina;[];Left Winger;;Celta de Vigo;;;Jul 5, 2021;Jun 30, 2026
+37;37;Jon Moncayola;552425;€7.00m;Dec 12, 2025;May 13, 1998;27;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+38;38;Dani Olmo;293385;€60.00m;Dec 12, 2025;May 7, 1998;27;1.79;Spain;['Spain'];Attacking Midfield;0;;;;;
+39;39;Iñigo Ruiz de Galarreta;126751;€2.50m;Dec 12, 2025;Aug 6, 1993;32;1.75;Spain;['Spain'];Central Midfield;0;;;;;
+40;40;Juma Bah;1121298;€7.00m;Dec 15, 2025;Apr 11, 2006;19;1.95;Sierra Leone;[];Centre-Back;;Nice;;;Jul 1, 2025;Jun 30, 2026
+41;41;Nahuel Tenaglia;533568;€3.00m;Dec 12, 2025;Feb 21, 1996;30;1.81;Argentina;[];Right-Back;;Alavés;;;Aug 20, 2023;Jun 30, 2029
+42;42;Yeray Álvarez;255488;€1.00m;Dec 12, 2025;Jan 24, 1995;31;1.82;Spain;['Spain'];Centre-Back;;Athletic Club;;;Jul 1, 2016;Jun 30, 2026
+43;43;Chidera Ejuke;500067;€4.00m;Dec 12, 2025;Jan 2, 1998;28;1.76;Nigeria;[];Left Winger;;Sevilla FC;;;Jul 1, 2024;Jun 30, 2027
+44;44;Mikel Oyarzabal;351478;€25.00m;Dec 12, 2025;Apr 21, 1997;28;1.81;Spain;[];Centre-Forward;;Real Sociedad;;;Jan 1, 2016;Jun 30, 2028
+45;45;Santi Comesaña;380598;€8.00m;Dec 12, 2025;Oct 5, 1996;29;1.88;Spain;[];Central Midfield;;Villarreal;;;Jul 1, 2023;Jun 30, 2028
+46;46;Jiri Letacek;339079;€2.00m;Dec 12, 2025;Jan 9, 1999;27;1.96;Czech Republic;[];Goalkeeper;;Getafe;;;Jul 13, 2024;Jun 30, 2028
+47;47;Mario Maroto;710484;€200k;Dec 30, 2025;Nov 28, 2003;22;1.76;Spain;['Spain'];Central Midfield;0;;;;;
+48;48;Moussa Diarra;694509;€1.50m;Dec 12, 2025;Nov 10, 2000;25;1.85;Mali;[];Centre-Back;;RSC Anderlecht;;;Jan 27, 2026;Jun 30, 2026
+49;49;Antonio Gomis;930415;€500k;Dec 22, 2025;May 20, 2003;22;1.91;Spain;[];Goalkeeper;;Vizela;;;Jul 1, 2025;Jun 30, 2027
+50;50;Sheraldo Becker;188888;€1.50m;Dec 12, 2025;Feb 9, 1995;31;1.8;Suriname;['Suriname', 'Netherlands'];Left Winger;0;;;;;
+51;51;Enzo Loiodice;581781;€1.20m;Dec 30, 2025;Nov 27, 2000;25;1.77;France;[];Central Midfield;;UD Las Palmas;;;Aug 18, 2020;Jun 30, 2026
+52;52;Sandro Ramírez;199369;€700k;Mar 18, 2026;Jul 9, 1995;30;1.74;Spain;[];Centre-Forward;;UD Las Palmas;;;Jul 1, 2023;Jun 30, 2026
+53;53;Dani Pérez;895331;€300k;Dec 30, 2025;Jul 26, 2005;20;1.73;Spain;[];Attacking Midfield;;Betis Deportivo;;;Jul 6, 2022;Jun 30, 2026
+54;54;Aitor Ruibal;378139;€4.00m;Mar 16, 2026;Mar 22, 1996;30;1.76;Spain;[];Right Winger;;Real Betis;;;Jul 1, 2019;Jun 30, 2028
+55;55;Eray Cömert;298583;€2.50m;Mar 16, 2026;Feb 4, 1998;28;1.83;Switzerland;['Switzerland', 'Türkiye'];Centre-Back;0;;;;;
+56;56;Jules Koundé;411975;€65.00m;Dec 12, 2025;Nov 12, 1998;27;1.8;France;['Benin', 'France'];Right-Back;0;;;;;
+57;57;Ronald Araujo;480267;€20.00m;Mar 16, 2026;Mar 7, 1999;27;1.92;Uruguay;[];Centre-Back;;Barcelona;;;Oct 5, 2020;Jun 30, 2031
+58;58;Aitor Fernández;118997;€600k;Dec 12, 2025;May 3, 1991;34;1.82;Spain;[];Goalkeeper;;CA Osasuna;;;Jul 2, 2022;Jun 30, 2027
+59;59;Héctor Fort;937955;€12.00m;Dec 12, 2025;Aug 2, 2006;19;1.85;Spain;[];Right-Back;;Elche CF;;;Sep 1, 2025;Jun 30, 2026
+60;60;Oso;1032280;€5.00m;Mar 16, 2026;Jul 9, 2003;22;1.83;Spain;[];Left-Back;;Sevilla FC;;;Jan 1, 2026;Jun 30, 2027
+61;61;Bryan Zaragoza;713644;€10.00m;Dec 12, 2025;Sep 9, 2001;24;1.64;Spain;[];Left Winger;;Roma;;;Feb 2, 2026;Jun 30, 2026
+62;62;Federico Valverde;369081;€120.00m;Dec 12, 2025;Jul 22, 1998;27;1.82;Uruguay;[];Central Midfield;;Real Madrid;;;Jul 1, 2018;Jun 30, 2029
+63;63;Pedri;683840;€150.00m;Mar 16, 2026;Nov 25, 2002;23;1.74;Spain;[];Central Midfield;;Barcelona;;;Sep 2, 2019;Jun 30, 2030
+64;64;Óscar de Marcos;96718;;;Apr 14, 1989;36;1.82;Spain;[];Right-Back;;Retired;Athletic Club;Jul 1, 2025;;
+65;65;Takuma Asano;245744;€1.80m;Dec 12, 2025;Nov 10, 1994;31;1.73;Japan;[];Right Winger;;RCD Mallorca;;;Jul 6, 2024;Jun 30, 2026
+66;66;César Fernández;646741;€150k;Mar 18, 2026;Jan 28, 2004;22;1.81;Spain;['Spain'];Goalkeeper;;Racing Ferrol;;;Jul 4, 2025;Jun 30, 2027
+67;67;Daniel Luna;857830;€600k;Dec 30, 2025;May 7, 2003;22;1.78;Colombia;['Colombia'];Attacking Midfield;0;;;;;
+68;68;Alberto Moleiro;733576;€40.00m;Mar 16, 2026;Sep 30, 2003;22;1.71;Spain;[];Left Winger;;Villarreal;;;Jul 1, 2025;Jun 30, 2030
+69;69;Guillem Trilla;1216529;€100k;Mar 18, 2026;Feb 4, 2003;23;;Spain;[];Centre-Back;;CD Tenerife B;;;Aug 29, 2025;Jun 30, 2026
+70;70;Aritz Elustondo;229804;€1.80m;Dec 12, 2025;Mar 28, 1994;31;1.8;Spain;[];Centre-Back;;Real Sociedad;;;Jan 4, 2016;Jun 30, 2026
+71;71;Fran Pérez;622988;€3.00m;Dec 12, 2025;Sep 9, 2002;23;1.76;Spain;[];Right Winger;;Rayo Vallecano;;;Aug 15, 2025;Jun 30, 2029
+72;72;Rafa Fernández;929864;€50k;Mar 18, 2026;May 2, 2004;21;1.87;Spain;['Spain'];Goalkeeper;;Osasuna B;;;Jul 1, 2025;Jun 30, 2027
+73;73;Marc Bernal;1018920;€30.00m;Mar 16, 2026;May 26, 2007;18;1.93;Spain;[];Defensive Midfield;;Barcelona;;;Jul 1, 2024;Jun 30, 2029
+74;74;Unai Gómez;834752;€5.00m;Dec 12, 2025;May 25, 2003;22;1.83;Spain;[];Attacking Midfield;;Athletic Club;;;Jul 1, 2023;Jun 30, 2028
+75;75;Dani Pérez;895331;€300k;Dec 30, 2025;Jul 26, 2005;20;1.73;Spain;['Spain'];Attacking Midfield;0;;;;;
+76;76;Yan Diomande;1390649;€75.00m;Mar 20, 2026;Nov 14, 2006;19;1.8;Cote d'Ivoire;[];Left Winger;;Leipzig;;;Jul 16, 2025;Jun 30, 2030
+77;77;Scott McKenna;255906;€4.00m;Dec 22, 2025;Nov 12, 1996;29;1.89;Scotland;[];Centre-Back;;Dinamo Zagreb;;;Jul 16, 2025;Jun 30, 2029
+78;78;Valentín Pezzolesi;1271065;€200k;Mar 18, 2026;Apr 16, 2007;18;;Spain;['Spain', 'Argentina'];Right-Back;;Las Palmas Atl.;;;Jan 1, 2026;Jun 30, 2027
+79;79;Aridane Hernández;82503;€100k;Mar 18, 2026;Mar 23, 1989;37;1.88;Spain;[];Centre-Back;;FC Cartagena;;;Mar 6, 2026;Jun 30, 2026
+80;80;Diego Aguado;1208520;€5.00m;Mar 18, 2026;Feb 7, 2007;19;1.84;Spain;[];Centre-Back;;RM Castilla;;;Jul 1, 2025;Jun 30, 2029
+81;81;Javier Manquillo;162029;;;May 5, 1994;31;1.78;Spain;[];Right-Back;;Retired;Celta de Vigo;Jul 1, 2025;;
+82;82;Iñigo Lekue;255501;€1.20m;Dec 12, 2025;May 4, 1993;32;1.8;Spain;[];Right-Back;;Athletic Club;;;Jul 1, 2016;Jun 30, 2026
+83;83;Antoniu Roca;834744;€1.80m;Dec 12, 2025;Sep 5, 2002;23;1.8;Spain;['Spain'];Right Winger;0;;;;;
+84;84;Iñigo Martínez;158863;€4.50m;Dec 18, 2025;May 17, 1991;34;1.82;Spain;[];Centre-Back;;Al-Nassr;;;Aug 10, 2025;Jun 30, 2026
+85;85;Peque Fernández;639733;€3.50m;Dec 12, 2025;Oct 4, 2002;23;1.72;Spain;['Spain'];Second Striker;0;;;;;
+86;86;Karl Etta Eyong;1038950;€18.00m;Mar 16, 2026;Oct 14, 2003;22;1.81;Cameroon;['Cameroon'];Centre-Forward;;Levante;;;Sep 1, 2025;Jun 30, 2029
+87;87;Leandro Antonetti;892926;€200k;Dec 18, 2025;Jan 13, 2003;23;1.89;Puerto Rico;[];Centre-Forward;;Estrela Amadora;;;Sep 1, 2025;Jun 30, 2028
+88;88;Víctor Valdepeñas;1186245;€5.00m;Mar 18, 2026;Oct 20, 2006;19;1.88;Spain;[];Centre-Back;;RM Castilla;;;Jan 1, 2025;Jun 30, 2029
+89;89;Rafa Fernández;929864;€50k;Mar 18, 2026;May 2, 2004;21;1.87;Spain;[];Goalkeeper;;Osasuna B;;;Jul 1, 2025;Jun 30, 2027
+90;90;Clément Lenglet;182904;€5.00m;Mar 16, 2026;Jun 17, 1995;30;1.86;France;['France'];Centre-Back;;Atlético;;;Jun 9, 2025;Jun 30, 2028
+91;91;Marash Kumbulla;371371;€4.00m;Mar 16, 2026;Feb 8, 2000;26;1.91;Albania;['Albania', 'Italy'];Centre-Back;;RCD Mallorca;;;Aug 18, 2025;Jun 30, 2026
+92;92;James Rodríguez;88103;€2.00m;Dec 29, 2025;Jul 12, 1991;34;1.8;Colombia;[];Attacking Midfield;;Minnesota;;;Feb 6, 2026;Jun 30, 2026
+93;93;Iker Almena;1061656;€1.50m;Dec 22, 2025;May 4, 2004;21;1.77;Spain;['Spain'];Right Winger;0;;;;;
+94;94;Juan Musso;242359;€3.00m;Dec 12, 2025;May 6, 1994;31;1.91;Argentina;['Argentina', 'Italy'];Goalkeeper;;Atlético;;;Jun 10, 2025;Jun 30, 2028
+95;95;Óscar Rodríguez;284884;€1.80m;Dec 18, 2025;Jun 28, 1998;27;1.74;Spain;[];Attacking Midfield;;Al-Diraiyah FC;;;Sep 2, 2025;-
+96;96;Iago Parente;1061260;€150k;Dec 30, 2025;Feb 25, 2006;20;1.8;Spain;[];Centre-Back;;Valladolid Prom;;;Jul 1, 2023;Jun 30, 2026
+97;97;Toni Fernández;1066206;€3.00m;Dec 30, 2025;Jul 15, 2008;17;1.75;Spain;[];Right Winger;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2027
+98;98;Egoitz Muñoz;1064391;€200k;Dec 30, 2025;Apr 14, 2004;21;;Spain;['Spain'];Right-Back;;Alavés B;;;Jul 1, 2023;Jun 30, 2027
+99;99;Samuel Lino;694928;€17.00m;Mar 12, 2026;Dec 23, 1999;26;1.77;Brazil;['Brazil'];Left Winger;0;;;;;
+100;100;Alejandro Rego;834491;€3.00m;Dec 12, 2025;Jun 11, 2003;22;1.92;Spain;[];Central Midfield;;Athletic Club;;;Jul 1, 2025;Jun 30, 2026
+101;101;José Ángel López;1258838;€150k;Dec 30, 2025;Mar 24, 2006;20;;Spain;[];Right-Back;;RCD Espanyol B;;;Jul 1, 2024;Jun 30, 2029
+102;102;Antonio Blanco;495621;€10.00m;Dec 12, 2025;Jul 23, 2000;25;1.76;Spain;[];Defensive Midfield;;Alavés;;;Jul 25, 2023;Jun 30, 2027
+103;103;Pablo Fornals;357885;€8.00m;Dec 12, 2025;Feb 22, 1996;30;1.78;Spain;[];Central Midfield;;Real Betis;;;Feb 1, 2024;Jun 30, 2029
+104;104;Hugo Duro;573775;€12.00m;Dec 12, 2025;Nov 10, 1999;26;1.77;Spain;['Spain'];Centre-Forward;0;;;;;
+105;105;Álvaro Rodríguez;948275;€5.00m;Mar 16, 2026;Jul 14, 2004;21;1.93;Uruguay;[];Centre-Forward;;Elche CF;;;Jul 22, 2025;Jun 30, 2029
+106;106;Antonio Sánchez;513031;€2.40m;Dec 12, 2025;Apr 22, 1997;28;1.79;Spain;['Spain'];Central Midfield;0;;;;;
+107;107;Álvaro Aceves;710474;€400k;Dec 30, 2025;Jul 26, 2003;22;1.9;Spain;[];Goalkeeper;;Real Valladolid;;;Jan 16, 2025;Jun 30, 2028
+108;108;Akor Adams;607034;€12.00m;Mar 16, 2026;Jan 29, 2000;26;1.9;Nigeria;['Nigeria'];Centre-Forward;;Sevilla FC;;;Jan 27, 2025;Jun 30, 2029
+109;109;Dean Huijsen;890290;€65.00m;Mar 16, 2026;Apr 14, 2005;20;1.97;Spain;['Spain', 'Netherlands'];Centre-Back;;Real Madrid;;;Jun 1, 2025;Jun 30, 2030
+110;110;Raúl Asencio;935245;€25.00m;Mar 16, 2026;Feb 13, 2003;23;1.84;Spain;['Spain'];Centre-Back;0;;;;;
+111;111;Juanpe;115333;€500k;Dec 29, 2025;Apr 30, 1991;34;1.92;Spain;[];Centre-Back;;San Luis;;;Jul 3, 2025;May 31, 2027
+112;112;Santi Comesaña;380598;€8.00m;Dec 12, 2025;Oct 5, 1996;29;1.88;Spain;['Spain'];Central Midfield;0;;;;;
+113;113;Pere García;632913;€50k;Dec 30, 2025;Mar 22, 2002;24;1.93;Spain;[];Goalkeeper;;Valencia B;;;Sep 23, 2025;Jun 30, 2026
+114;114;Sergio González;308989;€700k;Dec 18, 2025;Apr 20, 1992;33;1.89;Spain;[];Centre-Back;;Al-Riyadh;;;Jul 22, 2025;-
+115;115;Fran González;1055220;€3.00m;Mar 18, 2026;Jun 24, 2005;20;1.99;Spain;[];Goalkeeper;;RM Castilla;;;Jul 1, 2024;Jun 30, 2026
+116;116;César Azpilicueta;57500;€1.20m;Dec 12, 2025;Aug 28, 1989;36;1.78;Spain;['Spain'];Centre-Back;0;;;;;
+117;117;Denis Suárez;165007;€1.20m;Dec 12, 2025;Jan 6, 1994;32;1.76;Spain;['Spain'];Attacking Midfield;0;;;;;
+118;118;David López;129444;€800k;Dec 12, 2025;Oct 9, 1989;36;1.85;Spain;[];Centre-Back;;Girona;;;Jul 25, 2022;Jun 30, 2026
+119;119;Diego Méndez;932349;€50k;Dec 30, 2025;Aug 29, 2003;22;1.82;Spain;[];Central Midfield;;Rayo B;;;Jul 1, 2021;Jun 30, 2026
+120;120;Mauro Arambarri;290249;€10.00m;Dec 12, 2025;Sep 30, 1995;30;1.75;Uruguay;['Spain', 'Uruguay'];Central Midfield;0;;;;;
+121;121;Pape Gueye;485963;€40.00m;Mar 16, 2026;Jan 24, 1999;27;1.89;Senegal;[];Central Midfield;;Villarreal;;;Jul 5, 2024;Jun 30, 2028
+122;122;Cristhian Mosquera;646750;€35.00m;Dec 9, 2025;Jun 27, 2004;21;1.91;Spain;[];Centre-Back;;Arsenal;;;Jul 24, 2025;Jun 30, 2030
+123;123;Jonathan Bamba;292818;€3.50m;Dec 11, 2025;Mar 26, 1996;30;1.75;Cote d'Ivoire;[];Left Winger;;Chicago;;;Jan 31, 2025;Dec 31, 2027
+124;124;Mateo Mejía;682588;€400k;Dec 30, 2025;Mar 31, 2003;22;1.81;Colombia;[];Centre-Forward;;Burgos CF;;;Jul 22, 2025;Jun 30, 2028
+125;125;Gorka Guruzeta;340205;€5.00m;Dec 12, 2025;Sep 12, 1996;29;1.88;Spain;['Spain'];Centre-Forward;;Athletic Club;;;Jul 3, 2022;Jun 30, 2028
+126;126;Pablo Ramón;629511;€1.00m;Mar 18, 2026;Jun 30, 2001;24;1.84;Spain;[];Centre-Back;;Racing;;;Aug 28, 2025;Jun 30, 2026
+127;127;Javi Muñoz;282421;€1.50m;Dec 12, 2025;Feb 28, 1995;31;1.77;Spain;['Spain'];Central Midfield;0;;;;;
+128;128;Luka Modrić;27992;€4.00m;Dec 23, 2025;Sep 9, 1985;40;1.72;Croatia;[];Central Midfield;;AC Milan;;;Jul 14, 2025;Jun 30, 2026
+129;129;Jude Bellingham;581678;€140.00m;Mar 16, 2026;Jun 29, 2003;22;1.86;England;['England', 'Ireland'];Attacking Midfield;0;;;;;
+130;130;Ismael Santana;1060845;€200k;Mar 18, 2026;Jan 18, 2004;22;;Spain;['Spain'];Right Winger;0;;;;;
+131;131;Mikel Rodriguez;721660;€700k;Mar 18, 2026;Apr 3, 2002;23;1.75;Spain;['Spain'];Central Midfield;0;;;;;
+132;132;Javi Hernández;422466;€2.00m;Dec 30, 2025;May 2, 1998;27;1.8;Spain;['Spain'];Left-Back;0;;;;;
+133;133;Juanma Herzog;1146029;€1.50m;Dec 30, 2025;May 13, 2004;21;1.86;Spain;['Spain', 'Germany'];Centre-Back;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+134;134;Pedro Alemañ;699771;€1.20m;Dec 30, 2025;Mar 21, 2002;24;1.82;Spain;[];Central Midfield;;Granada CF;;;Jul 1, 2025;Jun 30, 2028
+135;135;Marcão;439022;€2.50m;Dec 12, 2025;Jun 5, 1996;29;1.85;Brazil;['Brazil'];Centre-Back;0;;;;;
+136;136;Roger Hinojo;1204959;€1.00m;Mar 18, 2026;Feb 21, 2005;21;1.8;Spain;['Spain'];Centre-Back;0;;;;;
+137;137;César Azpilicueta;57500;€1.20m;Dec 12, 2025;Aug 28, 1989;36;1.78;Spain;[];Centre-Back;;Sevilla FC;;;Aug 29, 2025;Jun 30, 2026
+138;138;Arnau Rafús;636686;€200k;Dec 30, 2025;Apr 27, 2003;22;1.9;Spain;['Spain'];Goalkeeper;;CyD Leonesa;;;Jul 7, 2025;Jun 30, 2026
+139;139;Diego Kochen;938144;€500k;Dec 30, 2025;Mar 19, 2006;20;1.9;United States;[];Goalkeeper;;Barça Atlètic;;;Jan 31, 2024;Jun 30, 2028
+140;140;Kenedy;281404;€700k;Dec 29, 2025;Feb 8, 1996;30;1.85;Brazil;['Brazil'];Left Winger;0;;;;;
+141;141;Endrick;971570;€25.00m;Dec 12, 2025;Jul 21, 2006;19;1.73;Brazil;[];Centre-Forward;;Lyon;;;Jan 1, 2026;Jun 30, 2026
+142;142;Gavi;646740;€30.00m;Mar 16, 2026;Aug 5, 2004;21;1.73;Spain;['Spain'];Central Midfield;0;;;;;
+143;143;Aitor Ruibal;378139;€4.00m;Mar 16, 2026;Mar 22, 1996;30;1.76;Spain;['Spain'];Right Winger;0;;;;;
+144;144;Rodrigo Riquelme;461617;€6.00m;Mar 16, 2026;Apr 2, 2000;25;1.74;Spain;[];Left Winger;;Real Betis;;;Jul 4, 2025;Jun 30, 2030
+145;145;Walid Cheddira;521407;€2.30m;Dec 23, 2025;Jan 22, 1998;28;1.87;Morocco;[];Centre-Forward;;Lecce;;;Jan 22, 2026;Jun 30, 2026
+146;146;Fermín López;636703;€100.00m;Mar 16, 2026;May 11, 2003;22;1.74;Spain;['Spain'];Attacking Midfield;0;;;;;
+147;147;Dimitrios Stamatakis;890817;€200k;Dec 30, 2025;Apr 23, 2003;22;1.91;Greece;['Greece'];Goalkeeper;;Osasuna B;;;Jul 17, 2023;Jun 30, 2027
+148;148;Unai Egiluz;834485;€600k;Dec 12, 2025;Mar 19, 2002;24;1.86;Spain;['Spain'];Centre-Back;;Athletic Club;;;Jul 1, 2024;Jun 30, 2028
+149;149;Florian Lejeune;127108;€2.00m;Dec 12, 2025;May 20, 1991;34;1.9;France;['France'];Centre-Back;;Rayo Vallecano;;;Jul 28, 2023;Jun 30, 2027
+150;150;Luka Sucic;502722;€10.00m;Dec 12, 2025;Sep 8, 2002;23;1.85;Croatia;['Austria', 'Croatia'];Central Midfield;0;;;;;
+151;151;Allan Nyom;111508;€200k;Dec 12, 2025;May 10, 1988;37;1.89;Cameroon;['Cameroon', 'France'];Right-Back;0;;;;;
+152;152;Jon Martín;1018938;€20.00m;Mar 16, 2026;Apr 23, 2006;19;1.87;Spain;['Spain'];Centre-Back;;Real Sociedad;;;Jul 1, 2024;Jun 30, 2031
+153;153;Javi Galán;448628;€2.00m;Mar 16, 2026;Nov 19, 1994;31;1.72;Spain;[];Left-Back;;CA Osasuna;;;Jan 1, 2026;Jun 30, 2026
+154;154;Djibril Sow;212723;€7.50m;Dec 12, 2025;Feb 6, 1997;29;1.84;Switzerland;[];Central Midfield;;Sevilla FC;;;Aug 4, 2023;Jun 30, 2029
+155;155;Saliou Mandiang;1079049;€150k;Mar 18, 2026;Apr 13, 2003;22;1.83;Senegal;['Spain', 'Senegal'];Right Winger;0;;;;;
+156;156;Ronald Araujo;480267;€20.00m;Mar 16, 2026;Mar 7, 1999;27;1.92;Uruguay;['Spain', 'Uruguay'];Centre-Back;0;;;;;
+157;157;Óscar Mingueza;331505;€18.00m;Dec 12, 2025;May 13, 1999;26;1.84;Spain;[];Right-Back;;Celta de Vigo;;;Jul 30, 2022;Jun 30, 2026
+158;158;Yoel Lago;939374;€2.50m;Dec 12, 2025;Mar 25, 2004;22;1.85;Spain;[];Centre-Back;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2029
+159;159;José Luis Català;1060821;€150k;Dec 30, 2025;Aug 16, 2004;21;1.88;Spain;['Spain'];Centre-Back;;RCD Espanyol B;;;Jul 1, 2023;Jun 30, 2026
+160;160;Anastasios Douvikas;523318;€18.00m;Mar 24, 2026;Aug 2, 1999;26;1.86;Greece;['Greece'];Centre-Forward;;Como;;;Feb 3, 2025;Jun 30, 2029
+161;161;Koke;74229;€6.00m;Mar 16, 2026;Jan 8, 1992;34;1.76;Spain;[];Central Midfield;;Atlético;;;Jan 1, 2011;Jun 30, 2026
+162;162;Luken Beitia;964190;€600k;Mar 18, 2026;Jun 30, 2004;21;1.91;Spain;[];Centre-Back;;Real Sociedad B;;;Jul 1, 2023;Jun 30, 2029
+163;163;Oli McBurnie;298477;€4.00m;Mar 3, 2026;Jun 4, 1996;29;1.88;Scotland;['England', 'Scotland'];Centre-Forward;;Hull City;;;Aug 6, 2025;Jun 30, 2028
+164;164;Asier Villalibre;251897;€2.00m;Dec 30, 2025;Sep 30, 1997;28;1.82;Spain;[];Centre-Forward;;Racing;;;Aug 9, 2025;Jun 30, 2026
+165;165;Gorka Rivera;1000136;€100k;Dec 30, 2025;Aug 1, 2004;21;;Spain;['Spain'];Left-Back;0;;;;;
+166;166;Martin Valjent;277384;€4.50m;Dec 12, 2025;Dec 11, 1995;30;1.87;Slovakia;[];Centre-Back;;RCD Mallorca;;;Jul 1, 2019;Jun 30, 2029
+167;167;José Ángel Carmona;711625;€12.00m;Dec 12, 2025;Jan 29, 2002;24;1.84;Spain;[];Right-Back;;Sevilla FC;;;Jul 1, 2022;Jun 30, 2028
+168;168;Daniel Carvajal;138927;€6.00m;Mar 16, 2026;Jan 11, 1992;34;1.73;Spain;['Spain'];Right-Back;;Real Madrid;;;Jul 1, 2013;Jun 30, 2026
+169;169;Ramón Martínez;882710;€1.00m;Dec 12, 2025;Oct 22, 2002;23;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+170;170;Isi Palazón;362086;€3.00m;Dec 12, 2025;Dec 27, 1994;31;1.69;Spain;[];Second Striker;;Rayo Vallecano;;;Jan 23, 2020;Jun 30, 2028
+171;171;Manu Bueno;766723;€1.50m;Dec 12, 2025;Jul 27, 2004;21;1.78;Spain;['Spain'];Central Midfield;;Sevilla FC;;;Jul 1, 2025;Jun 30, 2027
+172;172;Gonzalo Montiel;402733;€4.50m;Dec 17, 2025;Jan 1, 1997;29;1.75;Argentina;[];Right-Back;;River Plate;;;Jan 20, 2025;Dec 31, 2028
+173;173;Antonio Rüdiger;86202;€9.00m;Mar 16, 2026;Mar 3, 1993;33;1.9;Germany;[];Centre-Back;;Real Madrid;;;Jul 1, 2022;Jun 30, 2026
+174;174;Vicent Abril;741251;€200k;Dec 30, 2025;Feb 15, 2005;21;1.87;Spain;[];Goalkeeper;;Valencia B;;;Jul 1, 2024;Jun 30, 2029
+175;175;Iago Aspas;72047;€1.80m;Dec 12, 2025;Aug 1, 1987;38;1.76;Spain;['Spain'];Centre-Forward;0;;;;;
+176;176;Robert Navarro;563137;€6.00m;Dec 12, 2025;Apr 12, 2002;23;1.78;Spain;[];Right Winger;;Athletic Club;;;Jul 1, 2025;Jun 30, 2030
+177;177;Julián Chicco;401583;€500k;Dec 12, 2025;Jan 13, 1998;28;1.87;Argentina;['Argentina', 'Italy'];Defensive Midfield;0;;;;;
+178;178;Jude Bellingham;581678;€140.00m;Mar 16, 2026;Jun 29, 2003;22;1.86;England;[];Attacking Midfield;;Real Madrid;;;Jul 1, 2023;Jun 30, 2029
+179;179;Álvaro Aguado;449496;€1.50m;Oct 21, 2025;May 1, 1996;29;1.75;Spain;[];Central Midfield;;Without Club;Espanyol;Jul 1, 2025;;
+180;180;Adam Aznou;938146;€7.00m;Dec 9, 2025;Jun 2, 2006;19;1.78;Morocco;['Spain', 'Morocco'];Left-Back;0;;;;;
+181;181;Ander Barrenetxea;616369;€18.00m;Mar 16, 2026;Dec 27, 2001;24;1.75;Spain;[];Left Winger;;Real Sociedad;;;Jul 1, 2019;Jun 30, 2030
+182;182;Arnaut Danjuma;355861;€4.00m;Dec 12, 2025;Jan 31, 1997;29;1.78;Netherlands;['Netherlands', 'Nigeria'];Left Winger;0;;;;;
+183;183;Jon Martín;1018938;€20.00m;Mar 16, 2026;Apr 23, 2006;19;1.87;Spain;[];Centre-Back;;Real Sociedad;;;Jul 1, 2024;Jun 30, 2031
+184;184;Nemanja Gudelj;74294;€2.50m;Dec 12, 2025;Nov 16, 1991;34;1.87;Serbia;['Netherlands', 'Serbia', 'Jugoslawien (SFR)'];Defensive Midfield;0;;;;;
+185;185;Andrei Rațiu;527966;€18.00m;Dec 12, 2025;Jun 20, 1998;27;1.83;Romania;['Spain', 'Romania'];Right-Back;0;;;;;
+186;186;Raúl de Tomás;162038;€500k;Dec 30, 2025;Oct 17, 1994;31;1.8;Spain;['Spain', 'Dominican Republic'];Centre-Forward;;Al-Wakrah SC;;;Jul 20, 2025;Jun 30, 2026
+187;187;Unai Núñez;338285;€3.50m;Dec 23, 2025;Jan 30, 1997;29;1.86;Spain;[];Centre-Back;;Valencia;;;Jan 24, 2026;Jun 30, 2026
+188;188;Álvaro García;257062;€1.80m;Dec 12, 2025;Oct 27, 1992;33;1.67;Spain;['Spain'];Left Winger;0;;;;;
+189;189;Gonzalo García;935230;€30.00m;Mar 16, 2026;Mar 24, 2004;22;1.82;Spain;['Spain'];Centre-Forward;0;;;;;
+190;190;Lucas Torró;213670;€2.80m;Dec 12, 2025;Jul 19, 1994;31;1.9;Spain;[];Defensive Midfield;;CA Osasuna;;;Aug 4, 2020;Jun 30, 2027
+191;191;Lalo Aguilar;715679;€900k;Mar 18, 2026;Jun 11, 2002;23;1.9;Spain;[];Centre-Back;;CD Leganés;;;Jul 1, 2023;Jun 30, 2029
+192;192;Brahim Díaz;314678;€35.00m;Dec 12, 2025;Aug 3, 1999;26;1.7;Morocco;['Spain', 'Morocco'];Right Winger;0;;;;;
+193;193;Iñaki Rupérez;1055860;€300k;Dec 30, 2025;Jan 7, 2003;23;1.77;Spain;['Spain'];Right-Back;0;;;;;
+194;194;José María Giménez;250845;€12.00m;Mar 16, 2026;Jan 20, 1995;31;1.85;Uruguay;[];Centre-Back;;Atlético;;;Apr 25, 2013;Jun 30, 2028
+195;195;Stole Dimitrievski;165467;€2.00m;Dec 12, 2025;Dec 25, 1993;32;1.88;North Macedonia;[];Goalkeeper;;Valencia;;;Jul 1, 2024;Jun 30, 2026
+196;196;Ørjan Nyland;73517;€900k;Dec 12, 2025;Sep 10, 1990;35;1.92;Norway;['Norway'];Goalkeeper;;Sevilla FC;;;Aug 20, 2023;Jun 30, 2026
+197;197;Raúl García;631002;€3.00m;Dec 12, 2025;Nov 3, 2000;25;1.92;Spain;[];Centre-Forward;;CA Osasuna;;;Aug 10, 2023;Jun 30, 2028
+198;198;José Gayà;221322;€5.00m;Dec 12, 2025;May 25, 1995;30;1.72;Spain;[];Left-Back;;Valencia;;;Jul 1, 2014;Jun 30, 2027
+199;199;Alejandro Balde;636688;€55.00m;Mar 16, 2026;Oct 18, 2003;22;1.77;Spain;[];Left-Back;;Barcelona;;;Jul 1, 2022;Jun 30, 2028
+200;200;Éder Militão;401530;€25.00m;Mar 16, 2026;Jan 18, 1998;28;1.86;Brazil;['Spain', 'Brazil'];Centre-Back;0;;;;;
+201;201;Fran González;1055220;€3.00m;Mar 18, 2026;Jun 24, 2005;20;1.99;Spain;['Spain'];Goalkeeper;;RM Castilla;;;Jul 1, 2024;Jun 30, 2026
+202;202;Álex Valle;709957;€10.00m;Dec 23, 2025;Apr 25, 2004;21;1.78;Spain;[];Left-Back;;Como;;;Jul 1, 2025;Jun 30, 2029
+203;203;Iker Varela;834492;€300k;Dec 30, 2025;Mar 1, 2003;23;1.88;Spain;[];Left Winger;;CD Mirandés;;;Jul 22, 2025;Jun 30, 2026
+204;204;Lander Pinillos;895591;€200k;Mar 18, 2026;Oct 6, 2003;22;;Spain;[];Attacking Midfield;;Alavés B;;;Jul 1, 2024;Jun 30, 2027
+205;205;Maximiliano Caufriez;369267;€800k;Mar 23, 2026;Feb 16, 1997;29;1.89;Belgium;['Belgium'];Centre-Back;0;;;;;
+206;206;Alejandro Jay;708534;€200k;Mar 18, 2026;Jul 7, 2002;23;1.81;Spain;[];Right-Back;;CE Europa;;;Feb 2, 2026;Jun 30, 2026
+207;207;Joseph Aidoo;358250;€1.00m;Dec 12, 2025;Sep 29, 1995;30;1.81;Ghana;['Ghana'];Centre-Back;;Celta de Vigo;;;Jul 11, 2019;Jun 30, 2026
+208;208;Anastasios Douvikas;523318;€18.00m;Mar 24, 2026;Aug 2, 1999;26;1.86;Greece;[];Centre-Forward;;Como;;;Feb 3, 2025;Jun 30, 2029
+209;209;Nahuel Molina;424042;€15.00m;Dec 12, 2025;Apr 6, 1998;27;1.75;Argentina;[];Right-Back;;Atlético;;;Jul 28, 2022;Jun 30, 2027
+210;210;Aimar Duñabeitia;834488;€200k;Mar 18, 2026;Feb 26, 2003;23;1.84;Spain;[];Centre-Back;;Bilbao Athletic;;;Jul 1, 2023;Jun 30, 2026
+211;211;Martín Zubimendi;423440;€80.00m;Mar 9, 2026;Feb 2, 1999;27;1.81;Spain;[];Defensive Midfield;;Arsenal;;;Jul 6, 2025;Jun 30, 2030
+212;212;Sebas Wade;945702;€50k;Dec 8, 2025;Apr 9, 2003;22;1.9;England;['Spain', 'England'];Centre-Back;0;;;;;
+213;213;Yéremy Pino;568157;€35.00m;Dec 9, 2025;Oct 20, 2002;23;1.72;Spain;[];Right Winger;;Crystal Palace;;;Aug 29, 2025;Jun 30, 2030
+214;214;Alfonso Pedraza;356197;€2.50m;Dec 12, 2025;Apr 9, 1996;29;1.84;Spain;[];Left-Back;;Villarreal;;;Jul 1, 2016;Jun 30, 2026
+215;215;Álex Suárez;510396;€600k;Dec 30, 2025;Mar 18, 1993;33;1.8;Spain;[];Centre-Back;;UD Las Palmas;;;Jul 1, 2019;Jun 30, 2028
+216;216;Guillem Trilla;1216529;€100k;Mar 18, 2026;Feb 4, 2003;23;;Spain;['Spain'];Centre-Back;0;;;;;
+217;217;Andoni Gorosabel;289255;€4.00m;Dec 12, 2025;Aug 4, 1996;29;1.74;Spain;[];Right-Back;;Athletic Club;;;Jul 1, 2024;Jun 30, 2028
+218;218;Urko González de Zárate;625651;€10.00m;Mar 16, 2026;Mar 20, 2001;25;1.89;Spain;[];Defensive Midfield;;Espanyol;;;Aug 28, 2025;Jun 30, 2030
+219;219;David Otorbi;1009766;€500k;Dec 30, 2025;Oct 16, 2007;18;1.8;Spain;['Spain', 'Nigeria'];Right Winger;0;;;;;
+220;220;Dinko Horkas;357770;€2.50m;Mar 18, 2026;Mar 10, 1999;27;1.89;Croatia;['Bosnia-Herzegovina', 'Croatia'];Goalkeeper;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+221;221;Vinicius Junior;371998;€150.00m;Dec 12, 2025;Jul 12, 2000;25;1.76;Brazil;[];Left Winger;;Real Madrid;;;Jul 12, 2018;Jun 30, 2027
+222;222;Guilherme Fernandes;567504;€800k;Mar 18, 2026;Mar 28, 2001;24;1.91;Portugal;['Portugal'];Goalkeeper;;Real Valladolid;;;Jul 9, 2025;Jun 30, 2026
+223;223;Alexis Olmedo;938150;€200k;Dec 30, 2025;Jan 2, 2006;20;1.87;Spain;['Spain'];Centre-Back;0;;;;;
+224;224;Álex Muñoz;243760;€800k;Mar 18, 2026;Jul 30, 1994;31;1.87;Spain;[];Left-Back;;UD Almería;;;Jul 4, 2025;Jun 30, 2028
+225;225;Peter Federico;710004;€1.50m;Dec 30, 2025;Jul 25, 2002;23;1.8;Dominican Republic;['Spain', 'Dominican Republic'];Right Winger;0;;;;;
+226;226;Antonio Sánchez;513031;€2.40m;Dec 12, 2025;Apr 22, 1997;28;1.79;Spain;[];Central Midfield;;RCD Mallorca;;;Jul 1, 2018;Jun 30, 2027
+227;227;José Manuel Arnáiz;364603;€900k;Dec 30, 2025;Apr 15, 1995;30;1.73;Spain;['Spain'];Left Winger;0;;;;;
+228;228;Pablo Torre;720038;€5.00m;Dec 12, 2025;Apr 3, 2003;22;1.73;Spain;[];Attacking Midfield;;RCD Mallorca;;;Jul 14, 2025;Jun 30, 2029
+229;229;André Almeida;375382;€7.50m;Mar 16, 2026;May 30, 2000;25;1.76;Portugal;['Portugal'];Attacking Midfield;0;;;;;
+230;230;Raúl Moro;624942;€5.00m;Mar 16, 2026;Dec 5, 2002;23;1.69;Spain;[];Left Winger;;CA Osasuna;;;Jan 22, 2026;Jun 30, 2031
+231;231;Jesús Fortea;937950;€3.00m;Mar 18, 2026;Mar 26, 2007;19;1.79;Spain;[];Right-Back;;RM Castilla;;;Jul 1, 2025;Jun 30, 2029
+232;232;Pau Funallet;1319442;;;Jun 15, 2007;18;1.9;Spain;['Spain'];Goalkeeper;;Damm U19;;;Jul 1, 2025;Jun 30, 2026
+233;233;Portu;99353;€1.50m;Dec 12, 2025;May 21, 1992;33;1.67;Spain;['Spain'];Right Winger;0;;;;;
+234;234;Unai Marrero;625657;€600k;Dec 12, 2025;Oct 9, 2001;24;1.89;Spain;[];Goalkeeper;;Real Sociedad;;;Jul 1, 2023;Jun 30, 2030
+235;235;Manu Bueno;766723;€1.50m;Dec 12, 2025;Jul 27, 2004;21;1.78;Spain;[];Central Midfield;;Sevilla FC;;;Jul 1, 2025;Jun 30, 2027
+236;236;Daley Blind;12282;€1.40m;Dec 12, 2025;Mar 9, 1990;36;1.8;Netherlands;['Netherlands'];Centre-Back;0;;;;;
+237;237;Unai Marrero;625657;€600k;Dec 12, 2025;Oct 9, 2001;24;1.89;Spain;['Spain'];Goalkeeper;;Real Sociedad;;;Jul 1, 2023;Jun 30, 2030
+238;238;Oriol Romeu;66100;€700k;Dec 3, 2025;Sep 24, 1991;34;1.83;Spain;['Spain'];Defensive Midfield;0;;;;;
+239;239;Marc Domènech;1296876;€1.00m;Dec 12, 2025;Dec 1, 2006;19;1.82;Spain;[];Centre-Forward;;AD Ceuta;;;Jan 2, 2026;Jun 30, 2026
+240;240;Pau Cubarsí;962110;€80.00m;Dec 12, 2025;Jan 22, 2007;19;1.84;Spain;['Spain'];Centre-Back;;Barcelona;;;Jan 1, 2024;Jun 30, 2029
+241;241;Arthur Melo;362842;€4.00m;Dec 10, 2025;Aug 12, 1996;29;1.72;Brazil;['Brazil'];Central Midfield;0;;;;;
+242;242;Lucas Ocampos;189441;€4.50m;Dec 29, 2025;Jul 11, 1994;31;1.78;Argentina;['Spain', 'Argentina'];Left Winger;0;;;;;
+243;243;Isra Domínguez;916014;€400k;Mar 18, 2026;May 7, 2003;22;1.75;Spain;[];Left Winger;;Sevilla Atl.;;;Jan 1, 2023;Jun 30, 2027
+244;244;Cristhian Mosquera;646750;€35.00m;Dec 9, 2025;Jun 27, 2004;21;1.91;Spain;['Colombia', 'Spain'];Centre-Back;0;;;;;
+245;245;Marcos André;481084;€800k;Dec 30, 2025;Oct 20, 1996;29;1.85;Brazil;['Spain', 'Brazil'];Centre-Forward;;Real Valladolid;;;Aug 29, 2023;Jun 30, 2029
+246;246;José Ángel López;1258838;€150k;Dec 30, 2025;Mar 24, 2006;20;;Spain;['Spain'];Right-Back;;RCD Espanyol B;;;Jul 1, 2024;Jun 30, 2029
+247;247;Brahim Díaz;314678;€35.00m;Dec 12, 2025;Aug 3, 1999;26;1.7;Morocco;[];Right Winger;;Real Madrid;;;Jan 6, 2019;Jun 30, 2027
+248;248;Manu Fuster;511021;€2.00m;Mar 18, 2026;Oct 22, 1997;28;1.69;Spain;['Spain'];Right Winger;0;;;;;
+249;249;Juanpe;115333;€500k;Dec 29, 2025;Apr 30, 1991;34;1.92;Spain;['Spain'];Centre-Back;;San Luis;;;Jul 3, 2025;May 31, 2027
+250;250;Adrià Pedrosa;501418;€3.00m;Mar 16, 2026;May 13, 1998;27;1.72;Spain;['Spain'];Left-Back;0;;;;;
+251;251;John Patrick;841121;€800k;Dec 11, 2025;Sep 24, 2003;22;1.92;Ireland;[];Central Midfield;;Stade Reims;;;Jan 15, 2025;Jun 30, 2029
+252;252;Aitor Fraga;668313;€1.00m;Mar 18, 2026;Mar 9, 2003;23;1.94;Spain;['Spain'];Goalkeeper;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2029
+253;253;Eray Cömert;298583;€2.50m;Mar 16, 2026;Feb 4, 1998;28;1.83;Switzerland;[];Centre-Back;;Valencia;;;Jan 25, 2022;Jun 30, 2026
+254;254;Dominik Greif;316884;€8.00m;Dec 15, 2025;Apr 6, 1997;28;1.97;Slovakia;['Slovakia'];Goalkeeper;;Lyon;;;Aug 18, 2025;Jun 30, 2029
+255;255;Adama Boiro;710671;€3.00m;Dec 12, 2025;Jun 22, 2002;23;1.83;Spain;['Spain', 'Senegal'];Left-Back;0;;;;;
+256;256;Juan Arango;1025582;€100k;Mar 18, 2026;Jun 27, 2006;19;1.75;Venezuela;['Spain', 'Venezuela'];Left Winger;0;;;;;
+257;257;Brian Oliván;166677;€800k;Mar 18, 2026;Apr 1, 1994;31;1.75;Spain;[];Left-Back;;Sporting Gijón;;;Dec 18, 2025;Jun 30, 2026
+258;258;Oihan Sancet;571020;€35.00m;Mar 16, 2026;Apr 25, 2000;25;1.88;Spain;[];Attacking Midfield;;Athletic Club;;;Aug 4, 2020;Jun 30, 2032
+259;259;Youssouf Sabaly;135492;€1.50m;Dec 30, 2025;Mar 5, 1993;33;1.73;Senegal;['France', 'Senegal'];Right-Back;0;;;;;
+260;260;Rubén García;213260;€1.80m;Dec 12, 2025;Jul 14, 1993;32;1.72;Spain;[];Right Winger;;CA Osasuna;;;Jul 1, 2019;Jun 30, 2027
+261;261;Stefan Bajcetic;864799;€5.00m;Mar 9, 2026;Oct 22, 2004;21;1.85;Spain;[];Defensive Midfield;;Liverpool;;;Jul 1, 2022;Jun 30, 2027
+262;262;Matija Nastasić;143559;€700k;Dec 18, 2025;Mar 28, 1993;32;1.87;Serbia;[];Centre-Back;;Al-Ula;;;Aug 21, 2025;-
+263;263;Willy Kambwala;780630;€4.00m;Dec 12, 2025;Aug 25, 2004;21;1.92;France;[];Centre-Back;;Villarreal;;;Jul 15, 2024;Jun 30, 2029
+264;264;Loïc Badé;730581;€25.00m;Mar 20, 2026;Apr 11, 2000;25;1.91;France;"['France', ""Cote d'Ivoire""]";Centre-Back;;Leverkusen;;;Aug 21, 2025;Jun 30, 2030
+265;265;Dani Parejo;59561;€1.20m;Dec 12, 2025;Apr 16, 1989;36;1.82;Spain;[];Central Midfield;;Villarreal;;;Aug 12, 2020;Jun 30, 2026
+266;266;Darko Brasanac;95641;€200k;Mar 18, 2026;Feb 12, 1992;34;1.78;Serbia;['Serbia', 'Jugoslawien (SFR)'];Central Midfield;;Málaga CF;;;Sep 4, 2025;Jun 30, 2026
+267;267;Yáser Asprilla;857818;€14.00m;Mar 5, 2026;Nov 19, 2003;22;1.76;Colombia;['Colombia'];Right Winger;0;;;;;
+268;268;Ander Herrera;99343;€500k;Dec 17, 2025;Aug 14, 1989;36;1.82;Spain;[];Central Midfield;;Boca Juniors;;;Jan 17, 2025;Dec 31, 2026
+269;269;Jonathan Bamba;292818;€3.50m;Dec 11, 2025;Mar 26, 1996;30;1.75;Cote d'Ivoire;"['France', ""Cote d'Ivoire""]";Left Winger;0;;;;;
+270;270;Rubén Iranzo;668212;€600k;Mar 18, 2026;Mar 14, 2003;23;1.82;Spain;[];Right-Back;;Valencia B;;;Jul 1, 2021;Jun 30, 2027
+271;271;Rubén Gómez;709336;€300k;Dec 30, 2025;Jan 24, 2002;24;1.85;Spain;[];Goalkeeper;;Villarreal CF B;;;Jul 1, 2023;Jun 30, 2027
+272;272;Vicente Guaita;64399;€400k;Dec 23, 2025;Jan 10, 1987;39;1.9;Spain;[];Goalkeeper;;Without Club;Parma;Jan 23, 2026;;
+273;273;Carl Starfelt;258987;€5.00m;Dec 12, 2025;Jun 1, 1995;30;1.87;Sweden;['Sweden'];Centre-Back;;Celta de Vigo;;;Aug 10, 2023;Jun 30, 2027
+274;274;Paulo Gazzaniga;195488;€2.00m;Dec 12, 2025;Jan 2, 1992;34;1.95;Argentina;[];Goalkeeper;;Girona;;;Jul 1, 2023;Jun 30, 2027
+275;275;Vicent Abril;741251;€200k;Dec 30, 2025;Feb 15, 2005;21;1.87;Spain;['Spain'];Goalkeeper;;Valencia B;;;Jul 1, 2024;Jun 30, 2029
+276;276;Stanis Idumbo;743387;€5.00m;Dec 15, 2025;Jun 29, 2005;20;1.71;Belgium;[];Attacking Midfield;;Monaco;;;Aug 30, 2025;Jun 30, 2030
+277;277;Carlos Lumbreras;1065441;€150k;Dec 30, 2025;Feb 20, 2005;21;1.8;Spain;[];Centre-Forward;;Osasuna B;;;Jul 1, 2024;Jun 30, 2027
+278;278;Nicolas Pépé;343052;€6.00m;Dec 12, 2025;May 29, 1995;30;1.83;Cote d'Ivoire;[];Right Winger;;Villarreal;;;Aug 4, 2024;Jun 30, 2028
+279;279;Mihailo Ristic;271455;€800k;Dec 12, 2025;Oct 31, 1995;30;1.8;Serbia;['Bosnia-Herzegovina', 'Serbia'];Left-Back;;Celta de Vigo;;;Sep 1, 2023;Jun 30, 2026
+280;280;Antoniu Roca;834744;€1.80m;Dec 12, 2025;Sep 5, 2002;23;1.8;Spain;[];Right Winger;;Espanyol;;;Jul 1, 2024;Jun 30, 2028
+281;281;Ander Guevara;465967;€3.00m;Dec 12, 2025;Jul 7, 1997;28;1.8;Spain;['Spain'];Central Midfield;0;;;;;
+282;282;Pablo Barrios;775605;€60.00m;Dec 12, 2025;Jun 15, 2003;22;1.81;Spain;['Spain'];Central Midfield;0;;;;;
+283;283;Pablo Durán;905997;€4.00m;Dec 12, 2025;May 25, 2001;24;1.76;Spain;[];Centre-Forward;;Celta de Vigo;;;Jul 18, 2024;Jun 30, 2027
+284;284;Warren Madrigal;799682;€600k;Dec 30, 2025;Jul 24, 2004;21;1.85;Costa Rica;[];Left Winger;;Nashville;;;Jan 26, 2026;Jun 30, 2029
+285;285;Sandro Ramírez;199369;€700k;Mar 18, 2026;Jul 9, 1995;30;1.74;Spain;['Spain'];Centre-Forward;0;;;;;
+286;286;Tincho Conde;933350;€300k;Dec 30, 2025;Mar 25, 2003;23;;Spain;[];Left-Back;;Castellón;;;Aug 12, 2025;Jun 30, 2029
+287;287;Javi Muñoz;282421;€1.50m;Dec 12, 2025;Feb 28, 1995;31;1.77;Spain;[];Central Midfield;;Getafe;;;Jul 4, 2025;Jun 30, 2028
+288;288;Pablo Torre;720038;€5.00m;Dec 12, 2025;Apr 3, 2003;22;1.73;Spain;['Spain'];Attacking Midfield;0;;;;;
+289;289;Tadeo Allende;872184;€5.00m;Dec 11, 2025;Feb 20, 1999;27;1.83;Argentina;['Argentina', 'Italy'];Right Winger;0;;;;;
+290;290;Munir El Haddadi;223725;€1.50m;Dec 8, 2025;Sep 1, 1995;30;1.77;Morocco;['Spain', 'Morocco'];Attacking Midfield;0;;;;;
+291;291;Carlos Reina;1061281;€300k;Dec 30, 2025;Aug 10, 2004;21;1.76;Spain;[];Attacking Midfield;;Betis Deportivo;;;Jul 1, 2023;Jun 30, 2026
+292;292;Arnau Solà;636697;€500k;Dec 18, 2025;Apr 4, 2003;22;1.79;Spain;['Spain'];Left-Back;0;;;;;
+293;293;Luka Modrić;27992;€4.00m;Dec 23, 2025;Sep 9, 1985;40;1.72;Croatia;['Croatia', 'Jugoslawien (SFR)'];Central Midfield;0;;;;;
+294;294;Stipe Biuk;587520;€2.00m;Mar 18, 2026;Dec 26, 2002;23;1.84;Croatia;['Croatia'];Left Winger;0;;;;;
+295;295;Jorge Herrando;555500;€4.00m;Mar 16, 2026;Feb 28, 2001;25;1.92;Spain;[];Centre-Back;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2030
+296;296;Álex Gil;932350;€100k;Dec 30, 2025;Feb 5, 2003;23;1.84;Spain;['Spain'];Central Midfield;;Marbella FC;;;Feb 2, 2026;Jun 30, 2026
+297;297;Arnau Solà;636697;€500k;Dec 18, 2025;Apr 4, 2003;22;1.79;Spain;[];Left-Back;;UD Ibiza;;;Feb 2, 2026;Jun 30, 2026
+298;298;Julen Lartitegi;834756;€100k;Mar 18, 2026;Sep 29, 2003;22;1.84;Spain;[];Right Winger;;Arenas Club;;;Aug 20, 2025;Jun 30, 2026
+299;299;Chema Andrés;948279;€15.00m;Dec 19, 2025;Apr 25, 2005;20;1.9;Spain;['Spain'];Defensive Midfield;0;;;;;
+300;300;Marc Vidal;541621;€300k;Dec 12, 2025;Feb 14, 2000;26;1.85;Spain;['Spain'];Goalkeeper;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2028
+301;301;Ángel Correa;266807;€9.00m;Dec 29, 2025;Mar 9, 1995;31;1.71;Argentina;[];Second Striker;;Tigres UANL;;;Jul 9, 2025;Jun 30, 2030
+302;302;Pablo Durán;905997;€4.00m;Dec 12, 2025;May 25, 2001;24;1.76;Spain;['Spain'];Centre-Forward;0;;;;;
+303;303;Abde Ezzalzouli;724520;€30.00m;Mar 16, 2026;Dec 17, 2001;24;1.77;Morocco;[];Left Winger;;Real Betis;;;Sep 1, 2023;Jun 30, 2029
+304;304;Abdón Prats;177452;€900k;Dec 12, 2025;Dec 7, 1992;33;1.81;Spain;['Spain'];Centre-Forward;;RCD Mallorca;;;Jul 4, 2017;Jun 30, 2028
+305;305;Pau Cabanes;1063553;€800k;Dec 12, 2025;Feb 17, 2005;21;1.79;Spain;[];Centre-Forward;;Villarreal;;;Jan 1, 2025;Jun 30, 2028
+306;306;Yuri Berchiche;61812;€1.20m;Dec 12, 2025;Feb 10, 1990;36;1.81;Spain;[];Left-Back;;Athletic Club;;;Jul 2, 2018;Jun 30, 2026
+307;307;Justin Smith;904712;€500k;Dec 30, 2025;Feb 4, 2003;23;1.89;Canada;['Canada', 'France'];Central Midfield;0;;;;;
+308;308;Javi Martínez;471474;€800k;Dec 30, 2025;Dec 22, 1999;26;1.81;Spain;[];Attacking Midfield;;SD Eibar;;;Jan 8, 2025;Jun 30, 2027
+309;309;Denis Suárez;165007;€1.20m;Dec 12, 2025;Jan 6, 1994;32;1.76;Spain;[];Attacking Midfield;;Alavés;;;Aug 29, 2025;Jun 30, 2027
+310;310;Cenk Özkacar;615350;€3.00m;Mar 20, 2026;Oct 6, 2000;25;1.9;Türkiye;['Türkiye'];Centre-Back;0;;;;;
+311;311;Trent Alexander-Arnold;314353;€65.00m;Mar 16, 2026;Oct 7, 1998;27;1.8;England;['England'];Right-Back;;Real Madrid;;;Jun 1, 2025;Jun 30, 2031
+312;312;Alex Král;337333;€2.50m;Mar 20, 2026;May 19, 1998;27;1.86;Czech Republic;[];Central Midfield;;Union Berlin;;;Jul 1, 2024;Jun 30, 2026
+313;313;Jordi Danso;1319440;;;Apr 23, 2007;18;;The Gambia;['Spain', 'The Gambia'];Goalkeeper;;Girona U19;;;Jul 1, 2024;Jun 30, 2028
+314;314;Alejandro Francés;632896;€3.00m;Dec 12, 2025;Aug 1, 2002;23;1.82;Spain;['Spain'];Centre-Back;0;;;;;
+315;315;Juanmi Latasa;623521;€1.50m;Mar 18, 2026;Mar 23, 2001;25;1.92;Spain;[];Centre-Forward;;Real Valladolid;;;Aug 14, 2024;Jun 30, 2029
+316;316;Iker Bachiller;618805;€100k;Mar 18, 2026;Sep 14, 2002;23;1.69;Spain;[];Left-Back;;CD Tudelano;;;Aug 30, 2025;Jun 30, 2026
+317;317;Borja Iglesias;278359;€3.00m;Dec 12, 2025;Jan 17, 1993;33;1.87;Spain;['Spain'];Centre-Forward;;Celta de Vigo;;;Aug 12, 2025;Jun 30, 2027
+318;318;Oli McBurnie;298477;€4.00m;Mar 3, 2026;Jun 4, 1996;29;1.88;Scotland;[];Centre-Forward;;Hull City;;;Aug 6, 2025;Jun 30, 2028
+319;319;Javi López;568158;€5.00m;Dec 12, 2025;Mar 25, 2002;24;1.83;Spain;['Spain'];Left-Back;;Real Oviedo;;;Aug 31, 2025;Jun 30, 2026
+320;320;Alfonso Espino;311044;€1.00m;Dec 12, 2025;Jan 5, 1992;34;1.72;Uruguay;[];Left-Back;;Rayo Vallecano;;;Jul 17, 2023;Jun 30, 2026
+321;321;Akor Adams;607034;€12.00m;Mar 16, 2026;Jan 29, 2000;26;1.9;Nigeria;[];Centre-Forward;;Sevilla FC;;;Jan 27, 2025;Jun 30, 2029
+322;322;Aboubacar Bassinga;1210422;€200k;Dec 30, 2025;Jul 13, 2005;20;1.78;Cote d'Ivoire;[];Central Midfield;;AD Ceuta;;;Jul 18, 2025;Jun 30, 2026
+323;323;Abde Ezzalzouli;724520;€30.00m;Mar 16, 2026;Dec 17, 2001;24;1.77;Morocco;['Spain', 'Morocco'];Left Winger;0;;;;;
+324;324;Fran García;341264;€12.00m;Mar 16, 2026;Aug 14, 1999;26;1.69;Spain;['Spain'];Left-Back;;Real Madrid;;;Jul 1, 2023;Jun 30, 2027
+325;325;Natan;735568;€25.00m;Mar 16, 2026;Feb 6, 2001;25;1.88;Brazil;[];Centre-Back;;Real Betis;;;Jul 1, 2025;Jun 30, 2030
+326;326;Iker Álvarez;547248;€800k;Dec 30, 2025;Jul 25, 2001;24;1.9;Andorra;[];Goalkeeper;;Córdoba CF;;;Jul 1, 2025;Jun 30, 2027
+327;327;Yarek Gasiorowski;895334;€16.00m;Dec 2, 2025;Jan 12, 2005;21;1.91;Spain;[];Centre-Back;;PSV;;;Jul 10, 2025;Jun 30, 2030
+328;328;Stoichkov;271021;€500k;Mar 18, 2026;Nov 5, 1993;32;1.78;Spain;[];Second Striker;;Dep. La Coruña;;;Aug 29, 2025;Jun 30, 2026
+329;329;Robin Le Normand;351809;€25.00m;Mar 16, 2026;Nov 11, 1996;29;1.87;Spain;[];Centre-Back;;Atlético;;;Jul 27, 2024;Jun 30, 2029
+330;330;Conor Gallagher;488362;€35.00m;Dec 12, 2025;Feb 6, 2000;26;1.82;England;['England'];Central Midfield;0;;;;;
+331;331;Vitor Roque;943837;€38.00m;Mar 12, 2026;Feb 28, 2005;21;1.74;Brazil;[];Centre-Forward;;Palmeiras;;;Feb 28, 2025;Dec 31, 2029
+332;332;Eric García;466794;€35.00m;Mar 16, 2026;Jan 9, 2001;25;1.82;Spain;['Spain'];Centre-Back;0;;;;;
+333;333;Jesús Rodríguez;1190411;€30.00m;Dec 23, 2025;Nov 21, 2005;20;1.85;Spain;[];Left Winger;;Como;;;Jul 2, 2025;Jun 30, 2030
+334;334;Florian Grillitsch;195736;€2.00m;Dec 18, 2025;Aug 7, 1995;30;1.87;Austria;['Austria'];Defensive Midfield;0;;;;;
+335;335;Fermín López;636703;€100.00m;Mar 16, 2026;May 11, 2003;22;1.74;Spain;[];Attacking Midfield;;Barcelona;;;Jul 1, 2023;Jun 30, 2031
+336;336;Lucas Núñez;1200328;€50k;Dec 30, 2025;Mar 18, 2006;20;1.83;Spain;[];Central Midfield;;Valencia B;;;Jan 1, 2025;Jun 30, 2028
+337;337;Naim García;715683;€800k;Dec 30, 2025;Jun 11, 2002;23;1.8;Spain;['Spain'];Right Winger;0;;;;;
+338;338;Diego Rico;249513;€1.20m;Dec 12, 2025;Feb 23, 1993;33;1.83;Spain;['Spain'];Left-Back;0;;;;;
+339;339;Antonio Raíllo;278296;€1.50m;Dec 12, 2025;Oct 8, 1991;34;1.87;Spain;['Spain'];Centre-Back;;RCD Mallorca;;;Jul 1, 2016;Jun 30, 2027
+340;340;Daouda Doumbia;1054933;€400k;Dec 22, 2025;Jan 1, 2002;24;1.88;Mali;['Mali'];Defensive Midfield;0;;;;;
+341;341;Mika Mármol;617060;€10.00m;Dec 30, 2025;Jul 2, 2001;24;1.83;Spain;['Spain'];Centre-Back;0;;;;;
+342;342;Renato Tapia;277137;€1.80m;Nov 28, 2025;Jul 28, 1995;30;1.85;Peru;[];Defensive Midfield;;Al-Wasl;;;Jul 10, 2025;Jun 30, 2027
+343;343;Alex Almansa;946269;€150k;Dec 30, 2025;Nov 8, 2003;22;1.86;Spain;[];Left Winger;;RCD Espanyol B;;;Jul 19, 2024;Jun 30, 2026
+344;344;Omar Alderete;353032;€15.00m;Mar 9, 2026;Dec 26, 1996;29;1.88;Paraguay;[];Centre-Back;;Sunderland;;;Aug 12, 2025;Jun 30, 2029
+345;345;Álvaro Killane;1036451;€100k;Mar 18, 2026;Dec 14, 2004;21;1.86;Argentina;['Spain', 'Argentina'];Goalkeeper;;Las Palmas Atl.;;;Jul 1, 2023;Jun 30, 2026
+346;346;Nayef Aguerd;361914;€22.00m;Dec 15, 2025;Mar 30, 1996;29;1.9;Morocco;[];Centre-Back;;Marseille;;;Sep 1, 2025;Jun 30, 2030
+347;347;Lucas Rosa;468309;€4.00m;Dec 2, 2025;Apr 3, 2000;25;1.77;Brazil;[];Right-Back;;Ajax;;;Feb 4, 2025;Jun 30, 2029
+348;348;Gavi;646740;€30.00m;Mar 16, 2026;Aug 5, 2004;21;1.73;Spain;[];Central Midfield;;Barcelona;;;Jul 1, 2021;Jun 30, 2030
+349;349;Marcos Paulo;612496;€450k;Nov 24, 2025;Feb 1, 2001;25;1.86;Portugal;[];Left Winger;;Juventude;;;Jan 13, 2026;Dec 31, 2026
+350;350;Luca de la Torre;315762;€3.00m;Dec 11, 2025;May 23, 1998;27;1.77;United States;['Spain', 'United States'];Central Midfield;0;;;;;
+351;351;Luis Milla;281989;€3.50m;Dec 12, 2025;Oct 7, 1994;31;1.75;Spain;[];Central Midfield;;Getafe;;;Jul 25, 2022;Jun 30, 2027
+352;352;Alfon González;357628;€3.00m;Mar 16, 2026;May 4, 1999;26;1.72;Spain;[];Left Winger;;Villarreal;;;Jan 27, 2026;Jun 30, 2026
+353;353;Karl Hein;493513;€3.00m;Dec 19, 2025;Apr 13, 2002;23;1.93;Estonia;['Estonia'];Goalkeeper;;Werder Bremen;;;Aug 22, 2025;Jun 30, 2026
+354;354;Pelayo Fernández;692208;€500k;Dec 30, 2025;Apr 29, 2003;22;1.93;Spain;['Spain'];Centre-Back;;Cádiz CF;;;Sep 1, 2025;Jun 30, 2026
+355;355;Luca de la Torre;315762;€3.00m;Dec 11, 2025;May 23, 1998;27;1.77;United States;[];Central Midfield;;Charlotte;;;Jan 26, 2026;Jun 30, 2029
+356;356;Alfonso Espino;311044;€1.00m;Dec 12, 2025;Jan 5, 1992;34;1.72;Uruguay;['Spain', 'Uruguay'];Left-Back;;Rayo Vallecano;;;Jul 17, 2023;Jun 30, 2026
+357;357;Beñat Turrientes;634431;€10.00m;Mar 16, 2026;Jan 31, 2002;24;1.81;Spain;[];Central Midfield;;Real Sociedad;;;Aug 7, 2022;Jun 30, 2030
+358;358;Aitor Paredes;591916;€15.00m;Mar 16, 2026;Apr 29, 2000;25;1.85;Spain;[];Centre-Back;;Athletic Club;;;Jul 1, 2022;Jun 30, 2029
+359;359;Dodi Lukébakio;303259;€20.00m;Dec 18, 2025;Sep 24, 1997;28;1.87;Belgium;[];Right Winger;;Benfica;;;Sep 1, 2025;Jun 30, 2030
+360;360;Aboubacar Bassinga;1210422;€200k;Dec 30, 2025;Jul 13, 2005;20;1.78;Cote d'Ivoire;"[""Cote d'Ivoire""]";Central Midfield;;AD Ceuta;;;Jul 18, 2025;Jun 30, 2026
+361;361;Justin Smith;904712;€500k;Dec 30, 2025;Feb 4, 2003;23;1.89;Canada;[];Central Midfield;;Sporting Gijón;;;Jul 18, 2025;Jun 30, 2026
+362;362;Stanko Juric;388125;€1.20m;Dec 30, 2025;Aug 16, 1996;29;1.88;Croatia;['Croatia'];Defensive Midfield;0;;;;;
+363;363;Santiago Mouriño;953901;€10.00m;Dec 12, 2025;Feb 13, 2002;24;1.86;Uruguay;['Spain', 'Uruguay'];Right-Back;0;;;;;
+364;364;Abdul Mumin;451801;€4.00m;Dec 12, 2025;Jun 6, 1998;27;1.88;Ghana;[];Centre-Back;;Rayo Vallecano;;;Sep 1, 2022;Jun 30, 2026
+365;365;Stipe Biuk;587520;€2.00m;Mar 18, 2026;Dec 26, 2002;23;1.84;Croatia;[];Left Winger;;Real Valladolid;;;Jul 8, 2024;Jun 30, 2029
+366;366;Valery Fernández;331496;€700k;Mar 18, 2026;Nov 23, 1999;26;1.82;Spain;[];Right Winger;;Real Zaragoza;;;Aug 8, 2025;Jun 30, 2028
+367;367;Lalo Aguilar;715679;€900k;Mar 18, 2026;Jun 11, 2002;23;1.9;Spain;['Spain'];Centre-Back;0;;;;;
+368;368;Dani Rodríguez;834470;€1.00m;Dec 30, 2025;Aug 9, 2005;20;1.75;Spain;[];Right Winger;;Barça Atlètic;;;Jan 1, 2024;Jun 30, 2027
+369;369;Ángel Correa;266807;€9.00m;Dec 29, 2025;Mar 9, 1995;31;1.71;Argentina;['Spain', 'Argentina'];Second Striker;0;;;;;
+370;370;Hugo Álvarez;892929;€8.00m;Dec 12, 2025;Jul 2, 2003;22;1.76;Spain;[];Left Winger;;Celta de Vigo;;;Jul 18, 2024;Jun 30, 2028
+371;371;Álex Baena;548111;€45.00m;Mar 16, 2026;Jul 20, 2001;24;1.74;Spain;[];Left Winger;;Atlético;;;Jul 2, 2025;Jun 30, 2030
+372;372;Pol Tristán;605528;€50k;Dec 30, 2025;Mar 18, 2002;24;1.88;Spain;[];Goalkeeper;;RCD Espanyol B;;;Aug 21, 2024;Jun 30, 2026
+373;373;Ander Herrera;99343;€500k;Dec 17, 2025;Aug 14, 1989;36;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+374;374;Yan Diomande;1390649;€75.00m;Mar 20, 2026;Nov 14, 2006;19;1.8;Cote d'Ivoire;"[""Cote d'Ivoire""]";Left Winger;0;;;;;
+375;375;Ferland Mendy;291417;€6.00m;Mar 16, 2026;Jun 8, 1995;30;1.8;France;[];Left-Back;;Real Madrid;;;Jul 1, 2019;Jun 30, 2028
+376;376;Borja Garcés;566036;;;Aug 6, 1999;26;1.83;Spain;['Spain'];Centre-Forward;0;;;;;
+377;377;Luka Romero;769063;€3.20m;Dec 29, 2025;Nov 18, 2004;21;1.69;Argentina;[];Right Winger;;CD Cruz Azul;;;Jan 18, 2025;Jun 30, 2030
+378;378;Randy Nteka;560483;€1.20m;Dec 12, 2025;Dec 6, 1997;28;1.89;Angola;['Angola', 'France'];Attacking Midfield;0;;;;;
+379;379;Jon Guridi;289257;€2.00m;Mar 16, 2026;Feb 28, 1995;31;1.79;Spain;['Spain'];Central Midfield;0;;;;;
+380;380;Arda Güler;861410;€90.00m;Dec 12, 2025;Feb 25, 2005;21;1.75;Türkiye;[];Attacking Midfield;;Real Madrid;;;Jul 6, 2023;Jun 30, 2029
+381;381;Luis Rioja;278837;€2.00m;Dec 12, 2025;Oct 16, 1993;32;1.76;Spain;['Spain'];Right Winger;0;;;;;
+382;382;Andy Pelmard;494236;€2.00m;Dec 8, 2025;Mar 12, 2000;26;1.83;Madagascar;['Madagascar', 'France'];Centre-Back;0;;;;;
+383;383;Mikel Jauregizar;938729;€35.00m;Mar 16, 2026;Nov 13, 2003;22;1.77;Spain;[];Central Midfield;;Athletic Club;;;Jul 1, 2024;Jun 30, 2031
+384;384;Umar Sadiq;337715;€4.00m;Dec 12, 2025;Feb 2, 1997;29;1.91;Nigeria;[];Centre-Forward;;Valencia;;;Jan 8, 2026;Jun 30, 2028
+385;385;Peio Canales;1056966;€8.00m;Mar 18, 2026;Jan 17, 2005;21;1.75;Spain;[];Attacking Midfield;;Racing;;;Aug 15, 2025;Jun 30, 2026
+386;386;Marc Casadó;636695;€20.00m;Mar 16, 2026;Sep 14, 2003;22;1.72;Spain;['Spain'];Defensive Midfield;0;;;;;
+387;387;Victor Puig;1310075;;;Aug 15, 2005;20;;Spain;['Spain'];Goalkeeper;;UD Las Palmas C;;;Jul 1, 2024;Jun 30, 2026
+388;388;José Manuel Arnáiz;364603;€900k;Dec 30, 2025;Apr 15, 1995;30;1.73;Spain;[];Left Winger;;Granada CF;;;Jul 17, 2025;Jun 30, 2027
+389;389;Marc-André ter Stegen;74857;€4.00m;Mar 16, 2026;Apr 30, 1992;33;1.87;Germany;[];Goalkeeper;;Girona;;;Jan 20, 2026;Jun 30, 2026
+390;390;Mario Maroto;710484;€200k;Dec 30, 2025;Nov 28, 2003;22;1.76;Spain;[];Central Midfield;;Real Valladolid;;;Jul 1, 2025;Jun 30, 2026
+391;391;Daniel Luna;857830;€600k;Dec 30, 2025;May 7, 2003;22;1.78;Colombia;[];Attacking Midfield;;SD Huesca;;;Aug 27, 2025;Jun 30, 2026
+392;392;Eric Bailly;286384;€1.50m;Dec 12, 2025;Apr 12, 1994;31;1.87;Cote d'Ivoire;"[""Cote d'Ivoire""]";Centre-Back;;Real Oviedo;;;Aug 18, 2025;Jun 30, 2027
+393;393;Fer López;1064471;€16.00m;Dec 9, 2025;May 24, 2004;21;1.88;Spain;['Spain'];Attacking Midfield;0;;;;;
+394;394;Álvaro Cortés;924610;€2.00m;Mar 18, 2026;Mar 17, 2005;21;1.9;Spain;[];Centre-Back;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2028
+395;395;Duk;535959;€2.50m;Dec 30, 2025;Feb 16, 2000;26;1.82;Cape Verde;['Portugal', 'Cape Verde'];Left Winger;0;;;;;
+396;396;Daniel Carvajal;138927;€6.00m;Mar 16, 2026;Jan 11, 1992;34;1.73;Spain;[];Right-Back;;Real Madrid;;;Jul 1, 2013;Jun 30, 2026
+397;397;Rafa Romero;833884;€50k;Dec 30, 2025;Aug 7, 2003;22;1.9;Spain;['Spain'];Goalkeeper;;Sevilla Atl.;;;Jul 1, 2025;Jun 30, 2027
+398;398;Brais Méndez;309110;€12.00m;Dec 12, 2025;Jan 7, 1997;29;1.84;Spain;['Spain'];Attacking Midfield;0;;;;;
+399;399;Horațiu Moldovan;525438;€2.00m;Dec 12, 2025;Jan 20, 1998;28;1.86;Romania;[];Goalkeeper;;Real Oviedo;;;Jul 18, 2025;Jun 30, 2026
+400;400;Lucas Núñez;1200328;€50k;Dec 30, 2025;Mar 18, 2006;20;1.83;Spain;['Spain'];Central Midfield;0;;;;;
+401;401;Adnan Januzaj;177847;€1.20m;Dec 12, 2025;Feb 5, 1995;31;1.86;Belgium;[];Right Winger;;Sevilla FC;;;Aug 31, 2022;Jun 30, 2026
+402;402;Andrei Rațiu;527966;€18.00m;Dec 12, 2025;Jun 20, 1998;27;1.83;Romania;[];Right-Back;;Rayo Vallecano;;;Aug 26, 2023;Jun 30, 2030
+403;403;David Argüelles;719720;€150k;Nov 14, 2025;Jan 10, 2002;24;1.75;Spain;['Spain'];Left-Back;;CD Lealtad;;;Jan 1, 2026;Jun 30, 2026
+404;404;Unai Gómez;834752;€5.00m;Dec 12, 2025;May 25, 2003;22;1.83;Spain;['Spain'];Attacking Midfield;0;;;;;
+405;405;Pablo Valencia;634117;€150k;Dec 30, 2025;Mar 16, 2001;25;1.88;Spain;[];Goalkeeper;;Eldense;;;Aug 21, 2025;Jun 30, 2026
+406;406;Aitor Paredes;591916;€15.00m;Mar 16, 2026;Apr 29, 2000;25;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+407;407;Dani Vivian;524000;€25.00m;Mar 16, 2026;Jul 5, 1999;26;1.84;Spain;['Spain'];Centre-Back;;Athletic Club;;;Aug 1, 2020;Jun 30, 2032
+408;408;Víctor Muñoz;935231;€20.00m;Mar 16, 2026;Jul 13, 2003;22;1.73;Spain;['Spain'];Left Winger;0;;;;;
+409;409;Alex Marchal;1201530;€2.00m;Mar 18, 2026;Sep 17, 2007;18;1.8;Spain;['Spain'];Left Winger;0;;;;;
+410;410;Dani Requena;945709;€800k;Mar 18, 2026;Feb 12, 2004;22;1.86;Spain;[];Central Midfield;;Córdoba CF;;;Jul 22, 2025;Jun 30, 2026
+411;411;Luis Pérez;358115;€1.00m;Mar 5, 2026;Feb 4, 1995;31;1.73;Spain;[];Right-Back;;Gaziantep FK;;;Aug 21, 2025;Jun 30, 2027
+412;412;Pablo Ramón;629511;€1.00m;Mar 18, 2026;Jun 30, 2001;24;1.84;Spain;['Spain'];Centre-Back;0;;;;;
+413;413;Saúl Ñíguez;148928;€2.00m;Mar 12, 2026;Nov 21, 1994;31;1.84;Spain;['Spain'];Central Midfield;0;;;;;
+414;414;Jaume Doménech;227805;;;Nov 5, 1990;35;1.85;Spain;['Spain'];Goalkeeper;;Retired;Valencia;Jul 1, 2025;;
+415;415;David Jiménez;935281;€5.00m;Mar 18, 2026;Mar 14, 2004;22;1.7;Spain;[];Right-Back;;RM Castilla;;;Jul 1, 2024;Jun 30, 2027
+416;416;Miguel Ángel Morro;607780;€300k;Dec 22, 2025;Sep 11, 2000;25;1.95;Spain;['Spain'];Goalkeeper;;Leixões;;;Jul 14, 2025;Jun 30, 2026
+417;417;Hugo Sotelo;892221;€7.50m;Mar 16, 2026;Dec 19, 2003;22;1.8;Spain;['Spain'];Central Midfield;;Celta de Vigo;;;Jul 1, 2023;Jun 30, 2028
+418;418;Dimitrios Stamatakis;890817;€200k;Dec 30, 2025;Apr 23, 2003;22;1.91;Greece;[];Goalkeeper;;Osasuna B;;;Jul 17, 2023;Jun 30, 2027
+419;419;Pol Lozano;412045;€6.00m;Dec 12, 2025;Oct 6, 1999;26;1.76;Spain;['Spain'];Central Midfield;;Espanyol;;;Jul 1, 2020;Jun 30, 2027
+420;420;Munir El Haddadi;223725;€1.50m;Dec 8, 2025;Sep 1, 1995;30;1.77;Morocco;[];Attacking Midfield;;Esteghlal FC;;;Sep 6, 2025;Jun 30, 2027
+421;421;Antonio Sivera;298197;€6.00m;Dec 12, 2025;Aug 11, 1996;29;1.85;Spain;['Spain'];Goalkeeper;;Alavés;;;Jul 19, 2017;Jun 30, 2027
+422;422;Juan Iglesias;390688;€5.00m;Dec 12, 2025;Jul 3, 1998;27;1.87;Spain;['Spain'];Right-Back;0;;;;;
+423;423;Sergio González;308989;€700k;Dec 18, 2025;Apr 20, 1992;33;1.89;Spain;['Spain'];Centre-Back;;Al-Riyadh;;;Jul 22, 2025;-
+424;424;Víctor Meseguer;658269;€1.50m;Dec 30, 2025;Jun 9, 1999;26;1.84;Spain;['Spain'];Central Midfield;0;;;;;
+425;425;Pablo Busto;1054909;€300k;Dec 30, 2025;Sep 25, 2005;20;1.8;Spain;['Spain'];Right-Back;;Betis Deportivo;;;Jul 1, 2022;Jun 30, 2027
+426;426;Adrián Niño;926849;€1.00m;Dec 30, 2025;Jun 19, 2004;21;1.84;Spain;['Spain'];Centre-Forward;0;;;;;
+427;427;Óscar Mingueza;331505;€18.00m;Dec 12, 2025;May 13, 1999;26;1.84;Spain;['Spain'];Right-Back;0;;;;;
+428;428;Portu;99353;€1.50m;Dec 12, 2025;May 21, 1992;33;1.67;Spain;[];Right Winger;;Girona;;;Sep 1, 2023;Jun 30, 2027
+429;429;Hamari Traoré;297070;€1.80m;Dec 15, 2025;Jan 27, 1992;34;1.75;Mali;[];Right-Back;;Paris FC;;;Sep 1, 2025;Jun 30, 2027
+430;430;Toni Villa;337066;€300k;Mar 18, 2026;Jan 7, 1995;31;1.72;Spain;['Spain'];Left Winger;0;;;;;
+431;431;Mikel Goti;709215;€1.50m;Dec 12, 2025;May 23, 2002;23;1.85;Spain;[];Attacking Midfield;;Córdoba CF;;;Jan 27, 2026;Jun 30, 2026
+432;432;Jan Salas;1063574;€500k;Dec 30, 2025;Aug 10, 2005;20;1.82;Spain;[];Central Midfield;;RCD Mallorca;;;Jul 1, 2025;Jun 30, 2028
+433;433;Dani Rodríguez;139435;€100k;Dec 12, 2025;Jun 6, 1988;37;1.78;Spain;['Spain'];Attacking Midfield;0;;;;;
+434;434;Frenkie de Jong;326330;€45.00m;Dec 12, 2025;May 12, 1997;28;1.81;Netherlands;['Netherlands'];Central Midfield;0;;;;;
+435;435;Carlos Domínguez;636093;€3.00m;Dec 12, 2025;Feb 11, 2001;25;1.87;Spain;[];Centre-Back;;Celta de Vigo;;;Jan 1, 2023;Jun 30, 2028
+436;436;Toni Villa;337066;€300k;Mar 18, 2026;Jan 7, 1995;31;1.72;Spain;[];Left Winger;;SD Eibar;;;Aug 27, 2024;Jun 30, 2026
+437;437;Henrique Silva;204072;€500k;Dec 23, 2025;Apr 25, 1994;31;1.73;Brazil;[];Left-Back;;Turan Tovuz;;;Aug 18, 2025;Jun 30, 2027
+438;438;Ismael Bekhoucha;1164331;€300k;Dec 12, 2025;Nov 20, 2004;21;1.76;Morocco;[];Right-Back;;Getafe;;;Jul 1, 2025;Jun 30, 2028
+439;439;Kirian Rodríguez;566574;€1.00m;Dec 30, 2025;Mar 5, 1996;30;1.78;Spain;[];Attacking Midfield;;UD Las Palmas;;;Jul 1, 2019;Jun 30, 2028
+440;440;Marc Domènech;1296876;€1.00m;Dec 12, 2025;Dec 1, 2006;19;1.82;Spain;['Spain'];Centre-Forward;0;;;;;
+441;441;Eneko Ortiz;892217;€200k;Mar 18, 2026;May 26, 2003;22;1.93;Spain;['Spain'];Left-Back;0;;;;;
+442;442;Pau Cubarsí;962110;€80.00m;Dec 12, 2025;Jan 22, 2007;19;1.84;Spain;[];Centre-Back;;Barcelona;;;Jan 1, 2024;Jun 30, 2029
+443;443;Mikel Goti;709215;€1.50m;Dec 12, 2025;May 23, 2002;23;1.85;Spain;['Spain'];Attacking Midfield;0;;;;;
+444;444;Pablo García;961087;€8.00m;Mar 16, 2026;Jun 13, 2006;19;1.75;Spain;['Spain'];Right Winger;0;;;;;
+445;445;Brian Oliván;166677;€800k;Mar 18, 2026;Apr 1, 1994;31;1.75;Spain;['Spain'];Left-Back;0;;;;;
+446;446;Gerard Moreno;177467;€2.80m;Dec 12, 2025;Apr 7, 1992;33;1.8;Spain;['Spain'];Centre-Forward;0;;;;;
+447;447;Javi Martón;711394;€1.00m;Mar 18, 2026;May 6, 1999;26;1.81;Spain;[];Centre-Forward;;SD Eibar;;;Jul 16, 2025;Jun 30, 2028
+448;448;Djibril Sow;212723;€7.50m;Dec 12, 2025;Feb 6, 1997;29;1.84;Switzerland;['Switzerland', 'Senegal'];Central Midfield;0;;;;;
+449;449;Rodrigo Riquelme;461617;€6.00m;Mar 16, 2026;Apr 2, 2000;25;1.74;Spain;['Spain'];Left Winger;0;;;;;
+450;450;Jaime Mata;227961;€100k;Dec 30, 2025;Oct 24, 1988;37;1.86;Spain;['Spain'];Centre-Forward;0;;;;;
+451;451;Raúl Asencio;935245;€25.00m;Mar 16, 2026;Feb 13, 2003;23;1.84;Spain;[];Centre-Back;;Real Madrid;;;Jul 1, 2024;Jun 30, 2031
+452;452;Samú Costa;657430;€15.00m;Dec 12, 2025;Nov 27, 2000;25;1.85;Portugal;[];Defensive Midfield;;RCD Mallorca;;;Aug 10, 2023;Jun 30, 2028
+453;453;Rayane Belaid;945500;€600k;Dec 30, 2025;Feb 11, 2005;21;1.75;Spain;['Spain', 'Algeria'];Attacking Midfield;0;;;;;
+454;454;Nobel Mendy;1034853;€6.00m;Dec 12, 2025;Sep 3, 2004;21;1.87;Senegal;[];Centre-Back;;Rayo Vallecano;;;Aug 20, 2025;Jun 30, 2026
+455;455;Jasper Cillessen;146227;€300k;Dec 2, 2025;Apr 22, 1989;36;1.87;Netherlands;['Netherlands'];Goalkeeper;;NEC Nijmegen;;;Aug 1, 2025;Jun 30, 2026
+456;456;Aimar Oroz;634131;€9.00m;Dec 12, 2025;Nov 27, 2001;24;1.77;Spain;['Spain'];Attacking Midfield;0;;;;;
+457;457;Áron Yaakobishvili;938145;€3.00m;Mar 18, 2026;Mar 6, 2006;20;1.87;Hungary;['Georgia', 'Hungary'];Goalkeeper;;FC Andorra;;;Jul 15, 2025;Jun 30, 2028
+458;458;Jesús Navas;15956;;;Nov 21, 1985;40;1.7;Spain;['Spain'];Right Midfield;0;;;;;
+459;459;Pablo Ibáñez;785353;€4.00m;Mar 16, 2026;Sep 20, 1998;27;1.79;Spain;['Spain'];Central Midfield;;Alavés;;;Jul 1, 2025;Jun 30, 2030
+460;460;Marcos Llorente;282411;€22.00m;Dec 12, 2025;Jan 30, 1995;31;1.84;Spain;[];Right-Back;;Atlético;;;Jul 1, 2019;Jun 30, 2027
+461;461;Pablo López;1000630;€300k;Dec 30, 2025;Mar 27, 2006;20;1.75;Spain;[];Left Winger;;CD Mirandés;;;Sep 1, 2025;Jun 30, 2026
+462;462;Bertuğ Yıldırım;672803;€4.00m;Mar 5, 2026;Jul 12, 2002;23;1.91;Türkiye;[];Centre-Forward;;Basaksehir;;;Sep 12, 2025;Jun 30, 2029
+463;463;Jones El-Abdellaoui;960571;€8.00m;Mar 16, 2026;Jan 12, 2006;20;1.84;Morocco;[];Right Winger;;Celta de Vigo;;;Jan 8, 2025;Jun 30, 2029
+464;464;Endika Buján;1120228;€300k;Dec 30, 2025;Jan 16, 2003;23;1.7;Spain;['Spain'];Right Winger;0;;;;;
+465;465;Héctor Fort;937955;€12.00m;Dec 12, 2025;Aug 2, 2006;19;1.85;Spain;['Spain'];Right-Back;0;;;;;
+466;466;Bertuğ Yıldırım;672803;€4.00m;Mar 5, 2026;Jul 12, 2002;23;1.91;Türkiye;['Türkiye'];Centre-Forward;0;;;;;
+467;467;Eric García;466794;€35.00m;Mar 16, 2026;Jan 9, 2001;25;1.82;Spain;[];Centre-Back;;Barcelona;;;Jul 1, 2021;Jun 30, 2031
+468;468;Daniel Yáñez;962124;€3.00m;Mar 18, 2026;Mar 28, 2007;18;1.77;Spain;['Spain'];Right Winger;0;;;;;
+469;469;Anuar;327126;€800k;Dec 30, 2025;Jan 15, 1995;31;1.73;Morocco;[];Right Winger;;AD Ceuta;;;Jul 1, 2025;Jun 30, 2027
+470;470;Kike Barja;298575;€1.50m;Dec 12, 2025;Apr 1, 1997;28;1.79;Spain;[];Right Winger;;CA Osasuna;;;Jan 1, 2018;Jun 30, 2026
+471;471;Irvin Cardona;342226;€2.50m;Dec 11, 2025;Aug 8, 1997;28;1.85;Malta;[];Right Winger;;Saint-Étienne;;;Jul 1, 2025;Jun 30, 2028
+472;472;Joaquín Panichelli;1064871;€25.00m;Dec 15, 2025;Oct 7, 2002;23;1.9;Argentina;['Argentina'];Centre-Forward;;R. Strasbourg;;;Jul 27, 2025;Jun 30, 2030
+473;473;Scott McKenna;255906;€4.00m;Dec 22, 2025;Nov 12, 1996;29;1.89;Scotland;['Scotland'];Centre-Back;;Dinamo Zagreb;;;Jul 16, 2025;Jun 30, 2029
+474;474;César de la Hoz;226261;€250k;Oct 21, 2025;Mar 30, 1992;33;1.79;Spain;['Spain'];Defensive Midfield;0;;;;;
+475;475;Takefusa Kubo;405398;€30.00m;Dec 12, 2025;Jun 4, 2001;24;1.73;Japan;[];Right Winger;;Real Sociedad;;;Jul 19, 2022;Jun 30, 2029
+476;476;Diego Conde;341713;€4.00m;Dec 12, 2025;Oct 28, 1998;27;1.88;Spain;['Spain'];Goalkeeper;;Villarreal;;;Jul 2, 2024;Jun 30, 2029
+477;477;Kelechi Iheanacho;295330;€3.00m;Mar 5, 2026;Oct 3, 1996;29;1.85;Nigeria;[];Centre-Forward;;Celtic;;;Sep 2, 2025;Jun 30, 2026
+478;478;Edu Expósito;506248;€5.00m;Mar 16, 2026;Aug 1, 1996;29;1.78;Spain;[];Central Midfield;;Espanyol;;;Aug 8, 2022;Jun 30, 2027
+479;479;Gonzalo Montiel;402733;€4.50m;Dec 17, 2025;Jan 1, 1997;29;1.75;Argentina;['Spain', 'Argentina'];Right-Back;;River Plate;;;Jan 20, 2025;Dec 31, 2028
+480;480;Pau Víctor;707572;€12.00m;Mar 19, 2026;Nov 26, 2001;24;1.84;Spain;[];Centre-Forward;;Braga;;;Jul 25, 2025;Jun 30, 2030
+481;481;Enzo Barrenechea;671915;€15.00m;Dec 18, 2025;May 22, 2001;24;1.86;Argentina;['Argentina'];Defensive Midfield;;Benfica;;;Jul 18, 2025;Jun 30, 2026
+482;482;Arkaitz Mariezkurrena;962145;€1.00m;Mar 18, 2026;Apr 5, 2005;20;1.81;Spain;['Spain'];Left Winger;0;;;;;
+483;483;Alejo Veliz;888493;€3.50m;Dec 17, 2025;Sep 19, 2003;22;1.86;Argentina;['Argentina'];Centre-Forward;;Rosario Central;;;Jul 8, 2025;Jun 30, 2026
+484;484;Abdul Mumin;451801;€4.00m;Dec 12, 2025;Jun 6, 1998;27;1.88;Ghana;['Ghana', 'Nigeria'];Centre-Back;0;;;;;
+485;485;Gorka Rivera;1000136;€100k;Dec 30, 2025;Aug 1, 2004;21;;Spain;[];Left-Back;;Getafe CF B;;;Jul 1, 2021;Jun 30, 2029
+486;486;Edu Expósito;506248;€5.00m;Mar 16, 2026;Aug 1, 1996;29;1.78;Spain;['Spain'];Central Midfield;0;;;;;
+487;487;Frenkie de Jong;326330;€45.00m;Dec 12, 2025;May 12, 1997;28;1.81;Netherlands;[];Central Midfield;;Barcelona;;;Jul 1, 2019;Jun 30, 2029
+488;488;Álex Remiro;212862;€14.00m;Dec 12, 2025;Mar 24, 1995;31;1.91;Spain;['Spain'];Goalkeeper;;Real Sociedad;;;Jul 1, 2019;Jun 30, 2027
+489;489;Iñaki Williams;255508;€10.00m;Dec 12, 2025;Jun 15, 1994;31;1.86;Ghana;[];Right Winger;;Athletic Club;;;Jul 1, 2015;Jun 30, 2028
+490;490;Adrián San Miguel;71271;€400k;Dec 12, 2025;Jan 3, 1987;39;1.9;Spain;[];Goalkeeper;;Real Betis;;;Jul 8, 2024;Jun 30, 2026
+491;491;Hugo Duro;573775;€12.00m;Dec 12, 2025;Nov 10, 1999;26;1.77;Spain;[];Centre-Forward;;Valencia;;;Jul 1, 2022;Jun 30, 2028
+492;492;Axel Witsel;35047;€1.40m;Dec 12, 2025;Jan 12, 1989;37;1.86;Belgium;['Belgium', 'Martinique'];Defensive Midfield;0;;;;;
+493;493;Alberto Collado;935342;€300k;Dec 30, 2025;Apr 16, 2005;20;1.84;Spain;[];Central Midfield;;Sevilla Atl.;;;Jul 1, 2024;Jun 30, 2027
+494;494;Adrián Rosell;1065256;;;Nov 14, 2004;21;;Spain;['Spain'];Right Winger;0;;;;;
+495;495;Rubén Vargas;345886;€12.00m;Dec 12, 2025;Aug 5, 1998;27;1.79;Switzerland;[];Left Winger;;Sevilla FC;;;Jan 10, 2025;Jun 30, 2029
+496;496;Urko González de Zárate;625651;€10.00m;Mar 16, 2026;Mar 20, 2001;25;1.89;Spain;['Spain'];Defensive Midfield;0;;;;;
+497;497;Aleksandar Sedlar;237499;€275k;Dec 8, 2025;Dec 13, 1991;34;1.8;Serbia;['Serbia', 'Jugoslawien (SFR)'];Centre-Back;0;;;;;
+498;498;Iván Gil;611075;€800k;Dec 30, 2025;Jan 18, 2000;26;1.68;Spain;[];Attacking Midfield;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2027
+499;499;Tanguy Nianzou;538996;€1.40m;Dec 12, 2025;Jun 7, 2002;23;1.91;France;[];Centre-Back;;Sevilla FC;;;Aug 17, 2022;Jun 30, 2027
+500;500;Manu Morlanes;335225;€2.40m;Dec 12, 2025;Jan 12, 1999;27;1.78;Spain;[];Central Midfield;;RCD Mallorca;;;Jul 1, 2023;Jun 30, 2028
+501;501;Abdoulaye Keita;949489;€200k;Dec 30, 2025;Sep 1, 2002;23;1.86;Spain;[];Left Winger;;Ponferradina;;;Jul 4, 2025;Jun 30, 2026
+502;502;Sergio Viera;1338984;€25k;Dec 30, 2025;May 8, 2005;20;;Spain;['Spain'];Attacking Midfield;0;;;;;
+503;503;Asier Osambela;1038512;€1.00m;Dec 12, 2025;Oct 30, 2004;21;1.86;Spain;['Spain'];Central Midfield;0;;;;;
+504;504;Pau Navarro;1061336;€10.00m;Mar 16, 2026;Apr 25, 2005;20;1.85;Spain;[];Right-Back;;Villarreal;;;Nov 1, 2024;Jun 30, 2030
+505;505;Unai García;197122;€500k;Mar 6, 2026;Feb 3, 1992;34;1.86;Spain;[];Centre-Back;;Panetolikos;;;Jul 1, 2025;Jun 30, 2026
+506;506;Aitor Gismera;646735;€250k;Dec 30, 2025;Feb 21, 2004;22;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+507;507;Aihen Muñoz;517842;€3.50m;Dec 12, 2025;Aug 16, 1997;28;1.75;Spain;[];Left-Back;;Real Sociedad;;;Jul 1, 2019;Jun 30, 2027
+508;508;Juan Cruz;585700;€2.00m;Mar 18, 2026;Apr 25, 2000;25;1.8;Spain;['Spain', 'Argentina'];Left Winger;0;;;;;
+509;509;Rafa Mir;361254;€4.00m;Dec 12, 2025;Jun 18, 1997;28;1.91;Spain;[];Centre-Forward;;Elche CF;;;Aug 17, 2025;Jun 30, 2026
+510;510;Guille Fernández;1050120;€3.00m;Dec 30, 2025;Jun 18, 2008;17;1.81;Spain;[];Central Midfield;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2027
+511;511;Sergi Domínguez;741258;€2.50m;Dec 22, 2025;Apr 1, 2005;20;1.91;Spain;['Spain'];Centre-Back;0;;;;;
+512;512;Giorgi Mamardashvili;502676;€28.00m;Dec 9, 2025;Sep 29, 2000;25;1.97;Georgia;['Georgia'];Goalkeeper;;Liverpool;;;Aug 27, 2024;Jun 30, 2031
+513;513;Rodrygo;412363;€50.00m;Mar 16, 2026;Jan 9, 2001;25;1.74;Brazil;['Spain', 'Brazil'];Right Winger;0;;;;;
+514;514;Borja Garcés;566036;;;Aug 6, 1999;26;1.83;Spain;[];Centre-Forward;;NK Kustosija;;;Sep 25, 2025;Jun 30, 2026
+515;515;Sergi Cardona;678406;€9.00m;Mar 16, 2026;Jul 8, 1999;26;1.86;Spain;[];Left-Back;;Villarreal;;;Jul 18, 2024;Jun 30, 2027
+516;516;Seydouba Cissé;543537;€3.00m;Dec 30, 2025;Feb 10, 2001;25;1.78;Guinea;[];Central Midfield;;CD Leganés;;;Jul 1, 2022;Jun 30, 2026
+517;517;Tajon Buchanan;638793;€12.00m;Mar 16, 2026;Feb 8, 1999;27;1.83;Canada;['Jamaica', 'Canada'];Right Winger;0;;;;;
+518;518;Selvi Clua;1061660;€300k;Dec 30, 2025;Jan 29, 2005;21;1.89;Spain;[];Defensive Midfield;;CD Mirandés;;;Jan 7, 2026;Jun 30, 2026
+519;519;Dani Parejo;59561;€1.20m;Dec 12, 2025;Apr 16, 1989;36;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+520;520;Andy Pelmard;494236;€2.00m;Dec 8, 2025;Mar 12, 2000;26;1.83;Madagascar;[];Centre-Back;;Jagiellonia;;;Sep 8, 2025;Jun 30, 2026
+521;521;Lucas Alcázar;709998;€800k;Mar 18, 2026;Jul 11, 2002;23;1.82;Spain;[];Left-Back;;Castellón;;;Jul 5, 2025;Jun 30, 2028
+522;522;Nico Williams;709187;€50.00m;Mar 16, 2026;Jul 12, 2002;23;1.81;Spain;[];Left Winger;;Athletic Club;;;Jul 1, 2021;Jun 30, 2035
+523;523;Mikel Vesga;300168;€1.50m;Dec 12, 2025;Apr 8, 1993;32;1.91;Spain;[];Defensive Midfield;;Athletic Club;;;Jul 1, 2016;Jun 30, 2027
+524;524;Thiago Ojeda;1030425;€600k;Dec 30, 2025;Jan 12, 2003;23;1.87;Argentina;['Argentina'];Central Midfield;0;;;;;
+525;525;Adrià Altimira;466807;€1.40m;Dec 12, 2025;Mar 28, 2001;24;1.7;Spain;['Spain'];Right-Back;0;;;;;
+526;526;Javi Guerra;834764;€25.00m;Dec 12, 2025;May 13, 2003;22;1.87;Spain;[];Central Midfield;;Valencia;;;Jul 1, 2023;Jun 30, 2029
+527;527;Abdoulaye Keita;949489;€200k;Dec 30, 2025;Sep 1, 2002;23;1.86;Spain;['Spain'];Left Winger;0;;;;;
+528;528;Walid Cheddira;521407;€2.30m;Dec 23, 2025;Jan 22, 1998;28;1.87;Morocco;['Morocco', 'Italy'];Centre-Forward;0;;;;;
+529;529;Álvaro García Pascual;1305792;€1.20m;Mar 18, 2026;Jul 21, 2002;23;1.9;Spain;[];Centre-Forward;;Cádiz CF;;;Jul 4, 2025;Jun 30, 2028
+530;530;Nicolas Pépé;343052;€6.00m;Dec 12, 2025;May 29, 1995;30;1.83;Cote d'Ivoire;"['France', ""Cote d'Ivoire""]";Right Winger;0;;;;;
+531;531;Sergio Ruiz;1179293;€25k;Dec 30, 2025;Apr 12, 2006;19;1.75;Spain;['Spain'];Left Winger;0;;;;;
+532;532;Diego Kochen;938144;€500k;Dec 30, 2025;Mar 19, 2006;20;1.9;United States;['Peru', 'United States'];Goalkeeper;;Barça Atlètic;;;Jan 31, 2024;Jun 30, 2028
+533;533;Youssef Enríquez;741289;€5.00m;Dec 12, 2025;Oct 7, 2005;20;1.7;Morocco;[];Left-Back;;Alavés;;;Jul 16, 2025;Jun 30, 2029
+534;534;Juan Soriano;251892;€1.00m;Dec 30, 2025;Aug 23, 1997;28;1.85;Spain;['Spain'];Goalkeeper;;CD Leganés;;;Jul 2, 2024;Jun 30, 2027
+535;535;Hugo Novoa;668276;€800k;Mar 18, 2026;Jan 24, 2003;23;1.82;Spain;[];Right-Back;;CD Mirandés;;;Sep 1, 2025;Jun 30, 2026
+536;536;Carles Aleñá;284854;€3.50m;Mar 16, 2026;Jan 5, 1998;28;1.8;Spain;['Spain'];Central Midfield;0;;;;;
+537;537;Antonio Candela;392881;€900k;Dec 11, 2025;Apr 27, 2000;25;1.85;Italy;['Italy'];Right-Back;;FC Empoli;;;Jan 30, 2026;Jun 30, 2026
+538;538;James Rodríguez;88103;€2.00m;Dec 29, 2025;Jul 12, 1991;34;1.8;Colombia;['Colombia', 'Spain'];Attacking Midfield;0;;;;;
+539;539;Jon García;941080;€300k;Dec 30, 2025;Jan 28, 2003;23;1.82;Spain;[];Central Midfield;;Osasuna B;;;Jul 1, 2023;Jun 30, 2026
+540;540;Iñigo Arguibide;1065442;€800k;Mar 18, 2026;Apr 19, 2005;20;1.78;Spain;['Spain'];Right-Back;0;;;;;
+541;541;Moi Gómez;175449;€1.80m;Dec 12, 2025;Jun 23, 1994;31;1.76;Spain;['Spain'];Attacking Midfield;0;;;;;
+542;542;Fernando Pacheco;172015;€700k;Dec 18, 2025;May 18, 1992;33;1.87;Spain;[];Goalkeeper;;Al-Fateh;;;Sep 10, 2025;Jun 30, 2026
+543;543;Jesús Vallejo;251896;€1.00m;Dec 30, 2025;Jan 5, 1997;29;1.84;Spain;[];Centre-Back;;Albacete;;;Jul 14, 2025;Jun 30, 2027
+544;544;Juan Carlos;120705;€100k;Dec 12, 2025;Jan 20, 1988;38;1.87;Spain;['Spain'];Goalkeeper;;Girona;;;Jul 1, 2019;Jun 30, 2026
+545;545;Alejandro Rego;834491;€3.00m;Dec 12, 2025;Jun 11, 2003;22;1.92;Spain;['Spain'];Central Midfield;0;;;;;
+546;546;Hamari Traoré;297070;€1.80m;Dec 15, 2025;Jan 27, 1992;34;1.75;Mali;['Mali'];Right-Back;0;;;;;
+547;547;Óscar de Marcos;96718;;;Apr 14, 1989;36;1.82;Spain;['Spain'];Right-Back;;Retired;Athletic Club;Jul 1, 2025;;
+548;548;Rodrygo;412363;€50.00m;Mar 16, 2026;Jan 9, 2001;25;1.74;Brazil;[];Right Winger;;Real Madrid;;;Jul 1, 2019;Jun 30, 2028
+549;549;Igor Zubeldia;355628;€9.00m;Dec 12, 2025;Mar 30, 1997;28;1.81;Spain;['Spain'];Centre-Back;0;;;;;
+550;550;Marc Roca;336869;€4.00m;Dec 12, 2025;Nov 26, 1996;29;1.84;Spain;['Spain'];Defensive Midfield;0;;;;;
+551;551;David Argüelles;719720;€150k;Nov 14, 2025;Jan 10, 2002;24;1.75;Spain;[];Left-Back;;CD Lealtad;;;Jan 1, 2026;Jun 30, 2026
+552;552;Alberto Risco;1255616;€200k;Dec 30, 2025;Aug 30, 2005;20;;Spain;[];Attacking Midfield;;Getafe CF B;;;Jul 1, 2024;Jun 30, 2026
+553;553;Sheraldo Becker;188888;€1.50m;Dec 12, 2025;Feb 9, 1995;31;1.8;Suriname;[];Left Winger;;Mainz;;;Feb 2, 2026;Jun 30, 2026
+554;554;Miguel Román;892932;€15.00m;Mar 16, 2026;Dec 26, 2002;23;1.78;Spain;[];Central Midfield;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2028
+555;555;Adrián Embarba;288318;€700k;Mar 18, 2026;May 7, 1992;33;1.73;Spain;[];Right Winger;;UD Almería;;;Aug 24, 2022;Jun 30, 2028
+556;556;Jan Oblak;121483;€17.00m;Dec 12, 2025;Jan 7, 1993;33;1.88;Slovenia;['Slovenia'];Goalkeeper;;Atlético;;;Jul 16, 2014;Jun 30, 2028
+557;557;David Jiménez;935281;€5.00m;Mar 18, 2026;Mar 14, 2004;22;1.7;Spain;['Spain'];Right-Back;;RM Castilla;;;Jul 1, 2024;Jun 30, 2027
+558;558;Miguel Benedi;1064644;;;May 13, 2003;22;;Spain;['Spain'];Goalkeeper;;AD Alcorcón B;;;Jul 1, 2025;Jun 30, 2026
+559;559;Roberto Fernández;720518;€10.00m;Dec 12, 2025;Jul 3, 2002;23;1.86;Spain;[];Centre-Forward;;Espanyol;;;Jul 1, 2025;Jun 30, 2031
+560;560;Arturo Rodríguez;1365799;€25k;Dec 30, 2025;Aug 5, 2006;19;;Spain;['Spain'];Right Winger;0;;;;;
+561;561;Pablo Maffeo;251876;€5.00m;Dec 12, 2025;Jul 12, 1997;28;1.72;Argentina;[];Right-Back;;RCD Mallorca;;;Jul 1, 2022;Jun 30, 2027
+562;562;Asier Villalibre;251897;€2.00m;Dec 30, 2025;Sep 30, 1997;28;1.82;Spain;['Spain'];Centre-Forward;;Racing;;;Aug 9, 2025;Jun 30, 2026
+563;563;Adrián Molina;1322790;€25k;Dec 30, 2025;Jul 22, 2005;20;;Spain;['Spain'];Goalkeeper;;Rayo B;;;Jul 1, 2024;Jun 30, 2026
+564;564;Álex Sola;434990;€1.50m;Mar 18, 2026;Jun 9, 1999;26;1.78;Spain;['Spain'];Right Winger;0;;;;;
+565;565;Abel Bretones;658115;€4.00m;Mar 16, 2026;Aug 21, 2000;25;1.88;Spain;[];Left-Back;;CA Osasuna;;;Jul 5, 2024;Jun 30, 2029
+566;566;Jesús Owono;631693;€900k;Dec 30, 2025;Mar 1, 2001;25;1.86;Equatorial Guinea;[];Goalkeeper;;FC Andorra;;;Jul 13, 2025;Jun 30, 2026
+567;567;Dani Cárdenas;397676;€1.80m;Dec 12, 2025;Mar 28, 1997;28;1.86;Spain;[];Goalkeeper;;Rayo Vallecano;;;Aug 18, 2023;Jun 30, 2027
+568;568;Hugo de Llanos;948260;€400k;Mar 18, 2026;Mar 18, 2005;21;1.75;Spain;[];Left Winger;;RM Castilla;;;Jul 1, 2024;Jun 30, 2027
+569;569;Yangel Herrera;378293;€9.00m;Dec 12, 2025;Jan 7, 1998;28;1.84;Venezuela;['Spain', 'Venezuela'];Central Midfield;0;;;;;
+570;570;Mouctar Diakhaby;346289;€2.00m;Mar 16, 2026;Dec 19, 1996;29;1.92;Guinea;['Guinea', 'France'];Centre-Back;0;;;;;
+571;571;Cristhian Stuani;59323;€800k;Mar 16, 2026;Oct 12, 1986;39;1.84;Uruguay;['Uruguay', 'Italy'];Centre-Forward;0;;;;;
+572;572;Tomás Conechny;401571;€2.50m;Mar 18, 2026;Mar 30, 1998;27;1.76;Argentina;[];Left Winger;;Racing Club;;;Jul 11, 2025;Dec 31, 2029
+573;573;Juan Cruz;169497;€1.20m;Dec 12, 2025;Jul 28, 1992;33;1.82;Spain;[];Left-Back;;CA Osasuna;;;Aug 30, 2020;Jun 30, 2026
+574;574;Ramón Martínez;882710;€1.00m;Dec 12, 2025;Oct 22, 2002;23;1.85;Spain;[];Centre-Back;;Real Valladolid;;;Jan 7, 2026;Jun 30, 2029
+575;575;Ángel Ortiz;933908;€4.00m;Dec 12, 2025;Jul 25, 2004;21;1.67;Spain;['Spain'];Right-Back;0;;;;;
+576;576;Rubén Iranzo;668212;€600k;Mar 18, 2026;Mar 14, 2003;23;1.82;Spain;['Spain'];Right-Back;0;;;;;
+577;577;Benito Ramírez;282672;€300k;Mar 18, 2026;Jul 11, 1995;30;1.79;Spain;[];Left Winger;;FC Cartagena;;;Jan 19, 2026;Jun 30, 2026
+578;578;Joan García;561613;€40.00m;Mar 16, 2026;May 4, 2001;24;1.94;Spain;[];Goalkeeper;;Barcelona;;;Jul 1, 2025;Jun 30, 2031
+579;579;Jorge Herrando;555500;€4.00m;Mar 16, 2026;Feb 28, 2001;25;1.92;Spain;['Spain'];Centre-Back;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2030
+580;580;Nabil Aberdin;908621;€600k;Dec 16, 2025;Aug 23, 2002;23;1.92;Morocco;[];Centre-Back;;Al-Jazira;;;Jan 14, 2026;Jun 30, 2026
+581;581;Abel Bretones;658115;€4.00m;Mar 16, 2026;Aug 21, 2000;25;1.88;Spain;['Spain'];Left-Back;0;;;;;
+582;582;Ricardo Rodríguez;86784;€1.50m;Dec 12, 2025;Aug 25, 1992;33;1.82;Switzerland;['Switzerland', 'Chile'];Left-Back;0;;;;;
+583;583;Sergio Herrera;248738;€3.00m;Dec 12, 2025;Jun 5, 1993;32;1.92;Spain;[];Goalkeeper;;CA Osasuna;;;Jul 12, 2017;Jun 30, 2028
+584;584;Álex Berenguer;338425;€5.00m;Dec 12, 2025;Jul 4, 1995;30;1.75;Spain;['Spain'];Left Winger;0;;;;;
+585;585;Gerard Moreno;177467;€2.80m;Dec 12, 2025;Apr 7, 1992;33;1.8;Spain;[];Centre-Forward;;Villarreal;;;Jul 1, 2018;Jun 30, 2027
+586;586;Fran García;341264;€12.00m;Mar 16, 2026;Aug 14, 1999;26;1.69;Spain;[];Left-Back;;Real Madrid;;;Jul 1, 2023;Jun 30, 2027
+587;587;Oriol Romeu;66100;€700k;Dec 3, 2025;Sep 24, 1991;34;1.83;Spain;[];Defensive Midfield;;Southampton;;;Nov 6, 2025;Jun 30, 2026
+588;588;Kike García;93936;€800k;Dec 12, 2025;Nov 25, 1989;36;1.86;Spain;['Spain'];Centre-Forward;;Espanyol;;;Jul 1, 2025;Jun 30, 2027
+589;589;Iker Losada;632741;€1.40m;Dec 12, 2025;Aug 1, 2001;24;1.75;Spain;['Spain'];Second Striker;0;;;;;
+590;590;Borja Mayoral;298976;€7.50m;Dec 12, 2025;Apr 5, 1997;28;1.82;Spain;[];Centre-Forward;;Getafe;;;Aug 1, 2022;Jun 30, 2027
+591;591;Yellu Santiago;941869;€900k;Dec 23, 2025;May 25, 2004;21;1.92;Spain;['Spain'];Central Midfield;;Arouca;;;Jan 9, 2026;Jun 30, 2026
+592;592;Luka Sucic;502722;€10.00m;Dec 12, 2025;Sep 8, 2002;23;1.85;Croatia;[];Central Midfield;;Real Sociedad;;;Aug 2, 2024;Jun 30, 2029
+593;593;Lucas Torró;213670;€2.80m;Dec 12, 2025;Jul 19, 1994;31;1.9;Spain;['Spain'];Defensive Midfield;0;;;;;
+594;594;Mario Martín;948273;€10.00m;Mar 16, 2026;Mar 5, 2004;22;1.77;Spain;['Spain'];Defensive Midfield;0;;;;;
+595;595;Joel Roca;895326;€5.00m;Dec 12, 2025;Jun 7, 2005;20;1.76;Spain;['Spain'];Left Winger;0;;;;;
+596;596;Carlos Domínguez;636093;€3.00m;Dec 12, 2025;Feb 11, 2001;25;1.87;Spain;['Spain'];Centre-Back;;Celta de Vigo;;;Jan 1, 2023;Jun 30, 2028
+597;597;Antonio Espigares;886047;€500k;Dec 18, 2025;Sep 5, 2004;21;1.87;Spain;['Spain'];Centre-Back;;Gil Vicente;;;Jul 1, 2025;Jun 30, 2029
+598;598;Gabriel Misehouy;646698;€900k;Dec 12, 2025;Jul 18, 2005;20;1.73;Netherlands;[];Attacking Midfield;;Aris Saloniki;;;Jul 21, 2025;Jun 30, 2026
+599;599;Iago Parente;1061260;€150k;Dec 30, 2025;Feb 25, 2006;20;1.8;Spain;['Spain'];Centre-Back;;Valladolid Prom;;;Jul 1, 2023;Jun 30, 2026
+600;600;Mario Rivas;1176520;€600k;Mar 18, 2026;Mar 16, 2007;19;;Spain;['Spain'];Centre-Back;;RM Castilla;;;Nov 1, 2024;Jun 30, 2027
+601;601;Saúl Ñíguez;148928;€2.00m;Mar 12, 2026;Nov 21, 1994;31;1.84;Spain;[];Central Midfield;;Flamengo;;;Jul 23, 2025;Dec 31, 2028
+602;602;Mateo Flores;1061283;€1.00m;Dec 18, 2025;Apr 7, 2004;21;1.78;Spain;[];Central Midfield;;Arouca;;;Jul 26, 2025;Jun 30, 2026
+603;603;Rafel Bauzà;1178721;€1.00m;Mar 18, 2026;Jan 30, 2005;21;1.83;Spain;[];Central Midfield;;CD Mirandés;;;Aug 25, 2025;Jun 30, 2026
+604;604;Kike Pérez;527698;€2.40m;Mar 17, 2026;Feb 14, 1997;29;1.84;Spain;[];Central Midfield;;Venezia;;;Jan 29, 2025;Jun 30, 2027
+605;605;Kelechi Iheanacho;295330;€3.00m;Mar 5, 2026;Oct 3, 1996;29;1.85;Nigeria;['Nigeria'];Centre-Forward;0;;;;;
+606;606;Thierry Correia;367466;€3.00m;Dec 12, 2025;Mar 9, 1999;27;1.76;Portugal;[];Right-Back;;Valencia;;;Sep 2, 2019;Jun 30, 2026
+607;607;Stole Dimitrievski;165467;€2.00m;Dec 12, 2025;Dec 25, 1993;32;1.88;North Macedonia;['Macedonia', 'Spain', 'North Macedonia'];Goalkeeper;;Valencia;;;Jul 1, 2024;Jun 30, 2026
+608;608;Unai Núñez;338285;€3.50m;Dec 23, 2025;Jan 30, 1997;29;1.86;Spain;['Spain'];Centre-Back;;Valencia;;;Jan 24, 2026;Jun 30, 2026
+609;609;Johnny Cardoso;689505;€22.00m;Dec 12, 2025;Sep 20, 2001;24;1.86;United States;['Italy', 'United States'];Central Midfield;0;;;;;
+610;610;Manu González;1225038;€300k;Mar 18, 2026;Apr 18, 2007;18;;Spain;['Spain'];Goalkeeper;;Betis Deportivo;;;Jul 1, 2025;Jun 30, 2028
+611;611;Jon Magunazelaia;625655;€900k;Dec 30, 2025;Jul 13, 2001;24;1.8;Spain;[];Attacking Midfield;;SD Eibar;;;Jul 1, 2025;Jun 30, 2028
+612;612;Isco;85288;€4.00m;Dec 12, 2025;Apr 21, 1992;33;1.76;Spain;['Spain'];Attacking Midfield;0;;;;;
+613;613;Carlos Giménez;856136;€200k;Dec 30, 2025;Feb 18, 2003;23;1.8;Spain;[];Right-Back;;PAOK Saloniki B;;;Jan 21, 2026;Jun 30, 2026
+614;614;Giuliano Simeone;742201;€40.00m;Dec 12, 2025;Dec 18, 2002;23;1.73;Argentina;[];Right Winger;;Atlético;;;Jul 1, 2022;Jun 30, 2030
+615;615;Álex Serradell;1062525;€200k;Dec 30, 2025;Aug 14, 2002;23;1.89;Spain;['Spain'];Centre-Back;0;;;;;
+616;616;Jesús Vallejo;251896;€1.00m;Dec 30, 2025;Jan 5, 1997;29;1.84;Spain;['Spain'];Centre-Back;0;;;;;
+617;617;Wojciech Szczęsny;44058;€900k;Dec 12, 2025;Apr 18, 1990;35;1.95;Poland;[];Goalkeeper;;Barcelona;;;Oct 2, 2024;Jun 30, 2027
+618;618;Oriol Comas;908234;€25k;Mar 18, 2026;Aug 26, 2003;22;1.9;Spain;['Spain'];Centre-Back;;Girona FC B;;;Jan 7, 2026;Jun 30, 2026
+619;619;Etienne Eto'o;707359;€300k;Dec 30, 2025;Aug 18, 2002;23;1.91;Cameroon;['Spain', 'Cameroon'];Centre-Forward;;Villarreal CF B;;;Jan 16, 2026;Jun 30, 2026
+620;620;Antony;602105;€40.00m;Mar 16, 2026;Feb 24, 2000;26;1.72;Brazil;[];Right Winger;;Real Betis;;;Sep 1, 2025;Jun 30, 2030
+621;621;Manu Sánchez;618809;€6.00m;Dec 12, 2025;Aug 24, 2000;25;1.71;Spain;[];Left-Back;;Levante;;;Jul 25, 2025;Jun 30, 2026
+622;622;Aihen Muñoz;517842;€3.50m;Dec 12, 2025;Aug 16, 1997;28;1.75;Spain;['Spain'];Left-Back;;Real Sociedad;;;Jul 1, 2019;Jun 30, 2027
+623;623;Matija Nastasić;143559;€700k;Dec 18, 2025;Mar 28, 1993;32;1.87;Serbia;['Yugoslavia (Republic)', 'Serbia'];Centre-Back;;Al-Ula;;;Aug 21, 2025;-
+624;624;Kiko Femenía;76467;€800k;Dec 12, 2025;Feb 2, 1991;35;1.74;Spain;['Spain'];Right-Back;0;;;;;
+625;625;Marvin Park;603940;€1.20m;Dec 30, 2025;Jul 3, 2000;25;1.77;Spain;[];Right-Back;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+626;626;Xavi Pleguezuelo;971774;€100k;Dec 30, 2025;Jan 14, 2003;23;1.78;Spain;[];Left-Back;;RCD Espanyol B;;;Aug 27, 2025;Jun 30, 2026
+627;627;Jesús Vázquez;623024;€4.00m;Mar 16, 2026;Jan 2, 2003;23;1.82;Spain;['Spain'];Left-Back;0;;;;;
+628;628;Logan Costa;484988;€18.00m;Dec 12, 2025;Apr 1, 2001;24;1.9;Cape Verde;['Cape Verde', 'France'];Centre-Back;;Villarreal;;;Aug 22, 2024;Jun 30, 2030
+629;629;Manu Sánchez;618809;€6.00m;Dec 12, 2025;Aug 24, 2000;25;1.71;Spain;['Spain'];Left-Back;0;;;;;
+630;630;Dani Ceballos;319745;€8.00m;Dec 12, 2025;Aug 7, 1996;29;1.79;Spain;[];Central Midfield;;Real Madrid;;;Jul 14, 2017;Jun 30, 2027
+631;631;Diego Llorente;246291;€3.00m;Dec 12, 2025;Aug 16, 1993;32;1.86;Spain;[];Centre-Back;;Real Betis;;;Jul 9, 2024;Jun 30, 2028
+632;632;Héctor Bellerín;191217;€2.50m;Dec 12, 2025;Mar 19, 1995;31;1.78;Spain;[];Right-Back;;Real Betis;;;Jul 18, 2023;Jun 30, 2028
+633;633;Germán Valera;548188;€6.00m;Mar 16, 2026;Mar 16, 2002;24;1.7;Spain;['Spain', 'Lithuania'];Left Winger;0;;;;;
+634;634;Sergi Canós;251845;€800k;Dec 30, 2025;Feb 2, 1997;29;1.77;Spain;[];Left Winger;;Real Valladolid;;;Sep 1, 2025;Jun 30, 2026
+635;635;Rayane Belaid;945500;€600k;Dec 30, 2025;Feb 11, 2005;21;1.75;Spain;[];Attacking Midfield;;Atl. Madrileño;;;Jul 1, 2024;Jun 30, 2029
+636;636;Chimy Ávila;167721;€1.50m;Dec 12, 2025;Feb 6, 1994;32;1.72;Argentina;['Spain', 'Argentina'];Centre-Forward;0;;;;;
+637;637;Carlos Vicente;540536;€7.00m;Dec 12, 2025;Apr 23, 1999;26;1.79;Spain;['Spain'];Right Winger;0;;;;;
+638;638;Gerónimo Spina;1158985;€200k;Dec 30, 2025;Feb 9, 2005;21;1.87;Argentina;[];Centre-Back;;Atl. Madrileño;;;Jul 1, 2024;Jun 30, 2027
+639;639;Raúl Albiol;15452;€800k;Dec 23, 2025;Sep 4, 1985;40;1.9;Spain;['Spain'];Centre-Back;;Pisa;;;Sep 2, 2025;Jun 30, 2026
+640;640;Luis Rioja;278837;€2.00m;Dec 12, 2025;Oct 16, 1993;32;1.76;Spain;[];Right Winger;;Valencia;;;Aug 22, 2024;Jun 30, 2027
+641;641;Adu Ares;895480;€1.20m;Mar 18, 2026;Oct 12, 2001;24;1.83;Spain;['Spain', 'Guinea-Bissau'];Right Winger;0;;;;;
+642;642;Sergi Domínguez;741258;€2.50m;Dec 22, 2025;Apr 1, 2005;20;1.91;Spain;[];Centre-Back;;Dinamo Zagreb;;;Jul 1, 2025;Jun 30, 2029
+643;643;Egoitz Muñoz;1064391;€200k;Dec 30, 2025;Apr 14, 2004;21;;Spain;[];Right-Back;;Alavés B;;;Jul 1, 2023;Jun 30, 2027
+644;644;Javi Hernández;422466;€2.00m;Dec 30, 2025;May 2, 1998;27;1.8;Spain;[];Left-Back;;Panathinaikos;;;Feb 2, 2026;Jun 30, 2026
+645;645;Kylian Mbappé;342229;€200.00m;Dec 12, 2025;Dec 20, 1998;27;1.8;France;[];Centre-Forward;;Real Madrid;;;Jul 1, 2024;Jun 30, 2029
+646;646;Josito González;1411351;€25k;Dec 30, 2025;Mar 27, 2006;20;;Venezuela;['Spain', 'Venezuela'];Attacking Midfield;;Las Palmas Atl.;;;Jul 1, 2025;Jun 30, 2027
+647;647;Andriy Lunin;404839;€15.00m;Dec 12, 2025;Feb 11, 1999;27;1.91;Ukraine;['Ukraine'];Goalkeeper;;Real Madrid;;;Jul 1, 2018;Jun 30, 2030
+648;648;Julen Agirrezabala;625014;€15.00m;Dec 12, 2025;Dec 26, 2000;25;1.87;Spain;[];Goalkeeper;;Valencia;;;Jul 11, 2025;Jun 30, 2026
+649;649;Álex Padilla;834483;€3.00m;Dec 12, 2025;Sep 1, 2003;22;1.9;Mexico;[];Goalkeeper;;Athletic Club;;;Jul 1, 2024;Jun 30, 2029
+650;650;Nahuel Tenaglia;533568;€3.00m;Dec 12, 2025;Feb 21, 1996;30;1.81;Argentina;['Argentina', 'Italy'];Right-Back;0;;;;;
+651;651;Sergio Carreira;545647;€8.00m;Mar 16, 2026;Oct 13, 2000;25;1.7;Spain;[];Right-Back;;Celta de Vigo;;;Jul 1, 2021;Jun 30, 2029
+652;652;Iñigo Martínez;158863;€4.50m;Dec 18, 2025;May 17, 1991;34;1.82;Spain;['Spain'];Centre-Back;;Al-Nassr;;;Aug 10, 2025;Jun 30, 2026
+653;653;Juanmi;126737;€1.20m;Dec 12, 2025;May 20, 1993;32;1.72;Spain;[];Left Winger;;Getafe;;;Jul 1, 2025;Jun 30, 2027
+654;654;Eric Bailly;286384;€1.50m;Dec 12, 2025;Apr 12, 1994;31;1.87;Cote d'Ivoire;[];Centre-Back;;Real Oviedo;;;Aug 18, 2025;Jun 30, 2027
+655;655;Omar Sadik;869458;€800k;Mar 23, 2026;Mar 22, 2004;22;1.85;Morocco;[];Centre-Forward;;Pau FC;;;Jul 9, 2025;Jun 30, 2026
+656;656;Thibaut Courtois;108390;€18.00m;Dec 12, 2025;May 11, 1992;33;2.0;Belgium;[];Goalkeeper;;Real Madrid;;;Aug 9, 2018;Jun 30, 2027
+657;657;Jesús Owono;631693;€900k;Dec 30, 2025;Mar 1, 2001;25;1.86;Equatorial Guinea;['Equatorial Guinea', 'Spain'];Goalkeeper;;FC Andorra;;;Jul 13, 2025;Jun 30, 2026
+658;658;Carlos Protesoni;431190;€1.00m;Dec 12, 2025;Mar 30, 1998;27;1.85;Uruguay;['Uruguay', 'Italy'];Defensive Midfield;0;;;;;
+659;659;Vicente Guaita;64399;€400k;Dec 23, 2025;Jan 10, 1987;39;1.9;Spain;['Spain'];Goalkeeper;;Without Club;Parma;Jan 23, 2026;;
+660;660;Dimitri Foulquier;170472;€1.00m;Mar 16, 2026;Mar 23, 1993;33;1.83;Guadeloupe;['Guadeloupe', 'France'];Right-Back;0;;;;;
+661;661;Rudy Kohon;917101;€500k;Dec 18, 2025;May 23, 2004;21;1.87;France;"['France', ""Cote d'Ivoire""]";Centre-Back;0;;;;;
+662;662;Alberto Marí;634105;€800k;Dec 30, 2025;Jul 11, 2001;24;1.83;Spain;[];Centre-Forward;;CD Mirandés;;;Sep 1, 2025;Jun 30, 2026
+663;663;Luka Romero;769063;€3.20m;Dec 29, 2025;Nov 18, 2004;21;1.69;Argentina;['Spain', 'Argentina', 'Mexico'];Right Winger;0;;;;;
+664;664;Jean Ives Valou;1305564;€600k;Mar 18, 2026;Dec 22, 2005;20;1.88;Cote d'Ivoire;[];Centre-Back;;Villarreal CF B;;;Jul 1, 2024;Jun 30, 2030
+665;665;Takuma Asano;245744;€1.80m;Dec 12, 2025;Nov 10, 1994;31;1.73;Japan;['Japan'];Right Winger;0;;;;;
+666;666;Clément Lenglet;182904;€5.00m;Mar 16, 2026;Jun 17, 1995;30;1.86;France;[];Centre-Back;;Atlético;;;Jun 9, 2025;Jun 30, 2028
+667;667;Julen Agirrezabala;625014;€15.00m;Dec 12, 2025;Dec 26, 2000;25;1.87;Spain;['Spain'];Goalkeeper;;Valencia;;;Jul 11, 2025;Jun 30, 2026
+668;668;Sergi Altimira;466801;€20.00m;Dec 12, 2025;Aug 25, 2001;24;1.88;Spain;[];Central Midfield;;Real Betis;;;Aug 11, 2023;Jun 30, 2029
+669;669;Iago Aspas;72047;€1.80m;Dec 12, 2025;Aug 1, 1987;38;1.76;Spain;[];Centre-Forward;;Celta de Vigo;;;Jul 7, 2015;Jun 30, 2026
+670;670;Alejandro Catena;449796;€2.80m;Dec 12, 2025;Oct 28, 1994;31;1.94;Spain;['Spain'];Centre-Back;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2028
+671;671;Randy Nteka;560483;€1.20m;Dec 12, 2025;Dec 6, 1997;28;1.89;Angola;[];Attacking Midfield;;Rayo Vallecano;;;Jul 28, 2021;Jun 30, 2028
+672;672;Marc Bartra;99922;€1.00m;Dec 12, 2025;Jan 15, 1991;35;1.84;Spain;['Spain'];Centre-Back;0;;;;;
+673;673;Peter Federico;710004;€1.50m;Dec 30, 2025;Jul 25, 2002;23;1.8;Dominican Republic;[];Right Winger;;Real Valladolid;;;Sep 1, 2025;Jun 30, 2026
+674;674;Alassane Diatta;1249340;€500k;Mar 18, 2026;May 14, 2005;20;1.9;Senegal;['Senegal'];Central Midfield;;Villarreal CF B;;;Jul 1, 2024;Jun 30, 2030
+675;675;Thibaut Courtois;108390;€18.00m;Dec 12, 2025;May 11, 1992;33;2.0;Belgium;['Belgium'];Goalkeeper;;Real Madrid;;;Aug 9, 2018;Jun 30, 2027
+676;676;Valery Fernández;331496;€700k;Mar 18, 2026;Nov 23, 1999;26;1.82;Spain;['Spain'];Right Winger;0;;;;;
+677;677;Álex Berenguer;338425;€5.00m;Dec 12, 2025;Jul 4, 1995;30;1.75;Spain;[];Left Winger;;Athletic Club;;;Oct 2, 2020;Jun 30, 2027
+678;678;Marc Roca;336869;€4.00m;Dec 12, 2025;Nov 26, 1996;29;1.84;Spain;[];Defensive Midfield;;Real Betis;;;Jul 1, 2024;Jun 30, 2029
+679;679;Juan Cruz;585700;€2.00m;Mar 18, 2026;Apr 25, 2000;25;1.8;Spain;[];Left Winger;;CD Leganés;;;Jul 1, 2024;Jun 30, 2029
+680;680;José María Giménez;250845;€12.00m;Mar 16, 2026;Jan 20, 1995;31;1.85;Uruguay;['Spain', 'Uruguay'];Centre-Back;;Atlético;;;Apr 25, 2013;Jun 30, 2028
+681;681;Ilias Akhomach;709969;€12.00m;Dec 12, 2025;Apr 16, 2004;21;1.75;Morocco;[];Right Winger;;Rayo Vallecano;;;Jan 21, 2026;Jun 30, 2026
+682;682;Cucho Hernández;459463;€18.00m;Dec 12, 2025;Apr 20, 1999;26;1.76;Colombia;[];Centre-Forward;;Real Betis;;;Feb 3, 2025;Jun 30, 2030
+683;683;Stefan Bajcetic;864799;€5.00m;Mar 9, 2026;Oct 22, 2004;21;1.85;Spain;['Spain', 'Serbia'];Defensive Midfield;0;;;;;
+684;684;Juan Iglesias;390688;€5.00m;Dec 12, 2025;Jul 3, 1998;27;1.87;Spain;[];Right-Back;;Getafe;;;Jul 1, 2021;Jun 30, 2026
+685;685;Álvaro Odriozola;280730;€800k;Dec 12, 2025;Dec 14, 1995;30;1.76;Spain;[];Right-Back;;Real Sociedad;;;Sep 1, 2023;Jun 30, 2029
+686;686;Lucas Vázquez;221316;€2.50m;Dec 19, 2025;Jul 1, 1991;34;1.73;Spain;[];Right-Back;;Leverkusen;;;Aug 26, 2025;Jun 30, 2027
+687;687;Víctor Mollejo;505673;€300k;Dec 30, 2025;Jan 21, 2001;25;1.77;Spain;['Spain'];Right Winger;0;;;;;
+688;688;Jiri Letacek;339079;€2.00m;Dec 12, 2025;Jan 9, 1999;27;1.96;Czech Republic;['Czech Republic'];Goalkeeper;;Getafe;;;Jul 13, 2024;Jun 30, 2028
+689;689;Amath Ndiaye;339820;€800k;Mar 18, 2026;Jul 16, 1996;29;1.73;Senegal;[];Right Winger;;Real Valladolid;;;Jul 1, 2024;Jun 30, 2027
+690;690;Andreas Christensen;196948;€9.00m;Mar 16, 2026;Apr 10, 1996;29;1.87;Denmark;['Denmark'];Centre-Back;0;;;;;
+691;691;Ángel Fortuño;628487;€300k;Dec 12, 2025;Oct 5, 2001;24;1.83;Spain;['Spain'];Goalkeeper;;Espanyol;;;Jul 1, 2024;Jun 30, 2027
+692;692;Min-su Kim;1108203;€3.00m;Mar 18, 2026;Jan 19, 2006;20;1.77;Korea, South;['Korea, South'];Left Winger;0;;;;;
+693;693;Adrián Niño;926849;€1.00m;Dec 30, 2025;Jun 19, 2004;21;1.84;Spain;[];Centre-Forward;;Málaga CF;;;Jul 15, 2025;Jun 30, 2029
+694;694;Ramón Terrats;783396;€3.00m;Dec 12, 2025;Oct 18, 2000;25;1.81;Spain;['Spain'];Central Midfield;0;;;;;
+695;695;Marvin Park;603940;€1.20m;Dec 30, 2025;Jul 3, 2000;25;1.77;Spain;['Spain'];Right-Back;0;;;;;
+696;696;Iván Jaime;610335;€5.00m;Dec 11, 2025;Sep 26, 2000;25;1.8;Spain;['Spain'];Attacking Midfield;0;;;;;
+697;697;Antonio Raíllo;278296;€1.50m;Dec 12, 2025;Oct 8, 1991;34;1.87;Spain;[];Centre-Back;;RCD Mallorca;;;Jul 1, 2016;Jun 30, 2027
+698;698;Rafa Mir;361254;€4.00m;Dec 12, 2025;Jun 18, 1997;28;1.91;Spain;['Spain'];Centre-Forward;0;;;;;
+699;699;Javier Manquillo;162029;;;May 5, 1994;31;1.78;Spain;['Spain'];Right-Back;0;;;;;
+700;700;Ander Astralaga;709955;€800k;Dec 30, 2025;Mar 3, 2004;22;1.9;Spain;['Spain'];Goalkeeper;;Granada CF;;;Jul 2, 2025;Jun 30, 2026
+701;701;Antonio Blanco;495621;€10.00m;Dec 12, 2025;Jul 23, 2000;25;1.76;Spain;['Spain'];Defensive Midfield;0;;;;;
+702;702;Lucas Vázquez;221316;€2.50m;Dec 19, 2025;Jul 1, 1991;34;1.73;Spain;['Spain'];Right-Back;0;;;;;
+703;703;Nobel Mendy;1034853;€6.00m;Dec 12, 2025;Sep 3, 2004;21;1.87;Senegal;['Guinea-Bissau', 'Senegal'];Centre-Back;0;;;;;
+704;704;Dinko Horkas;357770;€2.50m;Mar 18, 2026;Mar 10, 1999;27;1.89;Croatia;[];Goalkeeper;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+705;705;Álvaro Odriozola;280730;€800k;Dec 12, 2025;Dec 14, 1995;30;1.76;Spain;['Spain'];Right-Back;;Real Sociedad;;;Sep 1, 2023;Jun 30, 2029
+706;706;Coke Carrillo;581640;€200k;Dec 30, 2025;Jan 7, 2002;24;1.88;Spain;[];Goalkeeper;;Celta Fortuna;;;Aug 3, 2022;Jun 30, 2029
+707;707;Ilias Kostis;614988;€300k;Mar 18, 2026;Feb 27, 2003;23;1.88;Greece;['Cyprus', 'Greece'];Centre-Back;0;;;;;
+708;708;Javi Sánchez;340853;€800k;Dec 30, 2025;Mar 14, 1997;29;1.89;Spain;['Spain'];Centre-Back;;Arouca;;;Jan 5, 2026;Jun 30, 2026
+709;709;Yvan Neyou;469669;€2.50m;Dec 12, 2025;Jan 3, 1997;29;1.8;Cameroon;['Cameroon', 'France'];Defensive Midfield;0;;;;;
+710;710;Álvaro Rodríguez;948275;€5.00m;Mar 16, 2026;Jul 14, 2004;21;1.93;Uruguay;['Spain', 'Uruguay'];Centre-Forward;;Elche CF;;;Jul 22, 2025;Jun 30, 2029
+711;711;Grégoire Swiderski;1063990;€200k;Mar 18, 2026;Oct 5, 2005;20;1.87;Canada;['Poland', 'Canada', 'France'];Goalkeeper;;Alavés B;;;Aug 30, 2024;Jun 30, 2027
+712;712;Umar Sadiq;337715;€4.00m;Dec 12, 2025;Feb 2, 1997;29;1.91;Nigeria;['Nigeria'];Centre-Forward;;Valencia;;;Jan 8, 2026;Jun 30, 2028
+713;713;Oier Gastesi;938722;€150k;Dec 30, 2025;Oct 30, 2003;22;1.9;Spain;['Spain'];Goalkeeper;;Arenas Club;;;Jul 21, 2025;Jun 30, 2026
+714;714;Mamadou Sylla;166683;€1.20m;Dec 18, 2025;Mar 20, 1994;32;1.8;Senegal;[];Centre-Forward;;Al-Riyadh;;;Aug 24, 2025;-
+715;715;Arthur Melo;362842;€4.00m;Dec 10, 2025;Aug 12, 1996;29;1.72;Brazil;[];Central Midfield;;Grêmio;;;Aug 26, 2025;Jun 30, 2026
+716;716;César Tárrega;707274;€12.00m;Mar 16, 2026;Feb 26, 2002;24;1.94;Spain;['Spain'];Centre-Back;;Valencia;;;Jan 18, 2024;Jun 30, 2030
+717;717;Loïc Badé;730581;€25.00m;Mar 20, 2026;Apr 11, 2000;25;1.91;France;[];Centre-Back;;Leverkusen;;;Aug 21, 2025;Jun 30, 2030
+718;718;Joan Jordán;263727;€2.00m;Dec 12, 2025;Jul 6, 1994;31;1.85;Spain;['Spain'];Central Midfield;0;;;;;
+719;719;Luca Lohr;973690;€200k;Mar 18, 2026;Aug 19, 2002;23;1.93;Spain;[];Centre-Back;;Arenteiro;;;Sep 1, 2025;Jun 30, 2026
+720;720;Mika Mármol;617060;€10.00m;Dec 30, 2025;Jul 2, 2001;24;1.83;Spain;[];Centre-Back;;UD Las Palmas;;;Aug 11, 2023;Jun 30, 2026
+721;721;Valentín Barco;849410;€25.00m;Dec 15, 2025;Jul 23, 2004;21;1.7;Argentina;['Argentina'];Central Midfield;0;;;;;
+722;722;Dakonam Djené;221150;€1.60m;Dec 12, 2025;Dec 31, 1991;34;1.78;Togo;[];Centre-Back;;Getafe;;;Jul 24, 2017;Jun 30, 2026
+723;723;Mikel Jauregizar;938729;€35.00m;Mar 16, 2026;Nov 13, 2003;22;1.77;Spain;['Spain'];Central Midfield;0;;;;;
+724;724;Orri Óskarsson;660438;€12.00m;Dec 12, 2025;Aug 29, 2004;21;1.86;Iceland;['Iceland'];Centre-Forward;;Real Sociedad;;;Aug 30, 2024;Jun 30, 2030
+725;725;Ricard Artero;906025;;;Feb 5, 2003;23;1.81;Spain;['Spain'];Attacking Midfield;0;;;;;
+726;726;Sergi Darder;142021;€3.50m;Dec 12, 2025;Dec 22, 1993;32;1.8;Spain;[];Central Midfield;;RCD Mallorca;;;Aug 11, 2023;Jun 30, 2028
+727;727;Seydouba Cissé;543537;€3.00m;Dec 30, 2025;Feb 10, 2001;25;1.78;Guinea;['Guinea'];Central Midfield;0;;;;;
+728;728;Matías Árbol;767255;€100k;Dec 30, 2025;Sep 12, 2002;23;1.84;Spain;[];Goalkeeper;;CA Antoniano;;;Jul 1, 2025;Jun 30, 2026
+729;729;Aitor Fernández;118997;€600k;Dec 12, 2025;May 3, 1991;34;1.82;Spain;['Spain'];Goalkeeper;;CA Osasuna;;;Jul 2, 2022;Jun 30, 2027
+730;730;Ilaix Moriba;617074;€10.00m;Dec 12, 2025;Jan 19, 2003;23;1.85;Guinea;[];Central Midfield;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2029
+731;731;Unai López;192009;€2.50m;Dec 12, 2025;Oct 30, 1995;30;1.7;Spain;[];Central Midfield;;Rayo Vallecano;;;Jul 1, 2022;Jun 30, 2026
+732;732;Pejiño;534379;€600k;Dec 30, 2025;Jul 29, 1996;29;1.78;Spain;['Spain'];Right Winger;0;;;;;
+733;733;Dani Díaz;937945;€2.00m;Mar 18, 2026;Jun 22, 2006;19;1.67;Spain;[];Right Winger;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2029
+734;734;Albert Sambi Lokonga;381967;€10.00m;Mar 20, 2026;Oct 22, 1999;26;1.83;Belgium;[];Central Midfield;;Hamburg;;;Sep 1, 2025;Jun 30, 2028
+735;735;Sergio Herrera;248738;€3.00m;Dec 12, 2025;Jun 5, 1993;32;1.92;Spain;['Spain'];Goalkeeper;;CA Osasuna;;;Jul 12, 2017;Jun 30, 2028
+736;736;Stanis Idumbo;743387;€5.00m;Dec 15, 2025;Jun 29, 2005;20;1.71;Belgium;['DR Congo', 'Belgium', 'France'];Attacking Midfield;0;;;;;
+737;737;Landry Farré;938148;€300k;Dec 30, 2025;Jan 7, 2007;19;1.79;Spain;[];Right-Back;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2028
+738;738;Hamza Bellari;1123335;€200k;Dec 30, 2025;Mar 11, 2003;23;;Morocco;['Spain', 'Morocco'];Right Winger;0;;;;;
+739;739;Enric García;1000626;;;Dec 28, 2006;19;;Spain;['Spain'];Central Midfield;0;;;;;
+740;740;Fábio Silva;505653;€28.00m;Dec 19, 2025;Jul 19, 2002;23;1.85;Portugal;['Portugal'];Centre-Forward;0;;;;;
+741;741;Reinildo Mandava;240692;€5.00m;Dec 9, 2025;Jan 21, 1994;32;1.8;Mozambique;['Mozambique'];Left-Back;0;;;;;
+742;742;David Soria;226012;€3.00m;Dec 12, 2025;Apr 4, 1993;32;1.92;Spain;[];Goalkeeper;;Getafe;;;Jul 13, 2018;Jun 30, 2026
+743;743;Adrián Rodríguez;608382;€200k;Dec 30, 2025;Dec 12, 2000;25;1.95;Argentina;[];Goalkeeper;;Real Zaragoza;;;Aug 11, 2025;Jun 30, 2026
+744;744;Unai López;192009;€2.50m;Dec 12, 2025;Oct 30, 1995;30;1.7;Spain;['Spain'];Central Midfield;0;;;;;
+745;745;Chuki;926763;€5.00m;Mar 18, 2026;Apr 29, 2004;21;1.76;Spain;['Spain'];Attacking Midfield;0;;;;;
+746;746;Xavi Moreno;709971;€300k;Dec 30, 2025;Nov 5, 2004;21;1.75;Spain;[];Right Winger;;CE Sabadell;;;Jan 3, 2026;Jun 30, 2026
+747;747;Pathé Ciss;525578;€2.00m;Dec 12, 2025;Mar 16, 1994;32;1.86;Senegal;[];Central Midfield;;Rayo Vallecano;;;Jul 28, 2021;Jun 30, 2027
+748;748;Pedro Alemañ;699771;€1.20m;Dec 30, 2025;Mar 21, 2002;24;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+749;749;Marc Aznar;1018563;;;Jan 10, 2006;20;1.79;Spain;['Spain'];Centre-Back;0;;;;;
+750;750;Dário Essugo;670717;€17.00m;Mar 9, 2026;Mar 14, 2005;21;1.78;Portugal;['Portugal', 'Angola'];Defensive Midfield;0;;;;;
+751;751;Alexis Olmedo;938150;€200k;Dec 30, 2025;Jan 2, 2006;20;1.87;Spain;[];Centre-Back;;Barça Atlètic;;;Jan 1, 2024;Jun 30, 2027
+752;752;Alexander Sørloth;238407;€20.00m;Dec 12, 2025;Dec 5, 1995;30;1.95;Norway;['Norway'];Centre-Forward;0;;;;;
+753;753;Amath Ndiaye;339820;€800k;Mar 18, 2026;Jul 16, 1996;29;1.73;Senegal;['Spain', 'Senegal'];Right Winger;0;;;;;
+754;754;Gerónimo Spina;1158985;€200k;Dec 30, 2025;Feb 9, 2005;21;1.87;Argentina;['Argentina', 'Italy'];Centre-Back;;Atl. Madrileño;;;Jul 1, 2024;Jun 30, 2027
+755;755;Fran Pérez;622988;€3.00m;Dec 12, 2025;Sep 9, 2002;23;1.76;Spain;['Spain'];Right Winger;0;;;;;
+756;756;Jhon Solís;742521;€2.50m;Dec 12, 2025;Oct 3, 2004;21;1.86;Colombia;[];Central Midfield;;Birmingham;;;Jan 17, 2026;Jun 30, 2026
+757;757;Marc Bartra;99922;€1.00m;Dec 12, 2025;Jan 15, 1991;35;1.84;Spain;[];Centre-Back;;Real Betis;;;Jul 24, 2023;Jun 30, 2027
+758;758;Johnny Cardoso;689505;€22.00m;Dec 12, 2025;Sep 20, 2001;24;1.86;United States;[];Central Midfield;;Atlético;;;Jul 16, 2025;Jun 30, 2030
+759;759;Oihan Sancet;571020;€35.00m;Mar 16, 2026;Apr 25, 2000;25;1.88;Spain;['Spain'];Attacking Midfield;0;;;;;
+760;760;Carlos Martín;618813;€2.00m;Mar 16, 2026;Apr 22, 2002;23;1.84;Spain;[];Left Winger;;Rayo Vallecano;;;Jan 2, 2026;Jun 30, 2026
+761;761;Igor Zubeldia;355628;€9.00m;Dec 12, 2025;Mar 30, 1997;28;1.81;Spain;[];Centre-Back;;Real Sociedad;;;Jul 1, 2017;Jun 30, 2029
+762;762;William Carvalho;100131;€1.20m;Dec 29, 2025;Apr 7, 1992;33;1.89;Portugal;[];Defensive Midfield;;Pachuca;;;Jul 25, 2025;-
+763;763;Ángel Fortuño;628487;€300k;Dec 12, 2025;Oct 5, 2001;24;1.83;Spain;[];Goalkeeper;;Espanyol;;;Jul 1, 2024;Jun 30, 2027
+764;764;Ilaix Moriba;617074;€10.00m;Dec 12, 2025;Jan 19, 2003;23;1.85;Guinea;['Spain', 'Guinea'];Central Midfield;0;;;;;
+765;765;Alfon González;357628;€3.00m;Mar 16, 2026;May 4, 1999;26;1.72;Spain;['Spain'];Left Winger;0;;;;;
+766;766;Pape Gueye;485963;€40.00m;Mar 16, 2026;Jan 24, 1999;27;1.89;Senegal;['France', 'Senegal'];Central Midfield;;Villarreal;;;Jul 5, 2024;Jun 30, 2028
+767;767;Miguel Ángel Morro;607780;€300k;Dec 22, 2025;Sep 11, 2000;25;1.95;Spain;[];Goalkeeper;;Leixões;;;Jul 14, 2025;Jun 30, 2026
+768;768;Bryan Gil;537382;€12.00m;Dec 12, 2025;Feb 11, 2001;25;1.75;Spain;[];Left Winger;;Girona;;;Sep 1, 2025;Jun 30, 2030
+769;769;Karl Etta Eyong;1038950;€18.00m;Mar 16, 2026;Oct 14, 2003;22;1.81;Cameroon;[];Centre-Forward;;Levante;;;Sep 1, 2025;Jun 30, 2029
+770;770;Llorenç Serred;1141128;€100k;Mar 18, 2026;Sep 4, 2005;20;;Spain;['Spain'];Goalkeeper;;RCD Espanyol B;;;Jul 1, 2024;Jun 30, 2027
+771;771;Beñat Prados;625047;€18.00m;Dec 12, 2025;Feb 8, 2001;25;1.8;Spain;[];Central Midfield;;Athletic Club;;;Jul 1, 2022;Jun 30, 2031
+772;772;Ansu Fati;466810;€10.00m;Dec 15, 2025;Oct 31, 2002;23;1.78;Spain;['Spain', 'Guinea-Bissau'];Left Winger;0;;;;;
+773;773;Dakonam Djené;221150;€1.60m;Dec 12, 2025;Dec 31, 1991;34;1.78;Togo;['Togo'];Centre-Back;0;;;;;
+774;774;Ricardo Rodríguez;86784;€1.50m;Dec 12, 2025;Aug 25, 1992;33;1.82;Switzerland;[];Left-Back;;Real Betis;;;Aug 5, 2024;Jun 30, 2026
+775;775;Sergio Camello;505674;€2.00m;Dec 12, 2025;Feb 10, 2001;25;1.82;Spain;['Spain'];Centre-Forward;;Rayo Vallecano;;;Aug 17, 2023;Jun 30, 2027
+776;776;Ferran Ruiz;668210;€25k;Dec 30, 2025;Apr 26, 2003;22;1.72;Spain;['Spain'];Right-Back;0;;;;;
+777;777;Lamine Yamal;937958;€200.00m;Dec 12, 2025;Jul 13, 2007;18;1.8;Spain;['Spain'];Right Winger;0;;;;;
+778;778;Alejandro Iturbe;618801;€1.50m;Mar 16, 2026;Sep 2, 2003;22;1.86;Spain;[];Goalkeeper;;Elche CF;;;Jul 16, 2025;Jun 30, 2029
+779;779;Koke Iglesias;895333;€150k;Dec 30, 2025;Mar 16, 2005;21;;Spain;['Spain'];Right-Back;0;;;;;
+780;780;Gerard Martín;705395;€25.00m;Mar 16, 2026;Feb 26, 2002;24;1.86;Spain;[];Left-Back;;Barcelona;;;Jul 1, 2024;Jun 30, 2028
+781;781;Marc Casadó;636695;€20.00m;Mar 16, 2026;Sep 14, 2003;22;1.72;Spain;[];Defensive Midfield;;Barcelona;;;Jul 1, 2024;Jun 30, 2028
+782;782;Nacho Vidal;216870;€1.60m;Dec 12, 2025;Jan 24, 1995;31;1.8;Spain;['Spain'];Right-Back;;Real Oviedo;;;Jan 22, 2025;Jun 30, 2027
+783;783;Andrés Cuenca;962111;€500k;Dec 30, 2025;Jun 11, 2007;18;1.86;Spain;[];Centre-Back;;Sporting Gijón;;;Feb 2, 2026;Jun 30, 2026
+784;784;José Gragera;557147;€1.50m;Dec 30, 2025;May 14, 2000;25;1.86;Spain;[];Central Midfield;;Dep. La Coruña;;;Jul 30, 2025;Jun 30, 2026
+785;785;Álvaro Aguado;449496;€1.50m;Oct 21, 2025;May 1, 1996;29;1.75;Spain;['Spain'];Central Midfield;0;;;;;
+786;786;Víctor Mollejo;505673;€300k;Dec 30, 2025;Jan 21, 2001;25;1.77;Spain;[];Right Winger;;Burgos CF;;;Aug 4, 2025;Jun 30, 2028
+787;787;Unai Simón;262396;€25.00m;Dec 12, 2025;Jun 11, 1997;28;1.9;Spain;[];Goalkeeper;;Athletic Club;;;Jul 1, 2018;Jun 30, 2029
+788;788;Ro Abajas;949116;€200k;Dec 30, 2025;May 12, 2003;22;1.86;Spain;[];Left-Back;;SD Huesca;;;Jul 1, 2025;Jun 30, 2028
+789;789;Jofre Carreras;628498;€3.00m;Dec 12, 2025;Jun 17, 2001;24;1.75;Spain;[];Right Winger;;Espanyol;;;Jul 1, 2022;Jun 30, 2029
+790;790;Brais Méndez;309110;€12.00m;Dec 12, 2025;Jan 7, 1997;29;1.84;Spain;[];Attacking Midfield;;Real Sociedad;;;Jul 6, 2022;Jun 30, 2028
+791;791;Pedri;683840;€150.00m;Mar 16, 2026;Nov 25, 2002;23;1.74;Spain;['Spain'];Central Midfield;0;;;;;
+792;792;Marc-André ter Stegen;74857;€4.00m;Mar 16, 2026;Apr 30, 1992;33;1.87;Germany;['Germany'];Goalkeeper;;Girona;;;Jan 20, 2026;Jun 30, 2026
+793;793;Arnau Rafús;636686;€200k;Dec 30, 2025;Apr 27, 2003;22;1.9;Spain;[];Goalkeeper;;CyD Leonesa;;;Jul 7, 2025;Jun 30, 2026
+794;794;Fran Vieites;551182;€1.80m;Dec 3, 2025;May 7, 1999;26;1.96;Spain;['Spain'];Goalkeeper;;Leicester;;;Sep 6, 2025;Jun 30, 2027
+795;795;Antal Yaakobishvili;923915;€300k;Mar 18, 2026;Jul 12, 2004;21;1.93;Hungary;['Georgia', 'Hungary'];Centre-Back;;CD Tenerife;;;Jan 22, 2026;Jun 30, 2026
+796;796;Aleksandar Andreev;1135665;€50k;Mar 18, 2026;Mar 25, 2006;20;1.9;Bulgaria;['Bulgaria'];Goalkeeper;;Girona FC B;;;Jul 1, 2025;Jun 30, 2029
+797;797;Gorka Guruzeta;340205;€5.00m;Dec 12, 2025;Sep 12, 1996;29;1.88;Spain;[];Centre-Forward;;Athletic Club;;;Jul 3, 2022;Jun 30, 2028
+798;798;Alberto Marí;634105;€800k;Dec 30, 2025;Jul 11, 2001;24;1.83;Spain;['Spain'];Centre-Forward;;CD Mirandés;;;Sep 1, 2025;Jun 30, 2026
+799;799;Aridane Hernández;82503;€100k;Mar 18, 2026;Mar 23, 1989;37;1.88;Spain;['Spain'];Centre-Back;;FC Cartagena;;;Mar 6, 2026;Jun 30, 2026
+800;800;Toni Fernández;1066206;€3.00m;Dec 30, 2025;Jul 15, 2008;17;1.75;Spain;['Spain'];Right Winger;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2027
+801;801;Williot Swedberg;764859;€15.00m;Mar 16, 2026;Feb 1, 2004;22;1.87;Sweden;[];Left Winger;;Celta de Vigo;;;Jul 1, 2022;Jun 30, 2029
+802;802;Carles Pérez;282810;€1.80m;Dec 12, 2025;Feb 16, 1998;28;1.73;Spain;[];Right Winger;;Aris Saloniki;;;Jul 10, 2025;Jun 30, 2026
+803;803;Oier Gastesi;938722;€150k;Dec 30, 2025;Oct 30, 2003;22;1.9;Spain;[];Goalkeeper;;Arenas Club;;;Jul 21, 2025;Jun 30, 2026
+804;804;Álvaro Cortés;924610;€2.00m;Mar 18, 2026;Mar 17, 2005;21;1.9;Spain;['Spain'];Centre-Back;;Barça Atlètic;;;Jul 1, 2024;Jun 30, 2028
+805;805;Nico Serrano;668183;€1.50m;Dec 12, 2025;Mar 5, 2003;23;1.76;Spain;[];Left Winger;;Athletic Club;;;Jul 1, 2022;Jun 30, 2028
+806;806;Cédric Bakambu;127048;€1.40m;Dec 12, 2025;Apr 11, 1991;34;1.82;DR Congo;['DR Congo', 'France'];Centre-Forward;0;;;;;
+807;807;Yáser Asprilla;857818;€14.00m;Mar 5, 2026;Nov 19, 2003;22;1.76;Colombia;[];Right Winger;;Galatasaray;;;Jan 25, 2026;Jun 30, 2026
+808;808;Pablo Valencia;634117;€150k;Dec 30, 2025;Mar 16, 2001;25;1.88;Spain;['Spain'];Goalkeeper;;Eldense;;;Aug 21, 2025;Jun 30, 2026
+809;809;Martín Cuéllar;1360962;€25k;Mar 18, 2026;Mar 26, 2007;19;1.91;Spain;['Spain', 'Venezuela'];Centre-Forward;;Getafe CF B;;;Jan 1, 2026;Jun 30, 2028
+810;810;Antoine Griezmann;125781;€10.00m;Mar 16, 2026;Mar 21, 1991;35;1.76;France;[];Second Striker;;Atlético;;;Jul 1, 2023;Jun 30, 2027
+811;811;Axel Witsel;35047;€1.40m;Dec 12, 2025;Jan 12, 1989;37;1.86;Belgium;[];Defensive Midfield;;Girona;;;Aug 12, 2025;Jun 30, 2026
+812;812;Álvaro Aceves;710474;€400k;Dec 30, 2025;Jul 26, 2003;22;1.9;Spain;['Spain'];Goalkeeper;;Real Valladolid;;;Jan 16, 2025;Jun 30, 2028
+813;813;Álex Baena;548111;€45.00m;Mar 16, 2026;Jul 20, 2001;24;1.74;Spain;['Spain'];Left Winger;0;;;;;
+814;814;Jailson;366948;€800k;Dec 11, 2025;Sep 7, 1995;30;1.87;Brazil;[];Defensive Midfield;;Without Club;LAFC;Jan 1, 2026;;
+815;815;Llorenç Serred;1141128;€100k;Mar 18, 2026;Sep 4, 2005;20;;Spain;[];Goalkeeper;;RCD Espanyol B;;;Jul 1, 2024;Jun 30, 2027
+816;816;John Patrick;841121;€800k;Dec 11, 2025;Sep 24, 2003;22;1.92;Ireland;['Spain', 'Ireland'];Central Midfield;0;;;;;
+817;817;Jhon Solís;742521;€2.50m;Dec 12, 2025;Oct 3, 2004;21;1.86;Colombia;['Colombia'];Central Midfield;0;;;;;
+818;818;Luca Lohr;973690;€200k;Mar 18, 2026;Aug 19, 2002;23;1.93;Spain;['Spain', 'Germany'];Centre-Back;;Arenteiro;;;Sep 1, 2025;Jun 30, 2026
+819;819;Juan Foyth;480763;€10.00m;Mar 16, 2026;Jan 12, 1998;28;1.87;Argentina;['Spain', 'Argentina'];Centre-Back;0;;;;;
+820;820;Jorge Sáenz;340339;€800k;Mar 18, 2026;Nov 17, 1996;29;1.88;Spain;[];Centre-Back;;CD Leganés;;;Jul 17, 2023;Jun 30, 2026
+821;821;Pepelu;328480;€9.00m;Dec 12, 2025;Aug 11, 1998;27;1.86;Spain;['Spain'];Defensive Midfield;0;;;;;
+822;822;Hugo Álvarez;892929;€8.00m;Dec 12, 2025;Jul 2, 2003;22;1.76;Spain;['Spain'];Left Winger;0;;;;;
+823;823;Max Aarons;471690;€4.00m;Dec 10, 2025;Jan 4, 2000;26;1.77;England;[];Right-Back;;Rangers;;;Jul 1, 2025;Jun 30, 2026
+824;824;Daley Sinkgraven;215099;€400k;Dec 2, 2025;Jul 4, 1995;30;1.79;Netherlands;['Netherlands'];Left-Back;;Fortuna Sittard;;;Feb 3, 2025;Jun 30, 2026
+825;825;Joaquín Panichelli;1064871;€25.00m;Dec 15, 2025;Oct 7, 2002;23;1.9;Argentina;[];Centre-Forward;;R. Strasbourg;;;Jul 27, 2025;Jun 30, 2030
+826;826;Unai García;197122;€500k;Mar 6, 2026;Feb 3, 1992;34;1.86;Spain;['Spain'];Centre-Back;;Panetolikos;;;Jul 1, 2025;Jun 30, 2026
+827;827;Iván Villar;297194;€900k;Dec 12, 2025;Jul 9, 1997;28;1.83;Spain;['Spain'];Goalkeeper;;Celta de Vigo;;;Jul 1, 2019;Jun 30, 2027
+828;828;Aritz Arambarri;434602;€600k;Dec 30, 2025;Jan 31, 1998;28;1.86;Spain;[];Centre-Back;;SD Eibar;;;Aug 29, 2024;Jun 30, 2027
+829;829;Suleiman El Haddadi;1338488;;;Feb 13, 2006;20;1.75;Morocco;['Spain', 'Morocco'];Centre-Forward;;CD Leganés B;;;Jul 1, 2025;Jun 30, 2027
+830;830;Nabil Fekir;203496;€5.50m;Nov 28, 2025;Jul 18, 1993;32;1.73;France;['Algeria', 'France'];Attacking Midfield;0;;;;;
+831;831;Pedro Ortiz;610238;€600k;Dec 30, 2025;Aug 19, 2000;25;1.84;Spain;[];Central Midfield;;Córdoba CF;;;Jan 31, 2025;Jun 30, 2026
+832;832;Álvaro Tejero;290273;€1.80m;Dec 12, 2025;Jul 20, 1996;29;1.74;Spain;['Spain'];Right-Back;0;;;;;
+833;833;Thomas Lemar;205562;€2.00m;Dec 12, 2025;Nov 12, 1995;30;1.71;France;['Guadeloupe', 'France'];Attacking Midfield;0;;;;;
+834;834;Darío Benavides;711626;€400k;Dec 10, 2025;Jan 12, 2003;23;1.78;Spain;[];Right-Back;;La Louvière;;;Jul 1, 2025;Jun 30, 2028
+835;835;Tamás Nikitscher;633056;€500k;Dec 18, 2025;Nov 3, 1999;26;1.93;Hungary;[];Defensive Midfield;;Rio Ave;;;Sep 1, 2025;Jun 30, 2029
+836;836;Ladislav Krejčí;345911;€22.00m;Dec 9, 2025;Apr 20, 1999;26;1.91;Czech Republic;['Czech Republic'];Centre-Back;0;;;;;
+837;837;Assane Diao;1061282;€30.00m;Dec 23, 2025;Sep 7, 2005;20;1.85;Senegal;['Spain', 'Senegal'];Left Winger;0;;;;;
+838;838;Iván Cuéllar;27493;€100k;Dec 12, 2025;May 27, 1984;41;1.87;Spain;[];Goalkeeper;;RCD Mallorca;;;Aug 28, 2023;Jun 30, 2026
+839;839;Adam Aznou;938146;€7.00m;Dec 9, 2025;Jun 2, 2006;19;1.78;Morocco;[];Left-Back;;Everton;;;Jul 29, 2025;Jun 30, 2029
+840;840;Johan Mojica;262939;€1.80m;Dec 12, 2025;Aug 21, 1992;33;1.85;Colombia;['Colombia', 'Spain'];Left-Back;;RCD Mallorca;;;Jul 23, 2024;Jun 30, 2027
+841;841;Maximiliano Caufriez;369267;€800k;Mar 23, 2026;Feb 16, 1997;29;1.89;Belgium;[];Centre-Back;;Clermont Foot;;;Jul 1, 2023;Jun 30, 2026
+842;842;Viti Rozada;438971;€1.50m;Dec 30, 2025;Sep 16, 1997;28;1.72;Spain;[];Right-Back;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2027
+843;843;Selim Amallah;377219;€1.50m;Nov 28, 2025;Nov 15, 1996;29;1.85;Morocco;[];Attacking Midfield;;Khor Fakkan;;;Oct 2, 2025;-
+844;844;Dawda Camara;891923;€1.00m;Dec 30, 2025;Nov 4, 2002;23;1.88;Mauritania;['Spain', 'Mauritania'];Centre-Forward;0;;;;;
+845;845;Isco;85288;€4.00m;Dec 12, 2025;Apr 21, 1992;33;1.76;Spain;[];Attacking Midfield;;Real Betis;;;Jul 26, 2023;Jun 30, 2028
+846;846;César Tárrega;707274;€12.00m;Mar 16, 2026;Feb 26, 2002;24;1.94;Spain;[];Centre-Back;;Valencia;;;Jan 18, 2024;Jun 30, 2030
+847;847;Jan Salas;1063574;€500k;Dec 30, 2025;Aug 10, 2005;20;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+848;848;Omar El Hilali;822331;€15.00m;Dec 12, 2025;Sep 12, 2003;22;1.83;Morocco;[];Right-Back;;Espanyol;;;Jan 1, 2023;Jun 30, 2027
+849;849;Adama Boiro;710671;€3.00m;Dec 12, 2025;Jun 22, 2002;23;1.83;Spain;[];Left-Back;;Athletic Club;;;Jul 1, 2024;Jun 30, 2029
+850;850;Anuar;327126;€800k;Dec 30, 2025;Jan 15, 1995;31;1.73;Morocco;['Spain', 'Morocco'];Right Winger;0;;;;;
+851;851;Juan Berrocal;461843;€1.50m;Dec 11, 2025;Feb 5, 1999;27;1.87;Spain;['Spain'];Centre-Back;;Atlanta;;;Jul 25, 2025;Jun 30, 2026
+852;852;Arnau Martínez;826224;€10.00m;Dec 12, 2025;Apr 25, 2003;22;1.82;Spain;[];Right-Back;;Girona;;;Apr 1, 2021;Jun 30, 2027
+853;853;Joni Montiel;343273;€700k;Dec 23, 2025;Sep 3, 1998;27;1.73;Spain;[];Attacking Midfield;;Qarabağ;;;Aug 3, 2025;Jun 30, 2027
+854;854;Lander Pinillos;895591;€200k;Mar 18, 2026;Oct 6, 2003;22;;Spain;['Spain'];Attacking Midfield;0;;;;;
+855;855;Álex Suárez;510396;€600k;Dec 30, 2025;Mar 18, 1993;33;1.8;Spain;['Spain'];Centre-Back;0;;;;;
+856;856;Fernando Pacheco;172015;€700k;Dec 18, 2025;May 18, 1992;33;1.87;Spain;['Spain'];Goalkeeper;;Al-Fateh;;;Sep 10, 2025;Jun 30, 2026
+857;857;Iván Gil;611075;€800k;Dec 30, 2025;Jan 18, 2000;26;1.68;Spain;['Spain'];Attacking Midfield;0;;;;;
+858;858;Giuliano Simeone;742201;€40.00m;Dec 12, 2025;Dec 18, 2002;23;1.73;Argentina;['Argentina', 'Italy'];Right Winger;0;;;;;
+859;859;Gerard Gumbau;268670;€1.40m;Dec 12, 2025;Dec 18, 1994;31;1.88;Spain;[];Defensive Midfield;;Rayo Vallecano;;;Jul 16, 2025;Jun 30, 2026
+860;860;Roberto López;569866;€800k;Mar 18, 2026;Apr 24, 2000;25;1.79;Spain;[];Attacking Midfield;;CD Leganés;;;Jul 10, 2024;Jun 30, 2027
+861;861;Jesús Fortea;937950;€3.00m;Mar 18, 2026;Mar 26, 2007;19;1.79;Spain;['Spain'];Right-Back;;RM Castilla;;;Jul 1, 2025;Jun 30, 2029
+862;862;Pelayo Fernández;692208;€500k;Dec 30, 2025;Apr 29, 2003;22;1.93;Spain;[];Centre-Back;;Cádiz CF;;;Sep 1, 2025;Jun 30, 2026
+863;863;Mateu Morey;388513;€1.50m;Dec 12, 2025;Mar 2, 2000;26;1.73;Spain;[];Right-Back;;RCD Mallorca;;;Jul 5, 2024;Jun 30, 2027
+864;864;Abde Rebbach;718034;€1.50m;Dec 12, 2025;Aug 11, 1998;27;1.76;Algeria;[];Left Winger;;Alavés;;;Jul 1, 2022;Jun 30, 2028
+865;865;Javi Puado;408471;€7.50m;Mar 16, 2026;May 25, 1998;27;1.77;Spain;['Spain'];Left Winger;0;;;;;
+866;866;Daniel Yáñez;962124;€3.00m;Mar 18, 2026;Mar 28, 2007;18;1.77;Spain;[];Right Winger;;RM Castilla;;;Oct 1, 2024;Jun 30, 2029
+867;867;Juan Carlos;120705;€100k;Dec 12, 2025;Jan 20, 1988;38;1.87;Spain;[];Goalkeeper;;Girona;;;Jul 1, 2019;Jun 30, 2026
+868;868;Jacobo Ramón;948278;€25.00m;Mar 24, 2026;Jan 6, 2005;21;1.96;Spain;['Spain'];Centre-Back;;Como;;;Jul 31, 2025;Jun 30, 2030
+869;869;Jules Koundé;411975;€65.00m;Dec 12, 2025;Nov 12, 1998;27;1.8;France;[];Right-Back;;Barcelona;;;Jul 28, 2022;Jun 30, 2030
+870;870;Chiquinho;695454;€2.00m;Dec 18, 2025;Feb 5, 2000;26;1.79;Portugal;[];Left Winger;;Alverca;;;Jul 9, 2025;Jun 30, 2028
+871;871;Jesús Rodríguez;1190411;€30.00m;Dec 23, 2025;Nov 21, 2005;20;1.85;Spain;['Spain'];Left Winger;0;;;;;
+872;872;David Otorbi;1009766;€500k;Dec 30, 2025;Oct 16, 2007;18;1.8;Spain;[];Right Winger;;Valencia B;;;Jan 1, 2024;Jun 30, 2026
+873;873;Maroan Sannadi;1054934;€5.00m;Dec 12, 2025;Feb 1, 2001;25;1.92;Morocco;['Spain', 'Morocco'];Centre-Forward;;Athletic Club;;;Feb 1, 2025;Jun 30, 2029
+874;874;Ismael Sierra;718195;€200k;Dec 30, 2025;Mar 17, 2003;23;1.92;Spain;[];Centre-Back;;Villarreal CF B;;;Aug 1, 2025;Jun 30, 2026
+875;875;Joni Montiel;343273;€700k;Dec 23, 2025;Sep 3, 1998;27;1.73;Spain;['Spain'];Attacking Midfield;0;;;;;
+876;876;Sergi Gómez;92947;€500k;Dec 18, 2025;Mar 28, 1992;33;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+877;877;Alejandro Catena;449796;€2.80m;Dec 12, 2025;Oct 28, 1994;31;1.94;Spain;[];Centre-Back;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2028
+878;878;Joan Jordán;263727;€2.00m;Dec 12, 2025;Jul 6, 1994;31;1.85;Spain;[];Central Midfield;;Sevilla FC;;;Jul 1, 2019;Jun 30, 2027
+879;879;Álvaro Fernández;453704;€1.80m;Dec 12, 2025;Apr 13, 1998;27;1.85;Spain;[];Goalkeeper;;Dep. La Coruña;;;Jan 1, 2026;Jun 30, 2027
+880;880;Iker Almena;1061656;€1.50m;Dec 22, 2025;May 4, 2004;21;1.77;Spain;[];Right Winger;;Hajduk Split;;;Sep 5, 2025;Jun 30, 2026
+881;881;Diego Martín;1134878;€25k;Dec 30, 2025;Aug 13, 2003;22;;Spain;['Spain'];Left-Back;0;;;;;
+882;882;Kike Barja;298575;€1.50m;Dec 12, 2025;Apr 1, 1997;28;1.79;Spain;['Spain'];Right Winger;0;;;;;
+883;883;Sergio Carreira;545647;€8.00m;Mar 16, 2026;Oct 13, 2000;25;1.7;Spain;['Spain'];Right-Back;0;;;;;
+884;884;Pablo Ibáñez;785353;€4.00m;Mar 16, 2026;Sep 20, 1998;27;1.79;Spain;[];Central Midfield;;Alavés;;;Jul 1, 2025;Jun 30, 2030
+885;885;Mouctar Diakhaby;346289;€2.00m;Mar 16, 2026;Dec 19, 1996;29;1.92;Guinea;[];Centre-Back;;Valencia;;;Jul 1, 2018;Jun 30, 2027
+886;886;Toni Lato;320271;€1.50m;Dec 12, 2025;Nov 21, 1997;28;1.71;Spain;[];Left-Back;;RCD Mallorca;;;Jul 1, 2023;Jun 30, 2027
+887;887;Antonio Sivera;298197;€6.00m;Dec 12, 2025;Aug 11, 1996;29;1.85;Spain;[];Goalkeeper;;Alavés;;;Jul 19, 2017;Jun 30, 2027
+888;888;Carlos Reina;1061281;€300k;Dec 30, 2025;Aug 10, 2004;21;1.76;Spain;['Spain'];Attacking Midfield;0;;;;;
+889;889;Carles Pérez;282810;€1.80m;Dec 12, 2025;Feb 16, 1998;28;1.73;Spain;['Spain'];Right Winger;0;;;;;
+890;890;Hugo Novoa;668276;€800k;Mar 18, 2026;Jan 24, 2003;23;1.82;Spain;['Spain'];Right-Back;0;;;;;
+891;891;Óscar Valentín;517753;€2.20m;Dec 12, 2025;Aug 20, 1994;31;1.77;Spain;[];Central Midfield;;Rayo Vallecano;;;Jul 1, 2019;Jun 30, 2027
+892;892;Ander Izagirre;1189292;€50k;Dec 30, 2025;Jun 28, 2003;22;1.85;Spain;[];Centre-Back;;Bilbao Athletic;;;Jul 1, 2024;Jun 30, 2026
+893;893;Yvan Neyou;469669;€2.50m;Dec 12, 2025;Jan 3, 1997;29;1.8;Cameroon;[];Defensive Midfield;;Al-Okhdood;;;Jan 31, 2026;Jun 30, 2026
+894;894;Jesús Vázquez;623024;€4.00m;Mar 16, 2026;Jan 2, 2003;23;1.82;Spain;[];Left-Back;;Valencia;;;Jan 1, 2022;Jun 30, 2028
+895;895;Nabil Aberdin;908621;€600k;Dec 16, 2025;Aug 23, 2002;23;1.92;Morocco;['Morocco', 'France'];Centre-Back;0;;;;;
+896;896;José Ángel Carmona;711625;€12.00m;Dec 12, 2025;Jan 29, 2002;24;1.84;Spain;['Spain'];Right-Back;0;;;;;
+897;897;Lucas García;1061650;;;Jun 18, 2004;21;;Spain;['Spain'];Goalkeeper;;CE Europa;;;Jul 22, 2025;Jun 30, 2026
+898;898;Julián Alvarez;576024;€90.00m;Mar 16, 2026;Jan 31, 2000;26;1.7;Argentina;[];Centre-Forward;;Atlético;;;Aug 12, 2024;Jun 30, 2030
+899;899;Hugo Sotelo;892221;€7.50m;Mar 16, 2026;Dec 19, 2003;22;1.8;Spain;[];Central Midfield;;Celta de Vigo;;;Jul 1, 2023;Jun 30, 2028
+900;900;Wojciech Szczęsny;44058;€900k;Dec 12, 2025;Apr 18, 1990;35;1.95;Poland;['Poland'];Goalkeeper;;Barcelona;;;Oct 2, 2024;Jun 30, 2027
+901;901;Arkaitz Mariezkurrena;962145;€1.00m;Mar 18, 2026;Apr 5, 2005;20;1.81;Spain;[];Left Winger;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2029
+902;902;Omar Mascarell;142031;€800k;Dec 12, 2025;Feb 2, 1993;33;1.81;Equatorial Guinea;[];Defensive Midfield;;RCD Mallorca;;;Jul 1, 2023;Jun 30, 2026
+903;903;Álex Serradell;1062525;€200k;Dec 30, 2025;Aug 14, 2002;23;1.89;Spain;[];Centre-Back;;Eldense;;;Jul 27, 2025;Jun 30, 2026
+904;904;Viktor Tsygankov;264372;€15.00m;Dec 12, 2025;Nov 15, 1997;28;1.78;Ukraine;[];Right Winger;;Girona;;;Jan 17, 2023;Jun 30, 2027
+905;905;Tajon Buchanan;638793;€12.00m;Mar 16, 2026;Feb 8, 1999;27;1.83;Canada;[];Right Winger;;Villarreal;;;Jul 29, 2025;Jun 30, 2030
+906;906;Joao Urbáez;866541;€50k;Dec 30, 2025;Jul 24, 2002;23;1.81;Dominican Republic;['Spain', 'Dominican Republic'];Right-Back;0;;;;;
+907;907;Sergio Gómez;366930;€15.00m;Dec 12, 2025;Sep 4, 2000;25;1.71;Spain;[];Left-Back;;Real Sociedad;;;Jul 12, 2024;Jun 30, 2030
+908;908;Javi Rodríguez;1076815;€15.00m;Dec 12, 2025;Jun 27, 2003;22;1.78;Spain;[];Centre-Back;;Celta de Vigo;;;Jul 1, 2024;Jun 30, 2028
+909;909;Pablo Marín;907813;€8.00m;Dec 12, 2025;Jul 3, 2003;22;1.78;Spain;[];Attacking Midfield;;Real Sociedad;;;Jul 1, 2024;Jun 30, 2029
+910;910;Guilherme Fernandes;567504;€800k;Mar 18, 2026;Mar 28, 2001;24;1.91;Portugal;[];Goalkeeper;;Real Valladolid;;;Jul 9, 2025;Jun 30, 2026
+911;911;Alberto Flores;766552;€300k;Dec 30, 2025;Nov 10, 2003;22;1.87;Spain;[];Goalkeeper;;Sevilla Atl.;;;Jul 1, 2022;Jun 30, 2027
+912;912;Leo Román;562742;€6.00m;Mar 16, 2026;Jul 6, 2000;25;1.89;Spain;[];Goalkeeper;;RCD Mallorca;;;Jul 1, 2022;Jun 30, 2030
+913;913;César Fernández;646741;€150k;Mar 18, 2026;Jan 28, 2004;22;1.81;Spain;[];Goalkeeper;;Racing Ferrol;;;Jul 4, 2025;Jun 30, 2027
+914;914;Toni Martínez;302371;€4.00m;Mar 16, 2026;Jun 30, 1997;28;1.87;Spain;['Spain'];Centre-Forward;;Alavés;;;Aug 27, 2024;Jun 30, 2028
+915;915;Alberto Flores;766552;€300k;Dec 30, 2025;Nov 10, 2003;22;1.87;Spain;['Spain'];Goalkeeper;;Sevilla Atl.;;;Jul 1, 2022;Jun 30, 2027
+916;916;Elías Romero;1146039;€150k;Mar 18, 2026;May 11, 2004;21;;Spain;['Spain'];Centre-Forward;0;;;;;
+917;917;Juan Bernat;126719;€500k;Mar 18, 2026;Mar 1, 1993;33;1.7;Spain;['Spain'];Left-Back;;SD Eibar;;;Feb 12, 2026;Jun 30, 2026
+918;918;Lamine Yamal;937958;€200.00m;Dec 12, 2025;Jul 13, 2007;18;1.8;Spain;[];Right Winger;;Barcelona;;;Jul 1, 2023;Jun 30, 2031
+919;919;Yeray Álvarez;255488;€1.00m;Dec 12, 2025;Jan 24, 1995;31;1.82;Spain;[];Centre-Back;;Athletic Club;;;Jul 1, 2016;Jun 30, 2026
+920;920;Eduardo Camavinga;640428;€50.00m;Dec 12, 2025;Nov 10, 2002;23;1.82;France;['Congo', 'Angola', 'France'];Central Midfield;0;;;;;
+921;921;Arda Güler;861410;€90.00m;Dec 12, 2025;Feb 25, 2005;21;1.75;Türkiye;['Türkiye'];Attacking Midfield;0;;;;;
+922;922;Joao Urbáez;866541;€50k;Dec 30, 2025;Jul 24, 2002;23;1.81;Dominican Republic;[];Right-Back;;Flamurtari FC;;;Aug 14, 2025;Jun 30, 2026
+923;923;Ismael Santana;1060845;€200k;Mar 18, 2026;Jan 18, 2004;22;;Spain;[];Right Winger;;UD Logroñés;;;Sep 1, 2025;Jun 30, 2026
+924;924;Aleksandar Sedlar;237499;€275k;Dec 8, 2025;Dec 13, 1991;34;1.8;Serbia;[];Centre-Back;;Tractor;;;Jul 16, 2025;Jun 30, 2026
+925;925;Abel Ruiz;340376;€2.50m;Mar 16, 2026;Jan 28, 2000;26;1.82;Spain;['Spain'];Centre-Forward;0;;;;;
+926;926;Miguel de la Fuente;480883;€2.00m;Dec 30, 2025;Sep 3, 1999;26;1.82;Spain;['Spain'];Centre-Forward;;UD Almería;;;Jan 14, 2026;Jun 30, 2026
+927;927;Pablo Fornals;357885;€8.00m;Dec 12, 2025;Feb 22, 1996;30;1.78;Spain;['Spain'];Central Midfield;0;;;;;
+928;928;Iván Sánchez;221311;€500k;Dec 8, 2025;Sep 23, 1992;33;1.69;Spain;['Spain'];Right Winger;0;;;;;
+929;929;Youssouf Sabaly;135492;€1.50m;Dec 30, 2025;Mar 5, 1993;33;1.73;Senegal;[];Right-Back;;Al-Duhail SC;;;Jul 1, 2025;Jun 30, 2027
+930;930;William Carvalho;100131;€1.20m;Dec 29, 2025;Apr 7, 1992;33;1.89;Portugal;['Portugal', 'Angola'];Defensive Midfield;0;;;;;
+931;931;Matías Árbol;767255;€100k;Dec 30, 2025;Sep 12, 2002;23;1.84;Spain;['Spain'];Goalkeeper;;CA Antoniano;;;Jul 1, 2025;Jun 30, 2026
+932;932;Pablo Maffeo;251876;€5.00m;Dec 12, 2025;Jul 12, 1997;28;1.72;Argentina;['Spain', 'Argentina'];Right-Back;0;;;;;
+933;933;Leo Román;562742;€6.00m;Mar 16, 2026;Jul 6, 2000;25;1.89;Spain;['Spain'];Goalkeeper;;RCD Mallorca;;;Jul 1, 2022;Jun 30, 2030
+934;934;Lorenzo Aguado;709997;€500k;Mar 18, 2026;Sep 19, 2002;23;1.8;Spain;[];Right-Back;;Albacete;;;Jul 30, 2025;Jun 30, 2028
+935;935;Raúl de Tomás;162038;€500k;Dec 30, 2025;Oct 17, 1994;31;1.8;Spain;[];Centre-Forward;;Al-Wakrah SC;;;Jul 20, 2025;Jun 30, 2026
+936;936;Lulo Dasilva;718581;€150k;Dec 30, 2025;Oct 4, 2002;23;1.89;Spain;[];Central Midfield;;Sevilla Atl.;;;Jan 1, 2022;Jun 30, 2026
+937;937;Ibrahim Alani;1367276;€500k;Dec 30, 2025;Jul 29, 2006;19;1.75;Nigeria;[];Central Midfield;;Real Valladolid;;;Jul 1, 2025;Jun 30, 2027
+938;938;Federico Valverde;369081;€120.00m;Dec 12, 2025;Jul 22, 1998;27;1.82;Uruguay;['Spain', 'Uruguay'];Central Midfield;0;;;;;
+939;939;Siebe Van der Heyden;400131;€3.00m;Dec 10, 2025;May 30, 1998;27;1.85;Belgium;[];Centre-Back;;KAA Gent;;;Jul 25, 2025;Jun 30, 2028
+940;940;Diego Aguado;1208520;€5.00m;Mar 18, 2026;Feb 7, 2007;19;1.84;Spain;['Spain'];Centre-Back;0;;;;;
+941;941;Kenedy;281404;€700k;Dec 29, 2025;Feb 8, 1996;30;1.85;Brazil;[];Left Winger;;Pachuca;;;Jun 5, 2025;Jun 30, 2026
+942;942;Adrián Pica;895458;€600k;Mar 18, 2026;Apr 25, 2002;23;1.9;Spain;[];Centre-Back;;CD Mirandés;;;Jul 2, 2025;Jun 30, 2026
+943;943;Noah Darvich;897480;€3.00m;Mar 19, 2026;Sep 25, 2006;19;1.84;Germany;['Germany'];Right Winger;0;;;;;
+944;944;Lulo Dasilva;718581;€150k;Dec 30, 2025;Oct 4, 2002;23;1.89;Spain;['Spain', 'Brazil'];Central Midfield;0;;;;;
+945;945;Sergio Gómez;366930;€15.00m;Dec 12, 2025;Sep 4, 2000;25;1.71;Spain;['Spain'];Left-Back;0;;;;;
+946;946;Germán Valera;548188;€6.00m;Mar 16, 2026;Mar 16, 2002;24;1.7;Spain;[];Left Winger;;Elche CF;;;Jul 3, 2025;Jun 30, 2027
+947;947;Juanlu Sánchez;676042;€15.00m;Dec 12, 2025;Aug 15, 2003;22;1.86;Spain;[];Right-Back;;Sevilla FC;;;Jul 1, 2022;Jun 30, 2029
+948;948;Pejiño;534379;€600k;Dec 30, 2025;Jul 29, 1996;29;1.78;Spain;[];Right Winger;;UD Las Palmas;;;Aug 27, 2020;Jun 30, 2026
+949;949;Enzo Barrenechea;671915;€15.00m;Dec 18, 2025;May 22, 2001;24;1.86;Argentina;[];Defensive Midfield;;Benfica;;;Jul 18, 2025;Jun 30, 2026
+950;950;Martín Zubimendi;423440;€80.00m;Mar 9, 2026;Feb 2, 1999;27;1.81;Spain;['Spain'];Defensive Midfield;0;;;;;
+951;951;Arsen Zakharyan;555143;€10.00m;Mar 16, 2026;May 26, 2003;22;1.83;Russia;[];Attacking Midfield;;Real Sociedad;;;Aug 19, 2023;Jun 30, 2029
+952;952;Selvi Clua;1061660;€300k;Dec 30, 2025;Jan 29, 2005;21;1.89;Spain;['Spain'];Defensive Midfield;0;;;;;
+953;953;Aitor Fraga;668313;€1.00m;Mar 18, 2026;Mar 9, 2003;23;1.94;Spain;[];Goalkeeper;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2029
+954;954;Ferran Torres;398184;€50.00m;Dec 12, 2025;Feb 29, 2000;26;1.82;Spain;[];Centre-Forward;;Barcelona;;;Jan 1, 2022;Jun 30, 2027
+955;955;Suso;111961;€700k;Mar 18, 2026;Nov 19, 1993;32;1.77;Spain;[];Attacking Midfield;;Cádiz CF;;;Jul 1, 2025;Jun 30, 2029
+956;956;Fabio González;531062;€300k;Mar 18, 2026;Feb 12, 1997;29;1.76;Spain;['Spain'];Central Midfield;;Racing Ferrol;;;Jan 28, 2026;Jun 30, 2026
+957;957;Jailson;366948;€800k;Dec 11, 2025;Sep 7, 1995;30;1.87;Brazil;['Brazil'];Defensive Midfield;0;;;;;
+958;958;Isaac Romero;687609;€5.00m;Mar 16, 2026;May 18, 2000;25;1.83;Spain;[];Centre-Forward;;Sevilla FC;;;Jan 11, 2024;Jun 30, 2028
+959;959;Dominik Greif;316884;€8.00m;Dec 15, 2025;Apr 6, 1997;28;1.97;Slovakia;[];Goalkeeper;;Lyon;;;Aug 18, 2025;Jun 30, 2029
+960;960;Joan García;561613;€40.00m;Mar 16, 2026;May 4, 2001;24;1.94;Spain;['Spain'];Goalkeeper;;Barcelona;;;Jul 1, 2025;Jun 30, 2031
+961;961;Renato Tapia;277137;€1.80m;Nov 28, 2025;Jul 28, 1995;30;1.85;Peru;['Spain', 'Peru'];Defensive Midfield;0;;;;;
+962;962;Roger Hinojo;1204959;€1.00m;Mar 18, 2026;Feb 21, 2005;21;1.8;Spain;[];Centre-Back;;CyD Leonesa;;;Aug 26, 2025;Jun 30, 2026
+963;963;Joel Roca;895326;€5.00m;Dec 12, 2025;Jun 7, 2005;20;1.76;Spain;[];Left Winger;;Girona;;;Jul 1, 2024;Jun 30, 2029
+964;964;Dani Vivian;524000;€25.00m;Mar 16, 2026;Jul 5, 1999;26;1.84;Spain;[];Centre-Back;;Athletic Club;;;Aug 1, 2020;Jun 30, 2032
+965;965;Álex Gil;932350;€100k;Dec 30, 2025;Feb 5, 2003;23;1.84;Spain;[];Central Midfield;;Marbella FC;;;Feb 2, 2026;Jun 30, 2026
+966;966;Javi López;568158;€5.00m;Dec 12, 2025;Mar 25, 2002;24;1.83;Spain;[];Left-Back;;Real Oviedo;;;Aug 31, 2025;Jun 30, 2026
+967;967;Marc Vidal;541621;€300k;Dec 12, 2025;Feb 14, 2000;26;1.85;Spain;[];Goalkeeper;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2028
+968;968;David López;947431;€1.20m;Mar 16, 2026;Feb 3, 2003;23;1.95;Spain;[];Centre-Back;;RCD Mallorca;;;Jan 31, 2024;Jun 30, 2027
+969;969;Dário Essugo;670717;€17.00m;Mar 9, 2026;Mar 14, 2005;21;1.78;Portugal;[];Defensive Midfield;;Chelsea;;;Jun 10, 2025;Jun 30, 2033
+970;970;Romain Perraud;318523;€7.00m;Dec 15, 2025;Sep 22, 1997;28;1.73;France;['France'];Left-Back;;Lille;;;Aug 8, 2025;Jun 30, 2028
+971;971;Giovani Lo Celso;348795;€10.00m;Mar 16, 2026;Apr 9, 1996;29;1.77;Argentina;['Argentina', 'Italy'];Attacking Midfield;0;;;;;
+972;972;Djordjije Medenica;1130318;;;Nov 17, 2006;19;;Czech Republic;['Czech Republic', 'Serbia'];Goalkeeper;;Getafe CF B;;;Jul 1, 2025;Jun 30, 2026
+973;973;Borja Mayoral;298976;€7.50m;Dec 12, 2025;Apr 5, 1997;28;1.82;Spain;['Spain'];Centre-Forward;;Getafe;;;Aug 1, 2022;Jun 30, 2027
+974;974;Pathé Ciss;525578;€2.00m;Dec 12, 2025;Mar 16, 1994;32;1.86;Senegal;['Senegal'];Central Midfield;0;;;;;
+975;975;Yangel Herrera;378293;€9.00m;Dec 12, 2025;Jan 7, 1998;28;1.84;Venezuela;[];Central Midfield;;Real Sociedad;;;Sep 1, 2025;Jun 30, 2030
+976;976;Koke Iglesias;895333;€150k;Dec 30, 2025;Mar 16, 2005;21;;Spain;[];Right-Back;;Ponferradina;;;Jan 30, 2026;Jun 30, 2026
+977;977;Rui Silva;234811;€7.00m;Dec 18, 2025;Feb 7, 1994;32;1.91;Portugal;['Portugal'];Goalkeeper;;Sporting;;;Jul 1, 2025;Jun 30, 2028
+978;978;Borja Iglesias;278359;€3.00m;Dec 12, 2025;Jan 17, 1993;33;1.87;Spain;[];Centre-Forward;;Celta de Vigo;;;Aug 12, 2025;Jun 30, 2027
+979;979;Donny van de Beek;288255;€2.00m;Dec 12, 2025;Apr 18, 1997;28;1.84;Netherlands;[];Central Midfield;;Girona;;;Jul 11, 2024;Jun 30, 2028
+980;980;Enzo Boyomo;541555;€20.00m;Dec 12, 2025;Oct 7, 2001;24;1.84;Cameroon;['Cameroon', 'France'];Centre-Back;;CA Osasuna;;;Aug 29, 2024;Jun 30, 2029
+981;981;Aingeru Olabarrieta;1056971;€800k;Dec 30, 2025;Nov 14, 2005;20;1.82;Spain;[];Right Winger;;FC Andorra;;;Aug 9, 2025;Jun 30, 2026
+982;982;Chiquinho;695454;€2.00m;Dec 18, 2025;Feb 5, 2000;26;1.79;Portugal;['Portugal', 'Cape Verde'];Left Winger;0;;;;;
+983;983;Sebas Wade;945702;€50k;Dec 8, 2025;Apr 9, 2003;22;1.9;England;[];Centre-Back;;Septemvri Sofia;;;Aug 15, 2025;Jun 30, 2028
+984;984;Thierno Barry;937941;€30.00m;Dec 9, 2025;Oct 21, 2002;23;1.95;France;['Guinea', 'France'];Centre-Forward;;Everton;;;Jul 9, 2025;Jun 30, 2029
+985;985;Endrick;971570;€25.00m;Dec 12, 2025;Jul 21, 2006;19;1.73;Brazil;['Brazil'];Centre-Forward;0;;;;;
+986;986;Raúl Chasco;834486;€150k;Dec 30, 2025;Sep 13, 2003;22;1.79;Spain;[];Left-Back;;Osasuna B;;;Jul 2, 2025;Jun 30, 2026
+987;987;Luiz Júnior;712107;€12.00m;Dec 12, 2025;Jan 14, 2001;25;1.92;Brazil;[];Goalkeeper;;Villarreal;;;Aug 20, 2024;Jun 30, 2030
+988;988;Martín Tejón;941883;€1.00m;Dec 22, 2025;Apr 12, 2004;21;1.65;Spain;['Spain'];Right Winger;0;;;;;
+989;989;Max Aarons;471690;€4.00m;Dec 10, 2025;Jan 4, 2000;26;1.77;England;['Jamaica', 'England'];Right-Back;0;;;;;
+990;990;Jacobo Ramón;948278;€25.00m;Mar 24, 2026;Jan 6, 2005;21;1.96;Spain;[];Centre-Back;;Como;;;Jul 31, 2025;Jun 30, 2030
+991;991;Raúl Albiol;15452;€800k;Dec 23, 2025;Sep 4, 1985;40;1.9;Spain;[];Centre-Back;;Pisa;;;Sep 2, 2025;Jun 30, 2026
+992;992;Pau Víctor;707572;€12.00m;Mar 19, 2026;Nov 26, 2001;24;1.84;Spain;['Spain'];Centre-Forward;0;;;;;
+993;993;Iker Álvarez;547248;€800k;Dec 30, 2025;Jul 25, 2001;24;1.9;Andorra;['Andorra'];Goalkeeper;;Córdoba CF;;;Jul 1, 2025;Jun 30, 2027
+994;994;Augusto Batalla;275218;€6.00m;Dec 12, 2025;Apr 30, 1996;29;1.85;Argentina;[];Goalkeeper;;Rayo Vallecano;;;Jul 1, 2025;Jun 30, 2030
+995;995;Iker Córdoba;834463;€500k;Dec 30, 2025;Nov 11, 2005;20;1.9;Spain;[];Centre-Back;;CD Mirandés;;;Jul 4, 2025;Jun 30, 2026
+996;996;Iván Jaime;610335;€5.00m;Dec 11, 2025;Sep 26, 2000;25;1.8;Spain;[];Attacking Midfield;;Montréal;;;Aug 21, 2025;Jun 30, 2026
+997;997;Jon Pacheco;580560;€6.00m;Mar 16, 2026;Jan 8, 2001;25;1.84;Spain;[];Centre-Back;;Alavés;;;Aug 25, 2025;Jun 30, 2026
+998;998;Álex Muñoz;243760;€800k;Mar 18, 2026;Jul 30, 1994;31;1.87;Spain;['Spain'];Left-Back;0;;;;;
+999;999;Pablo Rivera;934169;€200k;Dec 30, 2025;Jan 11, 2004;22;1.78;Spain;[];Central Midfield;;Sevilla Atl.;;;Jul 1, 2024;Jun 30, 2026
+1000;1000;Carlos Giménez;856136;€200k;Dec 30, 2025;Feb 18, 2003;23;1.8;Spain;['Spain'];Right-Back;0;;;;;
+1001;1001;Marcos Paulo;612496;€450k;Nov 24, 2025;Feb 1, 2001;25;1.86;Portugal;['Portugal', 'Brazil'];Left Winger;0;;;;;
+1002;1002;Ramón Terrats;783396;€3.00m;Dec 12, 2025;Oct 18, 2000;25;1.81;Spain;[];Central Midfield;;Espanyol;;;Jul 1, 2025;Jun 30, 2026
+1003;1003;Jean Ives Valou;1305564;€600k;Mar 18, 2026;Dec 22, 2005;20;1.88;Cote d'Ivoire;"['Benin', ""Cote d'Ivoire""]";Centre-Back;0;;;;;
+1004;1004;Marcos Alonso;112515;€1.40m;Dec 12, 2025;Dec 28, 1990;35;1.88;Spain;['Spain'];Centre-Back;0;;;;;
+1005;1005;Florian Grillitsch;195736;€2.00m;Dec 18, 2025;Aug 7, 1995;30;1.87;Austria;[];Defensive Midfield;;Braga;;;Aug 29, 2025;Jun 30, 2027
+1006;1006;Marko Dmitrovic;94308;€800k;Dec 12, 2025;Jan 24, 1992;34;1.89;Serbia;['Serbia', 'Jugoslawien (SFR)'];Goalkeeper;;Espanyol;;;Jul 1, 2025;Jun 30, 2028
+1007;1007;Omar Mascarell;142031;€800k;Dec 12, 2025;Feb 2, 1993;33;1.81;Equatorial Guinea;['Equatorial Guinea', 'Spain'];Defensive Midfield;0;;;;;
+1008;1008;Álvaro Djaló;671649;€4.50m;Dec 30, 2025;Aug 16, 1999;26;1.75;Guinea-Bissau;['Spain', 'Guinea-Bissau'];Left Winger;0;;;;;
+1009;1009;Iván Cuéllar;27493;€100k;Dec 12, 2025;May 27, 1984;41;1.87;Spain;['Spain'];Goalkeeper;;RCD Mallorca;;;Aug 28, 2023;Jun 30, 2026
+1010;1010;Leandro Cabrera;102423;€1.00m;Dec 12, 2025;Jun 17, 1991;34;1.9;Uruguay;['Spain', 'Uruguay'];Centre-Back;0;;;;;
+1011;1011;Kylian Mbappé;342229;€200.00m;Dec 12, 2025;Dec 20, 1998;27;1.8;France;['Cameroon', 'France'];Centre-Forward;0;;;;;
+1012;1012;Valentín Pezzolesi;1271065;€200k;Mar 18, 2026;Apr 16, 2007;18;;Spain;[];Right-Back;;Las Palmas Atl.;;;Jan 1, 2026;Jun 30, 2027
+1013;1013;Hugo de Llanos;948260;€400k;Mar 18, 2026;Mar 18, 2005;21;1.75;Spain;['Spain'];Left Winger;0;;;;;
+1014;1014;Jon García;941080;€300k;Dec 30, 2025;Jan 28, 2003;23;1.82;Spain;['Spain'];Central Midfield;0;;;;;
+1015;1015;Jorge Benito;1135452;€25k;Dec 30, 2025;Jun 6, 2006;19;;Spain;['Spain'];Goalkeeper;;Getafe CF B;;;Jul 1, 2024;Jun 30, 2027
+1016;1016;Cyle Larin;343463;€3.50m;Dec 2, 2025;Apr 17, 1995;30;1.88;Canada;[];Centre-Forward;;Southampton;;;Feb 2, 2026;Jun 30, 2026
+1017;1017;Iván Martín;341278;€6.00m;Dec 12, 2025;Feb 14, 1999;27;1.78;Spain;['Spain'];Central Midfield;0;;;;;
+1018;1018;Abdón Prats;177452;€900k;Dec 12, 2025;Dec 7, 1992;33;1.81;Spain;[];Centre-Forward;;RCD Mallorca;;;Jul 4, 2017;Jun 30, 2028
+1019;1019;Yoel Lago;939374;€2.50m;Dec 12, 2025;Mar 25, 2004;22;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+1020;1020;Jorge de Frutos;455181;€12.00m;Dec 12, 2025;Feb 20, 1997;29;1.73;Spain;['Spain'];Right Winger;0;;;;;
+1021;1021;Álvaro García;257062;€1.80m;Dec 12, 2025;Oct 27, 1992;33;1.67;Spain;[];Left Winger;;Rayo Vallecano;;;Aug 23, 2018;Jun 30, 2028
+1022;1022;Albert Sambi Lokonga;381967;€10.00m;Mar 20, 2026;Oct 22, 1999;26;1.83;Belgium;['DR Congo', 'Belgium'];Central Midfield;0;;;;;
+1023;1023;Pedro Díaz;363057;€3.00m;Dec 12, 2025;Jun 5, 1998;27;1.8;Spain;[];Central Midfield;;Rayo Vallecano;;;Aug 5, 2024;Jun 30, 2028
+1024;1024;Juanpe Gil;708370;€50k;Dec 30, 2025;May 5, 2001;24;1.88;Spain;['Spain'];Goalkeeper;;Rayo B;;;Jul 1, 2024;Jun 30, 2026
+1025;1025;Javi Sánchez;340853;€800k;Dec 30, 2025;Mar 14, 1997;29;1.89;Spain;[];Centre-Back;;Arouca;;;Jan 5, 2026;Jun 30, 2026
+1026;1026;Andrés Castrín;719999;€1.50m;Dec 12, 2025;May 26, 2003;22;1.88;Spain;[];Centre-Back;;Sevilla FC;;;Jan 1, 2026;Jun 30, 2027
+1027;1027;Bojan Miovski;476219;€2.50m;Dec 10, 2025;Jun 24, 1999;26;1.89;North Macedonia;[];Centre-Forward;;Rangers;;;Aug 30, 2025;Jun 30, 2029
+1028;1028;Irvin Cardona;342226;€2.50m;Dec 11, 2025;Aug 8, 1997;28;1.85;Malta;['Malta', 'France'];Right Winger;0;;;;;
+1029;1029;Thomas Lemar;205562;€2.00m;Dec 12, 2025;Nov 12, 1995;30;1.71;France;[];Attacking Midfield;;Girona;;;Jul 30, 2025;Jun 30, 2026
+1030;1030;Rubén García;213260;€1.80m;Dec 12, 2025;Jul 14, 1993;32;1.72;Spain;['Spain'];Right Winger;0;;;;;
+1031;1031;Fernando Calero;357884;€2.00m;Dec 12, 2025;Sep 14, 1995;30;1.84;Spain;[];Centre-Back;;Espanyol;;;Aug 9, 2019;Jun 30, 2026
+1032;1032;Juan Cruz;169497;€1.20m;Dec 12, 2025;Jul 28, 1992;33;1.82;Spain;['Spain'];Left-Back;0;;;;;
+1033;1033;Xavi Pleguezuelo;971774;€100k;Dec 30, 2025;Jan 14, 2003;23;1.78;Spain;['Spain'];Left-Back;;RCD Espanyol B;;;Aug 27, 2025;Jun 30, 2026
+1034;1034;Marc Bernal;1018920;€30.00m;Mar 16, 2026;May 26, 2007;18;1.93;Spain;['Spain'];Defensive Midfield;0;;;;;
+1035;1035;Ayoze Pérez;246968;€6.00m;Dec 12, 2025;Jul 29, 1993;32;1.78;Spain;[];Centre-Forward;;Villarreal;;;Aug 13, 2024;Jun 30, 2028
+1036;1036;Adrián Arnu;1176519;€2.00m;Mar 18, 2026;Mar 4, 2007;19;1.85;Spain;[];Centre-Forward;;Real Madrid C;;;Jan 21, 2026;Jun 30, 2026
+1037;1037;Aimar Duñabeitia;834488;€200k;Mar 18, 2026;Feb 26, 2003;23;1.84;Spain;['Spain'];Centre-Back;;Bilbao Athletic;;;Jul 1, 2023;Jun 30, 2026
+1038;1038;Damián Rodríguez;715628;€2.00m;Dec 12, 2025;Mar 17, 2003;23;1.8;Spain;[];Defensive Midfield;;Racing;;;Jan 6, 2026;Jun 30, 2026
+1039;1039;Marash Kumbulla;371371;€4.00m;Mar 16, 2026;Feb 8, 2000;26;1.91;Albania;[];Centre-Back;;RCD Mallorca;;;Aug 18, 2025;Jun 30, 2026
+1040;1040;Juan Bernat;126719;€500k;Mar 18, 2026;Mar 1, 1993;33;1.7;Spain;[];Left-Back;;SD Eibar;;;Feb 12, 2026;Jun 30, 2026
+1041;1041;Diego Llorente;246291;€3.00m;Dec 12, 2025;Aug 16, 1993;32;1.86;Spain;['Spain'];Centre-Back;0;;;;;
+1042;1042;Mamadou Sylla;166683;€1.20m;Dec 18, 2025;Mar 20, 1994;32;1.8;Senegal;['Spain', 'Senegal'];Centre-Forward;;Al-Riyadh;;;Aug 24, 2025;-
+1043;1043;Dani Requena;945709;€800k;Mar 18, 2026;Feb 12, 2004;22;1.86;Spain;['Spain'];Central Midfield;0;;;;;
+1044;1044;Robert Navarro;563137;€6.00m;Dec 12, 2025;Apr 12, 2002;23;1.78;Spain;['Spain'];Right Winger;0;;;;;
+1045;1045;Alex Král;337333;€2.50m;Mar 20, 2026;May 19, 1998;27;1.86;Czech Republic;['Czech Republic', 'Slovakia'];Central Midfield;0;;;;;
+1046;1046;Ferland Mendy;291417;€6.00m;Mar 16, 2026;Jun 8, 1995;30;1.8;France;['France', 'Senegal'];Left-Back;;Real Madrid;;;Jul 1, 2019;Jun 30, 2028
+1047;1047;Ander Izagirre;1189292;€50k;Dec 30, 2025;Jun 28, 2003;22;1.85;Spain;['Spain'];Centre-Back;;Bilbao Athletic;;;Jul 1, 2024;Jun 30, 2026
+1048;1048;Christantus Uche;1124005;€15.00m;Dec 9, 2025;May 19, 2003;22;1.9;Nigeria;['Nigeria'];Centre-Forward;0;;;;;
+1049;1049;Adrián Embarba;288318;€700k;Mar 18, 2026;May 7, 1992;33;1.73;Spain;['Spain'];Right Winger;0;;;;;
+1050;1050;Marko Dmitrovic;94308;€800k;Dec 12, 2025;Jan 24, 1992;34;1.89;Serbia;[];Goalkeeper;;Espanyol;;;Jul 1, 2025;Jun 30, 2028
+1051;1051;Iker Benito;710679;€1.50m;Dec 12, 2025;Aug 10, 2002;23;1.76;Spain;[];Right Winger;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2027
+1052;1052;Sergio Mestre;973314;€200k;Mar 18, 2026;Feb 13, 2005;21;1.93;Spain;[];Goalkeeper;;RM Castilla;;;Jul 1, 2025;Jun 30, 2028
+1053;1053;Luis Milla;281989;€3.50m;Dec 12, 2025;Oct 7, 1994;31;1.75;Spain;['Spain'];Central Midfield;0;;;;;
+1054;1054;Álvaro Tejero;290273;€1.80m;Dec 12, 2025;Jul 20, 1996;29;1.74;Spain;[];Right-Back;;Aris Saloniki;;;Jul 14, 2025;Jun 30, 2027
+1055;1055;André Ferreira;290346;€600k;Dec 18, 2025;May 29, 1996;29;1.93;Portugal;['Portugal'];Goalkeeper;;Moreirense;;;Jul 21, 2025;Jun 30, 2028
+1056;1056;Dimitri Foulquier;170472;€1.00m;Mar 16, 2026;Mar 23, 1993;33;1.83;Guadeloupe;[];Right-Back;;Valencia;;;Aug 30, 2021;Jun 30, 2027
+1057;1057;Abel Ruiz;340376;€2.50m;Mar 16, 2026;Jan 28, 2000;26;1.82;Spain;[];Centre-Forward;;Girona;;;Jul 1, 2024;Jun 30, 2029
+1058;1058;Jan Oblak;121483;€17.00m;Dec 12, 2025;Jan 7, 1993;33;1.88;Slovenia;[];Goalkeeper;;Atlético;;;Jul 16, 2014;Jun 30, 2028
+1059;1059;Thierry Correia;367466;€3.00m;Dec 12, 2025;Mar 9, 1999;27;1.76;Portugal;['Portugal', 'Cape Verde'];Right-Back;0;;;;;
+1060;1060;Pablo Marín;907813;€8.00m;Dec 12, 2025;Jul 3, 2003;22;1.78;Spain;['Spain'];Attacking Midfield;0;;;;;
+1061;1061;Unai Egiluz;834485;€600k;Dec 12, 2025;Mar 19, 2002;24;1.86;Spain;[];Centre-Back;;Athletic Club;;;Jul 1, 2024;Jun 30, 2028
+1062;1062;Abdel Abqar;559979;€4.00m;Mar 16, 2026;Mar 10, 1999;27;1.88;Morocco;['Morocco'];Centre-Back;;Getafe;;;Jul 29, 2025;Jun 30, 2028
+1063;1063;Arnaut Danjuma;355861;€4.00m;Dec 12, 2025;Jan 31, 1997;29;1.78;Netherlands;[];Left Winger;;Valencia;;;Aug 10, 2025;Jun 30, 2028
+1064;1064;Diego Hormigo;767229;€300k;Dec 30, 2025;Apr 16, 2003;22;1.82;Spain;['Spain'];Left-Back;0;;;;;
+1065;1065;Nico Williams;709187;€50.00m;Mar 16, 2026;Jul 12, 2002;23;1.81;Spain;['Ghana', 'Spain'];Left Winger;0;;;;;
+1066;1066;Coba da Costa;1033005;€2.50m;Dec 12, 2025;Jul 26, 2002;23;1.82;Guinea-Bissau;[];Left Winger;;RSC Anderlecht;;;Feb 2, 2026;Jun 30, 2026
+1067;1067;Gerard Gumbau;268670;€1.40m;Dec 12, 2025;Dec 18, 1994;31;1.88;Spain;['Spain'];Defensive Midfield;0;;;;;
+1068;1068;Eduardo Camavinga;640428;€50.00m;Dec 12, 2025;Nov 10, 2002;23;1.82;France;[];Central Midfield;;Real Madrid;;;Aug 31, 2021;Jun 30, 2029
+1069;1069;Alejandro Francés;632896;€3.00m;Dec 12, 2025;Aug 1, 2002;23;1.82;Spain;[];Centre-Back;;Girona;;;Jul 26, 2024;Jun 30, 2029
+1070;1070;Luiz Júnior;712107;€12.00m;Dec 12, 2025;Jan 14, 2001;25;1.92;Brazil;['Portugal', 'Brazil'];Goalkeeper;;Villarreal;;;Aug 20, 2024;Jun 30, 2030
+1071;1071;Rudy Kohon;917101;€500k;Dec 18, 2025;May 23, 2004;21;1.87;France;[];Centre-Back;;KV Kortrijk;;;Aug 28, 2025;Jun 30, 2029
+1072;1072;Diego Rico;249513;€1.20m;Dec 12, 2025;Feb 23, 1993;33;1.83;Spain;[];Left-Back;;Getafe;;;Jul 16, 2024;Jun 30, 2026
+1073;1073;Benito Ramírez;282672;€300k;Mar 18, 2026;Jul 11, 1995;30;1.79;Spain;['Spain'];Left Winger;0;;;;;
+1074;1074;Rafel Bauzà;1178721;€1.00m;Mar 18, 2026;Jan 30, 2005;21;1.83;Spain;['Spain'];Central Midfield;;CD Mirandés;;;Aug 25, 2025;Jun 30, 2026
+1075;1075;Alfonso Pedraza;356197;€2.50m;Dec 12, 2025;Apr 9, 1996;29;1.84;Spain;['Spain'];Left-Back;0;;;;;
+1076;1076;Ekain Orobengoa;982007;€200k;Dec 30, 2025;Jun 17, 2004;21;1.84;Spain;['Spain'];Centre-Forward;0;;;;;
+1077;1077;Áron Yaakobishvili;938145;€3.00m;Mar 18, 2026;Mar 6, 2006;20;1.87;Hungary;[];Goalkeeper;;FC Andorra;;;Jul 15, 2025;Jun 30, 2028
+1078;1078;Leandro Cabrera;102423;€1.00m;Dec 12, 2025;Jun 17, 1991;34;1.9;Uruguay;[];Centre-Back;;Espanyol;;;Jan 20, 2020;Jun 30, 2027
+1079;1079;Valentin Rosier;441170;€3.00m;Dec 12, 2025;Aug 19, 1996;29;1.75;France;['Guadeloupe', 'France'];Right-Back;;CA Osasuna;;;Jul 1, 2025;Jun 30, 2028
+1080;1080;Iker Córdoba;834463;€500k;Dec 30, 2025;Nov 11, 2005;20;1.9;Spain;['Spain'];Centre-Back;;CD Mirandés;;;Jul 4, 2025;Jun 30, 2026
+1081;1081;Pol Lozano;412045;€6.00m;Dec 12, 2025;Oct 6, 1999;26;1.76;Spain;[];Central Midfield;;Espanyol;;;Jul 1, 2020;Jun 30, 2027
+1082;1082;Daley Blind;12282;€1.40m;Dec 12, 2025;Mar 9, 1990;36;1.8;Netherlands;[];Centre-Back;;Girona;;;Jul 7, 2023;Jun 30, 2026
+1083;1083;Fran Beltrán;423444;€5.00m;Dec 12, 2025;Feb 3, 1999;27;1.65;Spain;['Spain'];Central Midfield;0;;;;;
+1084;1084;Iván Martín;341278;€6.00m;Dec 12, 2025;Feb 14, 1999;27;1.78;Spain;[];Central Midfield;;Girona;;;Jul 22, 2023;Jun 30, 2028
+1085;1085;Ángel Ortiz;933908;€4.00m;Dec 12, 2025;Jul 25, 2004;21;1.67;Spain;[];Right-Back;;Real Betis;;;Jan 1, 2025;Jun 30, 2029
+1086;1086;Koke;74229;€6.00m;Mar 16, 2026;Jan 8, 1992;34;1.76;Spain;['Spain'];Central Midfield;0;;;;;
+1087;1087;Iñaki Peña;283170;€5.00m;Mar 16, 2026;Mar 2, 1999;27;1.84;Spain;['Spain'];Goalkeeper;;Elche CF;;;Aug 27, 2025;Jun 30, 2026
+1088;1088;Rubén Vargas;345886;€12.00m;Dec 12, 2025;Aug 5, 1998;27;1.79;Switzerland;['Switzerland', 'Dominican Republic'];Left Winger;0;;;;;
+1089;1089;André Ferreira;290346;€600k;Dec 18, 2025;May 29, 1996;29;1.93;Portugal;[];Goalkeeper;;Moreirense;;;Jul 21, 2025;Jun 30, 2028
+1090;1090;Óscar Trejo;30321;€400k;Dec 12, 2025;Apr 26, 1988;37;1.8;Argentina;[];Attacking Midfield;;Rayo Vallecano;;;Jul 1, 2017;Jun 30, 2026
+1091;1091;Jon Aramburu;661145;€15.00m;Dec 12, 2025;Jul 23, 2002;23;1.76;Venezuela;[];Right-Back;;Real Sociedad;;;Jul 1, 2024;Jun 30, 2030
+1092;1092;Isaac Romero;687609;€5.00m;Mar 16, 2026;May 18, 2000;25;1.83;Spain;['Spain'];Centre-Forward;0;;;;;
+1093;1093;Arsen Zakharyan;555143;€10.00m;Mar 16, 2026;May 26, 2003;22;1.83;Russia;['Russia'];Attacking Midfield;0;;;;;
+1094;1094;Jorge de Frutos;455181;€12.00m;Dec 12, 2025;Feb 20, 1997;29;1.73;Spain;[];Right Winger;;Rayo Vallecano;;;Aug 17, 2023;Jun 30, 2028
+1095;1095;Jackson Porozo;491616;€2.50m;Dec 29, 2025;Aug 4, 2000;25;1.93;Ecuador;['Ecuador'];Centre-Back;;Club Tijuana;;;Jan 9, 2026;-
+1096;1096;Diego Méndez;932349;€50k;Dec 30, 2025;Aug 29, 2003;22;1.82;Spain;['Spain'];Central Midfield;;Rayo B;;;Jul 1, 2021;Jun 30, 2026
+1097;1097;Diego García;852727;€1.50m;Dec 30, 2025;Apr 18, 2000;25;1.88;Spain;['Spain'];Centre-Forward;;CD Leganés;;;Jul 1, 2022;Jun 30, 2028
+1098;1098;Maroan Sannadi;1054934;€5.00m;Dec 12, 2025;Feb 1, 2001;25;1.92;Morocco;[];Centre-Forward;;Athletic Club;;;Feb 1, 2025;Jun 30, 2029
+1099;1099;Yarek Gasiorowski;895334;€16.00m;Dec 2, 2025;Jan 12, 2005;21;1.91;Spain;['Spain', 'Poland'];Centre-Back;0;;;;;
+1100;1100;Mikel Rodriguez;721660;€700k;Mar 18, 2026;Apr 3, 2002;23;1.75;Spain;[];Central Midfield;;Real Sociedad B;;;Jul 1, 2023;Jun 30, 2029
+1101;1101;Raúl Moro;624942;€5.00m;Mar 16, 2026;Dec 5, 2002;23;1.69;Spain;['Spain'];Left Winger;0;;;;;
+1102;1102;Moussa Diarra;694509;€1.50m;Dec 12, 2025;Nov 10, 2000;25;1.85;Mali;['Mali', 'France'];Centre-Back;0;;;;;
+1103;1103;Martin Valjent;277384;€4.50m;Dec 12, 2025;Dec 11, 1995;30;1.87;Slovakia;['Slovakia'];Centre-Back;;RCD Mallorca;;;Jul 1, 2019;Jun 30, 2029
+1104;1104;Yéremy Pino;568157;€35.00m;Dec 9, 2025;Oct 20, 2002;23;1.72;Spain;['Spain'];Right Winger;0;;;;;
+1105;1105;Marcão;439022;€2.50m;Dec 12, 2025;Jun 5, 1996;29;1.85;Brazil;[];Centre-Back;;Sevilla FC;;;Jul 8, 2022;Jun 30, 2028
+1106;1106;Augusto Batalla;275218;€6.00m;Dec 12, 2025;Apr 30, 1996;29;1.85;Argentina;['Argentina', 'Italy'];Goalkeeper;;Rayo Vallecano;;;Jul 1, 2025;Jun 30, 2030
+1107;1107;Vedat Muriqi;256267;€4.50m;Dec 12, 2025;Apr 24, 1994;31;1.94;Kosovo;['Albania', 'Yugoslavia (Republic)', 'Kosovo'];Centre-Forward;;RCD Mallorca;;;Jul 22, 2022;Jun 30, 2029
+1108;1108;Víctor Meseguer;658269;€1.50m;Dec 30, 2025;Jun 9, 1999;26;1.84;Spain;[];Central Midfield;;Real Valladolid;;;Jul 1, 2024;Jun 30, 2029
+1109;1109;Min-su Kim;1108203;€3.00m;Mar 18, 2026;Jan 19, 2006;20;1.77;Korea, South;[];Left Winger;;FC Andorra;;;Jul 15, 2025;Jun 30, 2026
+1110;1110;Aurélien Tchouaméni;413112;€75.00m;Dec 12, 2025;Jan 27, 2000;26;1.88;France;['Cameroon', 'France'];Defensive Midfield;0;;;;;
+1111;1111;Cucho Hernández;459463;€18.00m;Dec 12, 2025;Apr 20, 1999;26;1.76;Colombia;['Colombia', 'Spain'];Centre-Forward;;Real Betis;;;Feb 3, 2025;Jun 30, 2030
+1112;1112;Ante Budimir;46413;€3.00m;Dec 12, 2025;Jul 22, 1991;34;1.9;Croatia;['Croatia', 'Jugoslawien (SFR)'];Centre-Forward;;CA Osasuna;;;Jul 1, 2021;Jun 30, 2027
+1113;1113;Jones El-Abdellaoui;960571;€8.00m;Mar 16, 2026;Jan 12, 2006;20;1.84;Morocco;['Norway', 'Morocco'];Right Winger;0;;;;;
+1114;1114;Lucien Agoumé;569384;€12.00m;Dec 12, 2025;Feb 9, 2002;24;1.85;France;['Cameroon', 'France'];Defensive Midfield;0;;;;;
+1115;1115;David López;947431;€1.20m;Mar 16, 2026;Feb 3, 2003;23;1.95;Spain;['Spain'];Centre-Back;;RCD Mallorca;;;Jan 31, 2024;Jun 30, 2027
+1116;1116;Stanko Juric;388125;€1.20m;Dec 30, 2025;Aug 16, 1996;29;1.88;Croatia;[];Defensive Midfield;;Real Valladolid;;;Jul 1, 2024;Jun 30, 2027
+1117;1117;Alvin Abajas;1055833;€100k;Dec 30, 2025;May 12, 2003;22;1.86;Spain;[];Goalkeeper;;Arenteiro;;;Jul 21, 2025;Jun 30, 2026
+1118;1118;Mikel Vesga;300168;€1.50m;Dec 12, 2025;Apr 8, 1993;32;1.91;Spain;['Spain'];Defensive Midfield;0;;;;;
+1119;1119;Nico Serrano;668183;€1.50m;Dec 12, 2025;Mar 5, 2003;23;1.76;Spain;['Spain'];Left Winger;0;;;;;
+1120;1120;Roberto Fernández;720518;€10.00m;Dec 12, 2025;Jul 3, 2002;23;1.86;Spain;['Spain'];Centre-Forward;0;;;;;
+1121;1121;Sixtus Ogbuehi;1230201;€200k;Dec 18, 2025;Mar 15, 2003;23;1.92;Nigeria;['Nigeria'];Centre-Forward;;KV Kortrijk;;;Jul 24, 2025;Jun 30, 2028
+1122;1122;Sergio Arribas;722351;€400k;Dec 30, 2025;Feb 10, 2003;23;1.85;Spain;[];Centre-Back;;Cádiz CF;;;Jan 29, 2026;Jun 30, 2029
+1123;1123;Rodri Sánchez;630995;€3.00m;Dec 30, 2025;May 16, 2000;25;1.75;Spain;[];Right Winger;;Al-Arabi SC;;;Sep 8, 2024;Jun 30, 2027
+1124;1124;Raúl Martínez;1129175;€25k;Dec 30, 2025;Feb 23, 2002;24;;Spain;['Spain'];Central Midfield;0;;;;;
+1125;1125;Dani Raba;413262;€1.50m;Mar 16, 2026;Oct 29, 1995;30;1.85;Spain;[];Second Striker;;Valencia;;;Jul 1, 2025;Jun 30, 2027
+1126;1126;Raúl Chasco;834486;€150k;Dec 30, 2025;Sep 13, 2003;22;1.79;Spain;['Spain'];Left-Back;;Osasuna B;;;Jul 2, 2025;Jun 30, 2026
+1127;1127;Carl Starfelt;258987;€5.00m;Dec 12, 2025;Jun 1, 1995;30;1.87;Sweden;[];Centre-Back;;Celta de Vigo;;;Aug 10, 2023;Jun 30, 2027
+1128;1128;Aurélien Tchouaméni;413112;€75.00m;Dec 12, 2025;Jan 27, 2000;26;1.88;France;[];Defensive Midfield;;Real Madrid;;;Jul 1, 2022;Jun 30, 2028
+1129;1129;Youssef Enríquez;741289;€5.00m;Dec 12, 2025;Oct 7, 2005;20;1.7;Morocco;['Spain', 'Morocco'];Left-Back;;Alavés;;;Jul 16, 2025;Jun 30, 2029
+1130;1130;Naci Ünüvar;508639;€1.50m;Dec 2, 2025;Jun 13, 2003;22;1.68;Türkiye;[];Left Winger;;Heracles Almelo;;;Jan 27, 2026;Jun 30, 2026
+1131;1131;Iván Balliu;85295;€1.20m;Dec 12, 2025;Jan 1, 1992;34;1.72;Albania;[];Right-Back;;Rayo Vallecano;;;Jul 14, 2021;Jun 30, 2027
+1132;1132;Sergio Arribas;722351;€400k;Dec 30, 2025;Feb 10, 2003;23;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+1133;1133;José Copete;520840;€5.00m;Mar 16, 2026;Oct 10, 1999;26;1.9;Spain;['Spain'];Centre-Back;;Valencia;;;Jul 28, 2025;Jun 30, 2029
+1134;1134;Conor Gallagher;488362;€35.00m;Dec 12, 2025;Feb 6, 2000;26;1.82;England;[];Central Midfield;;Tottenham;;;Jan 14, 2026;Jun 30, 2031
+1135;1135;Diego Hormigo;767229;€300k;Dec 30, 2025;Apr 16, 2003;22;1.82;Spain;[];Left-Back;;Granada CF;;;Aug 13, 2025;Jun 30, 2028
+1136;1136;Peio Canales;1056966;€8.00m;Mar 18, 2026;Jan 17, 2005;21;1.75;Spain;['Spain'];Attacking Midfield;0;;;;;
+1137;1137;Fer Rodríguez;710007;;;Nov 6, 2002;23;1.82;Spain;['Spain'];Central Midfield;;Without Club;CD Leganés B;Jul 1, 2025;;
+1138;1138;Germán García;1061277;€50k;Dec 30, 2025;Feb 1, 2004;22;;Spain;['Spain'];Goalkeeper;;Betis Deportivo;;;Nov 1, 2023;Jun 30, 2026
+1139;1139;Javi Puado;408471;€7.50m;Mar 16, 2026;May 25, 1998;27;1.77;Spain;[];Left Winger;;Espanyol;;;Jul 1, 2018;Jun 30, 2030
+1140;1140;Florian Lejeune;127108;€2.00m;Dec 12, 2025;May 20, 1991;34;1.9;France;[];Centre-Back;;Rayo Vallecano;;;Jul 28, 2023;Jun 30, 2027
+1141;1141;Lucas Ocampos;189441;€4.50m;Dec 29, 2025;Jul 11, 1994;31;1.78;Argentina;[];Left Winger;;Monterrey;;;Sep 3, 2024;Jun 30, 2027
+1142;1142;Juanma Herzog;1146029;€1.50m;Dec 30, 2025;May 13, 2004;21;1.86;Spain;[];Centre-Back;;UD Las Palmas;;;Jul 1, 2024;Jun 30, 2028
+1143;1143;Iker Bachiller;618805;€100k;Mar 18, 2026;Sep 14, 2002;23;1.69;Spain;['Spain'];Left-Back;;CD Tudelano;;;Aug 30, 2025;Jun 30, 2026
+1144;1144;Reinildo Mandava;240692;€5.00m;Dec 9, 2025;Jan 21, 1994;32;1.8;Mozambique;[];Left-Back;;Sunderland;;;Jul 8, 2025;Jun 30, 2027
+1145;1145;Juanlu Sánchez;676042;€15.00m;Dec 12, 2025;Aug 15, 2003;22;1.86;Spain;['Spain'];Right-Back;0;;;;;
+1146;1146;Carlos Guirao;1054429;€300k;Dec 30, 2025;Apr 27, 2003;22;1.84;Spain;['Spain'];Defensive Midfield;0;;;;;
+1147;1147;Pau López;286415;€2.50m;Dec 12, 2025;Dec 13, 1994;31;1.89;Spain;['Spain'];Goalkeeper;;Real Betis;;;Jul 22, 2025;Jun 30, 2028
+1148;1148;Takefusa Kubo;405398;€30.00m;Dec 12, 2025;Jun 4, 2001;24;1.73;Japan;['Japan'];Right Winger;0;;;;;
+1149;1149;Óscar Trejo;30321;€400k;Dec 12, 2025;Apr 26, 1988;37;1.8;Argentina;['Argentina', 'Italy'];Attacking Midfield;0;;;;;
+1150;1150;Iván Balliu;85295;€1.20m;Dec 12, 2025;Jan 1, 1992;34;1.72;Albania;['Albania', 'Spain'];Right-Back;0;;;;;
+1151;1151;Franco Cervi;341110;€700k;Dec 12, 2025;May 26, 1994;31;1.66;Argentina;['Argentina', 'Italy'];Left Winger;0;;;;;
+1152;1152;Andriy Lunin;404839;€15.00m;Dec 12, 2025;Feb 11, 1999;27;1.91;Ukraine;[];Goalkeeper;;Real Madrid;;;Jul 1, 2018;Jun 30, 2030
+1153;1153;Gonzalo García;935230;€30.00m;Mar 16, 2026;Mar 24, 2004;22;1.82;Spain;[];Centre-Forward;;Real Madrid;;;Jun 1, 2025;Jun 30, 2030
+1154;1154;Ferran Torres;398184;€50.00m;Dec 12, 2025;Feb 29, 2000;26;1.82;Spain;['Spain'];Centre-Forward;0;;;;;
+1155;1155;Adrià Pedrosa;501418;€3.00m;Mar 16, 2026;May 13, 1998;27;1.72;Spain;[];Left-Back;;Elche CF;;;Sep 1, 2025;Jun 30, 2026
+1156;1156;Sébastien Haller;181375;€1.30m;Mar 11, 2026;Jun 22, 1994;31;1.9;Cote d'Ivoire;"['France', ""Cote d'Ivoire""]";Centre-Forward;;Utrecht;;;Aug 18, 2025;Jun 30, 2026
+1157;1157;Robin Le Normand;351809;€25.00m;Mar 16, 2026;Nov 11, 1996;29;1.87;Spain;['Spain', 'France'];Centre-Back;;Atlético;;;Jul 27, 2024;Jun 30, 2029
+1158;1158;Nahuel Molina;424042;€15.00m;Dec 12, 2025;Apr 6, 1998;27;1.75;Argentina;['Argentina'];Right-Back;0;;;;;
+1159;1159;Álvaro Fernández;453704;€1.80m;Dec 12, 2025;Apr 13, 1998;27;1.85;Spain;['Spain'];Goalkeeper;;Dep. La Coruña;;;Jan 1, 2026;Jun 30, 2027
+1160;1160;David Alaba;59016;€3.50m;Mar 16, 2026;Jun 24, 1992;33;1.8;Austria;['Austria'];Centre-Back;0;;;;;
+1161;1161;Alassane Diatta;1249340;€500k;Mar 18, 2026;May 14, 2005;20;1.9;Senegal;[];Central Midfield;;Villarreal CF B;;;Jul 1, 2024;Jun 30, 2030
+1162;1162;Tincho Conde;933350;€300k;Dec 30, 2025;Mar 25, 2003;23;;Spain;['Spain'];Left-Back;;Castellón;;;Aug 12, 2025;Jun 30, 2029
+1163;1163;Alejandro Iturbe;618801;€1.50m;Mar 16, 2026;Sep 2, 2003;22;1.86;Spain;['Spain'];Goalkeeper;;Elche CF;;;Jul 16, 2025;Jun 30, 2029
+1164;1164;Pedro Díaz;363057;€3.00m;Dec 12, 2025;Jun 5, 1998;27;1.8;Spain;['Spain'];Central Midfield;;Rayo Vallecano;;;Aug 5, 2024;Jun 30, 2028
+1165;1165;Rubén Peña;238868;€500k;Mar 18, 2026;Jul 18, 1991;34;1.7;Spain;[];Right-Back;;CD Leganés;;;Jul 1, 2025;Jun 30, 2027
+1166;1166;David Torres;857832;€1.50m;Dec 30, 2025;Mar 5, 2003;23;1.82;Spain;[];Centre-Back;;Real Valladolid;;;Jul 1, 2023;Jun 30, 2026
+1167;1167;Toni Martínez;302371;€4.00m;Mar 16, 2026;Jun 30, 1997;28;1.87;Spain;[];Centre-Forward;;Alavés;;;Aug 27, 2024;Jun 30, 2028
+1168;1168;Adrián San Miguel;71271;€400k;Dec 12, 2025;Jan 3, 1987;39;1.9;Spain;['Spain'];Goalkeeper;;Real Betis;;;Jul 8, 2024;Jun 30, 2026
+1169;1169;Viktor Tsygankov;264372;€15.00m;Dec 12, 2025;Nov 15, 1997;28;1.78;Ukraine;['Ukraine', 'Israel'];Right Winger;0;;;;;
+1170;1170;Álex Valle;709957;€10.00m;Dec 23, 2025;Apr 25, 2004;21;1.78;Spain;['Spain'];Left-Back;;Como;;;Jul 1, 2025;Jun 30, 2029
+1171;1171;Ilias Kostis;614988;€300k;Mar 18, 2026;Feb 27, 2003;23;1.88;Greece;[];Centre-Back;;Atl. Madrileño;;;Jul 1, 2022;Jun 30, 2027
+1172;1172;Cenk Özkacar;615350;€3.00m;Mar 20, 2026;Oct 6, 2000;25;1.9;Türkiye;[];Centre-Back;;1.FC Köln;;;Aug 9, 2025;Jun 30, 2026
+1173;1173;Aitor Gismera;646735;€250k;Dec 30, 2025;Feb 21, 2004;22;1.82;Spain;[];Central Midfield;;Betis Deportivo;;;Aug 29, 2025;Jun 30, 2027
+1174;1174;Ayoze Pérez;246968;€6.00m;Dec 12, 2025;Jul 29, 1993;32;1.78;Spain;['Spain'];Centre-Forward;0;;;;;
+1175;1175;Ansu Fati;466810;€10.00m;Dec 15, 2025;Oct 31, 2002;23;1.78;Spain;[];Left Winger;;Monaco;;;Jul 1, 2025;Jun 30, 2026
+1176;1176;Hamza Bellari;1123335;€200k;Dec 30, 2025;Mar 11, 2003;23;;Morocco;[];Right Winger;;Eldense;;;Aug 4, 2025;Jun 30, 2026
+1177;1177;Egoitz Arana;711367;€100k;Dec 30, 2025;Feb 19, 2002;24;1.97;Spain;['Spain'];Goalkeeper;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2026
+1178;1178;José Gragera;557147;€1.50m;Dec 30, 2025;May 14, 2000;25;1.86;Spain;['Spain'];Central Midfield;0;;;;;
+1179;1179;Bryan Zaragoza;713644;€10.00m;Dec 12, 2025;Sep 9, 2001;24;1.64;Spain;['Spain'];Left Winger;0;;;;;
+1180;1180;Daley Sinkgraven;215099;€400k;Dec 2, 2025;Jul 4, 1995;30;1.79;Netherlands;[];Left-Back;;Fortuna Sittard;;;Feb 3, 2025;Jun 30, 2026
+1181;1181;Pere Milla;225593;€1.20m;Dec 12, 2025;Sep 23, 1992;33;1.8;Spain;[];Left Winger;;Espanyol;;;Aug 15, 2023;Jun 30, 2027
+1182;1182;Fran Beltrán;423444;€5.00m;Dec 12, 2025;Feb 3, 1999;27;1.65;Spain;[];Central Midfield;;Girona;;;Jan 20, 2026;Jun 30, 2030
+1183;1183;Carlos Lumbreras;1065441;€150k;Dec 30, 2025;Feb 20, 2005;21;1.8;Spain;['Spain'];Centre-Forward;0;;;;;
+1184;1184;Adrián Verde;702662;€150k;Dec 30, 2025;Aug 3, 2002;23;;Spain;['Spain'];Central Midfield;0;;;;;
+1185;1185;Marcos Llorente;282411;€22.00m;Dec 12, 2025;Jan 30, 1995;31;1.84;Spain;['Spain'];Right-Back;0;;;;;
+1186;1186;Dani Gómez;422460;€800k;Mar 18, 2026;Jul 30, 1998;27;1.78;Spain;[];Centre-Forward;;Real Zaragoza;;;Feb 3, 2025;Jun 30, 2028
+1187;1187;Tomás Conechny;401571;€2.50m;Mar 18, 2026;Mar 30, 1998;27;1.76;Argentina;['Poland', 'Argentina'];Left Winger;0;;;;;
+1188;1188;Juma Bah;1121298;€7.00m;Dec 15, 2025;Apr 11, 2006;19;1.95;Sierra Leone;['Sierra Leone'];Centre-Back;;Nice;;;Jul 1, 2025;Jun 30, 2026
+1189;1189;Iñaki Rupérez;1055860;€300k;Dec 30, 2025;Jan 7, 2003;23;1.77;Spain;[];Right-Back;;Real Sociedad B;;;Jul 1, 2023;Jun 30, 2029
+1190;1190;Antonio Candela;392881;€900k;Dec 11, 2025;Apr 27, 2000;25;1.85;Italy;[];Right-Back;;FC Empoli;;;Jan 30, 2026;Jun 30, 2026
+1191;1191;Darwin Machís;211251;€400k;Mar 17, 2026;Feb 7, 1993;33;1.71;Venezuela;[];Left Winger;;CD América;;;Jan 3, 2026;Dec 31, 2027
+1192;1192;Kike Pérez;527698;€2.40m;Mar 17, 2026;Feb 14, 1997;29;1.84;Spain;['Spain'];Central Midfield;0;;;;;
+1193;1193;Robert Lewandowski;38253;€8.00m;Mar 16, 2026;Aug 21, 1988;37;1.85;Poland;[];Centre-Forward;;Barcelona;;;Jul 19, 2022;Jun 30, 2026
+1194;1194;Unai Simón;262396;€25.00m;Dec 12, 2025;Jun 11, 1997;28;1.9;Spain;['Spain'];Goalkeeper;;Athletic Club;;;Jul 1, 2018;Jun 30, 2029
+1195;1195;Antoine Griezmann;125781;€10.00m;Mar 16, 2026;Mar 21, 1991;35;1.76;France;['France'];Second Striker;0;;;;;
+1196;1196;Facundo Garcés;533354;;;Sep 5, 1999;26;1.91;Malaysia;['Malaysia', 'Argentina'];Centre-Back;;Alavés;;;Jan 1, 2025;Jun 30, 2028
+1197;1197;Tadeo Allende;872184;€5.00m;Dec 11, 2025;Feb 20, 1999;27;1.83;Argentina;[];Right Winger;;Miami;;;Jan 26, 2026;Jun 30, 2030
+1198;1198;José Campaña;120095;€400k;Mar 18, 2026;May 31, 1993;32;1.79;Spain;[];Central Midfield;;AD Ceuta;;;Jan 13, 2026;Jun 30, 2026
+1199;1199;Enzo Boyomo;541555;€20.00m;Dec 12, 2025;Oct 7, 2001;24;1.84;Cameroon;[];Centre-Back;;CA Osasuna;;;Aug 29, 2024;Jun 30, 2029
+1200;1200;Endika Buján;1120228;€300k;Dec 30, 2025;Jan 16, 2003;23;1.7;Spain;[];Right Winger;;Bilbao Athletic;;;Jul 1, 2024;Jun 30, 2026
+1201;1201;Antony;602105;€40.00m;Mar 16, 2026;Feb 24, 2000;26;1.72;Brazil;['Brazil'];Right Winger;0;;;;;
+1202;1202;Pau López;286415;€2.50m;Dec 12, 2025;Dec 13, 1994;31;1.89;Spain;[];Goalkeeper;;Real Betis;;;Jul 22, 2025;Jun 30, 2028
+1203;1203;Nacho Vidal;216870;€1.60m;Dec 12, 2025;Jan 24, 1995;31;1.8;Spain;[];Right-Back;;Real Oviedo;;;Jan 22, 2025;Jun 30, 2027
+1204;1204;Sergio Mestre;973314;€200k;Mar 18, 2026;Feb 13, 2005;21;1.93;Spain;['Spain'];Goalkeeper;;RM Castilla;;;Jul 1, 2025;Jun 30, 2028
+1205;1205;Chuki;926763;€5.00m;Mar 18, 2026;Apr 29, 2004;21;1.76;Spain;[];Attacking Midfield;;Real Valladolid;;;Jul 1, 2024;Jun 30, 2026
+1206;1206;Aritz Elustondo;229804;€1.80m;Dec 12, 2025;Mar 28, 1994;31;1.8;Spain;['Spain'];Centre-Back;0;;;;;
+1207;1207;Dani Ceballos;319745;€8.00m;Dec 12, 2025;Aug 7, 1996;29;1.79;Spain;['Spain'];Central Midfield;0;;;;;
+1208;1208;Mihailo Ristic;271455;€800k;Dec 12, 2025;Oct 31, 1995;30;1.8;Serbia;[];Left-Back;;Celta de Vigo;;;Sep 1, 2023;Jun 30, 2026
+1209;1209;Adnan Januzaj;177847;€1.20m;Dec 12, 2025;Feb 5, 1995;31;1.86;Belgium;['Belgium', 'Kosovo'];Right Winger;0;;;;;
+1210;1210;Robert Lewandowski;38253;€8.00m;Mar 16, 2026;Aug 21, 1988;37;1.85;Poland;['Poland'];Centre-Forward;;Barcelona;;;Jul 19, 2022;Jun 30, 2026
+1211;1211;Thiago Ojeda;1030425;€600k;Dec 30, 2025;Jan 12, 2003;23;1.87;Argentina;[];Central Midfield;;CyD Leonesa;;;Jul 7, 2025;Jun 30, 2026
+1212;1212;Mateo Mejía;682588;€400k;Dec 30, 2025;Mar 31, 2003;22;1.81;Colombia;['Colombia', 'Spain'];Centre-Forward;0;;;;;
+1213;1213;Leandro Antonetti;892926;€200k;Dec 18, 2025;Jan 13, 2003;23;1.89;Puerto Rico;['Spain', 'Puerto Rico'];Centre-Forward;;Estrela Amadora;;;Sep 1, 2025;Jun 30, 2028
+1214;1214;Papa Ba;1337084;€200k;Mar 18, 2026;Apr 19, 2004;21;1.8;Senegal;['Senegal'];Right Winger;0;;;;;
+1215;1215;Aingeru Olabarrieta;1056971;€800k;Dec 30, 2025;Nov 14, 2005;20;1.82;Spain;['Spain'];Right Winger;0;;;;;
+1216;1216;Manu Morlanes;335225;€2.40m;Dec 12, 2025;Jan 12, 1999;27;1.78;Spain;['Spain'];Central Midfield;0;;;;;
+1217;1217;Iker Losada;632741;€1.40m;Dec 12, 2025;Aug 1, 2001;24;1.75;Spain;[];Second Striker;;Levante;;;Aug 21, 2025;Jun 30, 2026
+1218;1218;Xavi Moreno;709971;€300k;Dec 30, 2025;Nov 5, 2004;21;1.75;Spain;['Spain'];Right Winger;0;;;;;
+1219;1219;Iker Varela;834492;€300k;Dec 30, 2025;Mar 1, 2003;23;1.88;Spain;['Spain'];Left Winger;0;;;;;
+1220;1220;Carlos Guirao;1054429;€300k;Dec 30, 2025;Apr 27, 2003;22;1.84;Spain;[];Defensive Midfield;;CD Leganés;;;Jul 1, 2025;Jun 30, 2029
+1221;1221;Omar El Hilali;822331;€15.00m;Dec 12, 2025;Sep 12, 2003;22;1.83;Morocco;['Spain', 'Morocco'];Right-Back;0;;;;;
+1222;1222;Jorge Sáenz;340339;€800k;Mar 18, 2026;Nov 17, 1996;29;1.88;Spain;['Spain'];Centre-Back;;CD Leganés;;;Jul 17, 2023;Jun 30, 2026
+1223;1223;Carlos Vicente;540536;€7.00m;Dec 12, 2025;Apr 23, 1999;26;1.79;Spain;[];Right Winger;;Birmingham;;;Jan 27, 2026;Jun 30, 2029
+1224;1224;Antonio Gomis;930415;€500k;Dec 22, 2025;May 20, 2003;22;1.91;Spain;['Spain'];Goalkeeper;;Vizela;;;Jul 1, 2025;Jun 30, 2027
+1225;1225;Raúl García;631002;€3.00m;Dec 12, 2025;Nov 3, 2000;25;1.92;Spain;['Spain'];Centre-Forward;;CA Osasuna;;;Aug 10, 2023;Jun 30, 2028
+1226;1226;Mauro Arambarri;290249;€10.00m;Dec 12, 2025;Sep 30, 1995;30;1.75;Uruguay;[];Central Midfield;;Getafe;;;Jul 1, 2018;Jun 30, 2028
+1227;1227;Iñigo Lekue;255501;€1.20m;Dec 12, 2025;May 4, 1993;32;1.8;Spain;['Spain'];Right-Back;0;;;;;
+1228;1228;Kiko Femenía;76467;€800k;Dec 12, 2025;Feb 2, 1991;35;1.74;Spain;[];Right-Back;;Getafe;;;Jul 1, 2025;Jun 30, 2027
+1229;1229;Alejandro Balde;636688;€55.00m;Mar 16, 2026;Oct 18, 2003;22;1.77;Spain;['Spain'];Left-Back;0;;;;;
+1230;1230;Tanguy Nianzou;538996;€1.40m;Dec 12, 2025;Jun 7, 2002;23;1.91;France;"['France', ""Cote d'Ivoire""]";Centre-Back;0;;;;;
+1231;1231;Dani Rodríguez;139435;€100k;Dec 12, 2025;Jun 6, 1988;37;1.78;Spain;[];Attacking Midfield;;CD Leganés;;;Jan 21, 2026;Jun 30, 2026
+1232;1232;Juanmi Latasa;623521;€1.50m;Mar 18, 2026;Mar 23, 2001;25;1.92;Spain;['Spain'];Centre-Forward;;Real Valladolid;;;Aug 14, 2024;Jun 30, 2029
+1233;1233;Luis Pérez;358115;€1.00m;Mar 5, 2026;Feb 4, 1995;31;1.73;Spain;['Spain'];Right-Back;0;;;;;
+1234;1234;Piri;935300;€50k;Mar 18, 2026;Jul 10, 2003;22;1.76;Spain;['Spain'];Right Winger;0;;;;;
+1235;1235;Sergio Lozano;1384902;€50k;Mar 18, 2026;Mar 30, 2006;19;;Spain;['Spain'];Centre-Back;;Rayo B;;;Jul 1, 2024;Jun 30, 2027
+1236;1236;Romain Perraud;318523;€7.00m;Dec 15, 2025;Sep 22, 1997;28;1.73;France;[];Left-Back;;Lille;;;Aug 8, 2025;Jun 30, 2028
+1237;1237;Mario Martín;948273;€10.00m;Mar 16, 2026;Mar 5, 2004;22;1.77;Spain;[];Defensive Midfield;;Getafe;;;Jul 29, 2025;Jun 30, 2026
+1238;1238;Mateo Flores;1061283;€1.00m;Dec 18, 2025;Apr 7, 2004;21;1.78;Spain;['Spain'];Central Midfield;;Arouca;;;Jul 26, 2025;Jun 30, 2026
+1239;1239;Abde Rebbach;718034;€1.50m;Dec 12, 2025;Aug 11, 1998;27;1.76;Algeria;['Spain', 'Algeria'];Left Winger;0;;;;;
+1240;1240;Coba da Costa;1033005;€2.50m;Dec 12, 2025;Jul 26, 2002;23;1.82;Guinea-Bissau;['Spain', 'Guinea-Bissau'];Left Winger;0;;;;;
+1241;1241;Raphinha;411295;€80.00m;Dec 12, 2025;Dec 14, 1996;29;1.76;Brazil;['Brazil', 'Italy'];Left Winger;0;;;;;
+1242;1242;Ro Abajas;949116;€200k;Dec 30, 2025;May 12, 2003;22;1.86;Spain;['Spain'];Left-Back;;SD Huesca;;;Jul 1, 2025;Jun 30, 2028
+1243;1243;Lucien Agoumé;569384;€12.00m;Dec 12, 2025;Feb 9, 2002;24;1.85;France;[];Defensive Midfield;;Sevilla FC;;;Aug 6, 2024;Jun 30, 2028
+1244;1244;Sébastien Haller;181375;€1.30m;Mar 11, 2026;Jun 22, 1994;31;1.9;Cote d'Ivoire;[];Centre-Forward;;Utrecht;;;Aug 18, 2025;Jun 30, 2026
+1245;1245;Pablo Rivera;934169;€200k;Dec 30, 2025;Jan 11, 2004;22;1.78;Spain;['Spain'];Central Midfield;;Sevilla Atl.;;;Jul 1, 2024;Jun 30, 2026
+1246;1246;Henrique Silva;204072;€500k;Dec 23, 2025;Apr 25, 1994;31;1.73;Brazil;['Brazil'];Left-Back;0;;;;;
+1247;1247;Adrián Verde;702662;€150k;Dec 30, 2025;Aug 3, 2002;23;;Spain;[];Central Midfield;;Arenas Club;;;Jul 15, 2025;Jun 30, 2026
+1248;1248;David Torres;857832;€1.50m;Dec 30, 2025;Mar 5, 2003;23;1.82;Spain;['Spain'];Centre-Back;0;;;;;
+1249;1249;Marcos Alonso;112515;€1.40m;Dec 12, 2025;Dec 28, 1990;35;1.88;Spain;[];Centre-Back;;Celta de Vigo;;;Aug 28, 2024;Jun 30, 2026
+1250;1250;Iñigo Arguibide;1065442;€800k;Mar 18, 2026;Apr 19, 2005;20;1.78;Spain;[];Right-Back;;Osasuna B;;;Jul 1, 2023;Jun 30, 2027
+1251;1251;Javi Llabrés;706138;€800k;Dec 12, 2025;Sep 11, 2002;23;1.74;Spain;[];Left Winger;;RCD Mallorca;;;Jul 1, 2022;Jun 30, 2026
+1252;1252;David Soria;226012;€3.00m;Dec 12, 2025;Apr 4, 1993;32;1.92;Spain;['Spain'];Goalkeeper;;Getafe;;;Jul 13, 2018;Jun 30, 2026
+1253;1253;Warren Madrigal;799682;€600k;Dec 30, 2025;Jul 24, 2004;21;1.85;Costa Rica;['Costa Rica'];Left Winger;0;;;;;
+1254;1254;Tamás Nikitscher;633056;€500k;Dec 18, 2025;Nov 3, 1999;26;1.93;Hungary;['Hungary'];Defensive Midfield;0;;;;;
+1255;1255;Asier Osambela;1038512;€1.00m;Dec 12, 2025;Oct 30, 2004;21;1.86;Spain;[];Central Midfield;;CA Osasuna;;;Jul 1, 2025;Jun 30, 2029
+1256;1256;Dani Cárdenas;397676;€1.80m;Dec 12, 2025;Mar 28, 1997;28;1.86;Spain;['Spain'];Goalkeeper;;Rayo Vallecano;;;Aug 18, 2023;Jun 30, 2027
+1257;1257;Álvaro Djaló;671649;€4.50m;Dec 30, 2025;Aug 16, 1999;26;1.75;Guinea-Bissau;[];Left Winger;;Al-Gharafa;;;Jul 28, 2025;Jun 30, 2026
+1258;1258;Miguel Gutiérrez;525299;€17.00m;Dec 23, 2025;Jul 27, 2001;24;1.8;Spain;[];Left-Back;;Napoli;;;Aug 19, 2025;Jun 30, 2030
+1259;1259;Selim Amallah;377219;€1.50m;Nov 28, 2025;Nov 15, 1996;29;1.85;Morocco;['Belgium', 'Morocco'];Attacking Midfield;0;;;;;
+1260;1260;Jesús Areso;488626;€8.00m;Mar 16, 2026;Jul 2, 1999;26;1.82;Spain;['Spain'];Right-Back;;Athletic Club;;;Jul 22, 2025;Jun 30, 2031
+1261;1261;Viti Rozada;438971;€1.50m;Dec 30, 2025;Sep 16, 1997;28;1.72;Spain;['Spain'];Right-Back;0;;;;;
+1262;1262;Orri Óskarsson;660438;€12.00m;Dec 12, 2025;Aug 29, 2004;21;1.86;Iceland;[];Centre-Forward;;Real Sociedad;;;Aug 30, 2024;Jun 30, 2030
+1263;1263;Yellu Santiago;941869;€900k;Dec 23, 2025;May 25, 2004;21;1.92;Spain;[];Central Midfield;;Arouca;;;Jan 9, 2026;Jun 30, 2026
+1264;1264;Víctor Muñoz;935231;€20.00m;Mar 16, 2026;Jul 13, 2003;22;1.73;Spain;[];Left Winger;;CA Osasuna;;;Jul 11, 2025;Jun 30, 2030
+1265;1265;Pablo García;961087;€8.00m;Mar 16, 2026;Jun 13, 2006;19;1.75;Spain;[];Right Winger;;Real Betis;;;Jul 1, 2025;Jun 30, 2029
+1266;1266;Sergi Gómez;92947;€500k;Dec 18, 2025;Mar 28, 1992;33;1.85;Spain;[];Centre-Back;;Alverca;;;Aug 7, 2025;Jun 30, 2027
+1267;1267;Jaime Mata;227961;€100k;Dec 30, 2025;Oct 24, 1988;37;1.86;Spain;[];Centre-Forward;;Racing;;;Feb 9, 2026;Jun 30, 2026
+1268;1268;Omar Janneh;1060454;€4.00m;Mar 17, 2026;Aug 23, 2006;19;1.88;Spain;[];Centre-Forward;;Lausanne-Sport;;;Jan 15, 2026;Jun 30, 2030
+1269;1269;Rodri Sánchez;630995;€3.00m;Dec 30, 2025;May 16, 2000;25;1.75;Spain;['Spain'];Right Winger;0;;;;;
+1270;1270;Fernando Calero;357884;€2.00m;Dec 12, 2025;Sep 14, 1995;30;1.84;Spain;['Spain'];Centre-Back;;Espanyol;;;Aug 9, 2019;Jun 30, 2026
+1271;1271;Bryan Gil;537382;€12.00m;Dec 12, 2025;Feb 11, 2001;25;1.75;Spain;['Spain'];Left Winger;0;;;;;
+1272;1272;José Gayà;221322;€5.00m;Dec 12, 2025;May 25, 1995;30;1.72;Spain;['Spain'];Left-Back;;Valencia;;;Jul 1, 2014;Jun 30, 2027
+1273;1273;Jastin Garcia;1061665;€500k;Mar 18, 2026;Jan 15, 2004;22;1.8;Portugal;['Portugal', 'Spain'];Left Winger;0;;;;;
+1274;1274;Juan Foyth;480763;€10.00m;Mar 16, 2026;Jan 12, 1998;28;1.87;Argentina;[];Centre-Back;;Villarreal;;;Jul 1, 2021;Jun 30, 2029
+1275;1275;Jon Ander Olasagasti;625660;€1.80m;Dec 12, 2025;Aug 16, 2000;25;1.76;Spain;[];Central Midfield;;Levante;;;Jul 16, 2025;Jun 30, 2028
+1276;1276;Nemanja Gudelj;74294;€2.50m;Dec 12, 2025;Nov 16, 1991;34;1.87;Serbia;[];Defensive Midfield;;Sevilla FC;;;Jul 23, 2019;Jun 30, 2026
+1277;1277;Salvi Sánchez;246204;€200k;Dec 30, 2025;Mar 30, 1991;34;1.7;Spain;['Spain'];Right Winger;0;;;;;
+1278;1278;Omar Alderete;353032;€15.00m;Mar 9, 2026;Dec 26, 1996;29;1.88;Paraguay;['Paraguay'];Centre-Back;0;;;;;
+1279;1279;Arnau Martínez;826224;€10.00m;Dec 12, 2025;Apr 25, 2003;22;1.82;Spain;['Spain'];Right-Back;0;;;;;
+1280;1280;Samuel Lino;694928;€17.00m;Mar 12, 2026;Dec 23, 1999;26;1.77;Brazil;[];Left Winger;;Flamengo;;;Jul 29, 2025;Dec 31, 2029
+1281;1281;Fábio Silva;505653;€28.00m;Dec 19, 2025;Jul 19, 2002;23;1.85;Portugal;[];Centre-Forward;;Dortmund;;;Aug 29, 2025;Jun 30, 2030
+1282;1282;Omar Janneh;1060454;€4.00m;Mar 17, 2026;Aug 23, 2006;19;1.88;Spain;['Spain', 'The Gambia'];Centre-Forward;;Lausanne-Sport;;;Jan 15, 2026;Jun 30, 2030
+1283;1283;Martín Tejón;941883;€1.00m;Dec 22, 2025;Apr 12, 2004;21;1.65;Spain;[];Right Winger;;Marítimo;;;Jul 15, 2025;Jun 30, 2027
+1284;1284;Alberto Risco;1255616;€200k;Dec 30, 2025;Aug 30, 2005;20;;Spain;['Spain'];Attacking Midfield;;Getafe CF B;;;Jul 1, 2024;Jun 30, 2026
+1285;1285;Joseph Aidoo;358250;€1.00m;Dec 12, 2025;Sep 29, 1995;30;1.81;Ghana;[];Centre-Back;;Celta de Vigo;;;Jul 11, 2019;Jun 30, 2026
+1286;1286;Álvaro García Pascual;1305792;€1.20m;Mar 18, 2026;Jul 21, 2002;23;1.9;Spain;['Spain'];Centre-Forward;;Cádiz CF;;;Jul 4, 2025;Jun 30, 2028
+1287;1287;Guille Fernández;1050120;€3.00m;Dec 30, 2025;Jun 18, 2008;17;1.81;Spain;['Spain'];Central Midfield;0;;;;;
+1288;1288;Pablo Busto;1054909;€300k;Dec 30, 2025;Sep 25, 2005;20;1.8;Spain;[];Right-Back;;Betis Deportivo;;;Jul 1, 2022;Jun 30, 2027
+1289;1289;Ismael Sierra;718195;€200k;Dec 30, 2025;Mar 17, 2003;23;1.92;Spain;['Spain'];Centre-Back;0;;;;;
+1290;1290;Sergi Altimira;466801;€20.00m;Dec 12, 2025;Aug 25, 2001;24;1.88;Spain;['Spain'];Central Midfield;0;;;;;
+1291;1291;Jon Aramburu;661145;€15.00m;Dec 12, 2025;Jul 23, 2002;23;1.76;Venezuela;['Spain', 'Venezuela'];Right-Back;0;;;;;
+1292;1292;Hugo Guillamón;495629;€2.00m;Dec 22, 2025;Jan 31, 2000;26;1.78;Spain;[];Defensive Midfield;;Hajduk Split;;;Aug 26, 2025;Jun 30, 2027
+1293;1293;Chidera Ejuke;500067;€4.00m;Dec 12, 2025;Jan 2, 1998;28;1.76;Nigeria;['Nigeria'];Left Winger;0;;;;;
+1294;1294;Valentino Raca;1064395;€25k;Dec 30, 2025;Jan 5, 2005;21;1.93;Spain;['Spain', 'Argentina'];Centre-Back;;Las Palmas Atl.;;;Jul 1, 2024;Jun 30, 2027
+1295;1295;Domingos Duarte;257376;€800k;Dec 12, 2025;Mar 10, 1995;31;1.92;Portugal;['Portugal'];Centre-Back;;Getafe;;;Jul 11, 2022;Jun 30, 2026
+1296;1296;Beñat Prados;625047;€18.00m;Dec 12, 2025;Feb 8, 2001;25;1.8;Spain;['Spain'];Central Midfield;;Athletic Club;;;Jul 1, 2022;Jun 30, 2031
+1297;1297;Javi Rodríguez;1076815;€15.00m;Dec 12, 2025;Jun 27, 2003;22;1.78;Spain;['Spain'];Centre-Back;0;;;;;
+1298;1298;Jackson Porozo;491616;€2.50m;Dec 29, 2025;Aug 4, 2000;25;1.93;Ecuador;[];Centre-Back;;Club Tijuana;;;Jan 9, 2026;-
+1299;1299;Héctor Bellerín;191217;€2.50m;Dec 12, 2025;Mar 19, 1995;31;1.78;Spain;['Spain'];Right-Back;;Real Betis;;;Jul 18, 2023;Jun 30, 2028
+1300;1300;Chema Andrés;948279;€15.00m;Dec 19, 2025;Apr 25, 2005;20;1.9;Spain;[];Defensive Midfield;;Stuttgart;;;Jul 27, 2025;Jun 30, 2030
+1301;1301;Darwin Machís;211251;€400k;Mar 17, 2026;Feb 7, 1993;33;1.71;Venezuela;['Spain', 'Venezuela'];Left Winger;0;;;;;
+1302;1302;Thierno Barry;937941;€30.00m;Dec 9, 2025;Oct 21, 2002;23;1.95;France;[];Centre-Forward;;Everton;;;Jul 9, 2025;Jun 30, 2029
+1303;1303;Facundo Garcés;533354;;;Sep 5, 1999;26;1.91;Malaysia;[];Centre-Back;;Alavés;;;Jan 1, 2025;Jun 30, 2028
+1304;1304;Cristhian Stuani;59323;€800k;Mar 16, 2026;Oct 12, 1986;39;1.84;Uruguay;[];Centre-Forward;;Girona;;;Jul 21, 2017;Jun 30, 2026
+1305;1305;Rui Silva;234811;€7.00m;Dec 18, 2025;Feb 7, 1994;32;1.91;Portugal;[];Goalkeeper;;Sporting;;;Jul 1, 2025;Jun 30, 2028
+1306;1306;Miguel Román;892932;€15.00m;Mar 16, 2026;Dec 26, 2002;23;1.78;Spain;['Spain'];Central Midfield;;Celta de Vigo;;;Jul 1, 2025;Jun 30, 2028
+1307;1307;Guillermo Ruiz;991158;;;Dec 9, 2003;22;1.94;Spain;['Spain', 'Mexico'];Goalkeeper;;FC Juárez;;;Jul 7, 2025;Jun 30, 2027
+1308;1308;Fer López;1064471;€16.00m;Dec 9, 2025;May 24, 2004;21;1.88;Spain;[];Attacking Midfield;;Celta de Vigo;;;Jan 26, 2026;Jun 30, 2026
+1309;1309;Javi Serrano;668177;€700k;Dec 30, 2025;Jan 16, 2003;23;1.78;Spain;[];Central Midfield;;Atl. Madrileño;;;Jul 1, 2024;Jun 30, 2026
+1310;1310;Iker Benito;710679;€1.50m;Dec 12, 2025;Aug 10, 2002;23;1.76;Spain;['Spain'];Right Winger;0;;;;;
+1311;1311;Carlos Martín;618813;€2.00m;Mar 16, 2026;Apr 22, 2002;23;1.84;Spain;['Spain'];Left Winger;0;;;;;
+1312;1312;Diego Ferrer;1298885;€100k;Mar 18, 2026;Apr 17, 2007;18;;Spain;['Spain'];Goalkeeper;;Getafe CF B;;;Jul 1, 2025;Jun 30, 2027
+1313;1313;Ibrahim Alani;1367276;€500k;Dec 30, 2025;Jul 29, 2006;19;1.75;Nigeria;['Nigeria'];Central Midfield;;Real Valladolid;;;Jul 1, 2025;Jun 30, 2027
+1314;1314;Roberto López;569866;€800k;Mar 18, 2026;Apr 24, 2000;25;1.79;Spain;['Spain'];Attacking Midfield;0;;;;;
+1315;1315;Iván Sánchez;221311;€500k;Dec 8, 2025;Sep 23, 1992;33;1.69;Spain;[];Right Winger;;Sepahan;;;Aug 18, 2025;Jun 30, 2027
+1316;1316;Christantus Uche;1124005;€15.00m;Dec 9, 2025;May 19, 2003;22;1.9;Nigeria;[];Centre-Forward;;Crystal Palace;;;Sep 1, 2025;Jun 30, 2026
+1317;1317;Suso;111961;€700k;Mar 18, 2026;Nov 19, 1993;32;1.77;Spain;['Spain'];Attacking Midfield;0;;;;;
+1318;1318;Willy Kambwala;780630;€4.00m;Dec 12, 2025;Aug 25, 2004;21;1.92;France;['DR Congo', 'France'];Centre-Back;0;;;;;
+1319;1319;Hugo Guillamón;495629;€2.00m;Dec 22, 2025;Jan 31, 2000;26;1.78;Spain;['Spain'];Defensive Midfield;0;;;;;
+1320;1320;Sergi Canós;251845;€800k;Dec 30, 2025;Feb 2, 1997;29;1.77;Spain;['Spain'];Left Winger;0;;;;;
+1321;1321;Luken Beitia;964190;€600k;Mar 18, 2026;Jun 30, 2004;21;1.91;Spain;['Spain'];Centre-Back;0;;;;;
+1322;1322;Jon Pacheco;580560;€6.00m;Mar 16, 2026;Jan 8, 2001;25;1.84;Spain;['Spain'];Centre-Back;;Alavés;;;Aug 25, 2025;Jun 30, 2026
+1323;1323;César de la Hoz;226261;€250k;Oct 21, 2025;Mar 30, 1992;33;1.79;Spain;[];Defensive Midfield;;Without Club;Real Oviedo;Jul 12, 2025;;
+1324;1324;Paulo Gazzaniga;195488;€2.00m;Dec 12, 2025;Jan 2, 1992;34;1.95;Argentina;['Argentina', 'Italy'];Goalkeeper;;Girona;;;Jul 1, 2023;Jun 30, 2027
+1325;1325;Alberto Collado;935342;€300k;Dec 30, 2025;Apr 16, 2005;20;1.84;Spain;['Spain'];Central Midfield;0;;;;;
+1326;1326;Pablo López;1000630;€300k;Dec 30, 2025;Mar 27, 2006;20;1.75;Spain;['Spain'];Left Winger;0;;;;;
+1327;1327;Javi Guerra;834764;€25.00m;Dec 12, 2025;May 13, 2003;22;1.87;Spain;['Spain'];Central Midfield;;Valencia;;;Jul 1, 2023;Jun 30, 2029
+1328;1328;Juan Musso;242359;€3.00m;Dec 12, 2025;May 6, 1994;31;1.91;Argentina;[];Goalkeeper;;Atlético;;;Jun 10, 2025;Jun 30, 2028
+1329;1329;Diego Conde;341713;€4.00m;Dec 12, 2025;Oct 28, 1998;27;1.88;Spain;[];Goalkeeper;;Villarreal;;;Jul 2, 2024;Jun 30, 2029
+1330;1330;Ander Astralaga;709955;€800k;Dec 30, 2025;Mar 3, 2004;22;1.9;Spain;[];Goalkeeper;;Granada CF;;;Jul 2, 2025;Jun 30, 2026
+1331;1331;Pablo Barrios;775605;€60.00m;Dec 12, 2025;Jun 15, 2003;22;1.81;Spain;[];Central Midfield;;Atlético;;;Jan 23, 2023;Jun 30, 2030
+1332;1332;Valentín Barco;849410;€25.00m;Dec 15, 2025;Jul 23, 2004;21;1.7;Argentina;[];Central Midfield;;R. Strasbourg;;;Jul 2, 2025;Jun 30, 2029
+1333;1333;Toni Lato;320271;€1.50m;Dec 12, 2025;Nov 21, 1997;28;1.71;Spain;['Spain'];Left-Back;;RCD Mallorca;;;Jul 1, 2023;Jun 30, 2027
+1334;1334;Sergi Guardiola;256429;€300k;Mar 18, 2026;May 29, 1991;34;1.85;Spain;['Spain'];Centre-Forward;0;;;;;
+1335;1335;Isi Palazón;362086;€3.00m;Dec 12, 2025;Dec 27, 1994;31;1.69;Spain;['Spain'];Second Striker;0;;;;;
+1336;1336;José Campaña;120095;€400k;Mar 18, 2026;May 31, 1993;32;1.79;Spain;['Spain'];Central Midfield;0;;;;;
+1337;1337;Ander Barrenetxea;616369;€18.00m;Mar 16, 2026;Dec 27, 2001;24;1.75;Spain;['Spain'];Left Winger;0;;;;;
+1338;1338;Javi Martón;711394;€1.00m;Mar 18, 2026;May 6, 1999;26;1.81;Spain;['Spain'];Centre-Forward;;SD Eibar;;;Jul 16, 2025;Jun 30, 2028
+1339;1339;Jaume Doménech;227805;;;Nov 5, 1990;35;1.85;Spain;[];Goalkeeper;;Retired;Valencia;Jul 1, 2025;;
+1340;1340;Alejo Veliz;888493;€3.50m;Dec 17, 2025;Sep 19, 2003;22;1.86;Argentina;[];Centre-Forward;;Rosario Central;;;Jul 8, 2025;Jun 30, 2026
+1341;1341;Alex Marchal;1201530;€2.00m;Mar 18, 2026;Sep 17, 2007;18;1.8;Spain;[];Left Winger;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2027
+1342;1342;Jasper Cillessen;146227;€300k;Dec 2, 2025;Apr 22, 1989;36;1.87;Netherlands;[];Goalkeeper;;NEC Nijmegen;;;Aug 1, 2025;Jun 30, 2026
+1343;1343;Pau Navarro;1061336;€10.00m;Mar 16, 2026;Apr 25, 2005;20;1.85;Spain;['Spain'];Right-Back;0;;;;;
+1344;1344;Oso;1032280;€5.00m;Mar 16, 2026;Jul 9, 2003;22;1.83;Spain;['Spain', 'Argentina'];Left-Back;0;;;;;
+1345;1345;Rodrigo De Paul;255901;€15.00m;Dec 11, 2025;May 24, 1994;31;1.8;Argentina;[];Central Midfield;;Miami;;;Jan 26, 2026;Dec 31, 2029
+1346;1346;Dani Díaz;937945;€2.00m;Mar 18, 2026;Jun 22, 2006;19;1.67;Spain;['Spain'];Right Winger;0;;;;;
+1347;1347;Diego García;852727;€1.50m;Dec 30, 2025;Apr 18, 2000;25;1.88;Spain;[];Centre-Forward;;CD Leganés;;;Jul 1, 2022;Jun 30, 2028
+1348;1348;Aritz Arambarri;434602;€600k;Dec 30, 2025;Jan 31, 1998;28;1.86;Spain;['Spain'];Centre-Back;;SD Eibar;;;Aug 29, 2024;Jun 30, 2027
+1349;1349;Arthur Vermeeren;926694;€28.00m;Dec 15, 2025;Feb 7, 2005;21;1.8;Belgium;['Belgium'];Defensive Midfield;0;;;;;
+1350;1350;Iker Muñoz;710677;€2.00m;Dec 12, 2025;Sep 5, 2002;23;1.8;Spain;['Spain'];Defensive Midfield;0;;;;;
+1351;1351;Sergi Cardona;678406;€9.00m;Mar 16, 2026;Jul 8, 1999;26;1.86;Spain;['Spain'];Left-Back;;Villarreal;;;Jul 18, 2024;Jun 30, 2027
+1352;1352;Pol Fortuny;741293;€1.00m;Mar 18, 2026;Mar 11, 2005;21;1.75;Spain;['Spain'];Attacking Midfield;0;;;;;
+1353;1353;José Luis Català;1060821;€150k;Dec 30, 2025;Aug 16, 2004;21;1.88;Spain;[];Centre-Back;;RCD Espanyol B;;;Jul 1, 2023;Jun 30, 2026
+1354;1354;Jon Moncayola;552425;€7.00m;Dec 12, 2025;May 13, 1998;27;1.82;Spain;[];Central Midfield;;CA Osasuna;;;Jul 1, 2019;Jun 30, 2031
+1355;1355;Álex Sola;434990;€1.50m;Mar 18, 2026;Jun 9, 1999;26;1.78;Spain;[];Right Winger;;Granada CF;;;Sep 1, 2025;Jun 30, 2026
+1356;1356;Pedro Ortiz;610238;€600k;Dec 30, 2025;Aug 19, 2000;25;1.84;Spain;['Spain'];Central Midfield;0;;;;;
+1357;1357;Andoni Gorosabel;289255;€4.00m;Dec 12, 2025;Aug 4, 1996;29;1.74;Spain;['Spain'];Right-Back;;Athletic Club;;;Jul 1, 2024;Jun 30, 2028
+1358;1358;Carles Aleñá;284854;€3.50m;Mar 16, 2026;Jan 5, 1998;28;1.8;Spain;[];Central Midfield;;Alavés;;;Jul 24, 2025;Jun 30, 2029
+1359;1359;David Alaba;59016;€3.50m;Mar 16, 2026;Jun 24, 1992;33;1.8;Austria;[];Centre-Back;;Real Madrid;;;Jul 1, 2021;Jun 30, 2026
+1360;1360;Kike García;93936;€800k;Dec 12, 2025;Nov 25, 1989;36;1.86;Spain;[];Centre-Forward;;Espanyol;;;Jul 1, 2025;Jun 30, 2027
+1361;1361;Naci Ünüvar;508639;€1.50m;Dec 2, 2025;Jun 13, 2003;22;1.68;Türkiye;['Netherlands', 'Türkiye'];Left Winger;0;;;;;
+1362;1362;Jon Balda;711380;€1.00m;Mar 18, 2026;Apr 20, 2002;23;1.74;Spain;[];Left-Back;;Real Sociedad B;;;Jul 1, 2022;Jun 30, 2028
+1363;1363;Rubén Peña;238868;€500k;Mar 18, 2026;Jul 18, 1991;34;1.7;Spain;['Spain'];Right-Back;0;;;;;
+1364;1364;Mikel Oyarzabal;351478;€25.00m;Dec 12, 2025;Apr 21, 1997;28;1.81;Spain;['Spain'];Centre-Forward;0;;;;;
+1365;1365;Javi Llabrés;706138;€800k;Dec 12, 2025;Sep 11, 2002;23;1.74;Spain;['Spain'];Left Winger;0;;;;;
+1366;1366;Juan Berrocal;461843;€1.50m;Dec 11, 2025;Feb 5, 1999;27;1.87;Spain;[];Centre-Back;;Atlanta;;;Jul 25, 2025;Jun 30, 2026
+1367;1367;Pepelu;328480;€9.00m;Dec 12, 2025;Aug 11, 1998;27;1.86;Spain;[];Defensive Midfield;;Valencia;;;Jul 8, 2023;Jun 30, 2028
+1368;1368;Rubén Gómez;709336;€300k;Dec 30, 2025;Jan 24, 2002;24;1.85;Spain;['Spain'];Goalkeeper;;Villarreal CF B;;;Jul 1, 2023;Jun 30, 2027
+1369;1369;Damián Rodríguez;715628;€2.00m;Dec 12, 2025;Mar 17, 2003;23;1.8;Spain;['Spain'];Defensive Midfield;0;;;;;
+1370;1370;Julián Chicco;401583;€500k;Dec 12, 2025;Jan 13, 1998;28;1.87;Argentina;[];Defensive Midfield;;Asteras Aktor;;;Sep 2, 2025;Jun 30, 2027
+1371;1371;Iván Villar;297194;€900k;Dec 12, 2025;Jul 9, 1997;28;1.83;Spain;[];Goalkeeper;;Celta de Vigo;;;Jul 1, 2019;Jun 30, 2027
+1372;1372;Raphinha;411295;€80.00m;Dec 12, 2025;Dec 14, 1996;29;1.76;Brazil;[];Left Winger;;Barcelona;;;Jul 13, 2022;Jun 30, 2028
+1373;1373;Omar Sadik;869458;€800k;Mar 23, 2026;Mar 22, 2004;22;1.85;Morocco;['Morocco'];Centre-Forward;;Pau FC;;;Jul 9, 2025;Jun 30, 2026
+1374;1374;Aimar Oroz;634131;€9.00m;Dec 12, 2025;Nov 27, 2001;24;1.77;Spain;[];Attacking Midfield;;CA Osasuna;;;Jul 1, 2022;Jun 30, 2029
+1375;1375;Abdel Abqar;559979;€4.00m;Mar 16, 2026;Mar 10, 1999;27;1.88;Morocco;[];Centre-Back;;Getafe;;;Jul 29, 2025;Jun 30, 2028
+1376;1376;Enric Franquesa;282700;€800k;Mar 18, 2026;Feb 26, 1997;29;1.75;Spain;[];Left-Back;;CD Leganés;;;Jul 1, 2024;Jun 30, 2026
+1377;1377;Beñat Turrientes;634431;€10.00m;Mar 16, 2026;Jan 31, 2002;24;1.81;Spain;['Spain'];Central Midfield;0;;;;;
+1378;1378;Adrián Rodríguez;608382;€200k;Dec 30, 2025;Dec 12, 2000;25;1.95;Argentina;['Spain', 'Argentina'];Goalkeeper;;Real Zaragoza;;;Aug 11, 2025;Jun 30, 2026
+1379;1379;Naim García;715683;€800k;Dec 30, 2025;Jun 11, 2002;23;1.8;Spain;[];Right Winger;;CD Leganés;;;Jul 1, 2021;Jun 30, 2027
+1380;1380;Javi Martínez;471474;€800k;Dec 30, 2025;Dec 22, 1999;26;1.81;Spain;['Spain'];Attacking Midfield;0;;;;;
+1381;1381;Antonio Espigares;886047;€500k;Dec 18, 2025;Sep 5, 2004;21;1.87;Spain;[];Centre-Back;;Gil Vicente;;;Jul 1, 2025;Jun 30, 2029
+1382;1382;Logan Costa;484988;€18.00m;Dec 12, 2025;Apr 1, 2001;24;1.9;Cape Verde;[];Centre-Back;;Villarreal;;;Aug 22, 2024;Jun 30, 2030
+1383;1383;Óscar Rodríguez;284884;€1.80m;Dec 18, 2025;Jun 28, 1998;27;1.74;Spain;['Spain'];Attacking Midfield;0;;;;;
+1384;1384;Dean Huijsen;890290;€65.00m;Mar 16, 2026;Apr 14, 2005;20;1.97;Spain;[];Centre-Back;;Real Madrid;;;Jun 1, 2025;Jun 30, 2030
+1385;1385;Egoitz Arana;711367;€100k;Dec 30, 2025;Feb 19, 2002;24;1.97;Spain;[];Goalkeeper;;Real Sociedad B;;;Jul 1, 2024;Jun 30, 2026
+1386;1386;Lucas Alcázar;709998;€800k;Mar 18, 2026;Jul 11, 2002;23;1.82;Spain;['Spain'];Left-Back;0;;;;;
+1387;1387;Gerard Martín;705395;€25.00m;Mar 16, 2026;Feb 26, 2002;24;1.86;Spain;['Spain'];Left-Back;0;;;;;
+1388;1388;Dani Rodríguez;834470;€1.00m;Dec 30, 2025;Aug 9, 2005;20;1.75;Spain;['Spain'];Right Winger;0;;;;;
+1389;1389;André Almeida;375382;€7.50m;Mar 16, 2026;May 30, 2000;25;1.76;Portugal;[];Attacking Midfield;;Valencia;;;Aug 25, 2022;Jun 30, 2029
+1390;1390;Cyle Larin;343463;€3.50m;Dec 2, 2025;Apr 17, 1995;30;1.88;Canada;['Jamaica', 'Canada'];Centre-Forward;0;;;;;
+1391;1391;Adu Ares;895480;€1.20m;Mar 18, 2026;Oct 12, 2001;24;1.83;Spain;[];Right Winger;;SD Eibar;;;Aug 17, 2025;Jun 30, 2030
+1392;1392;Alvin Abajas;1055833;€100k;Dec 30, 2025;May 12, 2003;22;1.86;Spain;['Spain'];Goalkeeper;;Arenteiro;;;Jul 21, 2025;Jun 30, 2026
+1393;1393;Julián Alvarez;576024;€90.00m;Mar 16, 2026;Jan 31, 2000;26;1.7;Argentina;['Argentina', 'Italy'];Centre-Forward;0;;;;;
+1394;1394;Siebe Van der Heyden;400131;€3.00m;Dec 10, 2025;May 30, 1998;27;1.85;Belgium;['Belgium'];Centre-Back;0;;;;;
+1395;1395;Fran Vieites;551182;€1.80m;Dec 3, 2025;May 7, 1999;26;1.96;Spain;[];Goalkeeper;;Leicester;;;Sep 6, 2025;Jun 30, 2027
+1396;1396;Andrés Castrín;719999;€1.50m;Dec 12, 2025;May 26, 2003;22;1.88;Spain;['Spain'];Centre-Back;;Sevilla FC;;;Jan 1, 2026;Jun 30, 2027
+1397;1397;Pere Milla;225593;€1.20m;Dec 12, 2025;Sep 23, 1992;33;1.8;Spain;['Spain'];Left Winger;0;;;;;
+1398;1398;Alberto Moleiro;733576;€40.00m;Mar 16, 2026;Sep 30, 2003;22;1.71;Spain;['Spain', 'Cuba'];Left Winger;0;;;;;
+1399;1399;Vladyslav Krapyvtsov;1169436;€400k;Dec 12, 2025;Jun 25, 2005;20;1.88;Ukraine;['Ukraine'];Goalkeeper;;Girona;;;Jan 1, 2025;Jun 30, 2029
+1400;1400;Alex Almansa;946269;€150k;Dec 30, 2025;Nov 8, 2003;22;1.86;Spain;['Spain'];Left Winger;0;;;;;
+1401;1401;Iñigo Ruiz de Galarreta;126751;€2.50m;Dec 12, 2025;Aug 6, 1993;32;1.75;Spain;[];Central Midfield;;Athletic Club;;;Jul 1, 2023;Jun 30, 2027
+1402;1402;Adrián Pica;895458;€600k;Mar 18, 2026;Apr 25, 2002;23;1.9;Spain;['Spain'];Centre-Back;0;;;;;
+1403;1403;Israel Mora;1361456;;;Apr 19, 2005;20;;Spain;['Spain'];Goalkeeper;;UD Las Palmas C;;;Jul 1, 2024;Jun 30, 2026
+1404;1404;Víctor Valdepeñas;1186245;€5.00m;Mar 18, 2026;Oct 20, 2006;19;1.88;Spain;['Spain'];Centre-Back;0;;;;;
+1405;1405;Pep Chavarría;596122;€10.00m;Dec 12, 2025;Apr 10, 1998;27;1.74;Spain;['Spain'];Left-Back;;Rayo Vallecano;;;Aug 31, 2022;Jun 30, 2030
+1406;1406;Ante Budimir;46413;€3.00m;Dec 12, 2025;Jul 22, 1991;34;1.9;Croatia;[];Centre-Forward;;CA Osasuna;;;Jul 1, 2021;Jun 30, 2027
+1407;1407;Natan;735568;€25.00m;Mar 16, 2026;Feb 6, 2001;25;1.88;Brazil;['Brazil'];Centre-Back;;Real Betis;;;Jul 1, 2025;Jun 30, 2030
+1408;1408;Marc Cardona;443222;€500k;Dec 30, 2025;Jul 8, 1995;30;1.82;Spain;['Spain'];Centre-Forward;0;;;;;
+1409;1409;Marcos André;481084;€800k;Dec 30, 2025;Oct 20, 1996;29;1.85;Brazil;[];Centre-Forward;;Real Valladolid;;;Aug 29, 2023;Jun 30, 2029
+1410;1410;Dodi Lukébakio;303259;€20.00m;Dec 18, 2025;Sep 24, 1997;28;1.87;Belgium;['DR Congo', 'Belgium'];Right Winger;0;;;;;
+1411;1411;Jon Ander Olasagasti;625660;€1.80m;Dec 12, 2025;Aug 16, 2000;25;1.76;Spain;['Spain'];Central Midfield;0;;;;;
+1412;1412;Vinicius Junior;371998;€150.00m;Dec 12, 2025;Jul 12, 2000;25;1.76;Brazil;['Spain', 'Brazil'];Left Winger;0;;;;;
+1413;1413;Jon Magunazelaia;625655;€900k;Dec 30, 2025;Jul 13, 2001;24;1.8;Spain;['Spain'];Attacking Midfield;0;;;;;
+1414;1414;Sergi Guardiola;256429;€300k;Mar 18, 2026;May 29, 1991;34;1.85;Spain;[];Centre-Forward;;Córdoba CF;;;Jul 1, 2025;Jun 30, 2026
+1415;1415;Borna Barisic;39125;€600k;Oct 21, 2025;Nov 10, 1992;33;1.86;Croatia;[];Left-Back;;NK Osijek;;;Jan 15, 2026;Jun 30, 2026
+1416;1416;Diego López;617081;€12.00m;Mar 16, 2026;May 13, 2002;23;1.72;Spain;[];Right Winger;;Valencia;;;Jul 1, 2023;Jun 30, 2029
+1417;1417;Álex Remiro;212862;€14.00m;Dec 12, 2025;Mar 24, 1995;31;1.91;Spain;[];Goalkeeper;;Real Sociedad;;;Jul 1, 2019;Jun 30, 2027
+1418;1418;Ilias Akhomach;709969;€12.00m;Dec 12, 2025;Apr 16, 2004;21;1.75;Morocco;['Spain', 'Morocco'];Right Winger;;Rayo Vallecano;;;Jan 21, 2026;Jun 30, 2026
+1419;1419;Carlos Romero;709372;€25.00m;Mar 16, 2026;Oct 29, 2001;24;1.74;Spain;[];Left-Back;;Espanyol;;;Jul 9, 2024;Jun 30, 2026
+1420;1420;Marc Cardona;443222;€500k;Dec 30, 2025;Jul 8, 1995;30;1.82;Spain;[];Centre-Forward;;FC Andorra;;;Jan 21, 2026;Jun 30, 2026
+1421;1421;Dani Olmo;293385;€60.00m;Dec 12, 2025;May 7, 1998;27;1.79;Spain;[];Attacking Midfield;;Barcelona;;;Aug 9, 2024;Jun 30, 2030
+1422;1422;Kike Salas;766583;€8.00m;Mar 16, 2026;Apr 23, 2002;23;1.88;Spain;[];Centre-Back;;Sevilla FC;;;Jan 1, 2023;Jun 30, 2029
+1423;1423;Diego López;617081;€12.00m;Mar 16, 2026;May 13, 2002;23;1.72;Spain;['Spain'];Right Winger;0;;;;;
+1424;1424;Duk;535959;€2.50m;Dec 30, 2025;Feb 16, 2000;26;1.82;Cape Verde;[];Left Winger;;CD Leganés;;;Feb 3, 2025;Jun 30, 2027
+1425;1425;Pol Fortuny;741293;€1.00m;Mar 18, 2026;Mar 11, 2005;21;1.75;Spain;[];Attacking Midfield;;RM Castilla;;;Oct 1, 2024;Jun 30, 2026
+1426;1426;Horațiu Moldovan;525438;€2.00m;Dec 12, 2025;Jan 20, 1998;28;1.86;Romania;['Romania'];Goalkeeper;;Real Oviedo;;;Jul 18, 2025;Jun 30, 2026
+1427;1427;Borna Barisic;39125;€600k;Oct 21, 2025;Nov 10, 1992;33;1.86;Croatia;['Croatia'];Left-Back;0;;;;;
+1428;1428;Adrià Altimira;466807;€1.40m;Dec 12, 2025;Mar 28, 2001;24;1.7;Spain;[];Right-Back;;Dep. La Coruña;;;Jan 2, 2026;Jun 30, 2028
+1429;1429;Dani Gómez;422460;€800k;Mar 18, 2026;Jul 30, 1998;27;1.78;Spain;['Spain'];Centre-Forward;;Real Zaragoza;;;Feb 3, 2025;Jun 30, 2028
+1430;1430;Darío Benavides;711626;€400k;Dec 10, 2025;Jan 12, 2003;23;1.78;Spain;['Spain'];Right-Back;0;;;;;
+1431;1431;Óscar Valentín;517753;€2.20m;Dec 12, 2025;Aug 20, 1994;31;1.77;Spain;['Spain'];Central Midfield;0;;;;;
+1432;1432;Enric Franquesa;282700;€800k;Mar 18, 2026;Feb 26, 1997;29;1.75;Spain;['Spain'];Left-Back;0;;;;;
+1433;1433;Jorge Benito;1135452;€25k;Dec 30, 2025;Jun 6, 2006;19;;Spain;[];Goalkeeper;;Getafe CF B;;;Jul 1, 2024;Jun 30, 2027
+1434;1434;Jon Balda;711380;€1.00m;Mar 18, 2026;Apr 20, 2002;23;1.74;Spain;['Spain'];Left-Back;0;;;;;
+1435;1435;Arthur Vermeeren;926694;€28.00m;Dec 15, 2025;Feb 7, 2005;21;1.8;Belgium;[];Defensive Midfield;;Marseille;;;Aug 31, 2025;Jun 30, 2026
+1436;1436;Jon Guridi;289257;€2.00m;Mar 16, 2026;Feb 28, 1995;31;1.79;Spain;[];Central Midfield;;Alavés;;;Jul 11, 2022;Jun 30, 2026
+1437;1437;Sergio Camello;505674;€2.00m;Dec 12, 2025;Feb 10, 2001;25;1.82;Spain;[];Centre-Forward;;Rayo Vallecano;;;Aug 17, 2023;Jun 30, 2027
+1438;1438;Mario Rivas;1176520;€600k;Mar 18, 2026;Mar 16, 2007;19;;Spain;[];Centre-Back;;RM Castilla;;;Nov 1, 2024;Jun 30, 2027
+1439;1439;Ørjan Nyland;73517;€900k;Dec 12, 2025;Sep 10, 1990;35;1.92;Norway;[];Goalkeeper;;Sevilla FC;;;Aug 20, 2023;Jun 30, 2026
+1440;1440;Adrián Arnu;1176519;€2.00m;Mar 18, 2026;Mar 4, 2007;19;1.85;Spain;['Spain'];Centre-Forward;;Real Madrid C;;;Jan 21, 2026;Jun 30, 2026
+1441;1441;Pol Tristán;605528;€50k;Dec 30, 2025;Mar 18, 2002;24;1.88;Spain;['Spain'];Goalkeeper;;RCD Espanyol B;;;Aug 21, 2024;Jun 30, 2026
+1442;1442;Pere García;632913;€50k;Dec 30, 2025;Mar 22, 2002;24;1.93;Spain;['Spain'];Goalkeeper;;Valencia B;;;Sep 23, 2025;Jun 30, 2026
+1443;1443;Vladyslav Krapyvtsov;1169436;€400k;Dec 12, 2025;Jun 25, 2005;20;1.88;Ukraine;[];Goalkeeper;;Girona;;;Jan 1, 2025;Jun 30, 2029
+1444;1444;Ekain Orobengoa;982007;€200k;Dec 30, 2025;Jun 17, 2004;21;1.84;Spain;[];Centre-Forward;;Real Sociedad B;;;Jul 1, 2023;Jun 30, 2028
+1445;1445;Trent Alexander-Arnold;314353;€65.00m;Mar 16, 2026;Oct 7, 1998;27;1.8;England;[];Right-Back;;Real Madrid;;;Jun 1, 2025;Jun 30, 2031
+1446;1446;Sixtus Ogbuehi;1230201;€200k;Dec 18, 2025;Mar 15, 2003;23;1.92;Nigeria;[];Centre-Forward;;KV Kortrijk;;;Jul 24, 2025;Jun 30, 2028
+1447;1447;Rodrigo De Paul;255901;€15.00m;Dec 11, 2025;May 24, 1994;31;1.8;Argentina;['Argentina', 'Italy'];Central Midfield;0;;;;;
+1448;1448;Williot Swedberg;764859;€15.00m;Mar 16, 2026;Feb 1, 2004;22;1.87;Sweden;['Sweden'];Left Winger;0;;;;;
+1449;1449;Giorgi Mamardashvili;502676;€28.00m;Dec 9, 2025;Sep 29, 2000;25;1.97;Georgia;[];Goalkeeper;;Liverpool;;;Aug 27, 2024;Jun 30, 2031
+1450;1450;Bojan Miovski;476219;€2.50m;Dec 10, 2025;Jun 24, 1999;26;1.89;North Macedonia;['Macedonia', 'North Macedonia'];Centre-Forward;0;;;;;
+1451;1451;Coke Carrillo;581640;€200k;Dec 30, 2025;Jan 7, 2002;24;1.88;Spain;['Spain'];Goalkeeper;;Celta Fortuna;;;Aug 3, 2022;Jun 30, 2029
+1452;1452;David López;129444;€800k;Dec 12, 2025;Oct 9, 1989;36;1.85;Spain;['Spain'];Centre-Back;0;;;;;
+1453;1453;Assane Diao;1061282;€30.00m;Dec 23, 2025;Sep 7, 2005;20;1.85;Senegal;[];Left Winger;;Como;;;Jan 7, 2025;Jun 30, 2029
+1454;1454;Germán García;1061277;€50k;Dec 30, 2025;Feb 1, 2004;22;;Spain;[];Goalkeeper;;Betis Deportivo;;;Nov 1, 2023;Jun 30, 2026
+1455;1455;Salvi Sánchez;246204;€200k;Dec 30, 2025;Mar 30, 1991;34;1.7;Spain;[];Right Winger;;AD Ceuta;;;Sep 4, 2025;Jun 30, 2026
+1456;1456;Samú Costa;657430;€15.00m;Dec 12, 2025;Nov 27, 2000;25;1.85;Portugal;['Portugal'];Defensive Midfield;0;;;;;
+1457;1457;Eneko Ortiz;892217;€200k;Mar 18, 2026;May 26, 2003;22;1.93;Spain;[];Left-Back;;Villarreal CF B;;;Jul 1, 2025;Jun 30, 2027
+1458;1458;Hugo Solozábal;945767;€100k;Mar 18, 2026;Feb 7, 2003;23;;Spain;['Spain'];Central Midfield;;Getafe CF B;;;Jul 16, 2025;Jun 30, 2026
+1459;1459;Iñaki Peña;283170;€5.00m;Mar 16, 2026;Mar 2, 1999;27;1.84;Spain;[];Goalkeeper;;Elche CF;;;Aug 27, 2025;Jun 30, 2026
+1460;1460;Vedat Muriqi;256267;€4.50m;Dec 12, 2025;Apr 24, 1994;31;1.94;Kosovo;[];Centre-Forward;;RCD Mallorca;;;Jul 22, 2022;Jun 30, 2029
+1461;1461;Antonio Rüdiger;86202;€9.00m;Mar 16, 2026;Mar 3, 1993;33;1.9;Germany;['Sierra Leone', 'Germany'];Centre-Back;;Real Madrid;;;Jul 1, 2022;Jun 30, 2026
+1462;1462;Landry Farré;938148;€300k;Dec 30, 2025;Jan 7, 2007;19;1.79;Spain;"['Spain', ""Cote d'Ivoire""]";Right-Back;0;;;;;
+1463;1463;Yuri Berchiche;61812;€1.20m;Dec 12, 2025;Feb 10, 1990;36;1.81;Spain;['Spain', 'Algeria'];Left-Back;;Athletic Club;;;Jul 2, 2018;Jun 30, 2026
+1464;1464;Carlos Protesoni;431190;€1.00m;Dec 12, 2025;Mar 30, 1998;27;1.85;Uruguay;[];Defensive Midfield;;Alavés;;;Jul 1, 2022;Jun 30, 2026
+1465;1465;Lucas Rosa;468309;€4.00m;Dec 2, 2025;Apr 3, 2000;25;1.77;Brazil;['Brazil', 'Italy'];Right-Back;0;;;;;
+1466;1466;Pau Cabanes;1063553;€800k;Dec 12, 2025;Feb 17, 2005;21;1.79;Spain;['Spain'];Centre-Forward;0;;;;;
+1467;1467;Enzo Loiodice;581781;€1.20m;Dec 30, 2025;Nov 27, 2000;25;1.77;France;['France'];Central Midfield;0;;;;;
+1468;1468;Nabil Fekir;203496;€5.50m;Nov 28, 2025;Jul 18, 1993;32;1.73;France;[];Attacking Midfield;;Al-Jazira;;;Aug 30, 2024;Jun 30, 2026
+1469;1469;Julen Lartitegi;834756;€100k;Mar 18, 2026;Sep 29, 2003;22;1.84;Spain;['Spain'];Right Winger;0;;;;;
+1470;1470;Domingos Duarte;257376;€800k;Dec 12, 2025;Mar 10, 1995;31;1.92;Portugal;[];Centre-Back;;Getafe;;;Jul 11, 2022;Jun 30, 2026
+1471;1471;Pep Chavarría;596122;€10.00m;Dec 12, 2025;Apr 10, 1998;27;1.74;Spain;[];Left-Back;;Rayo Vallecano;;;Aug 31, 2022;Jun 30, 2030
+1472;1472;Javi Galán;448628;€2.00m;Mar 16, 2026;Nov 19, 1994;31;1.72;Spain;['Spain'];Left-Back;0;;;;;
+1473;1473;Marco de las Sías;948254;€150k;Mar 18, 2026;Dec 29, 2005;20;;Spain;['Spain'];Right-Back;0;;;;;
+1474;1474;Darko Brasanac;95641;€200k;Mar 18, 2026;Feb 12, 1992;34;1.78;Serbia;[];Central Midfield;;Málaga CF;;;Sep 4, 2025;Jun 30, 2026
+1475;1475;Alejandro Jay;708534;€200k;Mar 18, 2026;Jul 7, 2002;23;1.81;Spain;['Spain', 'Cuba'];Right-Back;0;;;;;
+1476;1476;Dani Raba;413262;€1.50m;Mar 16, 2026;Oct 29, 1995;30;1.85;Spain;['Spain'];Second Striker;0;;;;;
+1477;1477;Juan Soriano;251892;€1.00m;Dec 30, 2025;Aug 23, 1997;28;1.85;Spain;[];Goalkeeper;;CD Leganés;;;Jul 2, 2024;Jun 30, 2027
+1478;1478;Giovani Lo Celso;348795;€10.00m;Mar 16, 2026;Apr 9, 1996;29;1.77;Argentina;[];Attacking Midfield;;Real Betis;;;Aug 30, 2024;Jun 30, 2028
+1479;1479;Ander Guevara;465967;€3.00m;Dec 12, 2025;Jul 7, 1997;28;1.8;Spain;[];Central Midfield;;Alavés;;;Jul 9, 2023;Jun 30, 2027
+1480;1480;Lorenzo Aguado;709997;€500k;Mar 18, 2026;Sep 19, 2002;23;1.8;Spain;['Spain'];Right-Back;0;;;;;
+1481;1481;Iker Muñoz;710677;€2.00m;Dec 12, 2025;Sep 5, 2002;23;1.8;Spain;[];Defensive Midfield;;CA Osasuna;;;Jul 1, 2023;Jun 30, 2027
+1482;1482;Andrés Cuenca;962111;€500k;Dec 30, 2025;Jun 11, 2007;18;1.86;Spain;['Spain'];Centre-Back;0;;;;;
+1483;1483;Iñaki Williams;255508;€10.00m;Dec 12, 2025;Jun 15, 1994;31;1.86;Ghana;['Ghana', 'Spain'];Right Winger;0;;;;;
+1484;1484;Johan Mojica;262939;€1.80m;Dec 12, 2025;Aug 21, 1992;33;1.85;Colombia;[];Left-Back;;RCD Mallorca;;;Jul 23, 2024;Jun 30, 2027
+1485;1485;Moi Gómez;175449;€1.80m;Dec 12, 2025;Jun 23, 1994;31;1.76;Spain;[];Attacking Midfield;;CA Osasuna;;;Jul 28, 2022;Jun 30, 2027
+1486;1486;Jofre Carreras;628498;€3.00m;Dec 12, 2025;Jun 17, 2001;24;1.75;Spain;['Spain'];Right Winger;0;;;;;
+1487;1487;Etienne Eto'o;707359;€300k;Dec 30, 2025;Aug 18, 2002;23;1.91;Cameroon;[];Centre-Forward;;Villarreal CF B;;;Jan 16, 2026;Jun 30, 2026
+1488;1488;Grégoire Swiderski;1063990;€200k;Mar 18, 2026;Oct 5, 2005;20;1.87;Canada;[];Goalkeeper;;Alavés B;;;Aug 30, 2024;Jun 30, 2027
+1489;1489;Santiago Mouriño;953901;€10.00m;Dec 12, 2025;Feb 13, 2002;24;1.86;Uruguay;[];Right-Back;;Villarreal;;;Aug 1, 2025;Jun 30, 2030
