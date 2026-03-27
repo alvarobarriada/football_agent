@@ -3,15 +3,106 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
+from numpy import dot
 import pandas as pd
 import streamlit as st
+import time
+import contextlib
+import io
 
+from app_config import TRACING_SOURCE, TRACING_USER_ID
+
+from techshop_agent.solution.prompt_provider import process_query_with_prompt
 from techshop_agent.agent import create_agent
+from techshop_agent.solution.observability import process_query, create_observed_agent
+import os
+import uuid
+from langfuse import Langfuse, get_client
+import dotenv
 
+dotenv.load_dotenv(override=True, dotenv_path='../.env')
+get_client()
 
 @st.cache_resource
 def get_agent():
-    return create_agent()
+    return create_observed_agent()
+
+
+def _init_session() -> None:
+    print(os.getenv("LANGFUSE_PUBLIC_KEY"))
+    print(os.getenv("LANGFUSE_SECRET_KEY"))
+    defaults: dict = {
+        "messages": [],
+        "session_id": f"streamlit-{uuid.uuid4().hex[:8]}",
+        "agent_mode": "base",
+        "prompt_env": "🟢 Production",
+        "langfuse_enabled": bool(
+            os.getenv("LANGFUSE_PUBLIC_KEY") and os.getenv("LANGFUSE_SECRET_KEY")
+        ),
+        "eval_result": None,
+        "eval_running": False,
+    }
+    for key, value in defaults.items():
+        if key not in st.session_state:
+            st.session_state[key] = value
+_init_session()
+# ─── CALL AGENT  ────────────────────────────────────────────────────────────────
+
+def _call_agent(user_input:str)->tuple[str,float,dict[str,float]]:
+    start = time.monotonic()
+    mode: str = st.session_state.agent_mode
+    scores: dict[str, float] = {}
+
+    if mode == "instrumented":
+        try:
+
+            with contextlib.redirect_stdout(io.StringIO()):
+                response, scores = process_query_with_prompt(
+                    user_input,
+                    prompt_label=prompt_label,
+                    user_id=TRACING_USER_ID,
+                    session_id=st.session_state.session_id,
+                    source=TRACING_SOURCE,
+                )
+        except ImportError:
+
+            with contextlib.redirect_stdout(io.StringIO()):
+                response = process_query(
+                    user_input,
+                    user_id=TRACING_USER_ID,
+                    session_id=st.session_state.session_id,
+                    source=TRACING_SOURCE,
+                )
+        except Exception as exc:
+            response = f"Error: {type(exc).__name__} — {exc}"
+    else:
+        agent = get_agent()
+
+        if st.session_state.langfuse_enabled:
+            try:
+
+                @observe(name="streamlit_query")
+                def _traced(query: str) -> str:
+                    langfuse_context.update_current_trace(
+                        user_id=TRACING_USER_ID,
+                        session_id=st.session_state.session_id,
+                        metadata={"source": TRACING_SOURCE, "mode": "base"},
+                    )
+                    with contextlib.redirect_stdout(io.StringIO()):
+                        return str(agent(query))
+
+                response = _traced(user_input)
+            except Exception:
+                response = str(agent(user_input))
+        else:
+            with contextlib.redirect_stdout(io.StringIO()):
+                response = str(agent(user_input))
+
+    latency_ms = (time.monotonic() - start) * 1000
+    return response, latency_ms, scores
+
+
+
 
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -256,6 +347,25 @@ hr { border-color: rgba(144, 144, 151, 0.15) !important; }
 </style>
 """, unsafe_allow_html=True)
 
+# Nombres legibles para los scores
+_SCORE_LABELS: dict[str, str] = {
+    "response_quality": "Calidad",
+    "scope_adherence": "Ámbito",
+}
+
+
+def _render_scores_html(scores: dict[str, float]) -> str:
+    if not scores:
+        return ""
+    parts = []
+    for name, value in scores.items():
+        label = _SCORE_LABELS.get(name, name)
+        css_class = "score-good" if value >= 0.8 else ("score-warn" if value >= 0.5 else "score-bad")
+        parts.append(f'<span class="{css_class}">{label}: {value:.0%}</span>')
+    return f'<span class="scores">📊 {" · ".join(parts)}</span>'
+
+
+
 # ─── DATA ────────────────────────────────────────────────────────────────────────
 PLAYERS_DATA = {
     "LaLiga": [
@@ -321,6 +431,8 @@ QUICK_INSIGHTS = {
         "premium": "El Inter genera más xG en los primeros 15 minutos que cualquier otro equipo europeo de élite.",
     },
 }
+
+
 
 # ─── SESSION STATE ───────────────────────────────────────────────────────────────
 if "messages" not in st.session_state:
@@ -449,12 +561,25 @@ with chat_col:
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         with st.chat_message("assistant", avatar="⚡"):
+            error_occurred = False
             with st.spinner("Analizando telemetría..."):
-                agent = get_agent()
-                result = agent(prompt)
-                response_text = str(result)
-            st.markdown(response_text)
+                try:
+                    response_text, latency_ms, scores = _call_agent(prompt)
+                except Exception as exc:
+                    error_occurred = True
+                    response_text = f"Error: {type(exc).__name__} — {exc}"
+                    latency_ms = 0.0
+                    scores = {}
 
+            if error_occurred:
+                st.error(response_text)
+            else:
+                st.markdown(response_text)
+            meta_html = f'<span class="latency">{latency_ms:.0f} ms</span>'
+            scores_html = _render_scores_html(scores)
+            if scores_html:
+                meta_html += f" {scores_html}"
+            st.markdown(meta_html, unsafe_allow_html=True)
         st.session_state.messages.append({"role": "assistant", "content": response_text})
         st.rerun()
 
