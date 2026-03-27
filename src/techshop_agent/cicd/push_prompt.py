@@ -39,7 +39,7 @@ from langfuse import get_client
 logger = logging.getLogger(__name__)
 
 # Prompt name — matches the convention in prompt_provider.py
-PROMPT_NAME = "techshop-system-prompt"
+PROMPT_NAME = "Prompt v1"
 
 
 def push_prompt(
