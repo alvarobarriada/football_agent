@@ -6,6 +6,9 @@ from json import load
 from pydantic import BaseModel, Field
 import pandas as pd
 from typing import Literal
+from thefuzz import process
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.preprocessing import StandardScaler
 
 from strands import tool
 
@@ -45,7 +48,30 @@ class InputUser(BaseModel):
         description="Tactical position. Common formats: 'GK', 'DF', 'MF', 'FW' or specific ones like 'Right-Back'"
     )
     
+class InputSimilarPlayer(BaseModel):
+    """Model that contains information about a user request for finding similar players."""
+    target_player: str = Field(
+        description="Name of the player you want to find similar profiles for (e.g., 'Jude Bellingham')"
+    )
+    price_max: int = Field(
+        description="Maximum market value of the similar players in euros"
+    )
+    max_age: int = Field(
+        default=25, 
+        description="Maximum age of the similar players"
+    )
 
+def match_names(name_to_find, list_of_names, threshold=60):
+    """Encuentra el nombre más parecido en una lista si supera el umbral."""
+    if pd.isna(name_to_find):
+        return None
+    
+    # process.extractOne devuelve una tupla: (mejor_coincidencia, puntuacion)
+    match, score = process.extractOne(name_to_find, list_of_names)
+    
+    if score >= threshold:
+        return match
+    return None
 
 
 def clean_currency_value(value):
@@ -96,6 +122,10 @@ def search_talent(input: InputUser):
         df_stats['Player'] = df_stats['Player'].str.normalize("NFKD")
         df_market['Value'] = df_market['Value'].apply(clean_currency_value)
 
+        fbref_names = df_stats['Player'].dropna().unique().tolist()
+        df_market['Matched_Player'] = df_market['Name'].apply(
+        lambda x: match_names(x, fbref_names, threshold=60)
+    )
 
         merged = pd.merge(df_market, df_stats, left_on='Name',right_on='Player', how='right')
         merged.drop(['index','Unnamed: 0'],inplace=True, axis=1)
@@ -115,3 +145,58 @@ def search_talent(input: InputUser):
 
         return resultado[['Player', 'Squad', 'Age_x','Pos', 'Value', input.key_metric]]
 
+
+
+@tool
+def find_similar_player(input: InputSimilarPlayer):
+    """This tool finds players with similar statistical profiles to a target player, acting as a replacement finder."""
+    df_market = load_tfmkt_data()
+    df_stats = load_stadistics()
+    
+    # Limpieza básica
+    df_market['Value'] = df_market['Value'].apply(clean_currency_value)
+    
+    # Asumimos que ya aplicaste el fuzzy matching del paso anterior o un merge directo
+    # Para este ejemplo, haremos un merge directo simplificado
+    merged = pd.merge(df_market, df_stats, left_on='Name', right_on='Player', how='inner')
+    
+    # Buscamos al jugador objetivo (usando thefuzz para no fallar si el usuario lo escribe un poco mal)
+    target_name_matched = match_names(input.target_player, merged['Player'].tolist(), threshold=70)
+    
+    if not target_name_matched:
+        return f"No se pudo encontrar a {input.target_player} en la base de datos conjunta."
+
+    # Seleccionamos las columnas numéricas relevantes para comparar (puedes añadir o quitar)
+    metrics_to_compare = ['Gls', 'Ast', 'Sh/90', 'Crs', 'TklW', 'Int', 'PassCompletionPct'] 
+    
+    # Filtramos solo las columnas que existan en el dataframe
+    valid_metrics = [m for m in metrics_to_compare if m in merged.columns]
+    
+    # Extraemos los datos del jugador objetivo
+    target_data = merged[merged['Player'] == target_name_matched][valid_metrics].fillna(0)
+    
+    # Preparamos los datos del resto de jugadores (y rellenamos NaNs con 0)
+    all_players_data = merged[valid_metrics].fillna(0)
+    
+    # Normalizamos los datos estadísticos para que goles y porcentajes pesen igual
+    scaler = StandardScaler()
+    all_players_scaled = scaler.fit_transform(all_players_data)
+    target_scaled = scaler.transform(target_data)
+    
+    # Calculamos la similitud del coseno (0 a 1, donde 1 es idéntico)
+    similarities = cosine_similarity(target_scaled, all_players_scaled)[0]
+    
+    # Añadimos la puntuación de similitud al dataframe
+    merged['Similarity_Score'] = similarities
+    
+    # Filtramos por las reglas del usuario (quitando al propio jugador objetivo)
+    resultado = merged[
+        (merged['Player'] != target_name_matched) &
+        (merged['Value'].astype(float) <= input.price_max) &
+        (merged['Age_x'].astype(float) <= input.max_age)
+    ]
+    
+    # Ordenamos por los más parecidos y devolvemos el top 5
+    top_5 = resultado.sort_values(by='Similarity_Score', ascending=False).head(5)
+    
+    return top_5[['Player', 'Squad', 'Age_x', 'Pos', 'Value', 'Similarity_Score']]
