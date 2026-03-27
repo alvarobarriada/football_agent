@@ -115,8 +115,3 @@ def search_talent(input: InputUser):
 
         return resultado[['Player', 'Squad', 'Age_x','Pos', 'Value', input.key_metric]]
 
-input = InputUser(price_max=20000000, key_metric="Gls", min_value_key=1,position="AM", min_age=24, max_age=30 )
-
-gangas = search_talent(input)
-
-print(gangas)
