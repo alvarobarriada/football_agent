@@ -1,0 +1,140 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "techshop-agent"
+version = "0.1.0"
+description = "Agente de atención al cliente para TechShop - Curso LLMOps"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Curso LLMOps", email = "curso@example.com"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "strands-agents>=0.1.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "ipykernel>=7.2.0",
+]
+
+[project.optional-dependencies]
+llmops = [
+    "langfuse>=4.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "langfuse>=4.0.0",
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "ruff>=0.8.0",
+    "pre-commit>=3.0.0",
+    "pyright>=1.1.0",
+    "bandit>=1.7.0",
+    "detect-secrets>=1.5.0",
+    "ipykernel>=6.0.0",
+    "boto3>=1.35.0",
+    "jupyterlab>=4.5.6",
+    "notebook>=7.5.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/example/techshop-agent"
+Repository = "https://github.com/example/techshop-agent"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/techshop_agent"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src"]
+
+[tool.ruff.lint]
+# Modo estricto: habilitar todas las reglas recomendadas
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort
+    "N",      # pep8-naming
+    "UP",     # pyupgrade
+    "ANN",    # flake8-annotations
+    "ASYNC",  # flake8-async
+    "S",      # flake8-bandit
+    "B",      # flake8-bugbear
+    "A",      # flake8-builtins
+    "COM",    # flake8-commas
+    "C4",     # flake8-comprehensions
+    "DTZ",    # flake8-datetimez
+    "T10",    # flake8-debugger
+    "EM",     # flake8-errmsg
+    "EXE",    # flake8-executable
+    "ISC",    # flake8-implicit-str-concat
+    "ICN",    # flake8-import-conventions
+    "G",      # flake8-logging-format
+    "INP",    # flake8-no-pep420
+    "PIE",    # flake8-pie
+    "T20",    # flake8-print
+    "PYI",    # flake8-pyi
+    "PT",     # flake8-pytest-style
+    "Q",      # flake8-quotes
+    "RSE",    # flake8-raise
+    "RET",    # flake8-return
+    "SLF",    # flake8-self
+    "SLOT",   # flake8-slots
+    "SIM",    # flake8-simplify
+    "TID",    # flake8-tidy-imports
+    "TCH",    # flake8-type-checking
+    "ARG",    # flake8-unused-arguments
+    "PTH",    # flake8-use-pathlib
+    "ERA",    # eradicate
+    "PD",     # pandas-vet
+    "PGH",    # pygrep-hooks
+    "PL",     # pylint
+    "TRY",    # tryceratops
+    "FLY",    # flynt
+    "NPY",    # numpy-specific rules
+    "PERF",   # perflint
+    "RUF",    # ruff-specific rules
+]
+
+# Ignorar algunas reglas que pueden ser demasiado estrictas para código educativo
+ignore = [
+    "D",       # pydocstyle (documentación - puede ser demasiado estricto)
+    "COM812",  # Trailing comma missing (conflicto con formatter)
+    "ISC001",  # Implicit string concatenation (conflicto con formatter)
+    "T201",    # print() statements (útil para debugging en curso)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = [
+    "S101",    # Use of assert
+    "S106",    # Hardcoded password (test fixtures)
+    "ANN",     # Type annotations en tests
+    "PLR2004", # Magic values en tests
+]
+"examples/**/*.py" = [
+    "INP001",  # Implicit namespace package
+    "T201",    # print() statements
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["techshop_agent"]
+
+[tool.ruff.lint.pylint]
+max-args = 8
+max-branches = 15
+max-returns = 6
+max-statements = 50

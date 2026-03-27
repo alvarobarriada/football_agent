@@ -1,0 +1,69 @@
+# ─────────────────────────────────────────────────────────────
+# CI/CD para Prompts — GitLab CI
+# ─────────────────────────────────────────────────────────────
+# Pipeline de 3 stages: push → evaluate → promote
+# Se dispara SOLO cuando cambian archivos en prompts/
+#
+# Variables requeridas (Settings → CI/CD → Variables, con Mask):
+#   LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, LANGFUSE_BASE_URL
+#   AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_DEFAULT_REGION
+# ─────────────────────────────────────────────────────────────
+
+stages:
+  - push
+  - evaluate
+  - promote
+
+# ─────────────────────────────────────────────────────────────
+# Configuración reutilizable
+# ─────────────────────────────────────────────────────────────
+.python-setup: &python-setup
+  image: python:3.11-slim
+  before_script:
+    - pip install --quiet -e ".[llmops]"
+
+# ─────────────────────────────────────────────────────────────
+# Stage 1: CI — Subir prompt a Langfuse con label "staging"
+# ─────────────────────────────────────────────────────────────
+push-prompt:
+  <<: *python-setup
+  stage: push
+  rules:
+    - changes:
+        - prompts/**
+  script:
+    - python -m techshop_agent.cicd.push_prompt
+        --file prompts/system_prompt.txt
+        --labels staging latest
+        --author "gitlab-ci[bot]"
+
+# ─────────────────────────────────────────────────────────────
+# Stage 2: Quality Gate — Evaluar prompt en staging
+# ─────────────────────────────────────────────────────────────
+evaluate-prompt:
+  <<: *python-setup
+  stage: evaluate
+  needs: [push-prompt]
+  rules:
+    - changes:
+        - prompts/**
+  script:
+    - python -m techshop_agent.cicd.evaluate_prompt
+        --label staging
+        --threshold 0.7
+
+# ─────────────────────────────────────────────────────────────
+# Stage 3: CD — Promover staging → production (solo en main)
+# ─────────────────────────────────────────────────────────────
+promote-prompt:
+  <<: *python-setup
+  stage: promote
+  needs: [evaluate-prompt]
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - prompts/**
+  script:
+    - python -m techshop_agent.cicd.promote_prompt
+        --from-label staging
+        --to-label production

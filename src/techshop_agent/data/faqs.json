@@ -1,0 +1,57 @@
+[
+  {
+    "pregunta": "¿Cuál es la política de reembolso?",
+    "respuesta": "Aceptamos solicitudes de reembolso dentro de los 30 días posteriores a la compra con comprobante válido.",
+    "tema": "devoluciones"
+  },
+  {
+    "pregunta": "¿Cuánto tarda el envío estándar?",
+    "respuesta": "El envío estándar tarda entre 3 y 5 días hábiles en territorio nacional.",
+    "tema": "envios"
+  },
+  {
+    "pregunta": "¿Ofrecen envío exprés?",
+    "respuesta": "Sí, disponemos de envío exprés con entrega estimada en 24-48 horas según zona.",
+    "tema": "envios"
+  },
+  {
+    "pregunta": "¿Qué cubre la garantía de productos?",
+    "respuesta": "La garantía cubre defectos de fabricación durante 12 meses desde la fecha de compra.",
+    "tema": "garantias"
+  },
+  {
+    "pregunta": "¿Cuáles son los métodos de pago disponibles?",
+    "respuesta": "Aceptamos tarjetas de crédito, débito, transferencia bancaria y pago digital autorizado.",
+    "tema": "pagos"
+  },
+  {
+    "pregunta": "¿Puedo pagar en cuotas?",
+    "respuesta": "Sí, el pago en cuotas está disponible para compras elegibles con entidades financieras participantes.",
+    "tema": "pagos"
+  },
+  {
+    "pregunta": "¿Cuál es el horario de atención al cliente?",
+    "respuesta": "Nuestro equipo atiende de lunes a viernes de 9:00 a 18:00, excepto festivos.",
+    "tema": "horarios"
+  },
+  {
+    "pregunta": "¿Cómo solicito soporte técnico?",
+    "respuesta": "Puedes solicitar soporte técnico desde el formulario de contacto o por teléfono de soporte.",
+    "tema": "soporte"
+  },
+  {
+    "pregunta": "¿Qué pasa si mi pedido llega dañado?",
+    "respuesta": "Debes reportarlo dentro de las primeras 48 horas con fotos del paquete y del producto.",
+    "tema": "devoluciones"
+  },
+  {
+    "pregunta": "¿Realizan envíos internacionales?",
+    "respuesta": "Actualmente no realizamos envíos internacionales en el plan estándar del servicio.",
+    "tema": "envios"
+  },
+  {
+    "pregunta": "¿Cómo funciona el cambio de producto?",
+    "respuesta": "El cambio de producto se gestiona dentro de 30 días, sujeto a stock y estado del artículo.",
+    "tema": "devoluciones"
+  }
+]

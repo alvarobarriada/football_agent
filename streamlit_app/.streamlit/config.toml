@@ -1,0 +1,13 @@
+[theme]
+# ── Hiberus brand palette ────────────────────────────────────────────────────
+primaryColor        = "#E84610"          # Hiberus Orange — CTAs, links, accents
+backgroundColor     = "#FFFFFF"          # Fondo de contenido principal
+secondaryBackgroundColor = "#F4F7FB"     # Fondo de sidebar y paneles
+textColor           = "#0F172A"          # Texto principal (casi negro)
+font                = "sans serif"
+
+[server]
+headless            = true
+
+[browser]
+gatherUsageStats    = false
