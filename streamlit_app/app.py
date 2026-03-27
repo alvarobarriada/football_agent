@@ -7,11 +7,55 @@ import streamlit as st
 import pandas as pd
 
 from techshop_agent.agent import create_agent
+from techshop_agent.config import load_stadistics
 
 
 @st.cache_resource
 def get_agent():
     return create_agent()
+
+
+_LEAGUE_MAP = {
+    "eng Premier League": "Premier League",
+    "es La Liga": "LaLiga",
+    "it Serie A": "Serie A",
+    "de Bundesliga": "Bundesliga",
+    "fr Ligue 1": "Ligue 1",
+}
+
+
+@st.cache_data
+def load_players_data() -> dict[str, list[dict]]:
+    df = load_stadistics()
+    df["eff"] = pd.to_numeric(df["G/Sh"], errors="coerce").fillna(0)
+    result = {}
+    for comp_id, label in _LEAGUE_MAP.items():
+        subset = df[df["Comp"] == comp_id].copy()
+        subset = subset.sort_values("Gls", ascending=False).head(20)
+        subset = subset.rename(columns={
+            "Player": "name", "Squad": "team", "Pos": "pos",
+            "Gls": "goals", "Sh/90": "xg", "MP": "apps", "Ast": "assists",
+        })
+        result[label] = subset[["name", "team", "pos", "goals", "xg", "eff", "apps", "assists"]].to_dict("records")
+    return result
+
+
+@st.cache_data
+def load_quick_insights(players_data: dict) -> dict:
+    insights = {}
+    for league, players in players_data.items():
+        df = pd.DataFrame(players)
+        avg_sh90 = round(pd.to_numeric(df["xg"], errors="coerce").mean(), 2)
+        scorers = int((pd.to_numeric(df["goals"], errors="coerce") > 0).sum())
+        pct = int(scorers / len(df) * 100) if len(df) else 0
+        best_eff = pd.to_numeric(df["eff"], errors="coerce").max()
+        insights[league] = {
+            "avg_xg": avg_sh90,
+            "pct": pct,
+            "trend": f"Datos reales FBref 2025/26 — {scorers} de {len(df)} jugadores han marcado al menos 1 gol.",
+            "premium": f"El finalizador más eficiente tiene un G/Sh de {best_eff:.2f}.",
+        }
+    return insights
 
 # ─── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -322,20 +366,17 @@ QUICK_INSIGHTS = {
     },
 }
 
+# ─── REAL DATA ───────────────────────────────────────────────────────────────────
+players_data = load_players_data()
+quick_insights = load_quick_insights(players_data)
+
 # ─── SESSION STATE ───────────────────────────────────────────────────────────────
 if "messages" not in st.session_state:
-    st.session_state.messages = [
-        {
-            "role": "user",
-            "content": "¿Qué delantero de la liga española está rindiendo por encima de sus goles esperados (xG) esta temporada?",
-        },
-        {
-            "role": "assistant",
-            "content": CHAT_RESPONSES["default"],
-        },
-    ]
+    # Demo conversation removed — chat starts empty and uses real agent responses
+    # st.session_state.messages = [{"role": "user", ...}, {"role": "assistant", "content": CHAT_RESPONSES["default"]}]
+    st.session_state.messages = []
 if "league" not in st.session_state:
-    st.session_state.league = "LaLiga"
+    st.session_state.league = list(players_data.keys())[0]
 if "active_page" not in st.session_state:
     st.session_state.active_page = "Players"
 
@@ -404,8 +445,8 @@ league_col, spacer = st.columns([3, 7])
 with league_col:
     st.session_state.league = st.selectbox(
         "Liga",
-        list(PLAYERS_DATA.keys()),
-        index=list(PLAYERS_DATA.keys()).index(st.session_state.league),
+        list(players_data.keys()),
+        index=list(players_data.keys()).index(st.session_state.league),
         label_visibility="collapsed",
     )
 
@@ -427,7 +468,7 @@ with chat_col:
                 if isinstance(resp, dict):
                     st.markdown(resp["text"])
                     if resp.get("show_table"):
-                        df = pd.DataFrame(PLAYERS_DATA[st.session_state.league])
+                        df = pd.DataFrame(players_data[st.session_state.league])
                         df_display = df[["name", "team", "goals", "xg", "eff"]].copy()
                         df_display.columns = [
                             "Jugador", "Equipo", "Goles", "xG", "Eficiencia (+xG)"
@@ -460,13 +501,13 @@ with chat_col:
 
 # ══ QUICK INSIGHTS SIDEBAR ══════════════════════════════════════════════════════
 with insights_col:
-    qi = QUICK_INSIGHTS[st.session_state.league]
+    qi = quick_insights[st.session_state.league]
 
     # ── Stats card ──
     st.markdown('<div class="ki-card">', unsafe_allow_html=True)
     st.markdown('<div class="ki-card-title">Insights Rápidos</div>', unsafe_allow_html=True)
 
-    st.metric(f"Promedio xG · {st.session_state.league}", f"{qi['avg_xg']}")
+    st.metric(f"Promedio Sh/90 · {st.session_state.league}", f"{qi['avg_xg']}")
     st.progress(qi["pct"] / 100)
 
     st.markdown(f"""
@@ -485,8 +526,8 @@ with insights_col:
     st.markdown('<div class="ki-card" style="margin-top:0.5rem;">', unsafe_allow_html=True)
     st.markdown('<div class="ki-card-title">🏆 Top Eficiencia</div>', unsafe_allow_html=True)
 
-    players = PLAYERS_DATA[st.session_state.league]
-    top3 = sorted(players, key=lambda x: x["eff"], reverse=True)[:3]
+    players = players_data[st.session_state.league]
+    top3 = sorted(players, key=lambda x: float(x["eff"]) if x["eff"] else 0, reverse=True)[:3]
     for i, p in enumerate(top3):
         medal = ["🥇", "🥈", "🥉"][i]
         st.markdown(f"""
@@ -495,7 +536,7 @@ with insights_col:
             <div style="font-size:0.8rem;font-weight:600;color:#dae2fd;">
                 {medal} {p['name']}
             </div>
-            <span class="ki-pill-green">+{p['eff']}</span>
+            <span class="ki-pill-green">{float(p['eff']):.2f}</span>
         </div>""", unsafe_allow_html=True)
 
     st.markdown("</div>", unsafe_allow_html=True)
@@ -524,32 +565,33 @@ st.markdown("<hr style='border-color:rgba(144,144,151,0.1);margin:1.5rem 0 1rem 
 st.markdown(f'<div class="ki-card-title">📊 Estadísticas · {st.session_state.league}</div>',
             unsafe_allow_html=True)
 
-df_full = pd.DataFrame(PLAYERS_DATA[st.session_state.league])
+df_full = pd.DataFrame(players_data[st.session_state.league])
 m1, m2, m3, m4, m5 = st.columns(5)
 
 with m1:
     st.metric("Goles líder", df_full["goals"].max())
 with m2:
+    df_full["eff"] = pd.to_numeric(df_full["eff"], errors="coerce").fillna(0)
     best = df_full.loc[df_full["eff"].idxmax()]
-    st.metric("Mejor eficiencia", f"+{best['eff']}", best["name"])
+    st.metric("Mejor G/Sh", f"{best['eff']:.2f}", best["name"])
 with m3:
-    st.metric("xG promedio", f"{df_full['xg'].mean():.1f}")
+    st.metric("Sh/90 promedio", f"{pd.to_numeric(df_full['xg'], errors='coerce').mean():.1f}")
 with m4:
-    st.metric("Total goles", df_full["goals"].sum())
+    st.metric("Total goles", pd.to_numeric(df_full["goals"], errors="coerce").sum())
 with m5:
-    over_xg = (df_full["eff"] > 0).sum()
-    st.metric("Sobre su xG", f"{over_xg}/{len(df_full)}")
+    scorers = (pd.to_numeric(df_full["goals"], errors="coerce") > 0).sum()
+    st.metric("Han marcado", f"{scorers}/{len(df_full)}")
 
 # ─── FULL TABLE ──────────────────────────────────────────────────────────────────
 with st.expander(f"📋 Ver tabla completa — {st.session_state.league}", expanded=False):
     df_show = df_full[["name", "team", "pos", "apps", "goals", "xg", "eff", "assists"]].copy()
-    df_show.columns = ["Jugador", "Equipo", "Pos.", "PJ", "Goles", "xG", "Efic. (+xG)", "Asist."]
+    df_show.columns = ["Jugador", "Equipo", "Pos.", "PJ", "Goles", "Sh/90", "G/Sh", "Asist."]
     st.dataframe(df_show, use_container_width=True, hide_index=True)
 
 # ─── FOOTER ──────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div style="text-align:center;padding:1.5rem 0 0.5rem;font-size:0.65rem;
             color:rgba(185,199,224,0.4);letter-spacing:0.1em;text-transform:uppercase;">
-    KINETIC INTEL · Director AI Pro Analytics · Temporada 23/24 · Datos simulados para demo
+    KINETIC INTEL · Director AI Pro Analytics · Temporada 25/26 · Datos reales FBref + Transfermarkt
 </div>
 """, unsafe_allow_html=True)
