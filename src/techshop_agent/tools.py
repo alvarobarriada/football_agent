@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from langfuse import observe
 from pydantic import BaseModel, Field
 import pandas as pd
 from typing import Literal
@@ -12,6 +13,11 @@ from sklearn.preprocessing import StandardScaler
 from strands import tool
 
 from techshop_agent.config import load_tfmkt_data, load_stadistics
+from langfuse import get_client
+
+client = get_client()
+
+
 
 
 class InputUser(BaseModel):
@@ -74,6 +80,8 @@ class PlayerResult(BaseModel):
     key_metric_value: float = Field(description="Value of the evaluated metric")
 
 
+
+@observe(name="match_names")
 def match_names(name_to_find, list_of_names, threshold=60):
     """Encuentra el nombre más parecido en una lista si supera el umbral."""
     if pd.isna(name_to_find):
@@ -83,7 +91,7 @@ def match_names(name_to_find, list_of_names, threshold=60):
         return match
     return None
 
-
+@observe(name="clean_currency_value")
 def clean_currency_value(value):
     if pd.isna(value) or value == "-":
         return 0
@@ -98,7 +106,7 @@ def clean_currency_value(value):
     except ValueError:
         return 0
 
-
+@observe(name="translate_league_name")
 def translate_league_name(league_id: str) -> str:
     """Translates soccerdata/FBref league IDs to full descriptive names."""
     mapping = {
@@ -111,7 +119,7 @@ def translate_league_name(league_id: str) -> str:
     }
     return mapping.get(league_id, league_id)
 
-
+@observe(name="build_merged_df")
 def _build_merged_df() -> pd.DataFrame:
     """
     Builds a unified DataFrame combining FBref stats and Transfermarkt market values.
@@ -157,7 +165,7 @@ def _build_merged_df() -> pd.DataFrame:
 
     return merged
 
-
+@observe(name="search_talent")
 @tool
 def search_talent(input: InputUser) -> list[PlayerResult]:
     """
@@ -189,7 +197,7 @@ def search_talent(input: InputUser) -> list[PlayerResult]:
 
     return players
 
-
+@observe(name="find_similar_player")
 @tool
 def find_similar_player(input: InputSimilarPlayer) -> pd.DataFrame | str:
     """
