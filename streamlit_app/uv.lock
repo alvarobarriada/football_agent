@@ -4164,7 +4164,6 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "streamlit" },
     { name = "techshop-agent" },
-    { name = "thefuzz" },
 ]
 
 [package.metadata]
@@ -4173,7 +4172,6 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.0.0" },
     { name = "streamlit", specifier = ">=1.40.0" },
     { name = "techshop-agent", editable = "../" },
-    { name = "thefuzz", specifier = ">=0.22.1" },
 ]
 
 [[package]]
