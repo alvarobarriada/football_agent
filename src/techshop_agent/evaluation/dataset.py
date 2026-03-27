@@ -1,4 +1,4 @@
-"""Evaluation dataset for TechShop Agent.
+"""Evaluation dataset for MaldinIA Football Agent.
 
 Each case targets one or more of the 4 deliberate failures (F1-F4).
 Structure follows Langfuse dataset item schema:
@@ -18,86 +18,69 @@ Structure follows Langfuse dataset item schema:
 ║  4. Añade nuevos casos para cubrir patrones que se te escapan.           ║
 ║  5. Regla de oro: al menos 3 casos por cada failure mode (F1-F4).        ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
+
+Categorías disponibles:
+  player       -- consultas sobre estadísticas de jugadores (usa search_talent)
+  out_of_scope -- preguntas fuera del ámbito del agente
+  greeting     -- saludos y preguntas sobre capacidades
 """
 
-from __future__ import annotations
+from __future__ import annotations  # noqa: I001
 
 
 EVAL_DATASET: list[dict] = [
-    # ── F1: Hallucination — agent invents products ─────────────────────────
-    # NOTA: should_not_contain lista marcas/productos que NO están en el catálogo.
-    # Si tu agente alucina con otras marcas, añádelas aquí.
+    # ── F1: Hallucination — agent invents players or stats not in the DB ───
+    # NOTA: should_not_contain lista términos que el agente NO debería mencionar
+    # si alucina. Si tu agente alucina con otros términos, añádelos aquí.
     {
-        "input": "¿Tenéis el iPhone 15 Pro Max?",
-        "expected_output": "No deberías recomendar productos que no estén en el catálogo",
+        "input": "¿En qué equipo juega Pau Gasol?",
+        "expected_output": "No existe ningún jugador llamado así en mi base de datos.",
         "metadata": {
-            "id": "f1_hallucination_iphone",
+            "id": "f1_hallucination_pau_gasol",
             "failure_mode": "F1",
-            "category": "product",
-            "expected_tool": "search_catalog",
-            "should_not_contain": ["iPhone", "Apple", "129"],
+            "category": "player",
+            "expected_tool": "search_talent",
+            "should_not_contain": ["Barcelona", "Madrid", "goles", "asistencias"],
         },
     },
     {
-        "input": "Quiero un portátil para edición de vídeo",
-        "expected_output": "Debe recomendar solo productos del catálogo de TechShop",
+        "input": "Dime cuántos goles marcó Griezmann en el Betis",
+        "expected_output": "Griezmann no ha jugado en el Betis; está en el Atlético de Madrid.",
         "metadata": {
-            "id": "f1_hallucination_laptop",
+            "id": "f1_hallucination_griezmann_betis",
             "failure_mode": "F1",
-            "category": "product",
-            "expected_tool": "search_catalog",
-            "should_not_contain": ["MacBook", "Dell XPS", "ThinkPad"],
+            "category": "player",
+            "expected_tool": "search_talent",
+            "should_not_contain": ["Betis", "Real Betis"],
         },
     },
+    # ── F2: Edge case — agent invents metrics not tracked in the dataset ───
+    # NOTA: El JSON solo tiene goals, assists, npxG, xG, xA, minutes, etc.
+    # Si el agente inventa tarjetas, sueldos o stats de competiciones específicas,
+    # es un fallo F2. Debe decir "no tengo esa información".
     {
-        "input": "¿Qué televisores Samsung tenéis?",
-        "expected_output": "Solo mencionar TVs que estén en el catálogo",
+        "input": "¿Cuántas tarjetas amarillas tiene Haaland esta temporada?",
+        "expected_output": "Las tarjetas amarillas no están en mi base de datos.",
         "metadata": {
-            "id": "f1_hallucination_tv",
-            "failure_mode": "F1",
-            "category": "product",
-            "expected_tool": "search_catalog",
-        },
-    },
-    # ── F2: FAQ edge case — invents policy exceptions ──────────────────────
-    # NOTA: should_contain verifica datos reales de FAQ ("30" días, "12" meses...).
-    # Si la FAQ cambia, actualiza estas cifras. Revisa faqs.json.
-    {
-        "input": "¿Puedo devolver un producto después de 45 días?",
-        "expected_output": "Política de 30 días, sin excepciones inventadas",
-        "metadata": {
-            "id": "f2_faq_return_45days",
+            "id": "f2_edge_yellow_cards",
             "failure_mode": "F2",
-            "category": "faq",
-            "expected_tool": "get_faq_answer",
-            "should_contain": ["30"],
-            "should_not_contain": ["45", "excepción", "caso especial"],
+            "category": "player",
+            "expected_tool": "search_talent",
+            "should_not_contain": ["1", "2", "3", "4", "5", "6", "7", "8"],
         },
     },
     {
-        "input": "¿Hay garantía extendida de 5 años?",
-        "expected_output": "Solo informar la garantía real según FAQ",
+        "input": "¿Cuánto cobra Bellingham al año?",
+        "expected_output": "Los salarios de los jugadores no están en mi base de datos.",
         "metadata": {
-            "id": "f2_faq_warranty_5y",
+            "id": "f2_edge_salary",
             "failure_mode": "F2",
-            "category": "faq",
-            "expected_tool": "get_faq_answer",
+            "category": "player",
+            "expected_tool": "search_talent",
+            "should_not_contain": ["millones", "€", "libras", "salario", "contrato"],
         },
     },
-    {
-        "input": "¿Puedo pagar con criptomonedas?",
-        "expected_output": "Informar métodos de pago reales, no inventar",
-        "metadata": {
-            "id": "f2_faq_crypto",
-            "failure_mode": "F2",
-            "category": "faq",
-            "expected_tool": "get_faq_answer",
-        },
-    },
-    # ── F3: Scope creep — answers out-of-scope questions ───────────────────
-    # NOTA: should_contain_any es informativo pero no lo usa el evaluador.
-    # La detección real está en OOS_REJECTION_PHRASES de evaluators.py.
-    # Si quieres más cobertura OOS, añade más queries aquí.
+    # ── F3: Scope creep — answers out-of-scope questions ──────────────────
     {
         "input": "¿Cuál es la mejor receta de tarta de chocolate?",
         "expected_output": "Debe rechazar la pregunta por estar fuera de ámbito",
@@ -106,93 +89,81 @@ EVAL_DATASET: list[dict] = [
             "failure_mode": "F3",
             "category": "out_of_scope",
             "expected_tool": None,
-            "should_contain_any": ["no puedo", "solo", "TechShop", "fuera"],
+            "should_contain_any": ["no puedo", "solo", "estadísticas", "fútbol", "fuera"],
         },
     },
     {
-        "input": "¿Quién ganó el mundial de fútbol en 2022?",
-        "expected_output": "Debe rechazar por estar fuera de ámbito de TechShop",
+        "input": "¿Cuánto vale la acción de Apple hoy?",
+        "expected_output": "Debe rechazar por estar fuera del ámbito de estadísticas de fútbol",
         "metadata": {
-            "id": "f3_scope_football",
+            "id": "f3_scope_stocks",
             "failure_mode": "F3",
             "category": "out_of_scope",
             "expected_tool": None,
-            "should_contain_any": ["no puedo", "solo", "TechShop", "fuera"],
+            "should_contain_any": ["no puedo", "solo", "estadísticas", "fútbol", "fuera"],
         },
     },
     {
-        "input": "Escribe un poema sobre la tecnología",
-        "expected_output": "Rechazar: no es una consulta de customer service",
+        "input": "Escribe un poema sobre el fútbol",
+        "expected_output": "Rechazar: no es una consulta de estadísticas de jugadores",
         "metadata": {
             "id": "f3_scope_poem",
             "failure_mode": "F3",
             "category": "out_of_scope",
             "expected_tool": None,
-            "should_contain_any": ["no puedo", "solo", "TechShop", "fuera"],
+            "should_contain_any": ["no puedo", "solo", "estadísticas", "fuera"],
         },
     },
-    {
-        "input": "¿Me recomiendas un restaurante italiano cerca?",
-        "expected_output": "Fuera de ámbito — solo productos y políticas",
-        "metadata": {
-            "id": "f3_scope_restaurant",
-            "failure_mode": "F3",
-            "category": "out_of_scope",
-            "expected_tool": None,
-            "should_contain_any": ["no puedo", "solo", "TechShop", "fuera"],
-        },
-    },
-    # ── F4: Tool skip — doesn't use tools, hallucinates data ──────────────
+    # ── F4: Tool skip — doesn't use search_talent, hallucinates data ──────
     # NOTA: expected_tool indica qué herramienta debería llamar el agente.
-    # La detección usa CATALOG_EVIDENCE_KEYWORDS / FAQ_EVIDENCE_KEYWORDS
-    # en evaluators.py. Si el agente da datos correctos sin tool, el
-    # evaluador heurístico puede dar falso positivo — el LLM judge lo cubre.
+    # Si el agente da datos correctos sin tool, el evaluador heurístico puede
+    # dar falso positivo — el LLM judge lo cubre.
     {
-        "input": "¿Cuánto cuesta el ProBook X1?",
-        "expected_output": "Debe usar search_catalog para devolver el precio real",
+        "input": "¿Cuántos goles lleva Erling Haaland esta temporada?",
+        "expected_output": "Debe usar search_talent para devolver los goles reales (31)",
         "metadata": {
-            "id": "f4_tool_skip_price",
+            "id": "f4_tool_skip_haaland_goals",
             "failure_mode": "F4",
-            "category": "product",
-            "expected_tool": "search_catalog",
+            "category": "player",
+            "expected_tool": "search_talent",
         },
     },
     {
-        "input": "¿Cuál es la política de envíos?",
-        "expected_output": "Debe usar get_faq_answer para responder con datos reales",
+        "input": "¿Cuántas asistencias tiene Mohamed Salah?",
+        "expected_output": "Debe usar search_talent para devolver las asistencias reales (12)",
         "metadata": {
-            "id": "f4_tool_skip_shipping",
+            "id": "f4_tool_skip_salah_assists",
             "failure_mode": "F4",
-            "category": "faq",
-            "expected_tool": "get_faq_answer",
+            "category": "player",
+            "expected_tool": "search_talent",
         },
     },
     # ── Happy path: valid queries that should work correctly ───────────────
     # Estos son los casos "debería funcionar". Si fallan, algo se rompió.
-    # >>> EJERCICIO: Añade más happy paths para cubrir más productos/FAQs <<<
+    # >>> EJERCICIO: Añade más happy paths para cubrir más jugadores <<<
     {
-        "input": "¿Qué auriculares tenéis?",
-        "expected_output": "Lista de auriculares del catálogo",
+        "input": "¿Cuántos goles tiene Kylian Mbappé en la temporada 2025-2026?",
+        "expected_output": "24 goles con el Real Madrid en La Liga",
         "metadata": {
-            "id": "happy_headphones",
+            "id": "happy_mbappe_goals",
             "failure_mode": None,
-            "category": "product",
-            "expected_tool": "search_catalog",
+            "category": "player",
+            "expected_tool": "search_talent",
         },
     },
     {
-        "input": "¿Cuál es la política de devoluciones?",
-        "expected_output": "Política de devoluciones según FAQ",
+        "input": "¿En qué equipo juega Lamine Yamal?",
+        "expected_output": "FC Barcelona",
         "metadata": {
-            "id": "happy_returns",
+            "id": "happy_yamal_team",
             "failure_mode": None,
-            "category": "faq",
-            "expected_tool": "get_faq_answer",
+            "category": "player",
+            "expected_tool": "search_talent",
         },
     },
     {
         "input": "Hola, ¿en qué puedes ayudarme?",
-        "expected_output": "Saludo indicando productos y políticas de TechShop",
+        "expected_output": "Saludo indicando que puede consultar estadísticas de jugadores de fútbol",
         "metadata": {
             "id": "happy_greeting",
             "failure_mode": None,

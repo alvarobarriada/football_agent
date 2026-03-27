@@ -35,34 +35,31 @@ OOS_REJECTION_PHRASES: list[str] = [
     "solo puedo",
     "fuera de",
     "no estoy",
+    "no tengo información",
+    "no está en mi",
+    "no dispongo",
+    "solo estadísticas",
+    "mi ámbito",
     # >>> AÑADE más frases de rechazo que descubras en los resultados <<<
 ]
 
 # Frases que indican rechazo INDEBIDO de una consulta legítima.
-# Si el agente rechaza preguntas sobre productos/FAQs, añade la frase aquí.
+# Si el agente rechaza preguntas sobre jugadores de fútbol, añade la frase aquí.
 IN_SCOPE_FALSE_REJECTION_PHRASES: list[str] = [
     "no puedo ayudar",
     "solo puedo ayudarte con consultas",
     "fuera de mi ámbito",
-    # >>> AÑADE más si el agente rechaza queries legítimas de producto/FAQ <<<
+    # >>> AÑADE más si el agente rechaza queries legítimas de jugadores <<<
 ]
 
 
 # -- Tool usage (F4) -------------------------------------------------------
-# Indicadores de que search_catalog fue llamado y devolvió datos reales.
-# Si el agente muestra datos de catálogo con otro formato, añade el indicador.
-CATALOG_EVIDENCE_KEYWORDS: list[str] = [
-    "€", "eur", "precio", "stock", "disponib", "catálogo",
-    # >>> AÑADE más indicadores de datos de catálogo si el formato cambia <<<
-]
-
-# Indicadores de que get_faq_answer fue llamado y devolvió datos reales.
-# Si las FAQs del agente usan otro vocabulario, amplía esta lista.
-FAQ_EVIDENCE_KEYWORDS: list[str] = [
-    "días", "horas", "hábiles", "garantía", "reembolso",
-    "envío", "devoluc", "pago", "horario", "soporte",
-    "lunes", "viernes", "tarjeta", "política",
-    # >>> AÑADE más indicadores de datos de FAQ si el vocabulario cambia <<<
+# Indicadores de que search_talent fue llamado y devolvió datos reales.
+# Si el agente muestra datos de jugadores con otro formato, añade el indicador.
+PLAYER_EVIDENCE_KEYWORDS: list[str] = [
+    "goles", "asistencias", "minutos", "partidos",
+    "temporada", "liga", "equipo", "xg", "xa", "npxg",
+    # >>> AÑADE más indicadores de datos de jugadores si el formato cambia <<<
 ]
 
 # Frase genérica que indica que el tool se llamó pero no encontró resultados.
@@ -208,12 +205,11 @@ def tool_usage_evaluator(
     """Detecta el fallo F4 (omisión de herramienta): ¿el agente usó su tool?
 
     Cada caso del dataset puede indicar metadata.expected_tool (por ejemplo,
-    "search_catalog" o "get_faq_answer"). Si el agente debía llamar a una
-    herramienta pero respondió de memoria, la respuesta será genérica y no
-    contendrá datos concretos (precios, plazos, stock...).
+    "search_talent"). Si el agente debía llamar a una herramienta pero respondió
+    de memoria, la respuesta será genérica y no contendrá datos concretos
+    (goles, asistencias, minutos...).
 
-    Heurística: busca indicadores en CATALOG_EVIDENCE_KEYWORDS o
-    FAQ_EVIDENCE_KEYWORDS según la herramienta esperada.
+    Heurística: busca indicadores en PLAYER_EVIDENCE_KEYWORDS.
 
     Limitación: es una heurística basada en la respuesta, no inspecciona
     los spans de la traza. En producción se verificaría directamente
@@ -226,23 +222,15 @@ def tool_usage_evaluator(
     if expected_tool is None:
         return Evaluation(name="tool_usage", value=1.0, comment="No tool expected")
 
-    # Check for "no results" phrases (valid for both tools)
+    # Check for "no results" phrases (valid for search_talent)
     no_results = any(phrase in output_lower for phrase in TOOL_NO_RESULTS_PHRASES)
 
-    if expected_tool == "search_catalog":
-        has_evidence = any(kw in output_lower for kw in CATALOG_EVIDENCE_KEYWORDS) or no_results
+    if expected_tool == "search_talent":
+        has_evidence = any(kw in output_lower for kw in PLAYER_EVIDENCE_KEYWORDS) or no_results
         return Evaluation(
             name="tool_usage",
             value=1.0 if has_evidence else 0.0,
-            comment="Catalog data found in response" if has_evidence else "No evidence of catalog tool usage",
-        )
-
-    if expected_tool == "get_faq_answer":
-        has_evidence = any(kw in output_lower for kw in FAQ_EVIDENCE_KEYWORDS) or no_results
-        return Evaluation(
-            name="tool_usage",
-            value=1.0 if has_evidence else 0.0,
-            comment="FAQ data found in response" if has_evidence else "No evidence of FAQ tool usage",
+            comment="Player data found in response" if has_evidence else "No evidence of search_talent usage",
         )
 
     return Evaluation(name="tool_usage", value=1.0, comment=f"Unknown tool: {expected_tool}")
