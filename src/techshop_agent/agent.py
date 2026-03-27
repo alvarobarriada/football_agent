@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import os
 
+from dotenv import load_dotenv
 from strands import Agent
 from strands.models import BedrockModel
 
 from techshop_agent.config import SYSTEM_PROMPT
 from techshop_agent.tools import find_similar_player, search_talent
+
+load_dotenv()
 
 
 def create_agent(
