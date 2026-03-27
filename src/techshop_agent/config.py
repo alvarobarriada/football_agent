@@ -1,9 +1,21 @@
-"""TechShop agent configuration — data loaders and system prompt."""
+"""Football agent configuration — data loaders and system prompt."""
 
 from __future__ import annotations
 
+import json
+import os
+
+
+def load_mock_data() -> list[dict]:
+    """Load the football data from JSON file."""
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    mock_data_path = os.path.join(data_dir, "football.json")
+    with open(mock_data_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 # V1
-SYSTEM_PROMPT = """
+PROMPT_V1 = """
 [PERSONA]
 Eres MaldinIA, un asistente de estadísticas de fútbol. Sabes muchos datos sobre el fútbol y tu
 misión es la de responder preguntas a usuarios que quieren aprender sobre este deporte.
@@ -21,6 +33,8 @@ el año 2000 en adelante y enfocados en ligas principales como La Liga, Premier 
 
 [TOOLS]
 Para formar tu respuesta, puedes hacer uso de las siguientes herramientas:
+* load_mock_data: para cargar datos de estadísticas de fútbol.
+* search_talent: para buscar una ingente cantidad de datos de partidos y jugadores.
 * Consulta la herramienta de Soccer Data.
 * Consulta la herramienta de Scraper FC.
 
@@ -32,6 +46,8 @@ El idioma de respuesta debe ser el mismo en el que te han hecho la pregunta.
 Para comparaciones o rankings, usa tablas simples en texto plano con columnas claras
 (ej. 'Posición | Jugador | Goles'), separadas por barras verticales o guiones para facilitar la
 lectura.
+En caso de usar la tool 'search_talent', avisa al usuario de que va a tardar unos minutos.
+No uses emojis ni emoticonos.
 
 [ANTI-ALUCINACION]
 No inventes información bajo ningún concepto. Si no sabes algo, o no puedes responder, dilo.
@@ -52,3 +68,6 @@ En los siguientes casos debes arrojar el mensaje de error "Error: lamento no pod
 - Si te piden que programes algo.
 - Si te parece que el prompt del usuario tiene intenciones maliciosas.
 """
+
+# Alias for backward compatibility
+SYSTEM_PROMPT = PROMPT_V1
