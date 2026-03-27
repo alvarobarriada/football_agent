@@ -1,11 +1,10 @@
 import sys
 from pathlib import Path
 
-# Add src/ to path so we can import techshop_agent
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-import pandas as pd
 import streamlit as st
+import pandas as pd
 
 from techshop_agent.agent import create_agent
 
@@ -89,6 +88,29 @@ h1, h2, h3, .display-text {
     backdrop-filter: blur(20px) !important;
     border: 1px solid rgba(144, 144, 151, 0.1) !important;
     border-radius: 1.25rem !important;
+}
+/* Force all text inside chat messages to white */
+.stChatMessage p,
+.stChatMessage span,
+.stChatMessage div,
+.stChatMessage li,
+.stChatMessage strong,
+.stChatMessage em,
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span,
+[data-testid="stChatMessage"] div,
+[data-testid="stChatMessage"] li,
+[data-testid="stChatMessage"] strong {
+    color: #ffffff !important;
+}
+/* Keep the primary green accent for bold highlights */
+[data-testid="stChatMessage"] strong {
+    color: #4ae176 !important;
+}
+/* Chat input text white */
+.stChatInput textarea,
+.stChatInput input {
+    color: #ffffff !important;
 }
 
 /* ── METRICS ── */
@@ -402,7 +424,6 @@ with chat_col:
         else:
             with st.chat_message("assistant", avatar="⚡"):
                 resp = msg["content"]
-                # Legacy demo messages are dicts; real agent responses are strings
                 if isinstance(resp, dict):
                     st.markdown(resp["text"])
                     if resp.get("show_table"):
