@@ -203,6 +203,11 @@ h1, h2, h3, .display-text {
 .stChatInput input {
     color: #ffffff !important;
 }
+.stChatInput textarea::placeholder,
+.stChatInput input::placeholder {
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
 
 /* ── METRICS ── */
 [data-testid="metric-container"] {
