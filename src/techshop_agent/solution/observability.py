@@ -50,6 +50,7 @@ from strands import Agent
 from strands import tool as strands_tool
 from strands.models import BedrockModel
 
+from techshop_agent.guardrails import ensure_guardrail
 from techshop_agent.config import SYSTEM_PROMPT
 from techshop_agent.tools import (
     search_talent,
@@ -134,10 +135,16 @@ def create_observed_agent(system_prompt: str | None = None) -> Agent:
     Returns:
         A Strands Agent with fully-traced tool calls.
     """
-    model = BedrockModel(
-        model_id=os.getenv("MODEL_ID", "eu.anthropic.claude-haiku-4-5-20251001-v1:0"),
-        region_name=os.getenv("AWS_REGION", os.getenv("AWS_DEFAULT_REGION", "eu-west-1")),
-    )
+    region = os.getenv("AWS_REGION", os.getenv("AWS_DEFAULT_REGION", "eu-west-1"))
+    guardrail_id = ensure_guardrail(region=region)
+    model_kwargs: dict = {
+        "model_id": os.getenv("MODEL_ID", "eu.anthropic.claude-haiku-4-5-20251001-v1:0"),
+        "region_name": region,
+    }
+    if guardrail_id:
+        model_kwargs["guardrail_id"] = guardrail_id
+        model_kwargs["guardrail_version"] = os.getenv("BEDROCK_GUARDRAIL_VERSION", "DRAFT")
+    model = BedrockModel(**model_kwargs)
     return Agent(
         model=model,
         system_prompt=system_prompt or SYSTEM_PROMPT,
