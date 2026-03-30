@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import functools
 import json
+import unicodedata
 
 from langfuse import observe
 from pydantic import BaseModel, Field
@@ -249,15 +250,16 @@ def get_player_stats(player_input: InputPlayerStats) -> dict | str:
         if isinstance(player_input, dict):
             player_input = InputPlayerStats(**player_input)
         merged = _build_merged_df()
+        normalized_name = unicodedata.normalize("NFKD", player_input.player_name)
         matched = process.extractOne(
-            player_input.player_name,
+            normalized_name,
             merged["Player"].tolist(),
-            scorer=fuzz.token_set_ratio,
-            score_cutoff=60,
+            scorer=fuzz.WRatio,
+            score_cutoff=75,
         )
         matched = matched[0] if matched else None
         if not matched:
-            return f"No se encontró a '{input.player_name}' en la base de datos."
+            return f"No se encontró a '{player_input.player_name}' en la base de datos."
         row = merged[merged["Player"] == matched].iloc[0]
         # Use to_json/loads to convert numpy types to JSON-native Python types
         return json.loads(row.dropna().to_json())
@@ -276,10 +278,10 @@ def find_similar_player(input: InputSimilarPlayer) -> list[dict] | str:
         merged = _build_merged_df()
 
         _match = process.extractOne(
-            input.target_player,
+            unicodedata.normalize("NFKD", input.target_player),
             merged["Player"].tolist(),
-            scorer=fuzz.token_set_ratio,
-            score_cutoff=70,
+            scorer=fuzz.WRatio,
+            score_cutoff=75,
         )
         target_name_matched = _match[0] if _match else None
 
