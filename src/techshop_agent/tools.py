@@ -254,8 +254,8 @@ def get_player_stats(player_input: InputPlayerStats) -> dict | str:
         matched = process.extractOne(
             normalized_name,
             merged["Player"].tolist(),
-            scorer=fuzz.token_set_ratio,
-            score_cutoff=60,
+            scorer=fuzz.WRatio,
+            score_cutoff=75,
         )
         matched = matched[0] if matched else None
         if not matched:
@@ -280,8 +280,8 @@ def find_similar_player(input: InputSimilarPlayer) -> list[dict] | str:
         _match = process.extractOne(
             unicodedata.normalize("NFKD", input.target_player),
             merged["Player"].tolist(),
-            scorer=fuzz.token_set_ratio,
-            score_cutoff=70,
+            scorer=fuzz.WRatio,
+            score_cutoff=75,
         )
         target_name_matched = _match[0] if _match else None
 
