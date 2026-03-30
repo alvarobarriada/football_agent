@@ -2,11 +2,14 @@
 
 from __future__ import annotations
 
+import functools
+import json
+
 from langfuse import observe
 from pydantic import BaseModel, Field
 import pandas as pd
 from typing import Literal
-from thefuzz import process
+from thefuzz import process, fuzz
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
 
@@ -14,6 +17,13 @@ from strands import tool
 
 from techshop_agent.config import load_tfmkt_data, load_stadistics
 from langfuse import get_client
+
+# FBref only uses 4 position codes; map granular positions to their FBref equivalents
+POSITION_MAP: dict[str, str] = {
+    "FB": "DF", "LB": "DF", "RB": "DF", "CB": "DF",
+    "DM": "MF", "CM": "MF", "LM": "MF", "RM": "MF", "WM": "MF",
+    "LW": "FW", "RW": "FW", "AM": "MF",
+}
 
 client = get_client()
 
@@ -37,7 +47,7 @@ class InputUser(BaseModel):
     key_metric: Literal[
         "Gls", "Ast", "G+A", "G-PK", "PK", "PKatt", "CrdY", "CrdR", "G+A-PK",
         "Sh", "SoT", "SoT%", "Sh/90", "SoT/90", "G/Sh", "G/SoT",
-        "PK_stats_shooting", "PKAtt_stats_shooting", "Crs", "TklW", "Int",
+        "PK_stats_shooting", "PKatt_stats_shooting", "Crs", "TklW", "Int",
         "Fld", "CrdY_stats_misc", "CrdR_stats_misc", "2CrdY", "Fls", "OG",
         "GA", "GA90", "SoTA", "Saves", "Save%", "W", "D", "L", "CS", "CS%",
         "PKatt_stats_keeper", "PKA", "PKsv", "PKm"
@@ -81,7 +91,6 @@ class PlayerResult(BaseModel):
 
 
 
-@observe(name="match_names")
 def match_names(name_to_find, list_of_names, threshold=60):
     """Encuentra el nombre más parecido en una lista si supera el umbral."""
     if pd.isna(name_to_find):
@@ -119,10 +128,11 @@ def translate_league_name(league_id: str) -> str:
     }
     return mapping.get(league_id, league_id)
 
-@observe(name="build_merged_df")
-def _build_merged_df() -> pd.DataFrame:
+@functools.lru_cache(maxsize=1)
+def _load_merged_df() -> pd.DataFrame:
     """
     Builds a unified DataFrame combining FBref stats and Transfermarkt market values.
+    Cached so the expensive CSV load + fuzzy matching only runs once per process.
 
     - FBref is the source of truth: all FBref players are kept (right join).
     - TKM names are fuzzy-matched to FBref names before merging to handle discrepancies.
@@ -138,6 +148,15 @@ def _build_merged_df() -> pd.DataFrame:
     # Normalizamos unicode para evitar desajustes por acentos
     df_market["Name"] = df_market["Name"].str.normalize("NFKD")
     df_stats["Player"] = df_stats["Player"].str.normalize("NFKD")
+
+    # Deduplicar: jugadores que cambiaron de equipo aparecen 2 veces; conservar el de más minutos
+    df_stats["Min"] = pd.to_numeric(
+        df_stats["Min"].astype(str).str.replace(",", ""), errors="coerce"
+    )
+    df_stats = (
+        df_stats.sort_values("Min", ascending=False)
+        .drop_duplicates(subset="Player", keep="first")
+    )
 
     df_market["Value"] = df_market["Value"].apply(clean_currency_value)
 
@@ -163,10 +182,21 @@ def _build_merged_df() -> pd.DataFrame:
     # Jugadores sin coincidencia en TKM tendrán Value=NaN → lo ponemos a 0
     merged["Value"] = merged["Value"].fillna(0)
 
+    # Deduplicar merged: varios registros TKM pueden haber hecho match al mismo jugador FBref
+    merged = (
+        merged.sort_values("Value", ascending=False)
+        .drop_duplicates(subset="Player", keep="first")
+    )
+
     return merged
 
-@observe(name="search_talent")
+
+@observe(name="build_merged_df")
+def _build_merged_df() -> pd.DataFrame:
+    return _load_merged_df()
+
 @tool
+@observe(name="search_talent")
 def search_talent(input: InputUser) -> list[PlayerResult]:
     """
     Searches across all datasets (FBref stats + Transfermarkt values) for players
@@ -175,8 +205,9 @@ def search_talent(input: InputUser) -> list[PlayerResult]:
     """
     merged = _build_merged_df()
 
+    fbref_pos = POSITION_MAP.get(input.position, input.position)
     resultado = merged[
-        (merged["Pos"].str.contains(input.position, case=False, na=False)) &
+        (merged["Pos"].str.contains(fbref_pos, case=False, na=False)) &
         (merged["Value"].astype(float) <= input.price_max) &
         (merged["Age"].astype(float) >= input.min_age) &
         (merged["Age"].astype(float) <= input.max_age) &
@@ -197,41 +228,88 @@ def search_talent(input: InputUser) -> list[PlayerResult]:
 
     return players
 
-@observe(name="find_similar_player")
+class InputPlayerStats(BaseModel):
+    """Input for fetching statistics of a specific player by name."""
+
+    player_name: str = Field(
+        description="Name of the player to look up (e.g., 'Federico Viñas', 'Mbappé')"
+    )
+
+
 @tool
-def find_similar_player(input: InputSimilarPlayer) -> pd.DataFrame | str:
+@observe(name="get_player_stats")
+def get_player_stats(player_input: InputPlayerStats) -> dict | str:
+    """
+    Returns all available statistics for a specific player by name.
+    Use this when the user asks about a concrete player's stats
+    (goals, assists, minutes played, etc.).
+    Uses fuzzy matching to handle name variations and accents.
+    """
+    try:
+        if isinstance(player_input, dict):
+            player_input = InputPlayerStats(**player_input)
+        merged = _build_merged_df()
+        matched = process.extractOne(
+            player_input.player_name,
+            merged["Player"].tolist(),
+            scorer=fuzz.token_set_ratio,
+            score_cutoff=60,
+        )
+        matched = matched[0] if matched else None
+        if not matched:
+            return f"No se encontró a '{input.player_name}' en la base de datos."
+        row = merged[merged["Player"] == matched].iloc[0]
+        # Use to_json/loads to convert numpy types to JSON-native Python types
+        return json.loads(row.dropna().to_json())
+    except Exception as exc:
+        return f"Error al obtener datos del jugador: {exc}"
+
+
+@tool
+@observe(name="find_similar_player")
+def find_similar_player(input: InputSimilarPlayer) -> list[dict] | str:
     """
     Finds players with similar statistical profiles to a target player,
     acting as a replacement finder.
     """
-    merged = _build_merged_df()
+    try:
+        merged = _build_merged_df()
 
-    target_name_matched = match_names(
-        input.target_player, merged["Player"].tolist(), threshold=70
-    )
+        _match = process.extractOne(
+            input.target_player,
+            merged["Player"].tolist(),
+            scorer=fuzz.token_set_ratio,
+            score_cutoff=70,
+        )
+        target_name_matched = _match[0] if _match else None
 
-    if not target_name_matched:
-        return f"No se pudo encontrar a {input.target_player} en la base de datos conjunta."
+        if not target_name_matched:
+            return f"No se pudo encontrar a {input.target_player} en la base de datos conjunta."
 
-    metrics_to_compare = ["Gls", "Ast", "Sh/90", "Crs", "TklW", "Int"]
-    valid_metrics = [m for m in metrics_to_compare if m in merged.columns]
+        metrics_to_compare = ["Gls", "Ast", "Sh/90", "Crs", "TklW", "Int"]
+        valid_metrics = [m for m in metrics_to_compare if m in merged.columns]
 
-    target_data = merged[merged["Player"] == target_name_matched][valid_metrics].fillna(0)
-    all_players_data = merged[valid_metrics].fillna(0)
+        target_data = merged[merged["Player"] == target_name_matched][valid_metrics].fillna(0)
+        all_players_data = merged[valid_metrics].fillna(0)
 
-    scaler = StandardScaler()
-    all_players_scaled = scaler.fit_transform(all_players_data)
-    target_scaled = scaler.transform(target_data)
+        scaler = StandardScaler()
+        all_players_scaled = scaler.fit_transform(all_players_data)
+        target_scaled = scaler.transform(target_data)
 
-    similarities = cosine_similarity(target_scaled, all_players_scaled)[0]
-    merged["Similarity_Score"] = similarities
+        similarities = cosine_similarity(target_scaled, all_players_scaled)[0]
+        # Work on a copy to avoid mutating the cached DataFrame
+        result_df = merged.copy()
+        result_df["Similarity_Score"] = similarities
 
-    resultado = merged[
-        (merged["Player"] != target_name_matched) &
-        (merged["Value"].astype(float) <= input.price_max) &
-        (merged["Age"].astype(float) <= input.max_age)
-    ]
+        resultado = result_df[
+            (result_df["Player"] != target_name_matched) &
+            (result_df["Value"].astype(float) <= input.price_max) &
+            (result_df["Age"].astype(float) <= input.max_age)
+        ]
 
-    top_5 = resultado.sort_values(by="Similarity_Score", ascending=False).head(5)
-
-    return top_5[["Player", "Squad", "Age", "Pos", "Value", "Similarity_Score"]]
+        top_5 = resultado.sort_values("Similarity_Score", ascending=False).head(5)
+        cols = ["Player", "Squad", "Age", "Pos", "Value", "Similarity_Score"]
+        # Use to_json/loads to convert numpy types to JSON-native Python types
+        return json.loads(top_5[cols].to_json(orient="records") or "[]")
+    except Exception as exc:
+        return f"Error al buscar jugadores similares: {exc}"

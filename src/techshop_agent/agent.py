@@ -9,7 +9,7 @@ from strands import Agent
 from strands.models import BedrockModel
 
 from techshop_agent.config import SYSTEM_PROMPT
-from techshop_agent.tools import find_similar_player, search_talent
+from techshop_agent.tools import find_similar_player, get_player_stats, search_talent
 
 load_dotenv()
 
@@ -40,5 +40,6 @@ def create_agent(
         tools=[
             search_talent,
             find_similar_player,
+            get_player_stats,
         ],
     )
