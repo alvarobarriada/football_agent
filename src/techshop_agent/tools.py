@@ -1,24 +1,26 @@
 """MaldinIA agent tools — """
-
 from __future__ import annotations
 
 import functools
 import json
 import unicodedata
 
-from langfuse import observe
-from pydantic import BaseModel, Field
 import pandas as pd
-from typing import Literal
-from thefuzz import process, fuzz
+from langfuse import get_client, observe
+from pydantic import BaseModel, Field
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import StandardScaler
-
 from strands import tool
+from thefuzz import fuzz, process
 
-from techshop_agent.config import load_tfmkt_data, load_stadistics
-from langfuse import get_client
-from techshop_agent.schemas.schemas import InputUser, InputSimilarPlayer, PlayerResult
+from techshop_agent.config import load_stadistics, load_tfmkt_data
+from techshop_agent.schemas.schemas import (
+    InputLeaguePerformers,
+    InputLeagueStats,
+    InputSimilarPlayer,
+    InputUser,
+    PlayerResult,
+)
 
 # FBref only uses 4 position codes; map granular positions to their FBref equivalents
 POSITION_MAP: dict[str, str] = {
@@ -28,10 +30,6 @@ POSITION_MAP: dict[str, str] = {
 }
 
 client = get_client()
-
-
-
-
 
 
 def match_names(name_to_find, list_of_names, threshold=60):
@@ -58,18 +56,17 @@ def clean_currency_value(value):
     except ValueError:
         return 0
 
-@observe(name="translate_league_name")
-def translate_league_name(league_id: str) -> str:
-    """Translates soccerdata/FBref league IDs to full descriptive names."""
+
+def ui_league_to_comp(league: str) -> str | None:
+    """Translates UI league display names to the Competition column values used in FBref CSV data."""
     mapping = {
-        "ENG-Premier League": "England Premier League",
-        "FRA-Ligue 1": "France Ligue 1",
-        "GER-Bundesliga": "Germany Bundesliga",
-        "ITA-Serie A": "Italy Serie A",
-        "ESP-La Liga": "Spain La Liga",
-        "Big 5 European Leagues Combined": "Europe Big 5 Combined",
+        "LaLiga": "es La Liga",
+        "Premier League": "eng Premier League",
+        "Bundesliga": "de Bundesliga",
+        "Serie A": "it Serie A",
+        "Ligue 1": "fr Ligue 1",
     }
-    return mapping.get(league_id, league_id)
+    return mapping.get(league)
 
 @functools.lru_cache(maxsize=1)
 def _load_merged_df() -> pd.DataFrame:
@@ -170,6 +167,99 @@ def search_talent(input: InputUser) -> list[PlayerResult]:
         ))
 
     return players
+
+@tool
+@observe(name="get_league_top_performers")
+def get_league_top_performers(league_input: InputLeaguePerformers) -> list[dict] | str:
+    """
+    Returns the top N players in a league ranked by a chosen metric (goals, assists, G+A).
+    Useful for finding top scorers or most productive players in a specific league.
+    """
+    try:
+        merged = _build_merged_df()
+        competition = ui_league_to_comp(league_input.league)
+        if not competition:
+            return f"Liga no reconocida: {league_input.league}"
+
+        league_df = merged[merged["Comp"] == competition].copy()
+        for col in ["Gls", "Ast", "G+A", "G/Sh", "MP"]:
+            if col in league_df.columns:
+                league_df[col] = pd.to_numeric(league_df[col], errors="coerce").fillna(0)
+
+        top = league_df.sort_values(league_input.metric, ascending=False).head(league_input.top_n)
+
+        result = []
+        for _, row in top.iterrows():
+            result.append({
+                "name": str(row["Player"]),
+                "team": str(row.get("Squad", "")),
+                "pos": str(row.get("Pos", "")),
+                "age": int(float(row.get("Age", 0) or 0)),
+                "goals": int(float(row.get("Gls", 0) or 0)),
+                "assists": int(float(row.get("Ast", 0) or 0)),
+                "g_plus_a": int(float(row.get("G+A", 0) or 0)),
+                "apps": int(float(row.get("MP", 0) or 0)),
+                "g_per_sh": round(float(row.get("G/Sh", 0) or 0), 3),
+            })
+    except Exception as exc:
+        return f"Error al obtener top performers: {exc}"
+    else:
+        return result
+
+
+@tool
+@observe(name="get_league_stats")
+def get_league_stats(league_input: InputLeagueStats) -> dict | str:
+    """
+    Returns aggregate statistics for a league: total goals, top scorer,
+    average goals per player, and shooting efficiency (G/Sh).
+    """
+    try:
+        merged = _build_merged_df()
+        competition = ui_league_to_comp(league_input.league)
+        if not competition:
+            return f"Liga no reconocida: {league_input.league}"
+
+        league_df = merged[merged["Comp"] == competition].copy()
+        for col in ["Gls", "Ast", "G/Sh", "90s"]:
+            if col in league_df.columns:
+                league_df[col] = pd.to_numeric(league_df[col], errors="coerce").fillna(0)
+
+        total_goals = int(league_df["Gls"].sum())
+        total_players = len(league_df)
+        avg_goals = round(float(league_df["Gls"].mean()), 2)
+
+        top_scorer_idx = league_df["Gls"].idxmax()
+        top_scorer_row = league_df.loc[top_scorer_idx]
+        top_scorer = str(top_scorer_row["Player"])
+        top_scorer_goals = int(top_scorer_row["Gls"])
+        top_scorer_team = str(top_scorer_row.get("Squad", ""))
+
+        active = league_df[league_df["90s"] >= 1]
+        if len(active) > 0:
+            avg_g_per_90 = round(float((active["Gls"] / active["90s"]).mean()), 3)
+        else:
+            avg_g_per_90 = 0.0
+
+        shooters = league_df[league_df["G/Sh"] > 0]
+        avg_g_per_sh = round(float(shooters["G/Sh"].mean()), 3) if len(shooters) > 0 else 0.0
+
+        stats = {
+            "league": league_input.league,
+            "total_players": total_players,
+            "total_goals": total_goals,
+            "avg_goals_per_player": avg_goals,
+            "avg_goals_per_90": avg_g_per_90,
+            "avg_shooting_efficiency": avg_g_per_sh,
+            "top_scorer": top_scorer,
+            "top_scorer_goals": top_scorer_goals,
+            "top_scorer_team": top_scorer_team,
+        }
+    except Exception as exc:
+        return f"Error al obtener estadísticas de liga: {exc}"
+    else:
+        return stats
+
 
 class InputPlayerStats(BaseModel):
     """Input for fetching statistics of a specific player by name."""

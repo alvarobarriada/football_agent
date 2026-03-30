@@ -55,7 +55,9 @@ from techshop_agent.config import SYSTEM_PROMPT
 from techshop_agent.tools import (
     search_talent,
     find_similar_player,
-    get_player_stats
+    get_player_stats,
+    get_league_top_performers,
+    get_league_stats,
 )
 
 logger = logging.getLogger(__name__)
@@ -152,6 +154,8 @@ def create_observed_agent(system_prompt: str | None = None) -> Agent:
             search_talent,
             find_similar_player,
             get_player_stats,
+            get_league_top_performers,
+            get_league_stats,
         ],
     )
 
@@ -209,7 +213,7 @@ def process_query(
     Returns:
         The agent's response as a plain string.
     """
-    lf_client = get_langfuse_client()
+    lf_client = get_client()
 
     # Create the agent with observed tool wrappers.
     # If you need to share a single agent instance across calls, cache it
