@@ -60,25 +60,9 @@ def create_guardrail(region: str | None = None) -> tuple[str, str]:
 BEDROCK_GUARDRAIL_ID="(generado por este script))"
 BEDROCK_GUARDRAIL_VERSION="DRAFT"
 """
-def ensure_guardrail(region: str | None = None) -> str:
-    """Return the guardrail ID, creating it and persisting to .env if missing."""
-    guardrail_id = os.getenv("BEDROCK_GUARDRAIL_ID")
-    if guardrail_id:
-        return guardrail_id
-
-    print("BEDROCK_GUARDRAIL_ID no encontrado en .env — creando guardrail...")
-    guardrail_id, _ = create_guardrail(region=region)
-
-    env_path = Path(__file__).parents[2] / ".env"
-    if env_path.exists():
-        content = env_path.read_text(encoding="utf-8")
-        if "BEDROCK_GUARDRAIL_ID" not in content:
-            with env_path.open("a", encoding="utf-8") as f:
-                f.write(f"\nBEDROCK_GUARDRAIL_ID={guardrail_id}\n")
-            print(f"BEDROCK_GUARDRAIL_ID guardado en {env_path}")
-
-    os.environ["BEDROCK_GUARDRAIL_ID"] = guardrail_id
-    return guardrail_id
+def ensure_guardrail(region: str | None = None) -> str | None:
+    """Return the guardrail ID from env, or None if not configured."""
+    return os.getenv("BEDROCK_GUARDRAIL_ID") or None
 
 
 if __name__ == "__main__":

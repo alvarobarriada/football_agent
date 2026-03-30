@@ -3,22 +3,24 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from numpy import dot
-import pandas as pd
-import streamlit as st
-import time
 import contextlib
 import io
-
-from app_config import TRACING_SOURCE, TRACING_USER_ID
-
-from techshop_agent.solution.prompt_provider import process_query_with_prompt
-from techshop_agent.agent import create_agent
-from techshop_agent.solution.observability import process_query, create_observed_agent
 import os
+import time
 import uuid
-from langfuse import Langfuse, get_client
+
 import dotenv
+import pandas as pd
+import streamlit as st
+from app_config import TRACING_SOURCE, TRACING_USER_ID
+from langfuse import Langfuse, get_client
+from numpy import dot
+
+from techshop_agent.agent import create_agent
+from techshop_agent.solution.observability import create_observed_agent, process_query
+from techshop_agent.solution.prompt_provider import process_query_with_prompt
+from techshop_agent.schemas.schemas import InputLeaguePerformers, InputLeagueStats
+from techshop_agent.tools import get_league_top_performers, get_league_stats
 
 dotenv.load_dotenv(override=True, dotenv_path='../.env')
 get_client()
@@ -161,16 +163,41 @@ h1, h2, h3, .display-text {
 }
 
 /* ── CHAT INPUT ── */
-.stChatInput textarea {
+[data-testid="stChatInput"],
+[data-testid="stChatInput"] > div,
+[data-testid="stChatInput"] > div > div {
     background-color: #2d3449 !important;
-    border: 1px solid rgba(144, 144, 151, 0.3) !important;
     border-radius: 1rem !important;
-    color: #dae2fd !important;
-    font-family: 'Inter', sans-serif !important;
 }
-.stChatInput textarea:focus {
+[data-testid="stChatInput"] {
+    border: 1px solid rgba(144, 144, 151, 0.3) !important;
+    box-shadow: none !important;
+}
+[data-testid="stChatInput"]:focus-within {
     border-color: #4ae176 !important;
-    box-shadow: 0 0 0 2px rgba(74, 225, 118, 0.25) !important;
+    box-shadow: 0 0 0 2px rgba(74, 225, 118, 0.15) !important;
+}
+[data-testid="stChatInput"] textarea,
+[data-testid="stChatInput"] textarea:focus {
+    background-color: #2d3449 !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    color: #ffffff !important;
+    font-family: 'Inter', sans-serif !important;
+    caret-color: #4ae176 !important;
+}
+[data-testid="stChatInput"] textarea::placeholder {
+    color: rgba(218, 226, 253, 0.5) !important;
+    opacity: 1 !important;
+}
+[data-testid="stChatInputSubmitButton"] button {
+    background: linear-gradient(135deg, #4ae176 0%, #009542 100%) !important;
+    border-radius: 0.5rem !important;
+    border: none !important;
+}
+[data-testid="stChatInputSubmitButton"] button:hover {
+    filter: brightness(1.15) !important;
 }
 
 /* ── CHAT MESSAGES ── */
@@ -257,6 +284,29 @@ h1, h2, h3, .display-text {
 
 /* ── DIVIDER ── */
 hr { border-color: rgba(144, 144, 151, 0.15) !important; }
+
+
+/* ── GLOBAL TEXT FALLBACKS ── */
+.stMarkdown p, .stMarkdown span, .element-container p,
+.stText, [data-testid="stMarkdownContainer"] p {
+    color: #dae2fd !important;
+}
+/* Metric values */
+[data-testid="stMetricValue"] { color: #4ae176 !important; }
+[data-testid="stMetricDelta"] { color: #b9c7e0 !important; }
+/* Widget labels (selectbox, etc.) */
+[data-testid="stWidgetLabel"], .stSelectbox label,
+.stRadio label, .stCheckbox label {
+    color: #dae2fd !important;
+}
+/* Expander header */
+.streamlit-expanderHeader, [data-testid="stExpander"] summary {
+    color: #dae2fd !important;
+}
+/* Spinner text */
+.stSpinner p, .stSpinner span { color: #dae2fd !important; }
+/* Tab label text */
+.stTabs [data-baseweb="tab"] span { color: inherit !important; }
 
 /* ── TABS ── */
 .stTabs [data-baseweb="tab-list"] {
@@ -371,86 +421,29 @@ def _render_scores_html(scores: dict[str, float]) -> str:
 
 
 
-# ─── DATA ────────────────────────────────────────────────────────────────────────
-PLAYERS_DATA = {
-    "LaLiga": [
-        {"name": "Robert Lewandowski", "team": "FC Barcelona", "pos": "DC", "goals": 18, "xg": 13.4, "eff": 4.6, "apps": 24, "assists": 5},
-        {"name": "Jude Bellingham",    "team": "Real Madrid",  "pos": "MC", "goals": 16, "xg": 12.1, "eff": 3.9, "apps": 22, "assists": 8},
-        {"name": "Antoine Griezmann",  "team": "Atlético",     "pos": "SD", "goals": 13, "xg": 10.5, "eff": 2.5, "apps": 23, "assists": 6},
-        {"name": "Vinícius Jr.",        "team": "Real Madrid",  "pos": "EI", "goals": 12, "xg": 10.1, "eff": 1.9, "apps": 21, "assists": 9},
-        {"name": "Artem Dovbyk",       "team": "Girona FC",    "pos": "DC", "goals": 11, "xg":  9.2, "eff": 1.8, "apps": 23, "assists": 3},
-    ],
-    "Premier League": [
-        {"name": "Erling Haaland",  "team": "Man City",   "pos": "DC", "goals": 22, "xg": 18.1, "eff": 3.9, "apps": 25, "assists": 4},
-        {"name": "Mohamed Salah",   "team": "Liverpool",  "pos": "ED", "goals": 19, "xg": 14.8, "eff": 4.2, "apps": 26, "assists": 10},
-        {"name": "Cole Palmer",     "team": "Chelsea",    "pos": "MC", "goals": 17, "xg": 13.0, "eff": 4.0, "apps": 24, "assists": 9},
-        {"name": "Alexander Isak",  "team": "Newcastle",  "pos": "DC", "goals": 15, "xg": 13.5, "eff": 1.5, "apps": 23, "assists": 3},
-        {"name": "Ollie Watkins",   "team": "Aston Villa","pos": "DC", "goals": 14, "xg": 12.2, "eff": 1.8, "apps": 25, "assists": 8},
-    ],
-    "Serie A": [
-        {"name": "Lautaro Martínez", "team": "Inter",     "pos": "DC", "goals": 20, "xg": 15.5, "eff": 4.5, "apps": 25, "assists": 5},
-        {"name": "Duván Zapata",     "team": "Torino",    "pos": "DC", "goals": 14, "xg": 11.2, "eff": 2.8, "apps": 22, "assists": 2},
-        {"name": "Federico Chiesa",  "team": "Juventus",  "pos": "ED", "goals": 12, "xg":  9.8, "eff": 2.2, "apps": 24, "assists": 7},
-        {"name": "Ademola Lookman",  "team": "Atalanta",  "pos": "ED", "goals": 11, "xg":  8.9, "eff": 2.1, "apps": 23, "assists": 6},
-        {"name": "Victor Osimhen",   "team": "Napoli",    "pos": "DC", "goals": 10, "xg":  9.5, "eff": 0.5, "apps": 20, "assists": 3},
-    ],
-}
+LEAGUES = ["LaLiga", "Premier League", "Bundesliga", "Serie A", "Ligue 1"]
 
-CHAT_RESPONSES = {
-    "default": {
-        "text": "Basado en los datos de telemetría de **KINETIC INTEL** para la temporada 23/24, aquí tienes los finalizadores más eficientes. El líder supera significativamente su producción esperada.",
-        "insight": "**Insight Táctico:** Los atacantes que superan en mayor medida su xG tienden a disparar desde posiciones de alta calidad dentro del área pequeña, promediando una probabilidad de gol por tiro un 20-25% superior a la media histórica.",
-        "show_table": True,
-    },
-    "xg": {
-        "text": "El **Expected Goals (xG)** es una métrica que mide la probabilidad de que un disparo acabe en gol, basándose en la posición, el tipo de remate y el contexto defensivo. Un xG de 1.0 significa que, estadísticamente, ese disparo debería convertirse una vez de cada una.",
-        "insight": "**Dato clave:** En LaLiga 23/24 el promedio de xG por partido es de **1.28**, el más alto en 5 temporadas.",
-        "show_table": False,
-    },
-    "real madrid": {
-        "text": "**Real Madrid** genera el 42% de su xG total mediante transiciones rápidas de menos de 8 segundos. Bellingham lidera la producción desde segunda línea con 3.9 goles sobre esperado.",
-        "insight": "**Insight Táctico:** Las transiciones rápidas del Madrid se inician mayoritariamente desde el centro del campo izquierdo, aprovechando los espacios que dejan los rivales al presionar alto.",
-        "show_table": False,
-    },
-    "lewandowski": {
-        "text": "**Robert Lewandowski** lidera LaLiga con +4.6 sobre su xG. Su rendimiento se explica por una mejora en la calidad de sus disparos desde el semicírculo del área.",
-        "insight": "**Insight Táctico:** Lewandowski promedia una probabilidad de gol por tiro un 22% superior a su media histórica, fruto de un movimiento sin balón más preciso que en temporadas anteriores.",
-        "show_table": False,
-    },
-}
 
-QUICK_INSIGHTS = {
-    "LaLiga": {
-        "avg_xg": 1.28, "pct": 64,
-        "trend": "Las defensas bajas están permitiendo un 12% más de xG desde media distancia en comparación con la temporada 22/23.",
-        "premium": "Real Madrid genera el 42% de su xG total mediante transiciones rápidas de menos de 8 segundos.",
-    },
-    "Premier League": {
-        "avg_xg": 1.54, "pct": 77,
-        "trend": "El pressing alto del Liverpool genera un 18% más de xG desde transiciones, liderando la estadística de calidad ofensiva.",
-        "premium": "Haaland convierte el 60% de sus ocasiones de área pequeña, casi el doble de la media de la liga.",
-    },
-    "Serie A": {
-        "avg_xg": 1.35, "pct": 68,
-        "trend": "La Serie A registra el mayor aumento de xG por remate de cabeza (+9%) respecto a la temporada anterior.",
-        "premium": "El Inter genera más xG en los primeros 15 minutos que cualquier otro equipo europeo de élite.",
-    },
-}
+@st.cache_data(ttl=3600, show_spinner=False)
+def _fetch_league_players(league: str) -> list[dict]:
+    result = get_league_top_performers(InputLeaguePerformers(league=league, top_n=5, metric="Gls"))
+    if isinstance(result, str):
+        return []
+    # normalise to the shape the UI expects
+    for p in result:
+        p.setdefault("eff", p["goals"])
+    return result
 
+
+@st.cache_data(ttl=3600, show_spinner=False)
+def _fetch_league_stats(league: str) -> dict:
+    result = get_league_stats(InputLeagueStats(league=league))
+    if isinstance(result, str):
+        return {}
+    return result
 
 
 # ─── SESSION STATE ───────────────────────────────────────────────────────────────
-if "messages" not in st.session_state:
-    st.session_state.messages = [
-        {
-            "role": "user",
-            "content": "¿Qué delantero de la liga española está rindiendo por encima de sus goles esperados (xG) esta temporada?",
-        },
-        {
-            "role": "assistant",
-            "content": CHAT_RESPONSES["default"],
-        },
-    ]
 if "league" not in st.session_state:
     st.session_state.league = "LaLiga"
 if "active_page" not in st.session_state:
@@ -477,7 +470,7 @@ with st.sidebar:
         style = ("background:linear-gradient(135deg,#4ae176,#009542);color:#003915;font-weight:700;"
                  if is_active else "color:#b9c7e0;")
         if st.sidebar.button(f"{icon}  {page}", key=f"nav_{page}",
-                             use_container_width=True):
+                             width="stretch"):
             st.session_state.active_page = page
             st.rerun()
 
@@ -485,10 +478,11 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div class="ki-card" style="margin-top:1rem;">
-        <div style="font-size:0.75rem;color:#b9c7e0;margin-bottom:0.75rem;">Power user?</div>
+        <div style="font-size:0.75rem;font-weight:700;color:#dae2fd;margin-bottom:0.4rem;">¿Power user?</div>
+        <div style="font-size:0.68rem;color:#b9c7e0;line-height:1.5;">Accede a +100 funcionalidades en la versión Pro</div>
     </div>
     """, unsafe_allow_html=True)
-    st.button("⚡ Upgrade to Elite", use_container_width=True)
+    st.button("⚡ Upgrade to Elite", width="stretch")
     st.markdown("---")
     st.markdown("<span style='color:#b9c7e0;font-size:0.8rem;'>❓ Support &nbsp;&nbsp; 🚪 Logout</span>",
                 unsafe_allow_html=True)
@@ -504,131 +498,110 @@ with col_logo:
     </h2>""", unsafe_allow_html=True)
 
 with col_nav:
-    tabs_nav = st.tabs(["Season 23/24", "Live Telemetry", "**Scouting**"])
+    tabs_nav = st.tabs(["Season 25/26", "Live Telemetry", "Scouting"])
 
 with col_mode:
     mode_col1, mode_col2 = st.columns(2)
     with mode_col1:
-        st.button("🎮 Modo Fan", use_container_width=True)
+        st.button("🎮 Modo Fan", width="stretch")
     with mode_col2:
-        st.button("📊 Modo Pro", use_container_width=True)
+        st.button("📊 Modo Pro", width="stretch")
 
 st.markdown("<hr style='border-color:rgba(144,144,151,0.15);margin:0.5rem 0 1rem 0;'>",
             unsafe_allow_html=True)
-
-# ─── LEAGUE SELECTOR ─────────────────────────────────────────────────────────────
-league_col, spacer = st.columns([3, 7])
-with league_col:
-    st.session_state.league = st.selectbox(
-        "Liga",
-        list(PLAYERS_DATA.keys()),
-        index=list(PLAYERS_DATA.keys()).index(st.session_state.league),
-        label_visibility="collapsed",
-    )
 
 # ─── MAIN LAYOUT ─────────────────────────────────────────────────────────────────
 chat_col, insights_col = st.columns([6, 3], gap="large")
 
 # ══ CHAT INTERFACE ══════════════════════════════════════════════════════════════
 with chat_col:
-    st.markdown('<div class="ki-card" style="min-height:520px;">', unsafe_allow_html=True)
+    # st.container con height contiene realmente los elementos Streamlit dentro del panel
+    messages_pane = st.container(height=520, border=False)
+    with messages_pane:
+        for msg in st.session_state.messages:
+            if msg["role"] == "user":
+                with st.chat_message("user", avatar="🟢"):
+                    st.markdown(msg["content"])
+            else:
+                with st.chat_message("assistant", avatar="⚡"):
+                    st.markdown(msg["content"])
 
-    # Render existing messages
-    for msg in st.session_state.messages:
-        if msg["role"] == "user":
-            with st.chat_message("user", avatar="🟢"):
-                st.markdown(msg["content"])
-        else:
-            with st.chat_message("assistant", avatar="⚡"):
-                resp = msg["content"]
-                if isinstance(resp, dict):
-                    st.markdown(resp["text"])
-                    if resp.get("show_table"):
-                        df = pd.DataFrame(PLAYERS_DATA[st.session_state.league])
-                        df_display = df[["name", "team", "goals", "xg", "eff"]].copy()
-                        df_display.columns = [
-                            "Jugador", "Equipo", "Goles", "xG", "Eficiencia (+xG)"
-                        ]
-                        st.dataframe(df_display, use_container_width=True, hide_index=True)
-                    st.markdown(f"""
-                    <div class="ki-insight-box" style="margin-top:1rem;">
-                        {resp['insight'].replace("**", "<b>", 1).replace("**", "</b>", 1)
-                         .replace("**", "<b>", 1).replace("**", "</b>", 1)
-                         .replace("**", "<b>", 1).replace("**", "</b>", 1)}
-                    </div>""", unsafe_allow_html=True)
-                else:
-                    st.markdown(resp)
-
-    st.markdown("</div>", unsafe_allow_html=True)
-
-    # Chat input
+    # Chat input debajo del panel
     if prompt := st.chat_input("Pregunta sobre jugadores, tácticas o xG..."):
         st.session_state.messages.append({"role": "user", "content": prompt})
-
-        with st.chat_message("assistant", avatar="⚡"):
-            error_occurred = False
-            with st.spinner("Analizando telemetría..."):
-                try:
-                    response_text, latency_ms, scores = _call_agent(prompt)
-                except Exception as exc:
-                    error_occurred = True
-                    response_text = f"Error: {type(exc).__name__} — {exc}"
-                    latency_ms = 0.0
-                    scores = {}
-
-            if error_occurred:
-                st.error(response_text)
-            else:
-                st.markdown(response_text)
-            meta_html = f'<span class="latency">{latency_ms:.0f} ms</span>'
-            scores_html = _render_scores_html(scores)
-            if scores_html:
-                meta_html += f" {scores_html}"
-            st.markdown(meta_html, unsafe_allow_html=True)
+        with st.spinner("Analizando telemetría..."):
+            try:
+                response_text, latency_ms, scores = _call_agent(prompt)
+            except Exception as exc:
+                response_text = f"**Error:** {type(exc).__name__} — {exc}"
+                latency_ms, scores = 0.0, {}
         st.session_state.messages.append({"role": "assistant", "content": response_text})
         st.rerun()
 
 # ══ QUICK INSIGHTS SIDEBAR ══════════════════════════════════════════════════════
 with insights_col:
-    qi = QUICK_INSIGHTS[st.session_state.league]
+    # ── League selector ──
+    st.session_state.league = st.selectbox(
+        "Liga",
+        LEAGUES,
+        index=LEAGUES.index(st.session_state.league),
+        label_visibility="collapsed",
+    )
+
+    qi = _fetch_league_stats(st.session_state.league)
+    players = _fetch_league_players(st.session_state.league)
 
     # ── Stats card ──
-    st.markdown('<div class="ki-card">', unsafe_allow_html=True)
-    st.markdown('<div class="ki-card-title">Insights Rápidos</div>', unsafe_allow_html=True)
+    st.markdown('<div class="ki-card-title" style="margin-top:0.5rem;">Insights Rápidos</div>',
+                unsafe_allow_html=True)
 
-    st.metric(f"Promedio xG · {st.session_state.league}", f"{qi['avg_xg']}")
-    st.progress(qi["pct"] / 100)
+    avg_g90 = qi.get("avg_goals_per_90", 0.0)
+    pct = min(int(avg_g90 * 250), 100)
+    st.metric(f"Media goles/90 · {st.session_state.league}", f"{avg_g90:.3f}")
+    st.progress(pct / 100)
 
+    top_scorer = qi.get("top_scorer", "—")
+    top_goals = qi.get("top_scorer_goals", 0)
+    top_team = qi.get("top_scorer_team", "")
+    avg_eff = qi.get("avg_shooting_efficiency", 0.0)
+    total_goals = qi.get("total_goals", 0)
+    trend_text = (
+        f"Máximo goleador: {top_scorer} ({top_team}) con {top_goals} goles. "
+        f"Total de goles en la liga: {total_goals}."
+    )
+    premium_text = (
+        f"Eficiencia media de disparo (G/Sh) en {st.session_state.league}: "
+        f"{avg_eff:.1%}. Los mejores finalizadores superan el 20%."
+    )
     st.markdown(f"""
     <div class="ki-trend-box" style="margin-top:1rem;">
         <div class="ki-trend-title">📈 Tendencia Global</div>
-        <div style="font-size:0.75rem;color:#b9c7e0;line-height:1.6;">{qi['trend']}</div>
+        <div style="font-size:0.75rem;color:#b9c7e0;line-height:1.6;">{trend_text}</div>
     </div>
     <div class="ki-trend-box" style="margin-top:0.75rem;">
         <div class="ki-trend-title" style="color:#dec29a;">⚡ Dato Premium</div>
-        <div style="font-size:0.75rem;color:#b9c7e0;line-height:1.6;">{qi['premium']}</div>
+        <div style="font-size:0.75rem;color:#b9c7e0;line-height:1.6;">{premium_text}</div>
     </div>
     """, unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
 
     # ── Top performers mini-table ──
-    st.markdown('<div class="ki-card" style="margin-top:0.5rem;">', unsafe_allow_html=True)
-    st.markdown('<div class="ki-card-title">🏆 Top Eficiencia</div>', unsafe_allow_html=True)
-
-    players = PLAYERS_DATA[st.session_state.league]
-    top3 = sorted(players, key=lambda x: x["eff"], reverse=True)[:3]
+    top3 = sorted(players, key=lambda x: x["goals"], reverse=True)[:3]
+    rows_html = ""
     for i, p in enumerate(top3):
         medal = ["🥇", "🥈", "🥉"][i]
-        st.markdown(f"""
-        <div style="display:flex;justify-content:space-between;align-items:center;
-                    padding:0.5rem 0;border-bottom:1px solid rgba(144,144,151,0.1);">
-            <div style="font-size:0.8rem;font-weight:600;color:#dae2fd;">
-                {medal} {p['name']}
-            </div>
-            <span class="ki-pill-green">+{p['eff']}</span>
-        </div>""", unsafe_allow_html=True)
-
-    st.markdown("</div>", unsafe_allow_html=True)
+        rows_html += (
+            f'<div style="display:flex;justify-content:space-between;align-items:center;'
+            f'padding:0.5rem 0;border-bottom:1px solid rgba(144,144,151,0.1);">'
+            f'<div style="font-size:0.8rem;font-weight:600;color:#dae2fd;">{medal} {p["name"]}</div>'
+            f'<span class="ki-pill-green">{p["goals"]} goles</span></div>'
+        )
+    st.markdown(
+        f'<div class="ki-card" style="margin-top:1rem;">'
+        f'<div class="ki-card-title">🏆 Top Goleadores</div>'
+        f'{rows_html}'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
 
     # ── VIP Analysis card ──
     st.markdown("""
@@ -654,27 +627,28 @@ st.markdown("<hr style='border-color:rgba(144,144,151,0.1);margin:1.5rem 0 1rem 
 st.markdown(f'<div class="ki-card-title">📊 Estadísticas · {st.session_state.league}</div>',
             unsafe_allow_html=True)
 
-df_full = pd.DataFrame(PLAYERS_DATA[st.session_state.league])
+_league_stats = _fetch_league_stats(st.session_state.league)
+_league_players = _fetch_league_players(st.session_state.league)
+df_full = pd.DataFrame(_league_players)
 m1, m2, m3, m4, m5 = st.columns(5)
 
 with m1:
-    st.metric("Goles líder", df_full["goals"].max())
+    st.metric("Goles líder", _league_stats.get("top_scorer_goals", 0))
 with m2:
-    best = df_full.loc[df_full["eff"].idxmax()]
-    st.metric("Mejor eficiencia", f"+{best['eff']}", best["name"])
+    st.metric("Máximo goleador", _league_stats.get("top_scorer", "—"))
 with m3:
-    st.metric("xG promedio", f"{df_full['xg'].mean():.1f}")
+    st.metric("Media goles/jugador", f"{_league_stats.get('avg_goals_per_player', 0):.2f}")
 with m4:
-    st.metric("Total goles", df_full["goals"].sum())
+    st.metric("Total goles", _league_stats.get("total_goals", 0))
 with m5:
-    over_xg = (df_full["eff"] > 0).sum()
-    st.metric("Sobre su xG", f"{over_xg}/{len(df_full)}")
+    st.metric("Efic. disparo (G/Sh)", f"{_league_stats.get('avg_shooting_efficiency', 0):.1%}")
 
 # ─── FULL TABLE ──────────────────────────────────────────────────────────────────
 with st.expander(f"📋 Ver tabla completa — {st.session_state.league}", expanded=False):
-    df_show = df_full[["name", "team", "pos", "apps", "goals", "xg", "eff", "assists"]].copy()
-    df_show.columns = ["Jugador", "Equipo", "Pos.", "PJ", "Goles", "xG", "Efic. (+xG)", "Asist."]
-    st.dataframe(df_show, use_container_width=True, hide_index=True)
+    if not df_full.empty:
+        df_show = df_full[["name", "team", "pos", "apps", "goals", "assists", "g_per_sh"]].copy()
+        df_show.columns = ["Jugador", "Equipo", "Pos.", "PJ", "Goles", "Asist.", "G/Disparo"]
+        st.dataframe(df_show, width="stretch", hide_index=True)
 
 # ─── FOOTER ──────────────────────────────────────────────────────────────────────
 st.markdown("""

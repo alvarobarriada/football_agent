@@ -36,6 +36,26 @@ class InputUser(BaseModel):
     )
 
 
+class InputLeaguePerformers(BaseModel):
+    """Input for fetching top performers in a specific league."""
+
+    league: Literal["LaLiga", "Premier League", "Bundesliga", "Serie A", "Ligue 1"] = Field(
+        description="League name to query"
+    )
+    top_n: int = Field(default=5, ge=1, le=20, description="Number of top players to return")
+    metric: Literal["Gls", "Ast", "G+A"] = Field(
+        default="Gls", description="Metric used to rank players"
+    )
+
+
+class InputLeagueStats(BaseModel):
+    """Input for fetching aggregate stats for a specific league."""
+
+    league: Literal["LaLiga", "Premier League", "Bundesliga", "Serie A", "Ligue 1"] = Field(
+        description="League name to query"
+    )
+
+
 class InputSimilarPlayer(BaseModel):
     """Model that contains information about a user request for finding similar players."""
 
